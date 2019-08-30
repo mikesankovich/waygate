@@ -1,10 +1,10 @@
 
 <div class="chapter-container">
   <div id="title">
-    <h1 id="chapter-title">{{title}}</h1>
-    <app-quote [quote]="quotes[0]"></app-quote>
+    <h1 id="chapter-title">{{contents.description.title}}</h1>
+    <app-quote [quote]="contents.description.quote"></app-quote>
     <div class="section">
-      <p *ngFor="let paragraph of contents.description">
+      <p *ngFor="let paragraph of contents.description.content">
         {{paragraph}}
       </p>
     </div>
@@ -13,13 +13,52 @@
 
   <div id="general">
     <div class="subheader">
-      <h2>Creating Your Character</h2>
-      <app-quote [quote]="quotes[1]"></app-quote>
-      <div class="section">        
-        <p *ngFor="let paragraph of contents.section1">
+      <h2>{{contents.section1.title}}</h2>
+      <app-quote [quote]="contents.section1.quote"></app-quote>
+      <div class="section">
+        <p *ngFor="let paragraph of contents.section1.main">
           {{paragraph}}
         </p>
       </div>
+    </div>
+    <div id="steps">
+      <p *ngFor="let step of contents.section1.steps">
+        <span><b>{{step.title}}:</b></span> {{step.content}}
+      </p>
+    </div>
+    <div class="section">
+      <p>
+        {{contents.section1.closing}}
+      </p>
+    </div>
+  </div>
+
+  <div id="step-one">
+    <div class="subheader">
+      <h2>{{contents.stepOne.title}}</h2>
+      <app-quote [quote]="contents.stepOne.quote"></app-quote>
+      <div class="attr-section">
+        <p *ngFor="let paragraph of contents.stepOne.intro.contents">
+          {{paragraph}}
+        </p>
+      </div>
+    </div>
+    <div id="steps">
+      <p *ngFor="let gains of contents.stepOne.intro.attributeGains" [innerHTML]="gains"></p>
+    </div>
+    <div class="attr-section">
+      <h3>{{contents.stepOne.attributeExplanations.title}}</h3>
+      <div *ngFor="let attr of contents.stepOne.attributeExplanations.content" id="attr-desc">
+        <p>
+          <span><b>{{attr.attribute}} </b></span><span [innerHTML]="attr.description"></span>
+        </p>
+      </div>
+    </div>
+    <div class="attr-section">
+      <h3>{{contents.stepOne.determineAttributes.title}}</h3>
+      <ol id="determine-attr">
+        <li *ngFor="let instruction of contents.stepOne.determineAttributes.instructions" [innerHTML]="instruction.content"></li>
+      </ol>
     </div>
   </div>
 

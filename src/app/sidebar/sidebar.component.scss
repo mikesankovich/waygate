@@ -3,7 +3,8 @@
   height: 100%;
   position: sticky;
   .content {
-    position: fixed;
+    position: sticky;
+    top: 116px;
     list-style: none;
   }
 }

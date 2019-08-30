@@ -1,15 +1,97 @@
 {
-  "description": [
-    "In Waygate you take the role of a volunteer who recently signed up to venture through one of the many portals (Waygates) into other worlds and dimensions. Are you seeking to make money, or find fame, or perhaps run away from your old life? It doesn’t matter. Whoever you were before you enlisted is irrelevant to the task at hand. Your job is simply to go through the Waygate and bring back data on the world beyond.",
-    "The ends always justify the means, and no matter what you do beyond the Waygate in service of this task, your governing body will overlook your transgressions. But be warned. The world beyond may not be so tolerant of visitors, so proceed with your own ambitions at your own risk.",
-    "It will not be easy. Few who venture through the Waygates are ever heard from again, and those who are rarely return unchanged, but the rewards, should you choose to go through with this task, will be beyond your wildest dreams."
-  ],
-  "section1": [
-    "The first thing you must do to begin your adventure is to make your Player Character. This is the character that you will represent and whose personality you will adopt throughout the game. As you continue through this chapter you will be walked through the process of character creation. There may be some terms that will be new to you, but no need to worry, all such terms will be explained throughout this book.",
-    "Before getting started, you will need to get a couple of dice. It is not necessary for everyone to have a collection of dice, so long as you have the following.",
-    "One four-sided dice (d4), one six-sided dice (d6), one eight-sided dice (d8), one 1 ten-sided dice (d10), one twelve-sided dice (d12), and one twenty-sided dice (d20). You will not need all of these dice for the purpose of character creation, but they will be required for normal gameplay. If you do not have physical dice, there are numerous free online dice rollers that you can make use of.",
-    "Note. Waygate does not utilize a traditional class or career system. Characters are typically seen as blank slates to grow as you wish, based on what you want to focus on. So do not worry about locking yourself out of certain skills, as every character has the potential to follow any build you see fit.",
-    "There are five steps you should follow when you create a new character."
-
-  ]
+  "description": {
+    "title": "Chapter 1: Character Creation",
+    "quote": {
+      "quote": "What is your goal here? To explore? To study? To conquer? That choice is yours to make. The worlds beyond the Waygates are filled with nothing, but potential. So tell me, what do you seek?",
+      "author": "General Trask, Division of Waygate Research and Containment"
+    },
+    "content": [
+      "In Waygate you take the role of a volunteer who recently signed up to venture through one of the many portals (Waygates) into other worlds and dimensions. Are you seeking to make money, or find fame, or perhaps run away from your old life? It doesn’t matter. Whoever you were before you enlisted is irrelevant to the task at hand. Your job is simply to go through the Waygate and bring back data on the world beyond.",
+      "The ends always justify the means, and no matter what you do beyond the Waygate in service of this task, your governing body will overlook your transgressions. But be warned. The world beyond may not be so tolerant of visitors, so proceed with your own ambitions at your own risk.",
+      "It will not be easy. Few who venture through the Waygates are ever heard from again, and those who are rarely return unchanged, but the rewards, should you choose to go through with this task, will be beyond your wildest dreams."
+    ]
+  },
+  "section1": {
+    "title": "Creating Your Character",
+    "main": [
+      "The first thing you must do to begin your adventure is to make your Player Character. This is the character that you will represent and whose personality you will adopt throughout the game. As you continue through this chapter you will be walked through the process of character creation. There may be some terms that will be new to you, but no need to worry, all such terms will be explained throughout this book.",
+      "Before getting started, you will need to get a couple of dice. It is not necessary for everyone to have a collection of dice, so long as you have the following.",
+      "One four-sided dice (d4), one six-sided dice (d6), one eight-sided dice (d8), one 1 ten-sided dice (d10), one twelve-sided dice (d12), and one twenty-sided dice (d20). You will not need all of these dice for the purpose of character creation, but they will be required for normal gameplay. If you do not have physical dice, there are numerous free online dice rollers that you can make use of.",
+      "Note. Waygate does not utilize a traditional class or career system. Characters are typically seen as blank slates to grow as you wish, based on what you want to focus on. So do not worry about locking yourself out of certain skills, as every character has the potential to follow any build you see fit.",
+      "There are five steps you should follow when you create a new character."
+    ],
+    "quote": {
+      "quote": "I enlisted to escape the death penalty. I made a terrible mistake.",
+      "author": "Victor Olivera, US Enlistee, Group 023"
+    },
+    "steps": [
+      {
+        "title": "Step One: Origin, Background, and Personality",
+        "content": "Everyone comes from somewhere, and your character is no exception. Maybe your character is an ex-school teacher from New Jersey. Maybe they are an app developer straight from the Silicon Valley. Maybe they were a criminal seeking to lighten their sentence by undergoing a journey through the Waygate. Wherever they were from and whatever they did beforehand will help define their personalities, priorities, and motivations."
+      },
+      {
+        "title": "Step Two: Generate Attributes",
+        "content": "One very important aspect of your character is their attributes. These help determine your character’s success/fail ratios whenever they attempt to do something challenging or strenuous. For example, the Strength attribute helps determine if a character successfully moves something heavy out of the way, while the Intelligence attribute would help determine whether they succeed in solving a challenging puzzle."
+      },
+      {
+        "title": "Step Three: Spend Initial Skill Points",
+        "content": "Everyone has skills. Skills are the abilities that your characters can attempt to utilize throughout the game and come in three categories: Feats (physical skills), Knowledge Skills, and Magic Skills. To purchase these skills you must earn skill points."
+      },
+      {
+        "title": "Step Four: Physical Description",
+        "content": "Detailing your character’s physical description will help immerse them into the world. Alongside the details from step one, this will help you determine how to play your character throughout the game."
+      },
+      {
+        "title": "Step Five: Get Ready to Play",
+        "content": "Some final calculations and notes to make before the game starts."
+      },
+      {
+        "title": "Step Six: Fate of the Waygate",
+        "content": "When the characters finally step into the Waygate, they undergo a process known as the Fate of the Waygate. Some leave unscathed, but most are not so fortunate."
+      }
+    ],
+    "closing": "Remember that while these steps provide a good guideline, the nature of the game allows for some variability. The GM will have final say in what steps are to be followed and how, but if no specifications are made, assume that you should follow everything on these lists."
+  },
+  "stepOne": {
+    "title": "Step One: Generate Attributes",
+    "quote": {
+      "quote": "I always thought I was just some dumb muscle. Turns out, I have quite a knack for tactics",
+      "author": "Brick Broadstone, Fomer Body Builder"
+    },
+    "intro": {
+      "contents": [
+        "Attributes represent your characters aptitude in a multitude of physical and mental areas. All start at 0 (below average). A 2 in any stat represents an average human. A maximum value of 7 is considered above peak human condition. These attributes are important for numerous reasons. First and foremost, they represent your ability to succeed in a given task by providing benefits or detriments to your dice roll. Simply put, the higher the attribute, the better the bonus you receive towards successful rolls.",
+        "Keep in mind, attributes can go into the negative (hampered or challenged), and will provide detriments to rolls.",
+        "Several skills also have prerequisites based on Attribute values.",
+        "Attributes are generally increased in one of 3 ways. "
+      ],
+      "attributeGains": [
+        "<b>Leveling up:</b> when you level up, you gain a certain amount of attribute points to use, based on the level.",
+        "<b>Accomplishments:</b> Throughout the game, the GM is encouraged to grant increases to skills based on very impressive accomplishments.",
+        "<b>Random and Notable Events:</b> Genetics and quirks can affect your attributes, but they are not the only such things that can happen. Throughout the game, you may run into situations that lead to a permanent increase or decrease in stats."
+      ]
+    },
+    "attributeExplanations": {
+      "title": "Attributes",
+      "content": [
+        { "attribute": "Strength (Str):", "description": "How physically strong your character is. Affects your ability to perform physical feats and how hard you are able to hit." },
+        { "attribute": "Dexterity (Dex):", "description": "How coordinated your character is. Affects your movement speed, ability to perform feats of precision, ability to act swiftly, and ability to avoid being hit." },
+        { "attribute": "Vitality (Vit):", "description": "How tough your character is. Affects your ability to maintain difficult tasks and stay strong under duress. Also affects overall health." },
+        { "attribute": "Willpower (WP):", "description": "How mentally resilient your character is. Affects your ability to shrug off mental and some magic attacks, and to keep going under emotional duress." },
+        { "attribute": "Intelligence (Int):", "description": "How smart/deductive your character is. Affects your ability to quickly and accurately deduce information and take in knowledge." },
+        { "attribute": "Charisma (Cha):", "description": "How charismatic/inherently likeable your character is. Affects your ability to sway others to your side, or to convince them to follow your line of thinking." },
+        { "attribute": "Magic (mag):", "description": "Your character’s proficiency and aptitude for magic. Determines damage done by magical abilities. This attribute cannot be improved or rolled on until the <b>Magical Affinity</b> skill is learned." }
+      ]
+    },
+    "determineAttributes": {
+      "title": "Determine Your Attribute Values",
+      "instructions": [
+        { "content": "All attributes start at 0." },
+        { "content": "You begin the game with <b>10 Attribute Points</b>. You may allocate these points however you wish amongst your attributes.<ul><li>You cannot improve the <b>Magic</b> attribute until you have the <b>Magical Affinity</b> skill.</li><li>No stat can be above 3 at this point.</li><li>You may only have two stats (magic excluded) at 0 initially.</li></ul>" },
+        { "content": "Add or subtract effects of <b>Genetics</b> and <b>Quirks</b> to the proper attributes after point allocation." },
+        { "content": "Determine your <b>Health</b> and mark this on your character sheet. Changes from damage should be made with pencil. Do not erase your total health value. <ul><li>Health = 10 + 3x(Vitality) + (level x Constitution) (initial <b>Constitution</b> is 0)</li></ul>" },
+        { "content": "Determine your <b>armor rating</b>: this is equal to 8 + <b>dexterity</b> + <b>armor</b>.<ul><li>A hit test made against you succeeds if it reaches or surpasses this value.</li></ul>" }
+      ]
+    }
+  }
 }

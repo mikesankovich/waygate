@@ -4,8 +4,6 @@ import { TitleComponent } from './title/title.component';
 import { GuideDashboardComponent } from './guide-dashboard/guide-dashboard.component';
 import { GettingStartedComponent } from './getting-started/getting-started.component';
 import { Chapter1Component } from './chapter1/chapter1.component';
-import quotes from './contents/quotes.json';
-
 
 const routes: Routes = [
   {
@@ -19,7 +17,7 @@ const routes: Routes = [
       {
         path: 'getting-started', component: GettingStartedComponent,
       }, {
-        path: 'chapter1', component: Chapter1Component, data: { chapter: 'chapter1', quotes: quotes.chapter1 }
+        path: 'chapter1', component: Chapter1Component, data: { chapter: 'chapter1' }
       }
     ]
   },
