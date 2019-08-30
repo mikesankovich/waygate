@@ -1,0 +1,26 @@
+
+<div class="chapter-container">
+  <div id="title">
+    <h1 id="chapter-title">{{title}}</h1>
+    <app-quote [quote]="quotes[0]"></app-quote>
+    <div class="section">
+      <p *ngFor="let paragraph of contents.description">
+        {{paragraph}}
+      </p>
+    </div>
+  </div>
+
+
+  <div id="general">
+    <div class="subheader">
+      <h2>Creating Your Character</h2>
+      <app-quote [quote]="quotes[1]"></app-quote>
+      <div class="section">        
+        <p *ngFor="let paragraph of contents.section1">
+          {{paragraph}}
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>

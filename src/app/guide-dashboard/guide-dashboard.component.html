@@ -1,0 +1,10 @@
+<div class="container-fluid">
+  <div class="row">
+    <div [ngClass]="{'col-sm-3': showSidebar, 'col-sm-1': !showSidebar}" class="sidebar-container">
+      <app-sidebar *ngIf="showSidebar"></app-sidebar>
+    </div>
+    <div class="col-sm-9">
+      <router-outlet></router-outlet>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+.sidebar {
+  background-color: #eee;
+  height: 100%;
+  position: sticky;
+  .content {
+    position: fixed;
+    list-style: none;
+  }
+}
