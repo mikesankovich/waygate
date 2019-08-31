@@ -6,6 +6,8 @@ import { GettingStartedComponent } from './getting-started/getting-started.compo
 import { CharacterCreationComponent } from './chapter1/character-creation/character-creation.component';
 import { GenerateAttributesComponent } from './chapter1/generate-attributes/generate-attributes.component';
 import { CharacterBackgroundComponent } from './chapter1/character-background/character-background.component';
+import { SpendSkillPointsComponent } from './chapter1/spend-skill-points/spend-skill-points.component';
+import { SkillListComponent } from './chapter2/skill-list/skill-list.component';
 
 const routes: Routes = [
   {
@@ -20,6 +22,8 @@ const routes: Routes = [
       { path: 'character-creation', component: CharacterCreationComponent, data: { chapter: 'chapter1' } },
       { path: 'character-creation/generate-attributes', component: GenerateAttributesComponent, data: { chapter: 'chapter1' } },
       { path: 'character-creation/background', component: CharacterBackgroundComponent, data: { chapter: 'chapter1' } },
+      { path: 'character-creation/spend-skill-points', component: SpendSkillPointsComponent, data: { chapter: 'chapter1' } },
+      { path: 'skills/skill-list', component: SkillListComponent, data: { chapter: 'chapter1' } },
     ]
   },
   // { path: 'crisis-center', component: CrisisListComponent },

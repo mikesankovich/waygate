@@ -15,8 +15,14 @@ import { CharacterCreationComponent } from './chapter1/character-creation/charac
 import { GenerateAttributesComponent } from './chapter1/generate-attributes/generate-attributes.component';
 import { CharacterBackgroundComponent } from './chapter1/character-background/character-background.component';
 import { BackgroundChartComponent } from './chapter1/character-background/chart/chart.component';
+import { SpendSkillPointsComponent } from './chapter1/spend-skill-points/spend-skill-points.component';
+
 import { PrefaceComponent } from './preface/preface.component';
 import { QuoteComponent } from './quote/quote.component';
+import { SkillListComponent } from './chapter2/skill-list/skill-list.component';
+
+// Pipes
+import { SafeHtmlPipe } from './pipes/safe-html.pipe';
 
 @NgModule({
   declarations: [
@@ -31,8 +37,11 @@ import { QuoteComponent } from './quote/quote.component';
     GenerateAttributesComponent,
     CharacterBackgroundComponent,
     BackgroundChartComponent,
+    SpendSkillPointsComponent,
     PrefaceComponent,
     QuoteComponent,
+    SkillListComponent,
+    SafeHtmlPipe,
   ],
   imports: [
     BrowserModule,

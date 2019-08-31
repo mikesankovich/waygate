@@ -1,0 +1,41 @@
+{
+  "description": {
+    "title": "Step Three: Spend Initial Skill Points",
+    "quote": {
+      "quote": "It’s amazing what you’ll learn after a few days in a Hell dimension. Did you know that the femur makes for a great club in a pinch?",
+      "author": "Captain Kirsten Kelly, Wildlife Expert"
+    },
+    "content": [
+      "In Enter the Waygate, there are no classes or careers that determine the abilities and powers you are able to learn. How you allocate your attribute points is the only determining factor in whether or not you can learn a specific skill. These skills in turn will help determine what role you best fulfill on a team.",
+      "<b>Knowledge Skills (KS):</b> Skills that allow you to perform actions related to intelligence, insight, deduction, and information.",
+      "<b>Feats (FS):</b> Skills that allow you to perform intense or difficult physical acts, precise actions, or physical attacks.",
+      "<b>Magic Skills (MS):</b> Skills that channel magic through the void to accomplish a task. <ul><li>All Magic Skills require the Magical Affinity skill, which usually has to be learned from someone within the world of Waygate, and usually can only rarely be learned through self-study or leveling up.</li></ul>",
+      "Some skills have a leveling system, which influences how much of a bonus they grant when attempting to use them – Unlearned, Basic, Learned, Skilled, Masterful.<ul><li>Skills can be levelled through purchases or through numerous successful/difficult uses.</li><li>Such skills can be used even when unlearned, though at penalty.</li></ul>"
+    ]
+  },
+  "startingSkills": {
+    "header": "Starting Skills",
+    "description": "Take the following steps to gain your initial skills. Mark all skills earned in this chapter on your character sheet.",
+    "steps": [
+      {
+        "content": "All players start with the following skills.",
+        "sub": ["<b>Literacy</b> (basic)"]
+      },
+      {
+        "content": "Players choose one from each of the following sets of skills",
+        "sub": [
+          "<b>Melee Combat</b> or <b>Ranged Combat</b><ul><li>Remember to pick a weapon to be trained in.</li></ul>",
+          "<b>Swimming</b> (basic) or <b>Climbing</b> (basic)",
+          "<b>Awareness</b> (basic), <b>Cryptography</b> (basic), <b>Medical</b> (basic – but only if you have at least 2 Intelligence), or <b>Tech Savvy</b> (basic – but only if you have at least 1 intelligence)"
+        ]
+      },
+      {
+        "content": "All players start with 5 Skill Points. Spend these points (as well as any points earned during earlier chapters) on skills and mark them on your character sheet.",
+        "sub": [
+          "Make sure to take note of any prerequisites for the skills.",
+          "You can read more about skills in <b>Chapter 2.</b> Click <a #openSkills class='open-skills' style='color:#007bff; cursor:pointer'>HERE</a> to open the skill list."
+        ]
+      }
+    ]
+  }
+}

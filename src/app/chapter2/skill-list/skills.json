@@ -1,0 +1,182 @@
+{
+  "skills": [
+    {
+      "name": "Awareness (KS) –  trainable",
+      "description": "Deduce information from your surroundings.",
+      "range": "limits based on senses used.",
+      "use": "1d20 + Perception + training modifier"
+    },
+    {
+      "name": "Attribute Shift (MS) – Full Action",
+      "description": "Manipulate magical energies to temporarily alter your body's physiology.",
+      "range": "Self",
+      "effect": "Temporarily adjust your attributes for the remainder of the encounter. Can only be used once (successfully) per session. Transfer up to 3 attribute points from any attributes onto other attributes, until end of encounter. No attribute may go above 7 or below 0 as a result of this.",
+      "duration": "2 minutes",
+      "threshold": "13 <b>(Magic)</b>",
+      "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 2</li></ul>"
+    },
+    {
+      "name": "Backstab (FS) – Half Action",
+      "description": "A brutal attack made against an unaware opponent.",
+      "range": "Weapon",
+      "effect": "If target is unaware of you, make an attack with a finesse weapon with a +2 to hit. If it succeeds, add an additional 1d6 to damage.",
+      "requirements": "<ul><li>Must use a finesse weapon</li></ul>"
+    },
+    {
+      "name": "Barrier (MS) – Full Action",
+      "description": "The mage creates a wall of blue mystical energy in front of them to protect themselves and allies from harm. The wall is about 10 feet tall and 5 feet wide.",
+      "range": "Self",
+      "effect": "Form an unmovable barrier in front of the caster that protects all of those behind it from all attacks. Barrier blocks line of sight for ranged attacks and abilities if it is between two players. Attacks cannot penetrate the barrier. Barrier absorbs 1d20 + magic damage before disappearing.",
+      "duration": "3 rounds or until destroyed",
+      "threshold": "14 <b>(magic)</b>",
+      "prerequisites": "<ul></li>Magical Affinity</li></ul>"
+    },
+    {
+      "name": "Blind Faith (MS) – (Permanent)",
+      "description": "Intense devotion to the webs of magical laws have shown you the truth of the world. By cutting out your eyes, you have been given sight into the void from which all life and magic flows, granting a huge bonus to all magical tests, but a huge penalty to all sight-based actions. No means are available to reverse this effect.",
+      "effect": "<ul><li>+7 to all magical bonuses, including damage, that don’t involve sight</li><li>+5 to all awareness tests, not pertaining to sight.</li><li>-7 to all sight based actions (including attacks).</li><li>Any being with Magic greater than 4 or currently being affected by magic or carrying recent traces of the Waygate are able to be perceived as shining blue auras, and you do not suffer the -7 penalty on sight-based actions against them.</li><li>Gain the ability to immediately perceive the true form of all magical beings and to identify the magical nature of any being or object, through even powerful disguises. Any passing awareness test will reveal all such information.</li><li>Any attempt to restore sight or to utilize tech or magic to grant sight instantly fails.</li></ul>",
+      "prerequisites": "<ul><li>Willpower 5</li><li>Magic 5</li><li>Magical Affinity</li><li>Magical Aptitude</li></ul>"
+    },
+    {
+      "name": "Blizzard (MS) – full action",
+      "description": "Shards of ice rain down, hitting all characters in the affected radius with ice damage.",
+      "range": "30 feet",
+      "effect": "Roll a hit test against all characters (friend or foe) in the targeted area. A successful hit deals 3d6 ice damage to that character. All characters dealt damage roll an opposed vitality test against the hit test. If the target fails, target is frozen (3)",
+      "prerequisites": "<ul><li>Magical Affinity</li><li>Frost Cannon</li><li>Magic 5</li></ul>"
+    },
+    {
+      "name": "Blood Tribute (MS) – free action",
+      "description": "A magic user makes a blood offering to the Waygate to temporarily augment their powers.",
+      "range": "Self",
+      "effect": "By dealing yourself 1d6 damage (cannot be reduced or prevented), add a +2 to your next magic test (does not stack). This damage cannot be healed until after a short rest.",
+      "requirements": "<ul><li>Useable once per turn</li><li>Useable out of combat</li></ul>"
+    },
+    {
+      "name": "Brainwash (MS) – Full action",
+      "description": "A magical telepathic ability used to trick an enemy into turning on their allies.",
+      "use": "Opposed <b>Magic</b> Test vs. Target's <b>WP</b> <ul><li>If target is hostile towards you,they get +2 to their WP test</li></ul>",
+      "effect": "<ul><li>Allies gain +2 to all intimidate, charm, and persuasion attempts against brainwashed target. Target is highly suggestible.</li><li><b>In Combat Only: </b> If successful, character will shift its focus from the player and allies and onto their own allies. At the end of their turn, the target rolls a willpower test against the player’s initial original magic test value.</li><li>When they come out of brainwash, the affected character rolls an awareness check. If they roll above a 10, they are aware that they were brainwashed.</li></ul>",
+      "duration": "1 minute or until target takes damage",
+      "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 3</li></ul>"
+    },
+    {
+      "name": "Channel Void (FS) – Full Action",
+      "description": "Proximity to the void has opened your mind to the possibilities therein, without the need of magic.",
+      "effect": "You get a +2 to hit tests against all void beings and reduce all damage dealt to you by magical attacks and effects by 2 (can’t go below zero).",
+      "prerequisites": "<ul><li>Level 2</li></ul>",
+      "duration": "1 minute"
+    },
+    {
+      "name": "Charm (KS) – Trainable (Charisma)",
+      "description": "Persuade your target into listening to you or following you through seduction or charm.",
+      "use": "1d20 + Charisma + Training Modifier against target’s 1d20 + Perception or Willpower (whichever is higher)."
+    },
+    {
+      "name": "Charming Melody (FS)",
+      "description": "Your music intrigues a foe, making them more susceptible to charm and intimidation.",
+      "effect": "Charm and intimidation rolls against target get +2. Target must be able to hear the tune for effect to take place.",
+      "requirements": "Must sing or use an instrument. Must be proficient in what you use.",
+      "range": "Audible distance"
+    },
+    {
+      "name": "Clear Thinker (KS)",
+      "description": "Player is able to maintain focus, even in distracting settings.",
+      "effect": "Player suffers no penalty to tests due to distracting settings. They suffer no penalty to tests due to being addled or confused."
+    },
+    {
+      "name": "Cleave (FS) – Half Action",
+      "description": "Attack two adjacent enemies in one stroke.",
+      "range": "Weapon",
+      "effect": "Pick one enemy as your main target. Roll a Hit Test against them. If it succeeds, roll for damage, and then roll a Hit Test on the second target, with a -2 penalty. If that succeeds as well, roll for damage for the second target.",
+      "requirements": "<ul><li>Must be wielding a bladed weapon (non-finesse), and must be proficient with that weapon.</li><li>enemies must be within one square (including diagonal) of each other and both must be in range of your weapon</li></ul>",
+      "prerequisites": "<ul><li>Melee Combat</li><li>Str 3</li><li>Dex 2</li></ul>"
+    },
+    {
+      "name": "Climb (FS) – Trainable",
+      "use": "1d20 + training modifier + Str or Dex (whichever is higher)",
+      "description": "Climb difficult structures and obstacles."
+    },
+    {
+      "name": "Counterspell (MS) – Reaction",
+      "description": "Counter a magical attack or ability.",
+      "requirements": "<ul><li>React to any magical attack, effect, or ability targetting you (cannot stop AOE or lingering effects already in place)</li></ul>",
+      "effect": "See <b>Combat (chapter 5): Counterspell</b>",
+      "prerequisites": "<ul><li>Magical Affinity</li></ul>"
+    },
+    {
+      "name": "Coup De Grace (FS)",
+      "description": "Attack a prone enemy with great power and precision.",
+      "effect": "If you are adjacent to an enemy that is prone, you get +4 to hit test on attacks made against them and deal an extra 1d6 damage on those attacks."
+    },
+    {
+      "name": "Covering Fire (FS) – Full Action",
+      "description": "Spray a volley of ammunition towards a target/group to break their formation and make it harder for them to aim/concentrate.",
+      "range": "Weapon range maximum",
+      "effect": "<ul><li>Roll a hit test for all targets in the area (friendly included). Hits at -4 penalty</li><li>All targets in the area get a -4 to hit tests made during their next turn and any current concentration/aiming is broken.</li><li>Covering fire takes place in a 5 square wide cone in front of you and goes as far as your weapon’s range.</li></ul>",
+      "requirements": "<ul><li>Useable only with firearms with burst or full auto capabilities. Requires a full clip, and completely empties the clip</li><li>Must be proficient with weapon in use.</li><li>Cannot be used if there is an enemy within 10 feet that is directly in front of you</li></ul>",
+      "prerequisites": "<ul><li>Ranged Combat</li></ul>"
+    },
+    {
+      "name": "Crafting (KS) – Trainable",
+      "description": "The player becomes more adept at creating and mending with raw materials.",
+      "use": "1d20 + training modifier (see Chapter 7: Non-Combat Actions for more details)"
+    },
+    {
+      "name": "Create Space (FS) – half action",
+      "description": "Use blunt force to push your opponent away.",
+      "range": "5 feet",
+      "use": "unarmed attack",
+      "effect": "1d4 damage. Shove your target back 5 feet.",
+      "prerequisites": "<ul><li>STR 2</li></ul>"
+    },
+    {
+      "name": "Crush Armor (FS) – Half Action",
+      "description": "Use a heavy strike to ruin armor.",
+      "effect": "Aim for a specific armor piece, then make a hit test. On success, that armor piece’s armor rating loses 1d4 value (can’t go below 0), until repaired. On critial hit, armor piece loses all value until repaired and apply weapon damage to its wearer.",
+      "requirements": "<ul><li>Melee weapon. Must be proficient with the weapon in use.</li></ul>",
+      "prerequisites": "<ul><li>Melee Combat</li><li>STR 3</li></ul>"
+    },
+    {
+      "name": "Cryptography (KS) – Trainable",
+      "description": "Learn to decipher codes and find hidden meanings in texts and writings.",
+      "use": "1d20 + Intelligence + training modifiers.",
+      "prerequisites": "<ul><li>Literacy (learned)</li></ul>"
+    },
+    {
+      "name": "Dark Vision (KS)",
+      "description": "You have better eyesight in low light areas, losing negative vision modifiers due to low light.",
+      "requirements": "<ul><li>Cannot be used in pitch black areas</li></ul>"
+    },
+    {
+      "name": "Deception (KS) – Trainable",
+      "description": "learn to better deceive others.",
+      "use": "1d20 + Charisma + Training Modifier against target’s 1d20 + Charisma or Perception (whichever is higher)."
+    },
+    {
+      "name": "Dodge (FS) -- Reaction",
+      "description": "Dodge an opponent’s attack.",
+      "effect": "See <b>Chapter 5: Combat:</b> Dodging"
+    },
+    {
+      "name": "Double Shot (FS) – half action",
+      "description": "Fire two arrows from your bow at once.",
+      "effect": "Make a ranged attack with two arrows nocked at -2 to hit. On success, roll damage for both arrows.",
+      "requirements": "<ul><li>Must be wielding a bow and be proficient with bows.</li><li>This attack expends two arrows</li></ul>",
+      "prerequisites": "<ul><li>Ranged Combat</li><li>DEX 3</li></ul>"
+    },
+    {
+      "name": "Dual Wield Melee (FS)",
+      "description": "Wield a one-handed melee weapon in both hands with great effect.",
+      "effect": "<ul><li>Grants +1 to parry and riposte checks (if you have the Parry skill).</li><li>Allows use of shields and weapons in the off hand with no penalty.</li><li>When making attacks, you attack with your main hand weapon first. If it hits, you may make a strike with your off-hand weapon (or bare hand if empty) as a free action. An attack made with an off-hand weapon in this manner does not apply STR or DEX bonuses to damage.</li>",
+      "requirements": "<ul><li>one-handed weapons in each hand.</li></ul>",
+      "prerequisites": "<ul><li>Melee Combat</li><li>DEX 2</li><li>STR 2</li><li>Level 2</li></ul>"
+    },
+    {
+      "name": "Dual Wield Ranged (FS)",
+      "description": "Wield a one-handed ranged weapon in both hands with great effect",
+      "effect": "<ul><li>Allows use of one-handed ranged weapons in each hand with no dual wield penalties.</li><li>you attack with your main hand weapon first. If it hits, you may make an attack with your off-hand weapon as a free action. Both weapons deal damage normally.</li></ul>",
+      "requirements": "one-handed ranged weapons in each hand.",
+      "prerequisites": "<ul><li>Ranged Combat</li><li>DEX 2</li><li>STR 1</li><li>Level 2</li></ul>"
+    }
+  ]
+}
