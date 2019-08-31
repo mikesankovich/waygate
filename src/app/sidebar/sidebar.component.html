@@ -1,7 +1,17 @@
 <div class="sidebar">
   <ul class="content">
     <li><a routerLink="/guides/getting-started">Getting Started</a></li>
-    <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
+    <li>
+      <a routerLink="/guides/character-creation" (click)="open('chapter1')">Chapter 1: Character Creation</a>
+      <ul *ngIf="currentChapter === 'chapter1'">
+        <li><a routerLink="/guides/character-creation/background">Origin, Background, and Personality</a></li>
+        <li><a routerLink="/guides/character-creation/generate-attributes">Generate Attributes</a></li>
+        <li><a routerLink="/guides/chapter1">Spend Initial Skill Points</a></li>
+        <li><a routerLink="/guides/chapter1">Physical Description</a></li>
+        <li><a routerLink="/guides/chapter1">Next Steps</a></li>
+        <li><a routerLink="/guides/chapter1">Fate of the Waygate</a></li>
+      </ul>
+    </li>
     <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
     <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
     <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>

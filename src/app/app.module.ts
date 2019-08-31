@@ -11,7 +11,10 @@ import { TitleComponent } from './title/title.component';
 import { GuideDashboardComponent } from './guide-dashboard/guide-dashboard.component';
 import { GettingStartedComponent } from './getting-started/getting-started.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
-import { Chapter1Component } from './chapter1/chapter1.component';
+import { CharacterCreationComponent } from './chapter1/character-creation/character-creation.component';
+import { GenerateAttributesComponent } from './chapter1/generate-attributes/generate-attributes.component';
+import { CharacterBackgroundComponent } from './chapter1/character-background/character-background.component';
+import { BackgroundChartComponent } from './chapter1/character-background/chart/chart.component';
 import { PrefaceComponent } from './preface/preface.component';
 import { QuoteComponent } from './quote/quote.component';
 
@@ -24,9 +27,12 @@ import { QuoteComponent } from './quote/quote.component';
     GuideDashboardComponent,
     GettingStartedComponent,
     SidebarComponent,
-    Chapter1Component,
+    CharacterCreationComponent,
+    GenerateAttributesComponent,
+    CharacterBackgroundComponent,
+    BackgroundChartComponent,
     PrefaceComponent,
-    QuoteComponent
+    QuoteComponent,
   ],
   imports: [
     BrowserModule,

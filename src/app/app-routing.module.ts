@@ -3,7 +3,9 @@ import { Routes, RouterModule } from '@angular/router';
 import { TitleComponent } from './title/title.component';
 import { GuideDashboardComponent } from './guide-dashboard/guide-dashboard.component';
 import { GettingStartedComponent } from './getting-started/getting-started.component';
-import { Chapter1Component } from './chapter1/chapter1.component';
+import { CharacterCreationComponent } from './chapter1/character-creation/character-creation.component';
+import { GenerateAttributesComponent } from './chapter1/generate-attributes/generate-attributes.component';
+import { CharacterBackgroundComponent } from './chapter1/character-background/character-background.component';
 
 const routes: Routes = [
   {
@@ -14,11 +16,10 @@ const routes: Routes = [
     component: GuideDashboardComponent,
     data: { showSidebar: true },
     children: [
-      {
-        path: 'getting-started', component: GettingStartedComponent,
-      }, {
-        path: 'chapter1', component: Chapter1Component, data: { chapter: 'chapter1' }
-      }
+      { path: 'getting-started', component: GettingStartedComponent },
+      { path: 'character-creation', component: CharacterCreationComponent, data: { chapter: 'chapter1' } },
+      { path: 'character-creation/generate-attributes', component: GenerateAttributesComponent, data: { chapter: 'chapter1' } },
+      { path: 'character-creation/background', component: CharacterBackgroundComponent, data: { chapter: 'chapter1' } },
     ]
   },
   // { path: 'crisis-center', component: CrisisListComponent },

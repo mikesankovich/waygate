@@ -1,0 +1,27 @@
+
+<div class="chapter-container">
+  <div id="title">
+    <h1 id="chapter-title">{{contents.description.title}}</h1>
+    <app-quote [quote]="contents.description.quote"></app-quote>
+    <div class="section">
+      <p *ngFor="let paragraph of contents.description.content">
+        {{paragraph}}
+      </p>
+    </div>
+  </div>
+
+  <div id="steps" class="col-sm-12">
+    <ol class="col-sm-10 offset-sm-1">
+      <li class="step" *ngFor="let step of contents.steps.list">
+        {{step.content}}
+        <ul class="step-sub" *ngIf="step.sub && step.sub.length">
+          <li *ngFor="let sub of step.sub">{{sub}}</li>
+        </ul>
+        <div class="chart" *ngIf="step.chart">
+          <app-background-chart [chartName]="step.chart"></app-background-chart>
+        </div>
+      </li>
+    </ol>
+  </div>
+
+</div>

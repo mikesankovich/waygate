@@ -53,7 +53,7 @@
     "closing": "Remember that while these steps provide a good guideline, the nature of the game allows for some variability. The GM will have final say in what steps are to be followed and how, but if no specifications are made, assume that you should follow everything on these lists."
   },
   "stepOne": {
-    "title": "Step One: Generate Attributes",
+    "title": "Step Two: Generate Attributes",
     "quote": {
       "quote": "I always thought I was just some dumb muscle. Turns out, I have quite a knack for tactics",
       "author": "Brick Broadstone, Fomer Body Builder"
@@ -68,7 +68,7 @@
       "attributeGains": [
         "<b>Leveling up:</b> when you level up, you gain a certain amount of attribute points to use, based on the level.",
         "<b>Accomplishments:</b> Throughout the game, the GM is encouraged to grant increases to skills based on very impressive accomplishments.",
-        "<b>Random and Notable Events:</b> Genetics and quirks can affect your attributes, but they are not the only such things that can happen. Throughout the game, you may run into situations that lead to a permanent increase or decrease in stats."
+        "<b>Random and Notable Events:</b> Genetics can affect your attributes, but they are not the only such things that can happen. Throughout the game, you may run into situations that lead to a permanent increase or decrease in stats."
       ]
     },
     "attributeExplanations": {
@@ -88,7 +88,7 @@
       "instructions": [
         { "content": "All attributes start at 0." },
         { "content": "You begin the game with <b>10 Attribute Points</b>. You may allocate these points however you wish amongst your attributes.<ul><li>You cannot improve the <b>Magic</b> attribute until you have the <b>Magical Affinity</b> skill.</li><li>No stat can be above 3 at this point.</li><li>You may only have two stats (magic excluded) at 0 initially.</li></ul>" },
-        { "content": "Add or subtract effects of <b>Genetics</b> and <b>Quirks</b> to the proper attributes after point allocation." },
+        { "content": "Add or subtract effects of <b>Genetics</b> to the proper attributes after point allocation." },
         { "content": "Determine your <b>Health</b> and mark this on your character sheet. Changes from damage should be made with pencil. Do not erase your total health value. <ul><li>Health = 10 + 3x(Vitality) + (level x Constitution) (initial <b>Constitution</b> is 0)</li></ul>" },
         { "content": "Determine your <b>armor rating</b>: this is equal to 8 + <b>dexterity</b> + <b>armor</b>.<ul><li>A hit test made against you succeeds if it reaches or surpasses this value.</li></ul>" }
       ]

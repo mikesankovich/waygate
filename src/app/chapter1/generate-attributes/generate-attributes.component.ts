@@ -3,11 +3,11 @@ import { ActivatedRoute } from '@angular/router';
 import chapterContent from '../contents/chapter1.json';
 
 @Component({
-  selector: 'app-chapter1',
-  templateUrl: './chapter1.component.html',
-  styleUrls: ['./chapter1.component.scss']
+  selector: 'app-generate-attributes',
+  templateUrl: './generate-attributes.component.html',
+  styleUrls: ['./generate-attributes.component.scss']
 })
-export class Chapter1Component implements OnInit {
+export class GenerateAttributesComponent implements OnInit {
   chapter: string = '';
   contents = chapterContent;
   constructor(private route:ActivatedRoute) {
