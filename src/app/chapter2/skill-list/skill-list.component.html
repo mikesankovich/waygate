@@ -1,8 +1,16 @@
 <div class="skills-container">
-  <div class="FILTER">
-    FILTER GOES HERE: name, type (ms, ks, fs -- grab from name), trainable or reaction (grab from name)
+  <div class="filter row">
+    <div class="col-sm-6 offset-sm-3 input-group filter-group">
+      <input type="text" id="keyword" class="keyword form-control" (change)="onChange($event)" placeholder="Search Skills..." />
+      <span class="input-group-btn">
+        <button (click)="onFilter()" class="btn btn-primary">search</button>
+      </span>
+      <span class="input-group-btn">
+        <button (click)="clearFilter()" class="btn btn-default clear-button">Clear Search</button>
+      </span>
+    </div>
   </div>
-  <div id="skill-list" *ngFor="let skill of skills">
+  <div id="skill-list" *ngFor="let skill of filteredSkills">
     <div class="skill">
       <div class="skill-name"><b>{{skill.name}}</b></div>
       <div class="details">
