@@ -21,6 +21,7 @@ import { PrefaceComponent } from './preface/preface.component';
 import { QuoteComponent } from './quote/quote.component';
 import { SkillListComponent } from './chapter2/skill-list/skill-list.component';
 
+import { PhysicalDescriptionComponent } from './chapter1/physical-description/physical-description.component';
 // Pipes
 import { SafeHtmlPipe } from './pipes/safe-html.pipe';
 
@@ -42,6 +43,7 @@ import { SafeHtmlPipe } from './pipes/safe-html.pipe';
     QuoteComponent,
     SkillListComponent,
     SafeHtmlPipe,
+    PhysicalDescriptionComponent,
   ],
   imports: [
     BrowserModule,

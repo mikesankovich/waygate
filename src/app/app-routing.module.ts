@@ -7,6 +7,7 @@ import { CharacterCreationComponent } from './chapter1/character-creation/charac
 import { GenerateAttributesComponent } from './chapter1/generate-attributes/generate-attributes.component';
 import { CharacterBackgroundComponent } from './chapter1/character-background/character-background.component';
 import { SpendSkillPointsComponent } from './chapter1/spend-skill-points/spend-skill-points.component';
+import { PhysicalDescriptionComponent } from './chapter1/physical-description/physical-description.component';
 import { SkillListComponent } from './chapter2/skill-list/skill-list.component';
 
 const routes: Routes = [
@@ -23,6 +24,7 @@ const routes: Routes = [
       { path: 'character-creation/generate-attributes', component: GenerateAttributesComponent, data: { chapter: 'chapter1' } },
       { path: 'character-creation/background', component: CharacterBackgroundComponent, data: { chapter: 'chapter1' } },
       { path: 'character-creation/spend-skill-points', component: SpendSkillPointsComponent, data: { chapter: 'chapter1' } },
+      { path: 'character-creation/physical-description', component: PhysicalDescriptionComponent, data: { chapter: 'chapter1' } },
       { path: 'skills/skill-list', component: SkillListComponent, data: { chapter: 'chapter1' } },
     ]
   },

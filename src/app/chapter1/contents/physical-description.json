@@ -1,0 +1,24 @@
+{
+  "stepOne":{
+    "title": "Step Four: Physical Description",
+    "quote": {
+      "quote": "They said the pointed ears could be fixed, but I have to say, they make a great conversation starter.",
+      "author": "Ika Melning, Former Raid Leader"
+    },
+    "intro": {
+      "contents": ["Knowing and revealing what your character looks like is important for representing the results of your genetics, quirks, and attribute distribution. It also helps with how your character will identify and fit into the world of Waygate."]
+    }
+  },
+  "steps": [
+    "What is your character’s age?",
+    "What is your character’s gender?",
+    "Skin Color?",
+    "Hair Color?",
+    "Height?",
+    "Weight?",
+    "Age?",
+    "Physical Build?",
+    "Tattoos, markings, or piercings?",
+    "Other noteworthy Features?"
+  ]
+}
