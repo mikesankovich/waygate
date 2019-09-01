@@ -33,7 +33,7 @@
         "content": "All players start with 5 Skill Points. Spend these points (as well as any points earned during earlier chapters) on skills and mark them on your character sheet.",
         "sub": [
           "Make sure to take note of any prerequisites for the skills.",
-          "You can read more about skills in <b>Chapter 2.</b> Click <a #openSkills class='open-skills' style='color:#007bff; cursor:pointer'>HERE</a> to open the skill list."
+          "You can read more about skills in <b>Chapter 2.</b> Click <a #openSkills class='open-skills'  data-toggle='modal' data-target='#myModal' style='color:#007bff; cursor:pointer'>HERE</a> to open the skill list."
         ]
       }
     ]

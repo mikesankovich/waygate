@@ -17,13 +17,4 @@ export class SpendSkillPointsComponent implements AfterViewInit {
     console.log(this.contents);
   }
 
-  ngAfterViewInit() {
-    let element = this.elem.nativeElement.querySelectorAll('.open-skills')[0];
-    element.addEventListener('click', this.openSkills, false);
-  }
-
-  openSkills() {
-    alert('ahhh')
-  }
-
 }
