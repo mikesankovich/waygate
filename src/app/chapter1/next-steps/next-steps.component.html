@@ -1,0 +1,77 @@
+
+<div class="chapter-container">
+  <div id="step-one">
+    <div class="subheader">
+      <h1>{{contents.stepOne.title}}</h1>
+      <app-quote [quote]="contents.stepOne.quote"></app-quote>
+      <div class="attr-section">
+        <p *ngFor="let paragraph of contents.stepOne.intro.contents">
+          {{paragraph}}
+        </p>
+      </div>
+      <div class="currency">
+        <div class="currency-intro">
+          <b>{{contents.currencyIntro}}</b>
+        </div>
+        <ul>
+          <li *ngFor="let step of contents.currency">{{step}}</li>
+        </ul>
+      </div>
+      <div class="void-mark">
+        <div class="void-mark-intro">
+          <b>{{contents.voidMarkIntro}}</b>
+        </div>
+        <ul>
+          <li *ngFor="let step of contents.voidMark">
+            {{step.content}}
+            <ul *ngIf="step.sub && step.sub.length">
+              <li *ngFor="let sub of step.sub">{{sub}}</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="equipment">
+        <div class="equipment-intro">
+          <b>{{contents.equipmentIntro}}</b>
+        </div>
+        <ul>
+          <li *ngFor="let step of contents.equipment">{{step.content}}</li>
+        </ul>
+      </div>
+      <div class="leveling">
+        <div class="leveling-intro">
+          <b>{{contents.levelingIntro}}</b>
+        </div>
+        <ul>
+          <li *ngFor="let step of contents.leveling">
+            {{step.content}}
+            <ul *ngIf="step.sub && step.sub.length">
+              <li *ngFor="let sub of step.sub">{{sub}}</li>
+            </ul>
+          </li>
+        </ul>
+        <div class="leveling-progress">
+          <ul>
+            <li *ngFor="let step of contents.levelProgress">
+              <b>{{step.name}}</b>
+              <ul *ngIf="step.sub && step.sub.length">
+                <li *ngFor="let sub of step.sub">{{sub}}</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="experience">
+        <div class="experience-intro">
+          <b>{{contents.experienceIntro}}</b>
+        </div>
+        <ul>
+          <li *ngFor="let step of contents.experience">
+            {{step.content}}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>

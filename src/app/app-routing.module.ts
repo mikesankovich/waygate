@@ -8,7 +8,9 @@ import { GenerateAttributesComponent } from './chapter1/generate-attributes/gene
 import { CharacterBackgroundComponent } from './chapter1/character-background/character-background.component';
 import { SpendSkillPointsComponent } from './chapter1/spend-skill-points/spend-skill-points.component';
 import { PhysicalDescriptionComponent } from './chapter1/physical-description/physical-description.component';
+import { NextStepsComponent } from './chapter1/next-steps/next-steps.component';
 import { SkillListComponent } from './chapter2/skill-list/skill-list.component';
+import { FateOfTheWaygateComponent } from './chapter1/fate-of-the-waygate/fate-of-the-waygate.component';
 
 const routes: Routes = [
   {
@@ -25,6 +27,8 @@ const routes: Routes = [
       { path: 'character-creation/background', component: CharacterBackgroundComponent, data: { chapter: 'chapter1' } },
       { path: 'character-creation/spend-skill-points', component: SpendSkillPointsComponent, data: { chapter: 'chapter1' } },
       { path: 'character-creation/physical-description', component: PhysicalDescriptionComponent, data: { chapter: 'chapter1' } },
+      { path: 'character-creation/next-steps', component: NextStepsComponent, data: { chapter: 'chapter1' } },
+      { path: 'character-creation/fate-of-the-waygate', component: FateOfTheWaygateComponent, data: { chapter: 'chapter1' } },
       { path: 'skills/skill-list', component: SkillListComponent, data: { chapter: 'chapter1' } },
     ]
   },

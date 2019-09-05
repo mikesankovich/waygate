@@ -1,0 +1,69 @@
+
+<div class="chapter-container">
+  <div id="step-one">
+    <div class="subheader">
+      <h1>{{contents.stepOne.title}}</h1>
+      <app-quote [quote]="contents.stepOne.quote"></app-quote>
+      <div class="attr-section">
+        <p *ngFor="let paragraph of contents.stepOne.intro.contents">
+          {{paragraph}}
+        </p>
+      </div>
+      <div class="steps">
+        <ul>
+          <li *ngFor="let step of contents.steps">{{step}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="fateTable">
+    <h4>{{contents.fateOfTheWaygateTable.name}}</h4>
+    <table class="table table-striped table-bordered">
+      <thead>
+        <th *ngFor="let header of contents.fateOfTheWaygateTable.headers">{{header}}</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of contents.fateOfTheWaygateTable.rows">
+          <td class="no-wrap">{{row.roll}}</td>
+          <td>{{row.description}}</td>
+          <td>{{row.effect}}</td>
+          <td>{{row.notes}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="fateTable">
+    <h4>{{contents.minorAlterationsTable.name}}</h4>
+    <table class="table table-striped table-bordered">
+      <thead>
+        <th *ngFor="let header of contents.minorAlterationsTable.headers">{{header}}</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of contents.minorAlterationsTable.rows">
+          <td class="no-wrap">{{row.roll}}</td>
+          <td>{{row.effect}}</td>
+          <td>{{row.notes}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="fateTable">
+    <h4>{{contents.voidContaminationTable.name}}</h4>
+    <table class="table table-striped table-bordered">
+      <thead>
+        <th *ngFor="let header of contents.voidContaminationTable.headers">{{header}}</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of contents.voidContaminationTable.rows">
+          <td class="no-wrap">{{row.roll}}</td>
+          <td>{{row.effect}}</td>
+          <td>{{row.notes}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>

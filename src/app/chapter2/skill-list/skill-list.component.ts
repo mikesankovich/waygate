@@ -10,6 +10,7 @@ import * as _ from 'lodash';
 export class SkillListComponent implements OnInit {
   skills = [];
   searchTerm = '';
+  filteredSkills = [];
   constructor() {
     this.skills = _.cloneDeep(skills);
     this.filteredSkills = _.cloneDeep(skills);

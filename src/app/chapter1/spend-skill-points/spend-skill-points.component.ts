@@ -1,4 +1,4 @@
-import { Component, AfterViewInit, ElementRef, ViewEncapsulation } from '@angular/core';
+import { Component, ElementRef, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import chapterContent from '../contents/spend-skill-points.json';
 
@@ -8,7 +8,7 @@ import chapterContent from '../contents/spend-skill-points.json';
   styleUrls: ['./spend-skill-points.component.scss'],
   // encapsulation: ViewEncapsulation.None,
 })
-export class SpendSkillPointsComponent implements AfterViewInit {
+export class SpendSkillPointsComponent {
   chapter: string = '';
   contents = chapterContent;
   constructor(private route:ActivatedRoute, private elem: ElementRef) {

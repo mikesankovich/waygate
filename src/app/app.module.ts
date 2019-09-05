@@ -21,6 +21,8 @@ import { PrefaceComponent } from './preface/preface.component';
 import { QuoteComponent } from './quote/quote.component';
 import { SkillListComponent } from './chapter2/skill-list/skill-list.component';
 
+import { NextStepsComponent } from './chapter1/next-steps/next-steps.component';
+import { FateOfTheWaygateComponent } from './chapter1/fate-of-the-waygate/fate-of-the-waygate.component';
 import { PhysicalDescriptionComponent } from './chapter1/physical-description/physical-description.component';
 // Pipes
 import { SafeHtmlPipe } from './pipes/safe-html.pipe';
@@ -44,6 +46,8 @@ import { SafeHtmlPipe } from './pipes/safe-html.pipe';
     SkillListComponent,
     SafeHtmlPipe,
     PhysicalDescriptionComponent,
+    NextStepsComponent,
+    FateOfTheWaygateComponent,
   ],
   imports: [
     BrowserModule,
