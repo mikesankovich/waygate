@@ -24,8 +24,6 @@ import { SkillListComponent } from './chapter2/skill-list/skill-list.component';
 import { NextStepsComponent } from './chapter1/next-steps/next-steps.component';
 import { FateOfTheWaygateComponent } from './chapter1/fate-of-the-waygate/fate-of-the-waygate.component';
 import { PhysicalDescriptionComponent } from './chapter1/physical-description/physical-description.component';
-// Pipes
-import { SafeHtmlPipe } from './pipes/safe-html.pipe';
 import { SkillComponent } from './chapter2/skill/skill.component';
 import { SkillsComponent } from './chapter2/skills/skills.component';
 import { GeneralRulesComponent } from './chapter2/general-rules/general-rules.component';
@@ -35,6 +33,12 @@ import { CustomSkillsComponent } from './chapter2/custom-skills/custom-skills.co
 import { ItemsComponent } from './chapter3/items/items.component';
 import { WeaponChartsComponent } from './chapter3/weapon-charts/weapon-charts.component';
 import { WeaponChartComponent } from './chapter3/weapon-charts/chart/chart.component';
+import { ItemListsComponent } from './chapter3/item-lists/item-lists.component';
+import { ItemChartComponent } from './chapter3/item-lists/item-chart/item-chart.component';
+
+// Pipes
+import { SafeHtmlPipe } from './pipes/safe-html.pipe';
+
 
 @NgModule({
   declarations: [
@@ -66,6 +70,8 @@ import { WeaponChartComponent } from './chapter3/weapon-charts/chart/chart.compo
     ItemsComponent,
     WeaponChartsComponent,
     WeaponChartComponent,
+    ItemListsComponent,
+    ItemChartComponent,
   ],
   imports: [
     BrowserModule,

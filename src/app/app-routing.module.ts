@@ -26,6 +26,7 @@ import specialSkills from './chapter2/special-skills.json';
 // Chapter 3
 import { ItemsComponent } from './chapter3/items/items.component';
 import { WeaponChartsComponent } from "./chapter3/weapon-charts/weapon-charts.component";
+import { ItemListsComponent } from "./chapter3/item-lists/item-lists.component";
 
 const routes: Routes = [
   {
@@ -52,6 +53,7 @@ const routes: Routes = [
       { path: 'skills/custom-skills', component: CustomSkillsComponent, data: { chapter: 'chapter2' } },
       { path: 'items', component: ItemsComponent, data: { chapter: 'chapter3' } },
       { path: 'items/weapon-charts', component: WeaponChartsComponent, data: { chapter: 'chapter3' } },
+      { path: 'items/item-lists', component: ItemListsComponent, data: { chapter: 'chapter3' } },
     ]
   },
   // { path: 'crisis-center', component: CrisisListComponent },
