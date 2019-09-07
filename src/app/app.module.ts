@@ -31,6 +31,7 @@ import { SkillsComponent } from './chapter2/skills/skills.component';
 import { GeneralRulesComponent } from './chapter2/general-rules/general-rules.component';
 import { SpecialSkillsComponent } from './chapter2/special-skills/special-skills.component';
 import { AcquiringSkillsComponent } from './chapter2/acquiring-skills/acquiring-skills.component';
+import { CustomSkillsComponent } from './chapter2/custom-skills/custom-skills.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { AcquiringSkillsComponent } from './chapter2/acquiring-skills/acquiring-
     GeneralRulesComponent,
     SpecialSkillsComponent,
     AcquiringSkillsComponent,
+    CustomSkillsComponent,
   ],
   imports: [
     BrowserModule,

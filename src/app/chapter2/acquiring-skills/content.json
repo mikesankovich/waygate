@@ -1,0 +1,62 @@
+{
+  "title": "Acquiring Skills",
+  "quote": {
+    "quote": "After several months of grueling training, Aiden cast his first spell...... I simply woke up one day hovering a foot over my bed.",
+    "author": "Kerry Kerr, Magical Prodigy"
+  },
+  "intro": {
+    "pre": "Skill points are typically learned in one of five ways: ",
+    "contents": [
+      "Leveling up by earning experience points",
+      "Performing mighty deeds that warrant a reward",
+      "Observation/study/someone teaching you",
+      "Practice",
+      "Void Influence"
+    ],
+    "post": "Apart from Leveling Up, the awarding of Skill points is completely up to the GM’s discretion. Points earned in any way except for Leveling Up, must be used immediately."
+  },
+  "methods": [
+    {
+      "name": "Mighty Deeds",
+      "info": [
+        "Sometimes an adventurer manages to overcome an obstacle that many believed was beyond their expertise. Maybe they took down a powerful foe with excellent precision. Maybe the cracked a code that many thought was un-crackable. Maybe they pushed their body or mind beyond their limits and came out on top. Whatever the reason, the actions they took showed true grit and determination, as well as a practiced hand.",
+        "If a Mighty Deed is performed while using a skill that can be leveled up, upgrade that skill to the next level, free of charge immediately.",
+        "A player who shows grace and skill in combat against a truly mighty foe or a horde of enemies may be granted a Feat Skill.",
+        "A player shows amazing magical prowess by besting another mage in magical combat, they may be granted a Magical Skill",
+        "A player who solves a challenging puzzle or riddle that left all others, including learned scholars, stumped may be granted a Knowledge Skill",
+        "Mighty deeds can be gifted to individuals or groups.",
+        "Mighty deeds are gifted at the DMs discretion"
+      ]
+    },
+    {
+      "name": "Observation/Study/Lessons",
+      "info": [
+        "On their journey, an adventurer may find themselves in the presence of a wise teacher, who will be willing to teach them how to utilize a new skill. What they charge and how long it will take is up to them, as well as the character’s resolve (generally involves a quick lesson and/or quest).",
+        "Or maybe they will come across a sacred tome that describes the method by which they can learn a new skill or power.",
+        "Or, most difficult yet, when they are strong enough and wise enough to learn on the fly, they could learn the basics of a skill just by observation. Doing  so typically requires a high intelligence, as well as an aptitude for learning quickly. Typically only allowed for players at a higher level, with high Awareness training."
+      ]
+    },
+    {
+      "name": "Void Influence",
+      "info": [
+        "The Void is a powerful, mysterious force. It's writhing, everflowing energies have the power to warp the very essence of living beings. Though most often direct exposure to the Void leads one to misfortune, it has, on occassion, granted someone access to powers they did not hold before.",
+        "This is a very rare occurrence."
+      ]
+    },
+    {
+      "name": "Practice",
+      "info": [
+        "The most tried and true method. While unlikely to impart anyone with a new skill, practice can increase one’s skill.",
+        "Throughout your quest you may find yourself with free time, during which important events out of your control are taking place. Take the time to study, or go on side quests to improve your skills."
+      ]
+    }
+  ],
+  "methodsNotes": [
+    {
+      "name": "*** Note on upgrading Skills: ", "details": "Not all skills have levels, however, there are a few skills that take logical steps. For example, if a player takes down powerful foes with repeated, successful use of a Firebolt, it makes sense that they may learn to use Fire Blast as a result. While whirlwind is not directly related to cleave, a GM may see fit to grant the whirlwind skill after several successful or impressive cleaves. As such, it is often better to reward the player with a specific skill or ability."
+    },
+    {
+      "details": "Keep in mind, there is no formula to this. Keep it as consistent as possible, and allow it to make logical sense through progression of the story and quest lines, but overall use it as a way to make the game interesting and keep it moving forward."
+    }
+  ]
+}

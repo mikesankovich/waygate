@@ -14,6 +14,7 @@ import { SkillListComponent } from './chapter2/skill-list/skill-list.component';
 import { SpecialSkillsComponent } from './chapter2/special-skills/special-skills.component';
 import { AcquiringSkillsComponent } from './chapter2/acquiring-skills/acquiring-skills.component';
 import { GeneralRulesComponent } from './chapter2/general-rules/general-rules.component';
+import { CustomSkillsComponent } from './chapter2/custom-skills/custom-skills.component';
 import { FateOfTheWaygateComponent } from './chapter1/fate-of-the-waygate/fate-of-the-waygate.component';
 import skills from './chapter2/skills.json';
 import specialSkills from './chapter2/special-skills.json';
@@ -41,6 +42,7 @@ const routes: Routes = [
       { path: 'skills/skill-list', component: SkillListComponent, data: { chapter: 'chapter2', content: skills  } },
       { path: 'skills/special-skills', component: SkillListComponent, data: { chapter: 'chapter2', content: specialSkills } },
       { path: 'skills/acquiring-skills', component: AcquiringSkillsComponent, data: { chapter: 'chapter2' } },
+      { path: 'skills/custom-skills', component: CustomSkillsComponent, data: { chapter: 'chapter2' } },
     ]
   },
   // { path: 'crisis-center', component: CrisisListComponent },

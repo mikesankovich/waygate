@@ -1,1 +1,33 @@
-<p>acquiring-skills works!</p>
+
+<div class="chapter-container">
+  <div id="step-one" class="section">
+    <div class="subheader">
+      <h1>{{contents.title}}</h1>
+      <app-quote [quote]="contents.quote"></app-quote>
+      <div class="modifier-pre bold">{{contents.intro.pre}}</div>
+
+      <ul class="attr-section">
+        <li *ngFor="let paragraph of contents.intro.contents" [innerHTML]="paragraph"></li>
+      </ul>
+    </div>
+    <div class="modifier-pre">{{contents.intro.post}}</div>
+
+  </div>
+  <div class="section">
+    <div *ngFor="let method of contents.methods">
+      <div class="bold">{{method.name}}</div>
+      <ul>
+        <li *ngFor="let info of method.info">{{info}}</li>
+      </ul>
+    </div>
+    <div class="method-notes col-xs-12 col-sm-8 offset-sm-2">
+      <div *ngFor="let note of contents.methodsNotes">
+        <div class="note">
+          <span class="bold">{{note.name}}</span>
+          <span>{{note.details}}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
