@@ -1,0 +1,19 @@
+.skill {
+  margin: 15px;
+  padding: 15px;
+  background-color: #faecc5;
+  border-radius: 4px;
+  .skill-name {
+    font-size: 20px;
+  }
+  .toggle {
+    color: #007bff;
+    cursor: pointer;
+  }
+  .toggle-holder {
+    margin-left: 8px;
+  }
+  .details {
+    margin: 12px 30px;
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "title": "General Rules",
+  "quote": {
+    "quote": "It was hard at first. I could hardly swing a sword and couldn't reload a pistol without dropping the clip. But in that world it was either learn or die. It just took a bit of motivation.",
+    "author": "Hannah Holtmeier, Horticulturist"
+  },
+  "intro": {
+    "contents": [
+      "Skills are special attributes or actions that your character can take both in and out of combat. All skills are learnable by all players, with the exception of Special Skills which are only ever gifted or inflicted upon characters due to specific events that take place within gameplay.",
+      "Skills that can be used in combat are marked with either “Half Action” or “Full Action”. A turn is made up of one full action. For more information on Combat see <b>Chapter 5: Combat</b>.",
+      "Skills come in one of three varieties: Feats, Knowledge, and Magic, and are earned through several means, listed later in this chapter.",
+      "Feats are skills of a physical variety, which are learned through vigorous training and self-discipline. Skills such as special attacks, weapon specializations, acrobatics, and actions of physical exertion typically fall into the Feats category.",
+      "Skills such as literacy, tech use, maintenance, crafting typically fall into the Knowledge category.",
+      "Skills such as spells, magical augmentation, and magic resistances typically fall into the Magic category.",
+      "However, not all skills are so easily placed within one of these three categories and can easily be considered hybrids."
+    ],
+    "trainable": {
+      "info": "Some skills (listed as <b>Trainable</b> in the skill list) can be trained to further increase their effectiveness. In this event, these skills can be used by any character, even when untrained, but have varying bonuses and penalties attached depending on the level of training. A skill that can be upgraded will have requirement for all upgrades listed.",
+      "pre": "The modifiers for each level taken in a trainable skill areas follows.",
+      "modifiers": [
+        { "name": "Untrained (never purchased or learned)", "modifier": "-2" },
+        { "name": "Basic", "modifier": "+0" },
+        { "name": "Learned", "modifier": "+1" },
+        { "name": "Skilled", "modifier": "+2" },
+        { "name": "Master", "modifier": "+3" }
+      ],
+      "post": "As an example. If one has \"Literacy\" at \"Skilled\" they get +2 to all literacy rolls. If they were \"Untrained\" however, they would get -2 to all such roles."
+    }
+  },
+  "terminology": {
+    "header": "Terminology",
+    "terms": [
+      { "name": "Prerequisites", "details": "Some skills have prerequisites you must fulfill before they can be acquired. However, these can be ignored (under rare circumstances) if the skill is learned through gameplay, which is detailed later in this chapter." },
+      { "name": "Threshold", "details": "Some skills (typically magic) have a threshold that must be passed. You must reach or exceed this value on a dice roll (with modifiers) for the skill to be successfully used. Thresholds details are listed within the skill and should be written down on your character sheet once you purchase the skill. Threshold roles are rolled with 1d20 and use the listed attribute as a modifier (if none are mentioned, Magic is used). If it is a Magical Skill (MS) and the result (1d20 + modifier) of a threshold test for any spell is less than half the spell’s threshold (rounded down), Magical Mayhem occurs." },
+      { "name": "Requirements", "details": "Conditions that must be met to use the skill in a given situation. For example, weapons that can be used with particular skills, vision requirements, etc." },
+      { "name": "Use", "details": "How to use the spell and how to conduct the proper test." },
+      { "name": "Range", "details": "The distance at which a skill is effective", "sub": [
+          "Weapon: whatever the range of the equipped weapon is",
+          "Self: The ability affects only the user",
+          "Touch: The user must touch who or whatever they are targetting",
+          "Distance: If numbers are given, that is the maximum (or minimum if listed) range at which the ability can be used"
+      ]}
+    ]
+  }
+}

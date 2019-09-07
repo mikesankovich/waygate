@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { skills } from './skills.json';
+// import { skills } from '../skills.json';
+import { ActivatedRoute } from '@angular/router';
+
 import * as _ from 'lodash';
 
 @Component({
@@ -9,11 +11,17 @@ import * as _ from 'lodash';
 })
 export class SkillListComponent implements OnInit {
   skills = [];
+  content = {};
   searchTerm = '';
   filteredSkills = [];
-  constructor() {
-    this.skills = _.cloneDeep(skills);
-    this.filteredSkills = _.cloneDeep(skills);
+  constructor(private route:ActivatedRoute) {
+    const content = route.snapshot.data.content;
+
+    this.content = content;
+    this.skills = _.cloneDeep(content.skills).sort((a, b) => {
+        return a.name > b.name ? 1 : -1;
+    });
+    this.filteredSkills = _.cloneDeep(this.skills);
   }
 
   onChange(e) {

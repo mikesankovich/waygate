@@ -1,0 +1,32 @@
+{
+  "title": "Special Skills List",
+  "intro": "Special skills are abilities that cannot be learned. They are gifts or curses that an individual receives, that provide amazing abilities, or terrible detriments.",
+  "skills": [
+    {
+      "name": "Absolute Recall",
+      "description": "You are touched with a blessing of memory, granting you moments of insight into things otherwise forgotten or missed.",
+      "effect": "<ul><li>Once per session, you may ask the GM for a piece of information that was overlooked during the previous session. This can be an important sign that no one in the party inspected, an action that the party did not notice, barely audible whispers gone unheeded. Anything that could help you along the quest, be it guidance or the location of vast, powerful treasures.</li><li>All information received during Absolute Recall is obtainable through normal play.</li><li>If, somehow, the players did not miss anything in the previous session, the GM will provide knowledge from the session before that or can provide a bonus in a way they see fit.</li></ul>"
+    },
+    {
+      "name": "Glow",
+      "description": "You glow with a permanent radiance.The color and brightness is based on the circumstances of how it was given to the player. The effects it has socially will vary based on culture.",
+      "effect": "<ul><li>You have a permanent, faint, golden or silver glow that extends beyond clothes and makeup. It is not concealable by any means.</li><li>-4 to all stealth checks</li><li>Charisma bonuses and penalties may apply per DMs discretion</li></ul>"
+    },
+    {
+      "name": "Cassandra's Reputation",
+      "description": "\"Have I missed the mark, or, like true archer, do I strike my quarry? Or am I prophet of lies, a babbler from door to door?\" (Cassandra. Aeschylus, Agamemnon 1194).",
+      "effect": "<ul><li>You get +2 to all checks in which you attempt to discover deception or falsehoods. +2 to all tests to decipher information and clues. +2 to awareness tests.</li><li>You get -2 to all attempts to deceive, persuade, or otherwise convince someone to your line of thinking</li></ul>"
+    },
+    {
+      "name": "Symbiotic Essence",
+      "description": "Something latched onto you, something from within the void. You can’t see it, but it’s there, everpresent.",
+      "effect": "+1 to willpower. You take 1d4 extra damage whenever you are hit by fire damage. Concussive damage dealt to you is reduced by 1d4 (damage dealt can't go below 0). You age at half the rate of a normal human."
+    },
+    {
+      "name": "Bloodlust",
+      "description": "The thrill of battle sends you into an unstoppable rage marked by the void.",
+      "effect": "<ul><li>While in combat, at the start of your turn if you are not in bloodlust, roll a d20. If you roll a 19 or higher, you are in bloodlust.</li><li>While in bloodlust, you deal double damage, always use basic, half-action attacks, and must attack whatever character (friendly or foe) is closest to you. If no one is in range, your turn is spent closing distance. You cannot use reactions while bloodlusted</li><li>While bloodlusted you ignore all attempts at charm and brainwashing (magical or otherwise), and cannot be persuaded or intimidated.</li></ul>",
+      "duration": "3 turns"
+    }
+  ]
+}

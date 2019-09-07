@@ -13,6 +13,9 @@ export class SidebarComponent {
     if (router.url.indexOf('character-creation') > -1) {
       this.currentChapter = 'chapter1';
     }
+    if (router.url.indexOf('skills') > -1) {
+      this.currentChapter = 'chapter2';
+    }
   }
 
   open(chapter) {

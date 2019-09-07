@@ -1,4 +1,5 @@
 {
+  "title": "Skills List",
   "skills": [
     {
       "name": "Awareness (KS) –  trainable",
@@ -67,7 +68,7 @@
       "duration": "1 minute"
     },
     {
-      "name": "Charm (KS) – Trainable (Charisma)",
+      "name": "Charm (KS) – Trainable",
       "description": "Persuade your target into listening to you or following you through seduction or charm.",
       "use": "1d20 + Charisma + Training Modifier against target’s 1d20 + Perception or Willpower (whichever is higher)."
     },

@@ -1,2 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.chapter-container {
+  padding: 12px;
+  width: 100%;
+  h1, h2, h3 {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .section {
+    margin: 30px;
+  }
+}
+
+#step-one {
+  #steps, #attr-desc {
+    margin: 0 60px;
+  }
+}

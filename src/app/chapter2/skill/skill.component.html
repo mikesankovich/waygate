@@ -1,0 +1,19 @@
+<div class="skill">
+  <div class="skill-name">
+    <b class="skill-name-text">{{skill.name}}</b>
+    <span class="toggle-holder">
+      <span>(</span><span class="toggle" *ngIf="hidden" (click)="toggleHidden()">show details</span>
+      <span class="toggle" *ngIf="!hidden" (click)="toggleHidden()">hide details</span><span>)</span>
+    </span>
+  </div>
+  <div class="details" *ngIf="!hidden">
+    <div><b>Description: </b><span [innerHTML]="skill.description"></span></div>
+    <div *ngIf="skill.range"><b>Range: </b><span [innerHTML]="skill.range"></span></div>
+    <div *ngIf="skill.effect"><b>Effect: </b><span [innerHTML]="skill.effect"></span></div>
+    <div *ngIf="skill.duration"><b>Duration: </b><span [innerHTML]="skill.duration"></span></div>
+    <div *ngIf="skill.use"><b>Use: </b><span [innerHTML]="skill.use"></span></div>
+    <div *ngIf="skill.threshold"><b>Threshold: </b><span [innerHTML]="skill.threshold"></span></div>
+    <div *ngIf="skill.requirements"><b>Requirements: </b><span [innerHTML]="skill.requirements"></span></div>
+    <div *ngIf="skill.prerequisites"><b>Prerequisites: </b><span [innerHTML]="skill.prerequisites"></span></div>
+  </div>
+</div>

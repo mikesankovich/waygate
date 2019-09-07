@@ -26,6 +26,11 @@ import { FateOfTheWaygateComponent } from './chapter1/fate-of-the-waygate/fate-o
 import { PhysicalDescriptionComponent } from './chapter1/physical-description/physical-description.component';
 // Pipes
 import { SafeHtmlPipe } from './pipes/safe-html.pipe';
+import { SkillComponent } from './chapter2/skill/skill.component';
+import { SkillsComponent } from './chapter2/skills/skills.component';
+import { GeneralRulesComponent } from './chapter2/general-rules/general-rules.component';
+import { SpecialSkillsComponent } from './chapter2/special-skills/special-skills.component';
+import { AcquiringSkillsComponent } from './chapter2/acquiring-skills/acquiring-skills.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +53,11 @@ import { SafeHtmlPipe } from './pipes/safe-html.pipe';
     PhysicalDescriptionComponent,
     NextStepsComponent,
     FateOfTheWaygateComponent,
+    SkillComponent,
+    SkillsComponent,
+    GeneralRulesComponent,
+    SpecialSkillsComponent,
+    AcquiringSkillsComponent,
   ],
   imports: [
     BrowserModule,

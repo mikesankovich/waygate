@@ -12,7 +12,15 @@
         <li><a routerLink="/guides/character-creation/fate-of-the-waygate">Fate of the Waygate</a></li>
       </ul>
     </li>
-    <li><a routerLink="/guides/skills/skill-list">Chapter 2: Skills</a></li>
+    <li>
+      <a routerLink="/guides/skills" (click)="open('chapter2')">Chapter 2: Skills</a>
+      <ul *ngIf="currentChapter === 'chapter2'">
+        <li><a routerLink="/guides/skills/general-rules">General Rules</a></li>
+        <li><a routerLink="/guides/skills/skill-list">Skill List</a></li>
+        <li><a routerLink="/guides/skills/special-skills">Special Skills</a></li>
+        <li><a routerLink="/guides/skills/acquiring-skills">Acquiring Skills</a></li>
+      </ul>
+    </li>
     <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
     <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
     <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>

@@ -1,4 +1,6 @@
-<div class="skills-container">
+<div class="skills-container chapter-container">
+  <h2>{{content.title}}</h2>
+  <p *ngIf="content.intro">{{content.intro}}</p>
   <div class="filter row">
     <div class="col-sm-6 offset-sm-3 input-group filter-group">
       <input type="text" id="keyword" class="keyword form-control" (change)="onChange($event)" placeholder="Search Skills..." />
@@ -11,18 +13,6 @@
     </div>
   </div>
   <div id="skill-list" *ngFor="let skill of filteredSkills">
-    <div class="skill">
-      <div class="skill-name"><b>{{skill.name}}</b></div>
-      <div class="details">
-        <div><b>Description: </b><span [innerHTML]="skill.description"></span></div>
-        <div *ngIf="skill.range"><b>Range: </b><span [innerHTML]="skill.range"></span></div>
-        <div *ngIf="skill.effect"><b>Effect: </b><span [innerHTML]="skill.effect"></span></div>
-        <div *ngIf="skill.duration"><b>Duration: </b><span [innerHTML]="skill.duration"></span></div>
-        <div *ngIf="skill.use"><b>Use: </b><span [innerHTML]="skill.use"></span></div>
-        <div *ngIf="skill.threshold"><b>Threshold: </b><span [innerHTML]="skill.threshold"></span></div>
-        <div *ngIf="skill.requirements"><b>Requirements: </b><span [innerHTML]="skill.requirements"></span></div>
-        <div *ngIf="skill.prerequisites"><b>Prerequisites: </b><span [innerHTML]="skill.prerequisites"></span></div>
-      </div>
-    </div>
+    <app-skill [skill]="skill"></app-skill>
   </div>
 </div>
