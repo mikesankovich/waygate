@@ -1,0 +1,41 @@
+{
+  "title": "Weapon Types",
+  "quote": {
+    "quote": "I started off swinging a sword like a baseball bat. I didn't find my true calling until I had a halberd in my hand.",
+    "author": "Chris Torrel, IT Professional"
+  },
+  "intro": "Weapons come in two types: Basic and Advanced. Gaining a proficiency in a basic weapon is rather simple, through a bit of practice or by acquiring it through a skill purchase. Gaining proficiency in advanced weaponry, however, takes much more time and training, but they tend to be more powerful and useful across various circumstances. Using a weapon that you are not proficient with gives a -2 to all hit tests made with that weapon.",
+  "meleeChart": {
+    "name": "Melee Weapons",
+    "headers": ["Weapon", "Weapon Type", "Prerequisites"],
+    "body": [
+      { "weapon": "One Handed Swords", "type": "Basic" },
+      { "weapon": "One Handed Axes", "type": "Basic" },
+      { "weapon": "One Handed Maces", "type": "Basic" },
+      { "weapon": "Two Handed Swords", "type": "Basic" },
+      { "weapon": "Two Handed Axes", "type": "Basic" },
+      { "weapon": "Two Handed Maces", "type": "Basic" },
+      { "weapon": "Staves", "type": "Basic" },
+      { "weapon": "Spears", "type": "Basic" },
+      { "weapon": "Knives", "type": "Basic" },
+      { "weapon": "Whips", "type": "Basic" },
+      { "weapon": "Energy Weapons", "type": "Advanced", "prerequisites": "Tech Savvy (Skilled) and proficiency in the basic form of the energy weapon in question" },
+      { "weapon": "Rope Darts/Meteor Hammers", "type": "Advanced", "prerequisites": "Dex 3" }
+    ]
+  },
+  "rangedChart": {
+    "name": "Ranged Weapons",
+    "headers": ["Weapon", "Weapon Type", "Prerequisites"],
+    "body": [
+      { "weapon": "One Handed Firearms", "type": "Basic" },
+      { "weapon": "Two Handed Firearms", "type": "Basic" },
+      { "weapon": "Thrown Weapons", "type": "Basic" },
+      { "weapon": "Bows", "type": "Basic" },
+      { "weapon": "Crossbows", "type": "Basic" },
+      { "weapon": "Grenades", "type": "Advanced" },
+      { "weapon": "Blaster Pistols", "type": "Advanced", "prerequisites": "Tech Savvy (Skilled) and proficiency in one handed firearms" },
+      { "weapon": "Blaster Rifles", "type": "Advanced", "prerequisites": "Tech Savvy (Skilled) and proficiency in two handed firearms" },
+      { "weapon": "Flamethrowers", "type": "Advanced", "prerequisites": "Tech Savvy (Skilled)" }
+    ]
+  }
+}

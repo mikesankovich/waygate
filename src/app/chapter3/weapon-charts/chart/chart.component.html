@@ -1,0 +1,15 @@
+<div class="bold">
+  <h4>{{content.name}}</h4>
+</div>
+<table class="table table-bordered table-striped">
+  <thead>
+    <th *ngFor="let header of content.headers" class="no-wrap">{{header}}</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of content.body">
+      <td>{{row.weapon}}</td>
+      <td>{{row.type}}</td>
+      <td>{{row.prerequisites || 'None'}}</td>
+    </tr>
+  </tbody>
+</table>

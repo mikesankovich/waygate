@@ -1,0 +1,22 @@
+
+<div class="chapter-container">
+  <div id="step-one">
+    <div class="subheader">
+      <h1>{{contents.title}}</h1>
+      <app-quote [quote]="contents.quote"></app-quote>
+      <div class="attr-section">
+        <p *ngFor="let paragraph of contents.intro.contents" [innerHTML]="paragraph"></p>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    {{contents.intro}}
+  </div>
+  <div id="melee-weapons-chart" class="section">
+    <app-weapon-chart [content]="contents.meleeChart"></app-weapon-chart>
+  </div>
+  <div id="ranged-weapons-chart" class="section">
+    <app-weapon-chart [content]="contents.rangedChart"></app-weapon-chart>
+  </div>
+
+</div>

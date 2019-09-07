@@ -1,0 +1,17 @@
+
+<div class="chapter-container">
+  <div id="title">
+    <h1 id="chapter-title">{{contents.title}}</h1>
+    <app-quote [quote]="contents.quote"></app-quote>
+    <div class="section">
+      <div>
+        <span class="bold">{{contents.note.name}}: </span><span>{{contents.note.content}}</span>
+      </div>
+    </div>
+    <div class="section">
+      <p *ngFor="let paragraph of contents.content">
+        {{paragraph}}
+      </p>
+    </div>
+  </div>
+</div>

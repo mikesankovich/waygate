@@ -16,6 +16,9 @@ export class SidebarComponent {
     if (router.url.indexOf('skills') > -1) {
       this.currentChapter = 'chapter2';
     }
+    if (router.url.indexOf('items') > -1) {
+      this.currentChapter = 'chapter3';
+    }
   }
 
   open(chapter) {

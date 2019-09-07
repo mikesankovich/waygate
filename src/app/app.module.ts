@@ -32,6 +32,9 @@ import { GeneralRulesComponent } from './chapter2/general-rules/general-rules.co
 import { SpecialSkillsComponent } from './chapter2/special-skills/special-skills.component';
 import { AcquiringSkillsComponent } from './chapter2/acquiring-skills/acquiring-skills.component';
 import { CustomSkillsComponent } from './chapter2/custom-skills/custom-skills.component';
+import { ItemsComponent } from './chapter3/items/items.component';
+import { WeaponChartsComponent } from './chapter3/weapon-charts/weapon-charts.component';
+import { WeaponChartComponent } from './chapter3/weapon-charts/chart/chart.component';
 
 @NgModule({
   declarations: [
@@ -60,6 +63,9 @@ import { CustomSkillsComponent } from './chapter2/custom-skills/custom-skills.co
     SpecialSkillsComponent,
     AcquiringSkillsComponent,
     CustomSkillsComponent,
+    ItemsComponent,
+    WeaponChartsComponent,
+    WeaponChartComponent,
   ],
   imports: [
     BrowserModule,

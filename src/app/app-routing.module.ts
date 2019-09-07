@@ -3,22 +3,29 @@ import { Routes, RouterModule } from '@angular/router';
 import { TitleComponent } from './title/title.component';
 import { GuideDashboardComponent } from './guide-dashboard/guide-dashboard.component';
 import { GettingStartedComponent } from './getting-started/getting-started.component';
+
+// Chapter 1
 import { CharacterCreationComponent } from './chapter1/character-creation/character-creation.component';
 import { GenerateAttributesComponent } from './chapter1/generate-attributes/generate-attributes.component';
 import { CharacterBackgroundComponent } from './chapter1/character-background/character-background.component';
 import { SpendSkillPointsComponent } from './chapter1/spend-skill-points/spend-skill-points.component';
 import { PhysicalDescriptionComponent } from './chapter1/physical-description/physical-description.component';
 import { NextStepsComponent } from './chapter1/next-steps/next-steps.component';
+import { FateOfTheWaygateComponent } from './chapter1/fate-of-the-waygate/fate-of-the-waygate.component';
+
+// Chapter 2
 import { SkillsComponent } from './chapter2/skills/skills.component';
 import { SkillListComponent } from './chapter2/skill-list/skill-list.component';
 import { SpecialSkillsComponent } from './chapter2/special-skills/special-skills.component';
 import { AcquiringSkillsComponent } from './chapter2/acquiring-skills/acquiring-skills.component';
 import { GeneralRulesComponent } from './chapter2/general-rules/general-rules.component';
 import { CustomSkillsComponent } from './chapter2/custom-skills/custom-skills.component';
-import { FateOfTheWaygateComponent } from './chapter1/fate-of-the-waygate/fate-of-the-waygate.component';
 import skills from './chapter2/skills.json';
 import specialSkills from './chapter2/special-skills.json';
 
+// Chapter 3
+import { ItemsComponent } from './chapter3/items/items.component';
+import { WeaponChartsComponent } from "./chapter3/weapon-charts/weapon-charts.component";
 
 const routes: Routes = [
   {
@@ -43,6 +50,8 @@ const routes: Routes = [
       { path: 'skills/special-skills', component: SkillListComponent, data: { chapter: 'chapter2', content: specialSkills } },
       { path: 'skills/acquiring-skills', component: AcquiringSkillsComponent, data: { chapter: 'chapter2' } },
       { path: 'skills/custom-skills', component: CustomSkillsComponent, data: { chapter: 'chapter2' } },
+      { path: 'items', component: ItemsComponent, data: { chapter: 'chapter3' } },
+      { path: 'items/weapon-charts', component: WeaponChartsComponent, data: { chapter: 'chapter3' } },
     ]
   },
   // { path: 'crisis-center', component: CrisisListComponent },
