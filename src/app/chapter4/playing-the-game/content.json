@@ -1,0 +1,116 @@
+{
+  "title": "Chapter 4: Playing the Game",
+  "quote": {
+    "quote": "You never know what's going to happen. Maybe your arrow will catch the void being in the neck. Maybe it will phase through the thing, leaving you open to attack. Best to be prepared..... and always remember to keep a magic user around.",
+    "author": "Sae Sakamoto, Exchange Student"
+  },
+  "intro": "Although you have been given a mission beyond the Waygate, you can only guess at what greater schemes lie in wait. Now that your character has been created, this chapter will go through the different sorts of things that your character can do throughout your task.",
+  "tests": {
+    "header": "Tests",
+    "intro": [
+      "Tests work on a pass/fail system determined by the rolls of dice. The general idea is that if your dice roll passes a given threshold for a task, your character successfully takes action. If the dice roll is below the threshold, the action fails. What the threshold is, however, varies depending on the action you wish to perform.",
+      "When it comes to <b>Tests</b> some actions have their own unique formula. Other times, they simply need to roll a d20 + an attribute and check that against a difficulty rating or <b>Threshold</b>. This following chart will help give an idea of what a given task’s threshold would be. (Modifiers in this case might mean distractions, or booby trapped, or anything that would change the value positively or negatively)."
+    ],
+    "difficultyChart": {
+      "intro": "Here is an example chart for the values needed to succeed at tasks of various difficulties.",
+      "chart": {
+        "headers": [ "Difficulty", "Necessary Value To Succeed" ],
+        "body": [
+          { "difficulty": "Very Easy", "value": "3" },
+          { "difficulty": "Easy", "value": "7" },
+          { "difficulty": "Medium", "value": "11" },
+          { "difficulty": "Hard", "value": "15" },
+          { "difficulty": "Very Hard", "value": "18" },
+          { "difficulty": "Extreme", "value": "22" },
+          { "difficulty": "Impossible", "value": "30" }
+        ]
+      },
+      "example": "So if you were trying to read a Medium difficulty book, and you have a basic literacy and an Intelligence of 3, you would need to roll a 8 on a d20 (d20 + 0 + Int >= 11)."
+    }
+  },
+  "skillTests": {
+    "header": "Skill Tests",
+    "intro": "Given the breadth of skills available to all characters, there is no hard and fast formula for determining the success of all skills. However, unless otherwise stated, skills typically fall under the category of <b>Attribute Tests.</b>",
+    "example": {
+      "intro": "<b>Example</b>: if you are using your literacy skill to analyze a long, convoluted message, you would roll an Intelligence check against the message. If the Message has a threshold of 14, your dice roll plus modifiers must meet or exceed that value for your character to successfully read the message.",
+      "sub": "<ul><li>Aryk tries to read a complicated text (needed value 15). He has an intelligence of 4 and is skilled in literacy (+2). He rolls a d20 and gets a 9. His final result is 9 + 4 (int) + 2 (training) = 15, which matches or exceeds the needed value, so he succeeds.</li></ul>",
+      "post": "Some skills, however, list more than one attribute. In this case, the use of each attribute may be situational. For example, <b>climb</b> uses both dexterity and strength. If you are attempting to climb a sheer cliff face, you may be asked to make a climb test with strength. But if you are attempting to climb a structure with strange footholds and outcroppings, you may be asked to use dexterity instead. Modifiers should therefore be applied appropriately."
+    },
+    "closing": "Combat skills almost always utilize the Hit Test formula for their category."
+  },
+  "attributeTests": {
+    "header": "Attribute Tests",
+    "content": [
+      "Attribute Tests are tests done against a character’s attributes, and must pass a certain threshold to pass. This threshold generally follows the difficulty chart above, but it can vary from task to task and target to target. Most every skill and action has a specific attribute(s) attached to them, which you should use for tests, however, under some circumstance it might make sense to work with a different attribute (this is up to the GMs discretion). <ul><li><b>Example</b>: Aryn is running and is running through an area with many slippery rocks to trip on. She must roll a test against Dexterity to maintain proper footing. Because of the difficulty, the GM sets a threshold of 13 to pass. With a Dexterity of 4, Aryn must roll at least a 9 on a d20 to continue running and not fall.</li></ul>",
+      "Attributes Tests should always be the fallback if a skill does not exist for the given task.",
+      "<b>Assisting</b>: If a skill is being used for an attribute test (such as Climb), another player can use their proficiency with that same skill to provide aid, so long as they are at least \"Basic\" in that skill. Providing assistance gives the acting character a +2 to their test."
+    ]
+  },
+  "hitTests": {
+    "header": "Hit Tests",
+    "intro": "In order to make a successful blow, a character must first bypass their target’s armor. To determine this, whenever a character makes an attack, the must roll a Hit Test.",
+    "preContent": "The formula for each type of attack is as follows:",
+    "content": [
+      { "type": "Melee", "sub": [
+        "Melee Weapons (ie. Swords, axes): 1d20 + str + modifiers",
+        "Finesse Weapons (ie. Rapiers, daggers): 1d20 + dex + modifiers"
+      ]},
+      { "type": "Ranged", "sub": [
+        "1d20 + dex + modifiers",
+        "On any attack with a firearm, if the dice face shows a  1 or a 2, the gun is <b>jammed</b>. (if the gun has been maintained with <b>weapon maintenance</b>, only a 1 jams the gun)"
+      ]},
+      { "type": "Magical", "sub": [
+        "1d20 + magic + modifiers",
+        "If your test is half of the threshold (rounded down), or if you roll a natural 1, it causes Magical Mayhem"
+      ]}
+    ],
+    "postContent": "If the resulting value of these tests is greater than the target’s armor rating, the hit is successful. For information on modifiers, see <b>Chapter 5: Combat</b>."
+  },
+  "damage": {
+    "header": "Damage",
+    "intro": "When a successful hit is made, follow the following formulae to deal damage.",
+    "content": [
+      "<b>Melee: </b>Weapon Damage + Str + Modifiers",
+      "<b>Finesse: </b>Weapon Damage + Dex + Modifiers",
+      "<b>Ranged: </b>Weapon Damage + Modifiers",
+      "<b>Magic: </b>Spell Damage + Magic + Modifiers"
+    ]
+  },
+  "opposedTests": {
+    "header": "Opposed Tests",
+    "intro": "Sometimes you have to roll your skills and attributes against an opponent. This is similar to hit tests, where opponents’ stats affect your success, however, in an Opposed Test both you and your target roll a dice and attack your own modifiers. Whoever has the highest overall value, wins. If the result is a tie, whoever had the highest dice roll wins. If it is still a tie, redo the test from the start.",
+    "example": "<b>Example:</b> Villy is interrogating a prisoner to extract information. Using their knowledge and study of torture methods, they roll 1d20 + Int. The prisoner, however, has a very strong resolve is not going to give up information so easily, and they roll 1d20 + WP. Whoever’s value is highest wins the Test.",
+    "post": "Note. While two characters can undergo several opposed tests for the same thing, generally there needs to be some time between such tests. In the above example, if the Prisoner were to win, Villy could attempt other methods of getting the information, but must give a little time before they can do that exact method again."
+  },
+  "dying": {
+    "header": "Unconsciousness and Dying",
+    "content": [
+      "A Character is rendered unconscious if their hitpoints go to 0. They fall to the ground and are unable to make any actions. Their turn still takes place, however, so that statuses, ailments, and, dying damage take effect.",
+      "While unconscious, if their health is below 0, a character takes 1d4 dying damage at each of their turns.",
+      "A character dies when their health is dropped below 0 by half of their total health. or if they are below 0 health for 3 rounds or for more than 1 hour"
+    ],
+    "examples": [
+      "Taryn has 30 hit points at maximum health. During a grueling battle, he suffers a hit and he is at -1 health. He is unconscious. At his next turn, he takes 1d4 damage, dropping him to -4. Then, an enemy attacks him, dealing 11 damage. He is at -15, and thus, dead.",
+      "Elizabeth is dropped below 0 health during combat. None of her allies are able to heal her above 0 within 3 rounds, and thus she dies.",
+      "Mac eats some poisoned food and drops below 0 health. His allies are unable to heal him and they cannot find a doctor in time. An hour passes, and he dies."
+    ],
+    "post": "When a character dies, there are a few ways to bring them back. The most accessible is with <b>Void Marks</b> which will be discussed later in this chapter. If a character dies and is unable to be resurrected in time, they are permanently dead, and the player should be given the chance to create a new character at one level lower than the level at which the dead character was (can't go below level 1)"
+  },
+  "voidMarks": {
+    "header": "Void Marks",
+    "content": [
+      "Sometimes your luck just runs out. Maybe you forgot to use a medpac after a fight. Maybe you tried to bite off more than you can chew. Luckily, the twisting nether of the Waygate have provided you with a Void Mark. This single-use tool will allow you to reroll any one Test. Can be used in or out of combat, and the resulting roll is final.",
+      "It is one of the rarest things for anyone to earn extra Void Mark. At any point in time, you can only have one, and the feats required to earn another one after use remain unknown, so make sure to choose your battles wisely. The awarding of a Void Mark is up to the DM's discretion and should not be done lightly.",
+      "A Void Mark can also be used to bring someone back from death, with a penalty. For more information, refer to the section for Void Mark in <b>Chapter 1</b>."
+    ]
+  },
+  "firingModes": {
+    "header": "Firing Modes",
+    "intro": "There are 3 firing modes that a firearm can have, which determine the types of attacks that can be made.",
+    "types": [
+      { "type": "Single", "description": "Unloads One Shot", "rules": "Handle as a normal ranged attack" },
+      { "type": "Burst", "description": "Unloads a number of shots equal to the number specified (example. Burst (5) means fire 5 bullets)", "rules": "enough rounds must be loaded to perform a burst. Gives +2 to hit. For every 3 points on your hit test above the target's Armor Rating, another bullet hits (up to the burst number)" },
+      { "type": "Auto", "description": "Unload an entire clip into an enemy", "rules": "Requires a full clip. Gives +4 to hit. For every 3 points on your hit test above the target's Armor Rating, another bullet hits (up to the burst number" }
+    ]
+  }
+}

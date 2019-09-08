@@ -38,6 +38,7 @@ import { ItemChartComponent } from './chapter3/item-lists/item-chart/item-chart.
 
 // Pipes
 import { SafeHtmlPipe } from './pipes/safe-html.pipe';
+import { PlayingTheGameComponent } from './chapter4/playing-the-game/playing-the-game.component';
 
 
 @NgModule({
@@ -72,6 +73,7 @@ import { SafeHtmlPipe } from './pipes/safe-html.pipe';
     WeaponChartComponent,
     ItemListsComponent,
     ItemChartComponent,
+    PlayingTheGameComponent,
   ],
   imports: [
     BrowserModule,

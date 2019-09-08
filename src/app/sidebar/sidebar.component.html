@@ -2,37 +2,34 @@
   <ul class="content">
     <li><a routerLink="/guides/getting-started">Getting Started</a></li>
     <li>
-      <a routerLink="/guides/character-creation" (click)="open('chapter1')">Chapter 1: Character Creation</a>
+      <a routerLink="/guides/character-creation" (click)="open('chapter1')" [ngClass]="{'current': currentChapter === 'chapter1'}">Chapter 1: Character Creation</a>
       <ul *ngIf="currentChapter === 'chapter1'">
-        <li><a routerLink="/guides/character-creation/background">Origin, Background, and Personality</a></li>
-        <li><a routerLink="/guides/character-creation/generate-attributes">Generate Attributes</a></li>
-        <li><a routerLink="/guides/character-creation/spend-skill-points">Spend Initial Skill Points</a></li>
-        <li><a routerLink="/guides/character-creation/physical-description">Physical Description</a></li>
-        <li><a routerLink="/guides/character-creation/next-steps">Next Steps</a></li>
-        <li><a routerLink="/guides/character-creation/fate-of-the-waygate">Fate of the Waygate</a></li>
+        <li><a routerLink="/guides/character-creation/background" [ngClass]="{'current': router.url.indexOf('character-creation/background') > -1}">Origin, Background, and Personality</a></li>
+        <li><a routerLink="/guides/character-creation/generate-attributes" [ngClass]="{'current': router.url.indexOf('character-creation/generate-attributes') > -1}">Generate Attributes</a></li>
+        <li><a routerLink="/guides/character-creation/spend-skill-points" [ngClass]="{'current': router.url.indexOf('character-creation/spend-skill-points') > -1}">Spend Initial Skill Points</a></li>
+        <li><a routerLink="/guides/character-creation/physical-description" [ngClass]="{'current': router.url.indexOf('character-creation/physical-description') > -1}">Physical Description</a></li>
+        <li><a routerLink="/guides/character-creation/next-steps" [ngClass]="{'current': router.url.indexOf('character-creation/next-steps') > -1}">Next Steps</a></li>
+        <li><a routerLink="/guides/character-creation/fate-of-the-waygate" [ngClass]="{'current': router.url.indexOf('character-creation/fate-of-the-waygate') > -1}">Fate of the Waygate</a></li>
       </ul>
     </li>
     <li>
-      <a routerLink="/guides/skills" (click)="open('chapter2')">Chapter 2: Skills</a>
+      <a routerLink="/guides/skills" (click)="open('chapter2')" [ngClass]="{'current': currentChapter === 'chapter2'}">Chapter 2: Skills</a>
       <ul *ngIf="currentChapter === 'chapter2'">
-        <li><a routerLink="/guides/skills/general-rules">General Rules</a></li>
-        <li><a routerLink="/guides/skills/skill-list">Skill List</a></li>
-        <li><a routerLink="/guides/skills/special-skills">Special Skills</a></li>
-        <li><a routerLink="/guides/skills/acquiring-skills">Acquiring Skills</a></li>
-        <li><a routerLink="/guides/skills/custom-skills">Custom Skills</a></li>
+        <li><a routerLink="/guides/skills/general-rules" [ngClass]="{'current': router.url.indexOf('skills/general-rules') > -1}">General Rules</a></li>
+        <li><a routerLink="/guides/skills/skill-list" [ngClass]="{'current': router.url.indexOf('skills/skill-list') > -1}">Skill List</a></li>
+        <li><a routerLink="/guides/skills/special-skills" [ngClass]="{'current': router.url.indexOf('skills/special-skills') > -1}">Special Skills</a></li>
+        <li><a routerLink="/guides/skills/acquiring-skills" [ngClass]="{'current': router.url.indexOf('skills/acquiring-skills') > -1}">Acquiring Skills</a></li>
+        <li><a routerLink="/guides/skills/custom-skills" [ngClass]="{'current': router.url.indexOf('skills/custom-skills') > -1}">Custom Skills</a></li>
       </ul>
     </li>
     <li>
-      <a routerLink="/guides/items" (click)="open('chapter3')">Chapter 3: Items</a>
+      <a routerLink="/guides/items" (click)="open('chapter3')" [ngClass]="{'current': currentChapter === 'chapter3'}">Chapter 3: Items</a>
       <ul *ngIf="currentChapter === 'chapter3'">
-        <li><a routerLink="/guides/items/weapon-charts">Weapon Types</a></li>
-        <li><a routerLink="/guides/items/item-lists">Weapons, Armor, and Items</a></li>
-        <li><a routerLink="/guides/skills/special-skills">Special Skills</a></li>
-        <li><a routerLink="/guides/skills/acquiring-skills">Acquiring Skills</a></li>
-        <li><a routerLink="/guides/skills/custom-skills">Custom Skills</a></li>
+        <li><a routerLink="/guides/items/weapon-charts" [ngClass]="{'current': router.url.indexOf('items/weapon-charts') > -1}">Weapon Types</a></li>
+        <li><a routerLink="/guides/items/item-lists" [ngClass]="{'current': router.url.indexOf('items/item-lists') > -1}">Weapons, Armor, and Items</a></li>
       </ul>
     </li>
-    <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
+    <li><a routerLink="/guides/playing-the-game" (click)="open('chapter4')" [ngClass]="{'current': currentChapter === 'chapter4'}">Chapter 4: Playing The Game</a></li>
     <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
     <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
     <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>

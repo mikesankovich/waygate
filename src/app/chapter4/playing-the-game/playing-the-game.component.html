@@ -1,0 +1,112 @@
+<div class="chapter-container">
+  <div id="step-one">
+    <div class="subheader">
+      <h1>{{contents.title}}</h1>
+      <app-quote [quote]="contents.quote"></app-quote>
+      <div class="section">
+        <p>{{contents.intro}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <h2>{{contents.tests.header}}</h2>
+    <div>
+      <p *ngFor="let info of contents.tests.intro" [innerHTML]="info"></p>
+    </div>
+  </div>
+  <div class="section">
+    <p>{{contents.tests.difficultyChart.intro}}</p>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <th *ngFor="let header of contents.tests.difficultyChart.chart.headers">{{header}}</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of contents.tests.difficultyChart.chart.body">
+          <td>{{row.difficulty}}</td>
+          <td>{{row.value}}</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="example">{{contents.tests.difficultyChart.example}}</p>
+  </div>
+  <div class="section">
+    <h3>{{contents.skillTests.header}}</h3>
+    <div>
+      <p [innerHTML]="contents.skillTests.intro"></p>
+    </div>
+    <div class="example">
+      <p [innerHTML]="contents.skillTests.example.intro"></p>
+      <p [innerHTML]="contents.skillTests.example.sub"></p>
+      <p [innerHTML]="contents.skillTests.example.post"></p>
+    </div>
+  </div>
+  <div class="section">
+    <h3>{{contents.attributeTests.header}}</h3>
+    <div class="" *ngFor="let info of contents.attributeTests.content">
+      <p [innerHTML]="info"></p>
+    </div>
+  </div>
+  <div class="section">
+    <h3>{{contents.hitTests.header}}</h3>
+    <p>{{contents.hitTests.intro}}</p>
+    <p>{{contents.hitTests.preContent}}</p>
+    <div class="" *ngFor="let info of contents.hitTests.content">
+      <div>
+        <span class="bold">{{info.type}}</span>
+        <ul>
+          <li *ngFor="let sub of info.sub" [innerHTML]="sub"></li>
+        </ul>
+      </div>
+    </div>
+    <p [innerHTML]="contents.hitTests.postContent"></p>
+  </div>
+  <div class="section">
+    <h3>{{contents.firingModes.header}}</h3>
+    <p>{{contents.firingModes.intro}}</p>
+    <div class="step">
+      <div *ngFor="let mode of contents.firingModes.types">
+        <div><span class="bold">{{mode.type}}:</span> {{mode.description}}
+          <ul><li>{{mode.rules}}</li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <h3>{{contents.damage.header}}</h3>
+    <div>
+      {{contents.damage.intro}}
+    </div>
+    <div class="steps" *ngFor="let info of contents.damage.content">
+      <p [innerHTML]="info"></p>
+    </div>
+  </div>
+  <div class="section">
+    <h3>{{contents.opposedTests.header}}</h3>
+    <div class="steps">
+      {{contents.opposedTests.intro}}
+    </div>
+    <div class="example steps" [innerHTML]="contents.opposedTests.example"></div>
+    <div class="steps">
+      {{contents.opposedTests.post}}
+    </div>
+  </div>
+  <div class="section">
+    <h3>{{contents.dying.header}}</h3>
+    <div class="steps" *ngFor="let info of contents.dying.content">
+      {{info}}
+    </div>
+    <div class="bold steps">
+      Examples:
+    </div>
+    <ol class="example steps">
+      <li *ngFor="let example of contents.dying.examples">{{example}}</li>
+    </ol>
+    <div class="steps" [innerHTML]="contents.dying.post"></div>
+  </div>
+  <div class="section">
+    <h3>{{contents.voidMarks.header}}</h3>
+    <div class="steps" *ngFor="let info of contents.voidMarks.content">
+      <p [innerHTML]="info"></p>
+    </div>
+  </div>
+</div>
