@@ -112,5 +112,14 @@
       { "type": "Burst", "description": "Unloads a number of shots equal to the number specified (example. Burst (5) means fire 5 bullets)", "rules": "enough rounds must be loaded to perform a burst. Gives +2 to hit. For every 3 points on your hit test above the target's Armor Rating, another bullet hits (up to the burst number)" },
       { "type": "Auto", "description": "Unload an entire clip into an enemy", "rules": "Requires a full clip. Gives +4 to hit. For every 3 points on your hit test above the target's Armor Rating, another bullet hits (up to the burst number" }
     ]
+  },
+  "critical": {
+    "header": "Critical Success and Fail",
+    "intro": "The absolute best and absolute worst outcomes on a d20 diceroll. A natural 1 or 20 is when the diceface of a d20 reads 1 or 20. This is considered a critical fail and critical success respectively.",
+    "content": [
+      "Rolling a natural 20 on a hit, opposed, or reaction test is an automatic success. If you deal damage as a result, double the value of your dice rolls for damage, then add modifiers and attributes.",
+      "Rolling a natural 1 on any test is an automatic fail, regardless of whatever modifiers you may have.",
+      "Rolling a natural 20 on a skill or attribute test is not a guaranteed success. Nothing special happens in such an occurence."
+    ]
   }
 }

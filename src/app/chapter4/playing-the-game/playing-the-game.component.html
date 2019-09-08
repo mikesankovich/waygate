@@ -109,4 +109,11 @@
       <p [innerHTML]="info"></p>
     </div>
   </div>
+  <div class="section">
+    <h3>{{contents.critical.header}}</h3>
+    <p>{{contents.critical.intro}}</p>
+    <div class="steps">
+      <p *ngFor="let info of contents.critical.content">{{info}}</p>
+    </div>
+  </div>
 </div>
