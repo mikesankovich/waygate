@@ -1,0 +1,29 @@
+<div class="chapter-container">
+  <div id="step-one">
+    <div class="subheader">
+      <h2>{{contents.title}}</h2>
+      <app-quote [quote]="contents.quote"></app-quote>
+      <div class="section">
+        <div *ngFor="let con of contents.intro" [innerHTML]="con" class="steps"></div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <span class="bold">{{contents.actionTypes.freeActions.name}}: </span><span>{{contents.actionTypes.freeActions.intro}}</span>
+    <ul>
+      <li *ngFor="let info of contents.actionTypes.freeActions.content">{{info}}</li>
+    </ul>
+  </div>
+  <div class="section">
+    <span class="bold">{{contents.actionTypes.singleActions.name}}: </span><span>{{contents.actionTypes.singleActions.intro}}</span>
+    <ul>
+      <li *ngFor="let info of contents.actionTypes.singleActions.content">{{info}}</li>
+    </ul>
+  </div>
+  <div class="section">
+    <span class="bold">{{contents.actionTypes.doubleActions.name}}: </span><span>{{contents.actionTypes.doubleActions.intro}}</span>
+    <ul>
+      <li *ngFor="let info of contents.actionTypes.doubleActions.content">{{info}}</li>
+    </ul>
+  </div>
+</div>

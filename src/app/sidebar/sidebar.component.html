@@ -30,6 +30,13 @@
       </ul>
     </li>
     <li><a routerLink="/guides/playing-the-game" (click)="open('chapter4')" [ngClass]="{'current': currentChapter === 'chapter4'}">Chapter 4: Playing The Game</a></li>
+    <li>
+      <a routerLink="/guides/combat/entering-combat" (click)="open('chapter5')" [ngClass]="{'current': currentChapter === 'chapter5'}">Chapter 5: Combat</a>
+      <ul *ngIf="currentChapter === 'chapter5'">
+        <li><a routerLink="/guides/combat/entering-combat" [ngClass]="{'current': router.url.indexOf('combat/entering-combat') > -1}">Entering Combat</a></li>
+        <li><a routerLink="/guides/combat/taking-action" [ngClass]="{'current': router.url.indexOf('combat/taking-action') > -1}">Taking Action</a></li>
+      </ul>
+    </li>
     <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
     <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
     <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>

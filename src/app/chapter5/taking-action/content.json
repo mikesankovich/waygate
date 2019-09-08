@@ -1,0 +1,42 @@
+{
+  "title": "Taking Action",
+  "quote": {
+    "quote": "DON'T. LOSE SIGHT. OF THE SNIPER.",
+    "author": "Zoey Crystal, Entomologist"
+  },
+  "intro": [
+    "All characters are giving one <b>Double Action</b> during their turn with which to make decisions and makes actions. Most actions (which encompass skills, attacks, and movement) either take up a single action, or a double action, meaning you typically get to make one or two actions in a single turn. After a double action has been made, the turn is immediately ended. The same single action can be performed twice within the same turn, unless otherwise stated.",
+    "Below, you will find a sample list of Free, Single, and Double Actions.",
+    "For a list of actions you can take during combat, see the section at the end of this chapter."
+  ],
+  "actionTypes": {
+    "freeActions": {
+      "name": "Free Actions",
+      "intro": "These are actions that take up negligible time during your turn. Typically, you are only allowed one free action per turn, but whether additional free actions can be made is at the GM’s discretion. Such actions include.",
+      "content": [
+        "Saying a few words (this is up to the GM’s discretion, but usually is limited to something your character could reasonably say/shout in the span of a sentence or two.",
+        "Dropping an item",
+        "Lowering position: lowering yourself to a lower position (such as from standing to kneeling, or kneeling to prone), is considered a free action."
+      ]
+    },
+    "singleActions": {
+      "name": "Single Actions",
+      "intro": "actions that take up half of a turn.",
+      "content": [
+        "Standing up/raising your position from a lower one.",
+        "Drawing/sheathing a weapon (if you are dual wielding and draw/sheath both weapons at once, it only counts as one half action).",
+        "Walking",
+        "Disengaging (pulling away from a foe that is targeting you in combat, allowing you to use your next action to move without allowing an attack of opportunity)"
+      ]
+    },
+    "doubleActions": {
+      "name": "Double Actions",
+      "intro": "actions that take up a full turn.",
+      "content": [
+        "Reloading a gun",
+        "All out attack"
+      ]
+    }
+
+  }
+}

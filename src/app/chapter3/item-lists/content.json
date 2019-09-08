@@ -57,7 +57,7 @@
       { "weapon": "Long Bow", "price": "50 gold", "rarity": "Uncommon", "range": "120 ft", "damage": "1d10 (piercing)", "clipSize": "", "firingModes": "", "critical": "20", "effect": "", "proficiency": "Bows", "prerequisites": "" },
       { "weapon": "Compound Bow", "price": "100 gold", "rarity": "Rare", "range": "160 ft", "damage": "1d12 (piercing)", "clipSize": "", "firingModes": "", "critical": "20", "effect": "", "proficiency": "Bows", "prerequisites": "" },
       { "weapon": "Crossbow", "price": "40 gold", "rarity": "Uncommon", "range": "100 ft", "damage": "1d10 (piercing)", "clipSize": "", "firingModes": "", "critical": "20", "effect": "", "proficiency": "Crossbows", "prerequisites": "" },
-      { "weapon": "Repeating Crossbow", "price": "100 gold", "rarity": "Rare", "range": "100 ft", "damage": "1d10 (piercing)", "clipSize": "4", "firingModes": "Single, Auto (4)", "critical": "20", "effect": "One bolt a turn can be reloaded as a free action. After that, reload at 2 bolts per half action", "proficiency": "Crossbows", "prerequisites": "" }
+      { "weapon": "Repeating Crossbow", "price": "100 gold", "rarity": "Rare", "range": "100 ft", "damage": "1d10 (piercing)", "clipSize": "4", "firingModes": "Single, Auto (4)", "critical": "20", "effect": "One bolt a turn can be reloaded as a free action. After that, reload at 2 bolts per Single Action", "proficiency": "Crossbows", "prerequisites": "" }
     ]
   },
   "armorChart": {
@@ -93,10 +93,10 @@
       { "item": "Steel tipped Bolt", "price": "3 gold per 5 bolts", "rarity": "Uncommon", "use": "", "description": "ammo for most crossbows" , "notes": "" },
       { "item": "Whet Stone", "price": "5 gold", "rarity": "Common", "use": "adds +1 damage to a bladed weapon for your next encounter", "description": "" , "notes": "does not stack with other whetstone uses" },
       { "item": "Bandages", "price": "1 gold for 3", "rarity": "Common", "use": "Heals 1d4 damage", "description": "" , "notes": "" },
-      { "item": "Medpac (low)", "price": "5 gold", "rarity": "Common", "use": "Heal 1d6 damage", "description": "" , "notes": "Half Action" },
-      { "item": "Medpac (medium)", "price": "10 gold", "rarity": "Uncommon", "use": "Heal 2d6 damage", "description": "" , "notes": "Half Action" },
-      { "item": "Medpac (high)", "price": "15 gold", "rarity": "Rare", "use": "Heal 2d8 damage", "description": "" , "notes": "Half Action" },
-      { "item": "Medpac (greater)", "price": "20 gold", "rarity": "Rare", "use": "Heal 2d12 damage", "description": "" , "notes": "Half Action" },
+      { "item": "Medpac (low)", "price": "5 gold", "rarity": "Common", "use": "Heal 1d6 damage", "description": "" , "notes": "Single Action" },
+      { "item": "Medpac (medium)", "price": "10 gold", "rarity": "Uncommon", "use": "Heal 2d6 damage", "description": "" , "notes": "Single Action" },
+      { "item": "Medpac (high)", "price": "15 gold", "rarity": "Rare", "use": "Heal 2d8 damage", "description": "" , "notes": "Single Action" },
+      { "item": "Medpac (greater)", "price": "20 gold", "rarity": "Rare", "use": "Heal 2d12 damage", "description": "" , "notes": "Single Action" },
       { "item": "Ration Pack", "price": "1 gold", "rarity": "Common", "use": "", "description": "Basics of food for adventurers" , "notes": "Lasts 2 meals" },
       { "item": "Lockpick Set", "price": "5 gold", "rarity": "Common", "use": "", "description": "Lockpicking tools" , "notes": "" },
       { "item": "Multi-Tool", "price": "40 gold", "rarity": "Uncommon", "use": "Can be used for a variety of tasks, including lockpicking", "description": "" , "notes": "" },

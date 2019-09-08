@@ -25,7 +25,7 @@
     {
       "name": "Bloodlust",
       "description": "The thrill of battle sends you into an unstoppable rage marked by the Aether.",
-      "effect": "<ul><li>While in combat, at the start of your turn if you are not in bloodlust, roll a d20. If you roll a 19 or higher, you are in bloodlust.</li><li>While in bloodlust, you deal double damage, always use basic, half-action attacks, and must attack whatever character (friendly or foe) is closest to you. If no one is in range, your turn is spent closing distance. You cannot use reactions while bloodlusted</li><li>While bloodlusted you ignore all attempts at charm and brainwashing (magical or otherwise), and cannot be persuaded or intimidated.</li></ul>",
+      "effect": "<ul><li>While in combat, at the start of your turn if you are not in bloodlust, roll a d20. If you roll a 19 or higher, you are in bloodlust.</li><li>While in bloodlust, you deal double damage, always use basic, Double Action attacks, and must attack whatever character (friendly or foe) is closest to you. If no one is in range, your turn is spent closing distance. You cannot use reactions while bloodlusted</li><li>While bloodlusted you ignore all attempts at charm and brainwashing (magical or otherwise), and cannot be persuaded or intimidated.</li></ul>",
       "duration": "3 turns"
     }
   ]

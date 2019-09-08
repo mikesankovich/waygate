@@ -31,6 +31,10 @@ import { ItemListsComponent } from "./chapter3/item-lists/item-lists.component";
 // Chapter 4
 import { PlayingTheGameComponent } from './chapter4/playing-the-game/playing-the-game.component';
 
+// Chapter 5
+import { EnteringCombatComponent } from './chapter5/entering-combat/entering-combat.component';
+import { TakingActionComponent } from './chapter5/taking-action/taking-action.component';
+
 const routes: Routes = [
   {
     path: '', component: TitleComponent
@@ -58,6 +62,8 @@ const routes: Routes = [
       { path: 'items/weapon-charts', component: WeaponChartsComponent, data: { chapter: 'chapter3' } },
       { path: 'items/item-lists', component: ItemListsComponent, data: { chapter: 'chapter3' } },
       { path: 'playing-the-game', component: PlayingTheGameComponent, data: { chapter: 'chapter4' } },
+      { path: 'combat/entering-combat', component: EnteringCombatComponent, data: { chapter: 'chapter5' } },
+      { path: 'combat/taking-action', component: TakingActionComponent, data: { chapter: 'chapter5' } },
     ]
   },
   // { path: 'crisis-center', component: CrisisListComponent },

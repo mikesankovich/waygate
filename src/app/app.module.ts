@@ -39,6 +39,8 @@ import { ItemChartComponent } from './chapter3/item-lists/item-chart/item-chart.
 // Pipes
 import { SafeHtmlPipe } from './pipes/safe-html.pipe';
 import { PlayingTheGameComponent } from './chapter4/playing-the-game/playing-the-game.component';
+import { EnteringCombatComponent } from './chapter5/entering-combat/entering-combat.component';
+import { TakingActionComponent } from './chapter5/taking-action/taking-action.component';
 
 
 @NgModule({
@@ -74,6 +76,8 @@ import { PlayingTheGameComponent } from './chapter4/playing-the-game/playing-the
     ItemListsComponent,
     ItemChartComponent,
     PlayingTheGameComponent,
+    EnteringCombatComponent,
+    TakingActionComponent,
   ],
   imports: [
     BrowserModule,
