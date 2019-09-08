@@ -46,5 +46,44 @@
         "Without proficiency, attacks with an Advanced Weapon grant a -4 to hit."
       ]}
     ]
+  },
+  "responding": {
+    "header": "Responding to Attacks",
+    "intro": [
+      "When a successful attack is made against you, if you are aware of the attack, there are a few actions you can take. You may only make one of these actions once per round, regardless of success. Each of these are done after a successful hit check, but before damage. If you have the <b>Grace and Finesse</b> skill, you can use two of these actions a round (cannot use same reaction twice in one round).",
+      "Actions that stop, dodge, or redirect attacks that were critical on their hit tests only succeed if the reaction is critical as well."
+    ],
+    "content": [
+      { "name": "Dodge", "sub": [
+        "Must have the <b>Dodge</b> skill",
+        "You may roll a dexterity roll (1d20 + dexterity). If the value is above your opponent’s hit test, you dodge."
+      ]},
+      { "name": "Parry", "sub": [
+        "Must have the <b>Parry</b> skill",
+        "Only works against Melee attacks",
+        "Cannot <b>Parry</b> in the same round as you <b>Riposte</b>",
+        "You may roll a dexterity roll (1d20 + dexterity). If the value is above your opponent’s hit test, you parry that attack."
+      ]},
+      { "name": "Riposte", "sub": [
+        "Must have the <b>Riposte</b> skill",
+        "Only works against Melee attacks",
+        "Cannot <b>Riposte</b> in the same round as you <b>Dodge</b>",
+        "You may roll a dexterity roll (1d20 + dexterity). If the value is above your opponent’s hit test, you parry that attack.",
+        "If you successfully stopped the attack and did not drop your weapon, deal weapon damage without modifiers."
+      ]},
+      { "name": "Counterspell", "sub": [
+        "Must have the <b>Counterspell</b> skill",
+        "Only works against magic attacks",
+        "Cannot <b>Counterspell</b> in the same round as you <b>Rebound Spell</b>",
+        "You may roll a magic roll (1d20 + magic). If the value is above your opponent’s hit test, you counter that attack."
+      ]},
+      { "name": "Rebound Spell", "sub": [
+        "Must have the <b>Rebound Spell</b> skill",
+        "Only works against Magic attacks",
+        "Cannot <b>Rebound Spell</b> in the same round as you <b>Counterspell</b>",
+        "You may roll a magic roll (1d20 + magic). If the value is above your opponent’s hit test, you counter that attack.",
+        "If you are successful, deal 1d6 magic damage of the same type as the spell being used against you (if no type, just roll as 1d6 damage)."
+      ]}
+    ]
   }
 }

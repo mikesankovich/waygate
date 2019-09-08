@@ -26,4 +26,16 @@
       </ul>
     </div>
   </div>
+  <div class="section">
+    <h3>{{contents.responding.header}}</h3>
+    <div *ngFor="let intro of contents.responding.intro">
+      <p [innerHTML]="intro"></p>
+    </div>
+    <div class="steps" *ngFor="let info of contents.responding.content">
+      <span class="bold">{{info.name}}: </span>
+      <ul *ngIf="info.sub && info.sub.length">
+        <li *ngFor="let item of info.sub" [innerHTML]="item"></li>
+      </ul>
+    </div>
+  </div>
 </div>
