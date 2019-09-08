@@ -46,6 +46,16 @@
             <td>{{row.requirements}}</td>
           </tr>
         </tbody>
+        <tbody *ngIf="content.identifier === 'items'">
+          <tr *ngFor="let row of content.body">
+            <td>{{row.item}}</td>
+            <td>{{row.price}}</td>
+            <td>{{row.rarity}}</td>
+            <td>{{row.use}}</td>
+            <td>{{row.description}}</td>
+            <td>{{row.notes}}</td>
+          </tr>
+        </tbody>
       </table>
     </div>
   </div>
