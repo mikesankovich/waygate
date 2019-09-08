@@ -14,16 +14,15 @@
     "Your Earth money will have no value beyond the Waygate, Luckily, your sponsor has seen fit to provide you with some funds to get you started on your journey.",
     "The GM must roll a d100. All players start with 50 gold + the value of that roll (00 = 100)."
   ],
-  "voidMarkIntro": "Void Mark",
-  "voidMark": [
-    { "content": "All characters start with 1 Void Mark. This allows you to reroll any one failed test. The reroll is final."},
-    { "content": "Void Marks can be earned through acts of amazing, unprecedented skill."},
-    { "content": "You can only have 1 void mark at a time."},
-    { "content": "A void mark cannot be used to reroll a critical failure."},
-    { "content": "A character can use a void mark to save themselves from death once for the entire game. Doing so has the following effects.", "sub": [
+  "aetherMarkIntro": "Aether Marks",
+  "aetherMark": [
+    { "content": "All characters start with 1 Aether Mark."},
+    { "content": "Aether Marks can be earned through acts of amazing, unprecedented skill."},
+    { "content": "You can only have 1 Aether mark at a time."},
+    { "content": "A character can use a Aether mark to save themselves from death once for the entire game. Doing so has the following effects.", "sub": [
       "Reduce 2 stats, chosen at random, by 1. If this moves you below the prerequisites for any skills, those are no longer useable until your stats are raised above the needed level.",
       "Remove 2 skills from your list. If the skill is trainable, you go down one level of proficiency for that skill.",
-      "You are touched by the void. Roll for an additional Fate of the Waygate effect and add it to your character sheet."
+      "You are touched by the Aether. Roll for an additional Fate of the Waygate effect and add it to your character sheet."
     ]}
   ],
   "equipmentIntro": "Equipment",
@@ -73,7 +72,7 @@
   "experienceIntro": "Experience Points",
   "experience": [
     { "content": "50 per hour of play (everyone)." },
-    { "content": "bonus 50 if you still have your Void Mark at the end of the session." },
+    { "content": "bonus 50 if you still have your Aether Mark at the end of the session." },
     { "content": "bonus 20-100 for heavy action or tricky puzzle that is won/solved (everyone)." },
     { "content": "bonus 50 for impressive feats of knowledge, magic, or physical prowess. (individual)." },
     { "content": "Bonus 50 for impressive gameplay and immersion (individual)." }

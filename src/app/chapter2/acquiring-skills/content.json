@@ -11,7 +11,7 @@
       "Performing mighty deeds that warrant a reward",
       "Observation/study/someone teaching you",
       "Practice",
-      "Void Influence"
+      "Aether Influence"
     ],
     "post": "Apart from Leveling Up, the awarding of Skill points is completely up to the GM’s discretion. Points earned in any way except for Leveling Up, must be used immediately."
   },
@@ -37,9 +37,9 @@
       ]
     },
     {
-      "name": "Void Influence",
+      "name": "Aether Influence",
       "info": [
-        "The Void is a powerful, mysterious force. It's writhing, everflowing energies have the power to warp the very essence of living beings. Though most often direct exposure to the Void leads one to misfortune, it has, on occassion, granted someone access to powers they did not hold before.",
+        "The Aether is a powerful, mysterious force. It's writhing, everflowing energies have the power to warp the very essence of living beings. Though most often direct exposure to the Aether leads one to misfortune, it has, on occassion, granted someone access to powers they did not hold before.",
         "This is a very rare occurrence."
       ]
     },

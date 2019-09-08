@@ -17,12 +17,12 @@
           <li *ngFor="let step of contents.currency">{{step}}</li>
         </ul>
       </div>
-      <div class="void-mark">
-        <div class="void-mark-intro">
-          <b>{{contents.voidMarkIntro}}</b>
+      <div class="aether-mark">
+        <div class="aether-mark-intro">
+          <b>{{contents.aetherMarkIntro}}</b>
         </div>
         <ul>
-          <li *ngFor="let step of contents.voidMark">
+          <li *ngFor="let step of contents.aetherMark">
             {{step.content}}
             <ul *ngIf="step.sub && step.sub.length">
               <li *ngFor="let sub of step.sub">{{sub}}</li>

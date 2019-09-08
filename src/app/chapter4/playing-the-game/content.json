@@ -1,7 +1,7 @@
 {
   "title": "Chapter 4: Playing the Game",
   "quote": {
-    "quote": "You never know what's going to happen. Maybe your arrow will catch the void being in the neck. Maybe it will phase through the thing, leaving you open to attack. Best to be prepared..... and always remember to keep a magic user around.",
+    "quote": "You never know what's going to happen. Maybe your arrow will catch the Aether being in the neck. Maybe it will phase through the thing, leaving you open to attack. Best to be prepared..... and always remember to keep a magic user around.",
     "author": "Sae Sakamoto, Exchange Student"
   },
   "intro": "Although you have been given a mission beyond the Waygate, you can only guess at what greater schemes lie in wait. Now that your character has been created, this chapter will go through the different sorts of things that your character can do throughout your task.",
@@ -9,7 +9,7 @@
     "header": "Tests",
     "intro": [
       "Tests work on a pass/fail system determined by the rolls of dice. The general idea is that if your dice roll passes a given threshold for a task, your character successfully takes action. If the dice roll is below the threshold, the action fails. What the threshold is, however, varies depending on the action you wish to perform.",
-      "When it comes to <b>Tests</b> some actions have their own unique formula. Other times, they simply need to roll a d20 + an attribute and check that against a difficulty rating or <b>Threshold</b>. This following chart will help give an idea of what a given task’s threshold would be. (Modifiers in this case might mean distractions, or booby trapped, or anything that would change the value positively or negatively)."
+      "When it comes to <b>Tests</b> some actions have their own unique formula. Other times, they simply need to roll a d20 + an attribute and check that against a difficulty rating or threshold. This following chart will help give an idea of what a given task’s threshold would be. (Modifiers in this case might mean distractions, or booby trapped, or anything that would change the value positively or negatively)."
     ],
     "difficultyChart": {
       "intro": "Here is an example chart for the values needed to succeed at tasks of various difficulties.",
@@ -32,7 +32,7 @@
     "header": "Skill Tests",
     "intro": "Given the breadth of skills available to all characters, there is no hard and fast formula for determining the success of all skills. However, unless otherwise stated, skills typically fall under the category of <b>Attribute Tests.</b>",
     "example": {
-      "intro": "<b>Example</b>: if you are using your literacy skill to analyze a long, convoluted message, you would roll an Intelligence check against the message. If the Message has a threshold of 14, your dice roll plus modifiers must meet or exceed that value for your character to successfully read the message.",
+      "intro": "<b>Example</b>: if you are using your literacy skill to analyze a long, convoluted message, you would roll an Intelligence check against the message. If the Message has been given a threshold of 14, your dice roll plus modifiers must meet or exceed that value for your character to successfully read the message.",
       "sub": "<ul><li>Aryk tries to read a complicated text (needed value 15). He has an intelligence of 4 and is skilled in literacy (+2). He rolls a d20 and gets a 9. His final result is 9 + 4 (int) + 2 (training) = 15, which matches or exceeds the needed value, so he succeeds.</li></ul>",
       "post": "Some skills, however, list more than one attribute. In this case, the use of each attribute may be situational. For example, <b>climb</b> uses both dexterity and strength. If you are attempting to climb a sheer cliff face, you may be asked to make a climb test with strength. But if you are attempting to climb a structure with strange footholds and outcroppings, you may be asked to use dexterity instead. Modifiers should therefore be applied appropriately."
     },
@@ -61,7 +61,7 @@
       ]},
       { "type": "Magical", "sub": [
         "1d20 + magic + modifiers",
-        "If your test is half of the threshold (rounded down), or if you roll a natural 1, it causes Magical Mayhem"
+        "If your test is half of the Mystic Test (rounded down), or if you roll a natural 1, it causes Magical Mayhem"
       ]}
     ],
     "postContent": "If the resulting value of these tests is greater than the target’s armor rating, the hit is successful. For information on modifiers, see <b>Chapter 5: Combat</b>."
@@ -94,14 +94,14 @@
       "Elizabeth is dropped below 0 health during combat. None of her allies are able to heal her above 0 within 3 rounds, and thus she dies.",
       "Mac eats some poisoned food and drops below 0 health. His allies are unable to heal him and they cannot find a doctor in time. An hour passes, and he dies."
     ],
-    "post": "When a character dies, there are a few ways to bring them back. The most accessible is with <b>Void Marks</b> which will be discussed later in this chapter. If a character dies and is unable to be resurrected in time, they are permanently dead, and the player should be given the chance to create a new character at one level lower than the level at which the dead character was (can't go below level 1)"
+    "post": "When a character dies, there are a few ways to bring them back. The most accessible is with <b>Aether Marks</b> which will be discussed later in this chapter. If a character dies and is unable to be resurrected in time, they are permanently dead, and the player should be given the chance to create a new character at one level lower than the level at which the dead character was (can't go below level 1)"
   },
-  "voidMarks": {
-    "header": "Void Marks",
+  "aetherMarks": {
+    "header": "Aether Marks",
     "content": [
-      "Sometimes your luck just runs out. Maybe you forgot to use a medpac after a fight. Maybe you tried to bite off more than you can chew. Luckily, the twisting nether of the Waygate have provided you with a Void Mark. This single-use tool will allow you to reroll any one Test. Can be used in or out of combat, and the resulting roll is final.",
-      "It is one of the rarest things for anyone to earn extra Void Mark. At any point in time, you can only have one, and the feats required to earn another one after use remain unknown, so make sure to choose your battles wisely. The awarding of a Void Mark is up to the DM's discretion and should not be done lightly.",
-      "A Void Mark can also be used to bring someone back from death, with a penalty. For more information, refer to the section for Void Mark in <b>Chapter 1</b>."
+      "Sometimes your luck just runs out. Maybe you forgot to use a medpac after a fight. Maybe you tried to bite off more than you can chew. Luckily, the twisting nether of the Waygate have provided you with an Aether Mark. This single-use tool will allow you to reroll any one Test. Can be used in or out of combat, and the resulting roll is final.",
+      "It is one of the rarest things for anyone to earn extra Aether Mark. At any point in time, you can only have one, and the feats required to earn another one after use remain unknown, so make sure to choose your battles wisely. The awarding of an Aether Mark is up to the DM's discretion and should not be done lightly.",
+      "An Aether Mark can also be used to bring someone back from death, with a penalty. For more information, refer to the section for Aether Mark in <b>Chapter 1</b>."
     ]
   },
   "firingModes": {

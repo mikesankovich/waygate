@@ -51,13 +51,13 @@
   </div>
 
   <div class="fateTable">
-    <h4>{{contents.voidContaminationTable.name}}</h4>
+    <h4>{{contents.aetherContaminationTable.name}}</h4>
     <table class="table table-striped table-bordered">
       <thead>
-        <th *ngFor="let header of contents.voidContaminationTable.headers">{{header}}</th>
+        <th *ngFor="let header of contents.aetherContaminationTable.headers">{{header}}</th>
       </thead>
       <tbody>
-        <tr *ngFor="let row of contents.voidContaminationTable.rows">
+        <tr *ngFor="let row of contents.aetherContaminationTable.rows">
           <td class="no-wrap">{{row.roll}}</td>
           <td>{{row.effect}}</td>
           <td>{{row.notes}}</td>

@@ -13,7 +13,7 @@
       "range": "Self",
       "effect": "Temporarily adjust your attributes for the remainder of the encounter. Can only be used once (successfully) per day. Transfer up to 3 attribute points from any attributes onto other attributes, until end of encounter. No attribute may go above 7 or below 0 as a result of this.",
       "duration": "2 minutes",
-      "threshold": "13 <b>(Magic)</b>",
+      "mysticTest": "13 <b>(Magic)</b>",
       "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 2</li></ul>"
     },
     {
@@ -29,12 +29,12 @@
       "range": "Self",
       "effect": "Form an unmovable barrier in front of the caster that protects all of those behind it from all attacks. Barrier blocks line of sight for ranged attacks and abilities if it is between two characters. Attacks cannot penetrate the barrier. Barrier absorbs 1d20 + magic damage before disappearing.",
       "duration": "3 rounds or until destroyed",
-      "threshold": "14 <b>(magic)</b>",
+      "mysticTest": "14 <b>(magic)</b>",
       "prerequisites": "<ul></li>Magical Affinity</li></ul>"
     },
     {
       "name": "Blind Faith (MS) – (Permanent)",
-      "description": "Intense devotion to the webs of magical laws have shown you the truth of the world. By cutting out your eyes, you have been given sight into the void from which all life and magic flows, granting a huge bonus to all magical tests, but a huge penalty to all sight-based actions. No means are available to reverse this effect.",
+      "description": "Intense devotion to the webs of magical laws have shown you the truth of the world. By cutting out your eyes, you have been given sight into the Aether from which all life and magic flows, granting a huge bonus to all magical tests, but a huge penalty to all sight-based actions. No means are available to reverse this effect.",
       "effect": "<ul><li>+7 to all magical bonuses, including damage, that don’t involve sight</li><li>+5 to all awareness tests, not pertaining to sight.</li><li>-7 to all sight based actions (including attacks).</li><li>Any being with Magic greater than 4 or currently being affected by magic or carrying recent traces of the Waygate are able to be perceived as shining blue auras, and you do not suffer the -7 penalty on sight-based actions against them.</li><li>Gain the ability to immediately perceive the true form of all magical beings and to identify the magical nature of any being or object, through even powerful disguises. Any passing awareness test will reveal all such information.</li><li>Any attempt to restore sight or to utilize tech or magic to grant sight instantly fails.</li></ul>",
       "prerequisites": "<ul><li>Willpower 5</li><li>Magic 5</li><li>Magical Affinity</li><li>Magical Aptitude</li></ul>"
     },
@@ -61,9 +61,9 @@
       "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 3</li></ul>"
     },
     {
-      "name": "Channel Void (FS) – Full Action",
-      "description": "Proximity to the void has opened your mind to the possibilities therein, without the need of magic.",
-      "effect": "You get a +2 to hit tests against all void beings and reduce all damage dealt to you by magical attacks and effects by 2 (can’t go below zero).",
+      "name": "Channel Aether (FS) – Full Action",
+      "description": "Proximity to the Aether has opened your mind to the possibilities therein, without the need of magic.",
+      "effect": "You get a +2 to hit tests against all Aether Beings and reduce all damage dealt to you by magical attacks and effects by 2 (can’t go below zero).",
       "prerequisites": "<ul><li>Level 2</li></ul>",
       "duration": "1 minute"
     },
@@ -233,7 +233,7 @@
     {
       "name": "Gain Resistance (KS)",
       "description": "You become more resistant to the dangers of the world.",
-      "effect": "Permanently gain a resistance to one of the following damage types. (can be purchased multiple times) <ul><li>Fire</li><li>Ice</li><li>Electrical</li><li>Void</li></ul>",
+      "effect": "Permanently gain a resistance to one of the following damage types. (can be purchased multiple times) <ul><li>Fire</li><li>Ice</li><li>Electrical</li><li>Aether</li></ul>",
       "prerequisites": "<ul><li>VIT 2</li></ul>"
     },
     {
@@ -252,18 +252,18 @@
     {
       "name": "Gravity Well (MS) – Full Action",
       "description": "Creates a gravity well that slows all enemies in the targetted area.",
-      "effect": "<ul><li>Targets a 9 x 9 area centered around the caster.</li><li>While in the area: halves all movement speeds (rounded down) for all enemies. Standing up is a full action. All enemies in the area must make an opposed Vitality Test against your threshold role. If they fail, they fall to the ground.</li><li>Ranged weapons fired into or from the targeted area take a -4 to hit tests.</li></ul>",
+      "effect": "<ul><li>Targets a 9 x 9 area centered around the caster.</li><li>While in the area: halves all movement speeds (rounded down) for all enemies. Standing up is a full action. All enemies in the area must make an opposed Vitality Test against your Mystic Test role. If they fail, they fall to the ground.</li><li>Ranged weapons fired into or from the targeted area take a -4 to hit tests.</li></ul>",
       "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 5</li></ul>",
       "range": "Self",
-      "threshold": "18 (magic)",
-      "duration": "Must reroll threshold as a half action every turn to sustain the spell’s effects. Cannot move while sustaining the spell. Falling unconscious ends the spell"
+      "mysticTest": "18 (magic)",
+      "duration": "Must reroll Mystic Test as a half action every turn to sustain the spell’s effects. Cannot move while sustaining the spell. Falling unconscious ends the spell"
     },
     {
       "name": "Greater Heal (MS) – Full Action",
       "description": "Heal wounds with high effectiveness.",
       "effect": "<ul><li>Heal your target for 1d8 + magic. Healing is effective on dying targets, and if brought above 0, they are no longer dying, but are rendered unconscious, unless your d10 roll was greater than 7. Can only be used (successfully or not) on a target once per day.</li><li>Using it on a target twice within an hour will cause the spell to fail and will still take up a full action.</li></ul>",
       "range": "30 feet.",
-      "threshold": "11",
+      "mysticTest": "11",
       "prerequisites": "<ul><li>Magical Affinity</li><li>Minor Heal</li><li>Magic 3</li></ul>"
     },
     {
@@ -293,7 +293,7 @@
       "description": "Imbue a set of armor with magic, granting extra protections against magical attacks.",
       "range": "touch",
       "effect": "<ul><li>Lace a set of clothing or armor with magic. The wearer gets +2 armor against magical hit tests. Armor is treated as magical for the duration of this effect.</li><li>Only one character’s armor can be imbued at a time by the caster. Spell lasts for 1 hour (in game), or until caster is knocked out, killed, or removes the spell.</li></ul>",
-      "threshold": "12 (magic)",
+      "mysticTest": "12 (magic)",
       "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 2</li></ul>"
     },
     {
@@ -305,7 +305,7 @@
     {
       "name": "Inflict Pain (MS) – Full Action",
       "description": "Wrack your target with severe pain",
-      "effect": "Roll an opposing test. If your magic test is greater than your target’s willpower test, deal 1d8 void damage and inflict severe, indescribable pain to your target. This causes them to fall to the floor, if standing.",
+      "effect": "Roll an opposing test. If your magic test is greater than your target’s willpower test, deal 1d8 Aether damage and inflict severe, indescribable pain to your target. This causes them to fall to the floor, if standing.",
       "prerequisites": "<ul><li>Magical affinity</li></ul>",
       "range": "touch"
     },
@@ -327,7 +327,7 @@
       "description": "Use magic to steady your aim and fire with greater accuracy",
       "effect": "for 3 rounds +2 to hit for attacks made with ranged weapons.",
       "range": "self",
-      "threshold": "12 (magic)",
+      "mysticTest": "12 (magic)",
       "prerequisites": "<ul><li>Magical Affinity</li><li>Ranged Combat</li></ul>"
     },
     {
@@ -337,14 +337,14 @@
     },
     {
       "name": "Learn Language (KS)",
-      "effect": "Learn another language. Cannot learn Void Speak in this way.",
+      "effect": "Learn another language. Cannot learn Aether Speak in this way.",
       "prerequisites": "<ul><li>Int 2</li></ul>"
     },
     {
       "name": "Leech (MS) – Half Action",
       "description": "Use magic to draw the life force out of a target, healing you in the process.",
       "range": "25 feet",
-      "effect": "Roll an opposed <b>Magic</b> test against target <b>Willpower</b>. On Success deal 1d6 void damage and heal yourself for half damage dealt (rounded down) after all calculations.",
+      "effect": "Roll an opposed <b>Magic</b> test against target <b>Willpower</b>. On Success deal 1d6 Aether damage and heal yourself for half damage dealt (rounded down) after all calculations.",
       "prerequisites": "<ul><li>Magical affinity</li></ul>"
     },
     {
@@ -352,7 +352,7 @@
       "description": "Heal even the deadliest of wounds.",
       "range": "30 feet.",
       "effect": "Heal your target for 3d6 + magic. Healing is effective on dying targets, and if brought above 0, they are no longer dying, but are rendered unconscious, unless the amount healed exceeded 14. Can only be used successfully on a target once per day. Using it on a target twice within a day will cause the spell to fail, and will still take up a full action. Can be used on a dead character if they died within one round of combat from your current turn. They survive if their health is brought above 0, but are rendered unconscious, no matter the amount healed. Characters can only be resurrected this way once, regardless of the caster.",
-      "threshold": "18 (magic)",
+      "mysticTest": "18 (magic)",
       "prerequisites": "<ul><li>Magical Aptitude</li><li>Greater Heal</li><li>Magic 5</li>"
     },
     {
@@ -382,7 +382,7 @@
     },
     {
       "name": "Magical Affinity (KS)",
-      "description": "An understanding of magic and magical laws has opened your potential to warp the magics of the void to your will.",
+      "description": "An understanding of magic and magical laws has opened your potential to warp the magics of the Aether to your will.",
       "effect": "Allows the user the ability to learn and use magic, granting access to magical feats.",
       "prerequisites": "<ul><li>Level 2</li><li>INT 1</li><li>Magic 0</li><li>Usually has to be learned through story or with GM approval</li></ul>"
     },
@@ -408,7 +408,7 @@
       "description": "Mends broken bones and heals target",
       "range": "touch",
       "effect": "Heals target for 1d4 + magic damage. Sets any broken bones target has. Can only be used on a target once a session. Does not work on dying targets",
-      "threshold": 6,
+      "mysticTest": 6,
       "prerequisites": "<ul><li>Magical Affinity</li></ul>"
     },
     {
@@ -421,7 +421,7 @@
       "description": "Heal minor wounds.",
       "range": "25 feet",
       "effect": "Heal your target for 1d6 + Magic. Healing is effective on dying targets, and if brought above 0, they are no longer dying, but are rendered unconscious. Can only be used on a target once per day. If a player is targeted twice, the spell will fail, without healing, and the full action is still used.",
-      "Threshold": "8",
+      "mysticTest": "8",
       "prerequisites": "<ul><li>Magical Affinity</li></ul>"
     },
     {
@@ -521,7 +521,7 @@
       "name": "Resist Magic (FS) – full action",
       "description": "Your knowledge of the magical arts has taught you to better resist magic used against you.",
       "effect": "You gain an additional resistance to magic, allowing you to reduce or shrug off magical effects until end of combat. Adds a -2 penalty to Hit Tests (magical) done against you by enemies, and magical damage done to you is reduced by 2",
-      "threshold": "15 (Willpower)",
+      "mysticTest": "15 (Willpower)",
       "prerequisites": "<ul><li>WP 2</li><li>VIT 2</li></ul>",
       "duration": "10 minutes"
     },
@@ -542,14 +542,14 @@
       "description": "Heal minor wounds and stop bleeding.",
       "effect": "Heal your target for 1d6 and remove all damage effects (eg. Bleeding, burn) and ailments (eg. Shocked, frozen) from them. Healing is effective on dying targets, and if brought above 0, they are no longer dying, but are rendered unconscious. Can only be used on a target once per day.",
       "range": "25 feet",
-      "threshold": "7",
+      "mysticTest": "7",
       "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 3</li><li>Mend</li></ul>"
     },
     {
       "name": "Sever the Ties that Bind (MS) – Full Action",
-      "description": "rip a hole in the fabric of the world, allowing the void to seep through.",
+      "description": "rip a hole in the fabric of the world, allowing the Aether to seep through.",
       "effect": "Roll 1d100 and cause Magical Mayhem with that value.",
-      "threshold": "21",
+      "mysticTest": "21",
       "prerequisites": "<ul><li>Magical Aptitude</li><li>Level 6</li></ul>"
     },
     {
@@ -566,7 +566,7 @@
     },
     {
       "name": "Slip Into Shadows (FS) – Full Action",
-      "description": "You have learned to use the subtleties of the void to slip out of notice of an aware enemy.",
+      "description": "You have learned to use the subtleties of the Aether to slip out of notice of an aware enemy.",
       "effect": "Roll an opposed dexterity test at -2 against all aware characters' (NPCs and Player characters) awareness test. Those you succeed against no longer sense your presence. If you slip out of presence of all enemies currently engaged with you in combat, you disengage. Effect breaks after your next turn",
       "prerequisites": "<ul><li>Stealth at skilled or master level</li><li>DEX 4</li></ul>"
     },
@@ -585,9 +585,9 @@
     },
     {
       "name": "Stun (magic) – Full Action",
-      "description": "A jolt of magic (void) stuns your target.",
+      "description": "A jolt of magic (Aether) stuns your target.",
       "range": "touch",
-      "threshold": "14 (magic)",
+      "mysticTest": "14 (magic)",
       "effect": "Target is immobilized and unable to make any actions for 3 rounds, or until the effect is removed, or until they take damage. Attacks made against the target while immobilized get a +2 to hit. As a full action on their turn, the target may make a willpower test. If the result is higher than 13, the effect is lifted.",
       "prerequisites": "<ul><li>Magical Affinity</li></ul>"
     },
@@ -601,10 +601,10 @@
     },
     {
       "name": "Sooth (magic)",
-      "description": "channel the energies of the void into a target, soothing them.",
+      "description": "channel the energies of the Aether into a target, soothing them.",
       "effect": "an angry or enraged target is calmed down. This removes any effects of extreme hatred or rage currently in place.",
       "range": "touch",
-      "threshold": "12 (magic)",
+      "mysticTest": "12 (magic)",
       "prerequisites": "<ul><li>Magical Affinity</li></ul>"
     },
     {
@@ -661,41 +661,41 @@
       "prerequisites": "<ul><li>Level 3</li></ul>"
     },
     {
-      "name": "Void Blast (MS) – Half Action",
-      "description": "Hit an enemy with a blast of void energy.",
+      "name": "Aether Blast (MS) – Half Action",
+      "description": "Hit an enemy with a blast of Aether energy.",
       "range": "25 feet.",
-      "effect": "deals 1d8 void damage. Unless target’s armor has anti-magic properties, each armor piece only grants half of its armor (rounded up) to the target’s armor rating for this attack.",
+      "effect": "deals 1d8 Aether damage. Unless target’s armor has anti-magic properties, each armor piece only grants half of its armor (rounded up) to the target’s armor rating for this attack.",
       "prerequisites": "<ul><li>Magical affinity</li></ul>"
     },
     {
-      "name": "Void Blade (MS) – Full Action",
+      "name": "Aether Blade (MS) – Full Action",
       "description": "Create a weightless one-handed sword of telekinetic energy.",
-      "effect": "<ul><li>The Void Blade persists until it is dismissed (free action). Can be dual wielded with other weapons, but only one void blade can be active for a caster at a time. Letting go of the blade for any reason will cause it to disappear. Doing so intentionally is a free action. Attacks made with the blade use Hit Test (melee).</li><li><b>Weapon details: </b><ul><li>Damage: 1d10 + magic damage (damage is void damage)</li><li>Critical range: 19-20</li><li>Weight: 1 lbs.</li><li><b>Special Ability: </b>Unless target’s armor has anti-magic properties, each armor piece only grants half of its armor (rounded up) to the target’s armor rating. Cannot be parried, riposted, or blocked with non-magic weapons. Cannot be used to parry or riposte non-magic weapons.</li>",
-      "threshold": "14 (magic)",
+      "effect": "<ul><li>The Aether Blade persists until it is dismissed (free action). Can be dual wielded with other weapons, but only one Aether blade can be active for a caster at a time. Letting go of the blade for any reason will cause it to disappear. Doing so intentionally is a free action. Attacks made with the blade use Hit Test (melee).</li><li><b>Weapon details: </b><ul><li>Damage: 1d10 + magic damage (damage is Aether damage)</li><li>Critical range: 19-20</li><li>Weight: 1 lbs.</li><li><b>Special Ability: </b>Unless target’s armor has anti-magic properties, each armor piece only grants half of its armor (rounded up) to the target’s armor rating. Cannot be parried, riposted, or blocked with non-magic weapons. Cannot be used to parry or riposte non-magic weapons.</li>",
+      "mysticTest": "14 (magic)",
       "prerequisites": "<ul><li>Magical affinity</li><li>Melee Combat</li><li>Magic 2</li></ul>"
     },
     {
-      "name": "Void Bomb (MS) – (Full Action – Extended)",
+      "name": "Aether Bomb (MS) – (Full Action – Extended)",
       "description": "Character charges up for a magic bomb that decimates the area surrounding the caster.",
-      "effect": "<ul><li>If threshold passes, take a full action to charge up the attack. While charging, Hit Tests made against you get a +2 modifier. On the following turn, as a Full Action, you unleash the magical bomb, decimating absolutely everything in the 15x15 area surrounding the caster, completely ignoring cover (magical and physical) and line of sight issues. All characters (including caster) in area of effect roll a Willpower Attribute Test. If they get below 18, they take 3d12 +  Mag damage (Void). This damage cannot be prevented or rebounded (but it can be reduced). This spell cannot be countered or rebounded.</li></ul>",
-      "threshold": "23 (magic)",
+      "effect": "<ul><li>If Mystic Test passes, take a full action to charge up the attack. While charging, Hit Tests made against you get a +2 modifier. On the following turn, as a Full Action, you unleash the magical bomb, decimating absolutely everything in the 15x15 area surrounding the caster, completely ignoring cover (magical and physical) and line of sight issues. All characters (including caster) in area of effect roll a Willpower Attribute Test. If they get below 18, they take 3d12 +  Mag damage (Aether). This damage cannot be prevented or rebounded (but it can be reduced). This spell cannot be countered or rebounded.</li></ul>",
+      "mysticTest": "23 (magic)",
       "range": "self",
       "prerequisites": "<ul><li>Magical Aptitude</li></ul>"
     },
     {
-      "name": "Void Shield (MS) – Full Action",
+      "name": "Aether Shield (MS) – Full Action",
       "description": "Create a weightless shield of telekinetic energy. This shield can only block magical weapons, weapons imbued with magical power, or spells.",
       "effect": "<ul><li>Telekinetic Shield persists until it is dismissed (free action) or let go for any reason. Non-magic weapons and fists simply pass through the shield unharmed. Grants a -2 penalty to magical attacks made against you, or attacks against you made with a magical weapon</li></ul>",
-      "threshold": "14 (magic)",
+      "mysticTest": "14 (magic)",
       "prerequisites": "<ul><li>Magical affinity</li><li>Magic 2</li><li>Dual Wield Melee</li></ul>"
     },
     {
-      "name": "Void Speak (KS)",
-      "description": "Gain the ability to commune with the beings of this void. This includes both spoken and written language.",
+      "name": "Aether Speak (KS)",
+      "description": "Gain the ability to commune with the beings of the Aether. This includes both spoken and written language.",
       "prerequisites": "<ul><li>Int 3</li></ul>"
     },
     {
-      "name": "Void Wallet (MS)",
+      "name": "Aether Wallet (MS)",
       "description": "Keep items hidden within a small space between dimensions that only you can access.",
       "effect": "You are able to hide and retrieve items that, combined, weigh up to 25 x Magic pounds. Cannot be accessed in combat. Cannot hide living things."
     },

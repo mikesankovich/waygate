@@ -1,6 +1,6 @@
 {
   "title": "Special Skills List",
-  "intro": "Special skills are abilities that cannot be learned. They are gifts or curses that an individual receives, that provide amazing abilities, or terrible detriments. Players cannot choose these skills without the DMs approval. In general they are bestowed upon a character due to specific happenings in the story or due to the influence of the Void.",
+  "intro": "Special skills are abilities that cannot be learned. They are gifts or curses that an individual receives, that provide amazing abilities, or terrible detriments. Players cannot choose these skills without the DMs approval. In general they are bestowed upon a character due to specific happenings in the story or due to the influence of the Aether.",
   "skills": [
     {
       "name": "Absolute Recall",
@@ -19,12 +19,12 @@
     },
     {
       "name": "Symbiotic Essence",
-      "description": "Something latched onto you, something from within the void. You can’t see it, but it’s there, everpresent.",
+      "description": "Something latched onto you, something from within the Aether. You can’t see it, but it’s there, everpresent.",
       "effect": "+1 to willpower. You take 1d4 extra damage whenever you are hit by fire damage. Concussive damage dealt to you is reduced by 1d4 (damage dealt can't go below 0). You age at half the rate of a normal human."
     },
     {
       "name": "Bloodlust",
-      "description": "The thrill of battle sends you into an unstoppable rage marked by the void.",
+      "description": "The thrill of battle sends you into an unstoppable rage marked by the Aether.",
       "effect": "<ul><li>While in combat, at the start of your turn if you are not in bloodlust, roll a d20. If you roll a 19 or higher, you are in bloodlust.</li><li>While in bloodlust, you deal double damage, always use basic, half-action attacks, and must attack whatever character (friendly or foe) is closest to you. If no one is in range, your turn is spent closing distance. You cannot use reactions while bloodlusted</li><li>While bloodlusted you ignore all attempts at charm and brainwashing (magical or otherwise), and cannot be persuaded or intimidated.</li></ul>",
       "duration": "3 turns"
     }

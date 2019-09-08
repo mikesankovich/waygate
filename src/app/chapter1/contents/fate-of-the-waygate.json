@@ -8,7 +8,7 @@
     "intro": {
       "contents": [
         "When the characters finally step through the Waygate, they must undergo the Fate of the Waygate, during which the twisting nether of energies within the Waygate surge through the bodies of any who dares expose themselves. With energies of insurmountable dimensions taking their toll, some are blessed with new skills or perspectives while some are left with defects and abnormalities. But whether or not the Waygate gives you heightened wisdom or cursed abilities, none who pass through the dimensions leave entirely unchanged.",
-        "All characters must roll a d100 against the Fate of the Waygate chart. These effects cannot be prevented or reversed through any known means (Including with Void Marks)."
+        "All characters must roll a d100 against the Fate of the Waygate chart. These effects cannot be prevented or reversed through any known means (Including with Aether Marks)."
       ]
     }
   },
@@ -26,7 +26,7 @@
       { "roll": "88 - 92", "effect": "Ethereal Glow", "description": "Your body acquires a permanent glow through the Glow special skill", "notes": "Acquire the \"Glow\" special skill" },
       { "roll": "93 - 96", "effect": "Bloody Tears", "description": "Your eyes occasionally leak blood. It doesn’t hurt, but it is a terrible sight to behold. The whites of your eyes turn black permanently.", "effect": "Some may find this off-putting" },
       { "roll": "97 - 99", "effect": "Marked By The Fates", "description": "Your body is covered with black tattoo-like Lichtenberg scars and your eyes turn red." },
-      { "roll": "100", "effect": "Void Contamination", "description": "You undergo Void Contamination. You also learn Void Speak", "notes": "(See chart: Void Contamination)" }
+      { "roll": "100", "effect": "Aether Contamination", "description": "You undergo Aether Contamination. You also learn Aether Speak", "notes": "(See chart: Aether Contamination)" }
     ]
   },
   "minorAlterationsTable": {
@@ -41,8 +41,8 @@
       { "roll": "6", "effect": "Height. Roll a d6 for effect", "notes": "1=lose 9 inches, 2=lose 6 inches, 3=lose 3 inches, 4=grow 3 inches, 5=grow 6 inches, 6=grow 9 inches" }
     ]
   },
-  "voidContaminationTable": {
-    "name": "Void Contamination (1d100)",
+  "aetherContaminationTable": {
+    "name": "Aether Contamination (1d100)",
     "headers": [ "Roll", "Effect", "Notes"],
     "rows": [
       { "roll": "1 - 50", "effect": "Gain a minor physical alteration", "notes": "See chart: Major Alterations)" },
@@ -50,8 +50,8 @@
       { "roll": "61 - 80", "effect": "Temporary Transmogrification. You are transmogrified into a monstrous form for an hour.", "notes": "You look like a human, but your skin is a sickly green and looks like it is almost melting off. Your limbs grow/shrink to strange proportions. You can only speak in gargled gibberish." },
       { "roll": "81 - 86", "effect": "Sex Shift", "notes": "You are instantly transformed into the opposite sex. Your height, weight, and attractiveness level remain the same." },
       { "roll": "87 - 95", "effect": "Wracked with pain: You drop to your knees as the most terrible pain you’ve ever experienced fills your entire being. You cannot move for 30 seconds (5 turns), and all attacks against you get +2 to hit. " },
-      { "roll": "96 - 99", "effect": "Spared by the Fates", "notes": "You feel a quick rush of energy as the void flows through you, but nothing else happens." },
-      { "roll": "100", "effect": "Unspeakable Horror: You transform into an indescribable mess of body parts and flesh. You feel only pain and can’t communicate or move in any way. Strange appendages have started growing from your body.", "notes": "Your character is effectively dead." }
+      { "roll": "96 - 99", "effect": "Spared by the Fates", "notes": "You feel a quick rush of energy as the Aether flows through you, but nothing else happens." },
+      { "roll": "100", "effect": "Unspeakable Horror: You transform into an indescribable mess of body parts and flesh. You feel only pain and can’t communicate or move in any way. Strange appendages have started growing from your body.", "notes": "Your character is effectively dead. All players in the party can sacrifice an Aether Mark to reverse this effect." }
     ]
   }
 
