@@ -1,0 +1,50 @@
+{
+  "title": "Making Attacks",
+  "quote": {
+    "quote": "*Smack *smack *smack \".....Why won't you just die?\"",
+    "author": "Devin Devos, Venture Capitalist"
+  },
+  "content": [
+    { "name": "Step One", "intro": "Declare your target that's in range, your attack type, and make the appropriate <b>Hit Test</b>.", "sub": [
+      "If an enemy is within range and within line of sight, you can make an attack. Range information is located on the Weapons Chart in <b>Chapter 3</b>.",
+      "Choose a type of attack to make (see chart Attack Types at the end of this chapter) or use a skill.",
+      "Make a Hit Test (see <b>Chapter 4</b>). <ul><li>Remember to calculate all modifiers from the attack type, weapon proficiency, etc.</li></ul>"
+    ]},
+    { "name": "Step Two", "intro": "Opponent Reactions, if applicable." },
+    { "name": "Step Three", "intro": "Calculate and apply damage, if hit was successful" }
+  ],
+  "attackModifiers": {
+    "header": "Attack Modifiers",
+    "intro": "These are modifiers that incluence the likelihood of a successful <b>Hit Test</b>.",
+    "content": [
+      { "name": "Attack Type", "intro": "The type of attack you make will add bonuses or penalties to your hit test." },
+      { "name": "Distance", "intro": "Ranged weapons have a range specified on the Weapons Charts in Chapter 3. The range influences the points at which accuracy becomes hampered due to distance or opponent readiness. Distance adds a modifier to the Hit Test.", "sub": [
+          "Target within range: -0",
+          "Target within 5 feet if you are wielding a handgun: +2",
+          "Target within 5 feet if you are wielding a two handed ranged weapon: -4"
+      ]},
+      { "name": "Position", "intro": "The position of your target can influence the effectiveness of an attack.", "sub": [
+          "<b>Covered Target: </b> If your target is behind cover, but still within line of sight (ie. Made an attack this turn, or not fully covered), they take a -2 to hit.",
+          "<b>Flanking: </b> If a target is currently engaged in combat with an ally and you come at them from a different angle than the person they are engaged in combat with, you get a +2 bonus to your hit.",
+          "<b>Prone: </b> If an enemy is prone on the floor, gain a +2 bonus to your hit with melee weapons, and -2 to hit with ranged weapons.",
+          "<b>Out of Sight: </b> You must have line of sight to make an attack."
+      ]},
+      { "name": "Resistances", "intro": "Maybe their armor has some special properties. Maybe they have naturally thick skin, or an innate magical resistance. Maybe they’ve taken a potion or applied a spell that makes them harder to hit. For whatever reason, getting through and dealing damage is going to be that much harder." },
+      { "name": "Size", "intro": "How large a target is can make it much easier or harder to land a hit. While a giant size may grant bonuses to strength and vitality, it also leads to an easier target to hit. The following chart shows how size modifies hit tests made against them", "sub": [
+          "Giant: +6",
+          "Huge: +4",
+          "Large: +2",
+          "Medium (ie. human): 0",
+          "Small: -2",
+          "Tiny: -4",
+          "Flee: -6"
+      ]},
+      { "name": "Proficiency", "sub": [
+        "You are allowed to use any weapon at your disposal, but unless you are trained for that particular weapon, you take a penalty to your attacks (see Weapon Skills – Melee and Weapon Skills – Ranged skills in Chapter 2).",
+        "With proficiency, that weapon gets a -0 to hit.",
+        "Without proficiency, attacks with a Basic Weapon grant a -2 to hit.",
+        "Without proficiency, attacks with an Advanced Weapon grant a -4 to hit."
+      ]}
+    ]
+  }
+}

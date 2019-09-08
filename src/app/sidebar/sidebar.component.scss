@@ -1,14 +1,15 @@
 .sidebar {
   background-color: #eee;
-  height: 100%;
-  position: sticky;
+  height: calc(100vh - 116px);
   width: 328px;
   margin-left: 0;
   padding-left: 0;
+  position: sticky;
+  top: 116px;
   .content {
-    position: sticky;
-    top: 116px;
     list-style: none;
+    position: relative;
+    top: 36px;
   }
   .current {
     font-weight: 700;

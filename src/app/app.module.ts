@@ -41,6 +41,7 @@ import { SafeHtmlPipe } from './pipes/safe-html.pipe';
 import { PlayingTheGameComponent } from './chapter4/playing-the-game/playing-the-game.component';
 import { EnteringCombatComponent } from './chapter5/entering-combat/entering-combat.component';
 import { TakingActionComponent } from './chapter5/taking-action/taking-action.component';
+import { MakingAttacksComponent } from './chapter5/making-attacks/making-attacks.component';
 
 
 @NgModule({
@@ -78,6 +79,7 @@ import { TakingActionComponent } from './chapter5/taking-action/taking-action.co
     PlayingTheGameComponent,
     EnteringCombatComponent,
     TakingActionComponent,
+    MakingAttacksComponent,
   ],
   imports: [
     BrowserModule,

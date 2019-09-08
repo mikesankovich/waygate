@@ -1,0 +1,29 @@
+<div class="chapter-container">
+  <div id="step-one">
+    <div class="subheader">
+      <h2>{{contents.title}}</h2>
+      <app-quote [quote]="contents.quote"></app-quote>
+      <div class="section">
+        <div *ngFor="let con of contents.intro" [innerHTML]="con"></div>
+      </div>
+    </div>
+  </div>
+  <div class="example">
+    <div class="section" *ngFor="let content of contents.content">
+      <span class="bold">{{content.name}}: </span><span [innerHTML]="content.intro"></span>
+      <ul>
+        <li *ngFor="let info of content.sub" [innerHTML]="info"></li>
+      </ul>
+    </div>
+  </div>
+  <div class="section">
+    <h3>{{contents.attackModifiers.header}}</h3>
+    <p [innerHTML]="contents.attackModifiers.intro"></p>
+    <div class="steps" *ngFor="let info of contents.attackModifiers.content">
+      <span class="bold">{{info.name}}: </span><span>{{info.intro}}</span>
+      <ul *ngIf="info.sub && info.sub.length">
+        <li *ngFor="let item of info.sub" [innerHTML]="item"></li>
+      </ul>
+    </div>
+  </div>
+</div>

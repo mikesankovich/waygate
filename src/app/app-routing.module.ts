@@ -34,6 +34,7 @@ import { PlayingTheGameComponent } from './chapter4/playing-the-game/playing-the
 // Chapter 5
 import { EnteringCombatComponent } from './chapter5/entering-combat/entering-combat.component';
 import { TakingActionComponent } from './chapter5/taking-action/taking-action.component';
+import { MakingAttacksComponent } from './chapter5/making-attacks/making-attacks.component';
 
 const routes: Routes = [
   {
@@ -64,6 +65,7 @@ const routes: Routes = [
       { path: 'playing-the-game', component: PlayingTheGameComponent, data: { chapter: 'chapter4' } },
       { path: 'combat/entering-combat', component: EnteringCombatComponent, data: { chapter: 'chapter5' } },
       { path: 'combat/taking-action', component: TakingActionComponent, data: { chapter: 'chapter5' } },
+      { path: 'combat/making-attacks', component: MakingAttacksComponent, data: { chapter: 'chapter5' } },
     ]
   },
   // { path: 'crisis-center', component: CrisisListComponent },
