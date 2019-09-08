@@ -8,7 +8,7 @@
         <thead>
           <th *ngFor="let header of content.headers">{{header}}</th>
         </thead>
-        <tbody>
+        <tbody *ngIf="content.identifier === 'meleeWeapons'">
           <tr *ngFor="let row of content.body">
             <td>{{row.weapon}}</td>
             <td>{{row.type}}</td>
@@ -20,6 +20,30 @@
             <td>{{row.effect}}</td>
             <td>{{row.proficiency}}</td>
             <td>{{row.prerequisites}}</td>
+          </tr>
+        </tbody>
+        <tbody *ngIf="content.identifier === 'rangedWeapons'">
+          <tr *ngFor="let row of content.body">
+            <td>{{row.weapon}}</td>
+            <td>{{row.price}}</td>
+            <td>{{row.rarity}}</td>
+            <td>{{row.range}}</td>
+            <td>{{row.damage}}</td>
+            <td>{{row.clipSize}}</td>
+            <td>{{row.firingModes}}</td>
+            <td>{{row.critical}}</td>
+            <td>{{row.effect}}</td>
+            <td>{{row.proficiency}}</td>
+            <td>{{row.prerequisites}}</td>
+          </tr>
+        </tbody>
+        <tbody *ngIf="content.identifier === 'armor'">
+          <tr *ngFor="let row of content.body">
+            <td>{{row.type}}</td>
+            <td>{{row.price}}</td>
+            <td>{{row.rarity}}</td>
+            <td>{{row.armorValue}}</td>
+            <td>{{row.requirements}}</td>
           </tr>
         </tbody>
       </table>

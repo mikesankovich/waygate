@@ -3,9 +3,6 @@
     <div class="subheader">
       <h1>{{contents.title}}</h1>
       <app-quote [quote]="contents.quote"></app-quote>
-      <div class="attr-section">
-        <p *ngFor="let paragraph of contents.intro.contents" [innerHTML]="paragraph"></p>
-      </div>
     </div>
   </div>
   <div class="section">
@@ -13,6 +10,12 @@
   </div>
   <div id="melee-weapons-chart" class="section">
     <app-item-chart [content]="contents.meleeWeaponsChart"></app-item-chart>
+  </div>
+  <div id="ranged-weapons-chart" class="section">
+    <app-item-chart [content]="contents.rangedWeaponsChart"></app-item-chart>
+  </div>
+  <div id="armor-weapons-chart" class="section">
+    <app-item-chart [content]="contents.armorChart"></app-item-chart>
   </div>
 
 </div>
