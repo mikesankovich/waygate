@@ -7,7 +7,6 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./sidebar.component.scss']
 })
 export class SidebarComponent {
-  url;
   currentChapter: string = '';
   constructor(private route:ActivatedRoute, private router: Router) {
     if (router.url.indexOf('getting-started') > -1) {

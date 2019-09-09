@@ -1,0 +1,22 @@
+<div class="chapter-container container">
+  <div id="step-one">
+    <div class="subheader">
+      <h1>{{contents.title}}</h1>
+    </div>
+  </div>
+  <div class="section row">
+    <div class="col-sm-10 offset-sm-1 col-xs-12">
+      <p *ngFor="let info of contents.content" class="story-section">{{info}}</p>
+    </div>
+  </div>
+  <div id="step-two">
+    <div class="subheader">
+      <h1>{{contents.sub.header}}</h1>
+    </div>
+  </div>
+  <div class="section row">
+    <div class="col-sm-10 offset-sm-1 col-xs-12">
+      <p *ngFor="let info of contents.sub.content" class="story-section">{{info}}</p>
+    </div>
+  </div>
+</div>

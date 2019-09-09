@@ -43,9 +43,15 @@ import { MagicComponent } from './chapter6/magic/magic.component';
 // Chapter 7
 import { NonCombatActionsComponent } from './chapter7/non-combat-actions/non-combat-actions.component';
 
+// The Story
+import { TheStoryComponent } from './the-story/the-story.component';
+
 const routes: Routes = [
   {
     path: '', component: TitleComponent
+  },
+  {
+    path: 'the-story', component: TheStoryComponent
   },
   {
     path: 'guides',

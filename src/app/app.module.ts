@@ -45,6 +45,7 @@ import { CombatActionsComponent } from './chapter5/combat-actions/combat-actions
 import { MagicComponent } from './chapter6/magic/magic.component';
 import { NonCombatActionsComponent } from './chapter7/non-combat-actions/non-combat-actions.component';
 import { DifficultyChartComponent } from './difficulty-chart/difficulty-chart.component';
+import { TheStoryComponent } from './the-story/the-story.component';
 
 
 @NgModule({
@@ -86,6 +87,7 @@ import { DifficultyChartComponent } from './difficulty-chart/difficulty-chart.co
     MagicComponent,
     NonCombatActionsComponent,
     DifficultyChartComponent,
+    TheStoryComponent,
   ],
   imports: [
     BrowserModule,
