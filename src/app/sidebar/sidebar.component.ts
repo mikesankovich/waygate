@@ -34,8 +34,10 @@ export class SidebarComponent {
     if (router.url.indexOf('non-combat-actions') > -1) {
       this.currentChapter = 'chapter7';
     }
+  }
 
-    this.url = router.url;
+  get url() {
+    return this.router.url;
   }
 
   open(chapter) {

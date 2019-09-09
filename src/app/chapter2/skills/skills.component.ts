@@ -11,9 +11,7 @@ export class SkillsComponent implements OnInit {
   contents = chapterContent;
   chapter: string = '';
   constructor(private route:ActivatedRoute, private router: Router) {
-    console.log(route.snapshot.data);
     this.chapter = route.snapshot.data.chapter;
-    console.log(this.contents);
   }
 
   ngOnInit() {

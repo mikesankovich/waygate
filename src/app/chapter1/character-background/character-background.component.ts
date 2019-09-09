@@ -11,9 +11,7 @@ export class CharacterBackgroundComponent implements OnInit {
   chapter: string = '';
   contents = chapterContent;
   constructor(private route:ActivatedRoute) {
-    console.log(route.snapshot.data);
     this.chapter = route.snapshot.data.chapter;
-    console.log(this.contents);
   }
 
   ngOnInit() {

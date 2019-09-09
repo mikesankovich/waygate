@@ -30,7 +30,6 @@ export class SkillListComponent implements OnInit {
 
   onFilter() {
     const term = this.searchTerm;
-    console.log(term);
     if (!term) {
       this.filteredSkills = this.skills;
     } else {

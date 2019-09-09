@@ -12,9 +12,7 @@ export class SpendSkillPointsComponent {
   chapter: string = '';
   contents = chapterContent;
   constructor(private route:ActivatedRoute, private elem: ElementRef) {
-    console.log(route.snapshot.data);
     this.chapter = route.snapshot.data.chapter;
-    console.log(this.contents);
   }
 
 }

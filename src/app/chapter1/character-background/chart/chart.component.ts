@@ -15,12 +15,10 @@ export class BackgroundChartComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log(this.chartName)
     this.chartData = chapterContent.charts[this.chartName];
     if (this.chartName === 'genetics') {
       this.secondaryChartName = 'eyesight';
       this.secondaryChartData = chapterContent.charts[this.secondaryChartName];
-      console.log(this.secondaryChartData)
     }
   }
 
