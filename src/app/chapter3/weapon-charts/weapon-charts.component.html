@@ -4,9 +4,6 @@
     <div class="subheader">
       <h1>{{contents.title}}</h1>
       <app-quote [quote]="contents.quote"></app-quote>
-      <div class="attr-section">
-        <p *ngFor="let paragraph of contents.intro.contents" [innerHTML]="paragraph"></p>
-      </div>
     </div>
   </div>
   <div class="section">

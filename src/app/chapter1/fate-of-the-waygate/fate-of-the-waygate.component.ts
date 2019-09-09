@@ -8,7 +8,7 @@ import chapterContent from '../contents/fate-of-the-waygate.json';
 })
 export class FateOfTheWaygateComponent implements OnInit {
 
-  contents = {};
+  contents;
   constructor() {
     this.contents = chapterContent;
   }

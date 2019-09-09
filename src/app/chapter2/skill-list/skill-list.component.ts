@@ -11,7 +11,7 @@ import * as _ from 'lodash';
 })
 export class SkillListComponent implements OnInit {
   skills = [];
-  content = {};
+  content;
   searchTerm = '';
   filteredSkills = [];
   constructor(private route:ActivatedRoute) {

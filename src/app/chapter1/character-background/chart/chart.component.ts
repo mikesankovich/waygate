@@ -8,9 +8,9 @@ import chapterContent from '../../contents/background.json';
 })
 export class BackgroundChartComponent implements OnInit {
   @Input() chartName: string;
-  chartData = {};
+  chartData;
   secondaryChartName = "";
-  secondaryChartData = {};
+  secondaryChartData;
   constructor() {
   }
 

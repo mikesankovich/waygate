@@ -4,39 +4,39 @@
     <li>
       <a routerLink="/guides/character-creation" (click)="open('chapter1')" [ngClass]="{'current': currentChapter === 'chapter1'}">Chapter 1: Character Creation</a>
       <ul *ngIf="currentChapter === 'chapter1'">
-        <li><a routerLink="/guides/character-creation/background" [ngClass]="{'current': router.url.indexOf('character-creation/background') > -1}">Origin, Background, and Personality</a></li>
-        <li><a routerLink="/guides/character-creation/generate-attributes" [ngClass]="{'current': router.url.indexOf('character-creation/generate-attributes') > -1}">Generate Attributes</a></li>
-        <li><a routerLink="/guides/character-creation/spend-skill-points" [ngClass]="{'current': router.url.indexOf('character-creation/spend-skill-points') > -1}">Spend Initial Skill Points</a></li>
-        <li><a routerLink="/guides/character-creation/physical-description" [ngClass]="{'current': router.url.indexOf('character-creation/physical-description') > -1}">Physical Description</a></li>
-        <li><a routerLink="/guides/character-creation/next-steps" [ngClass]="{'current': router.url.indexOf('character-creation/next-steps') > -1}">Next Steps</a></li>
-        <li><a routerLink="/guides/character-creation/fate-of-the-waygate" [ngClass]="{'current': router.url.indexOf('character-creation/fate-of-the-waygate') > -1}">Fate of the Waygate</a></li>
+        <li><a routerLink="/guides/character-creation/background" [ngClass]="{'current': url.indexOf('character-creation/background') > -1}">Origin, Background, and Personality</a></li>
+        <li><a routerLink="/guides/character-creation/generate-attributes" [ngClass]="{'current': url.indexOf('character-creation/generate-attributes') > -1}">Generate Attributes</a></li>
+        <li><a routerLink="/guides/character-creation/spend-skill-points" [ngClass]="{'current': url.indexOf('character-creation/spend-skill-points') > -1}">Spend Initial Skill Points</a></li>
+        <li><a routerLink="/guides/character-creation/physical-description" [ngClass]="{'current': url.indexOf('character-creation/physical-description') > -1}">Physical Description</a></li>
+        <li><a routerLink="/guides/character-creation/next-steps" [ngClass]="{'current': url.indexOf('character-creation/next-steps') > -1}">Next Steps</a></li>
+        <li><a routerLink="/guides/character-creation/fate-of-the-waygate" [ngClass]="{'current': url.indexOf('character-creation/fate-of-the-waygate') > -1}">Fate of the Waygate</a></li>
       </ul>
     </li>
     <li>
       <a routerLink="/guides/skills" (click)="open('chapter2')" [ngClass]="{'current': currentChapter === 'chapter2'}">Chapter 2: Skills</a>
       <ul *ngIf="currentChapter === 'chapter2'">
-        <li><a routerLink="/guides/skills/general-rules" [ngClass]="{'current': router.url.indexOf('skills/general-rules') > -1}">General Rules</a></li>
-        <li><a routerLink="/guides/skills/skill-list" [ngClass]="{'current': router.url.indexOf('skills/skill-list') > -1}">Skill List</a></li>
-        <li><a routerLink="/guides/skills/special-skills" [ngClass]="{'current': router.url.indexOf('skills/special-skills') > -1}">Special Skills</a></li>
-        <li><a routerLink="/guides/skills/acquiring-skills" [ngClass]="{'current': router.url.indexOf('skills/acquiring-skills') > -1}">Acquiring Skills</a></li>
-        <li><a routerLink="/guides/skills/custom-skills" [ngClass]="{'current': router.url.indexOf('skills/custom-skills') > -1}">Custom Skills</a></li>
+        <li><a routerLink="/guides/skills/general-rules" [ngClass]="{'current': url.indexOf('skills/general-rules') > -1}">General Rules</a></li>
+        <li><a routerLink="/guides/skills/skill-list" [ngClass]="{'current': url.indexOf('skills/skill-list') > -1}">Skill List</a></li>
+        <li><a routerLink="/guides/skills/special-skills" [ngClass]="{'current': url.indexOf('skills/special-skills') > -1}">Special Skills</a></li>
+        <li><a routerLink="/guides/skills/acquiring-skills" [ngClass]="{'current': url.indexOf('skills/acquiring-skills') > -1}">Acquiring Skills</a></li>
+        <li><a routerLink="/guides/skills/custom-skills" [ngClass]="{'current': url.indexOf('skills/custom-skills') > -1}">Custom Skills</a></li>
       </ul>
     </li>
     <li>
       <a routerLink="/guides/items" (click)="open('chapter3')" [ngClass]="{'current': currentChapter === 'chapter3'}">Chapter 3: Items</a>
       <ul *ngIf="currentChapter === 'chapter3'">
-        <li><a routerLink="/guides/items/weapon-charts" [ngClass]="{'current': router.url.indexOf('items/weapon-charts') > -1}">Weapon Types</a></li>
-        <li><a routerLink="/guides/items/item-lists" [ngClass]="{'current': router.url.indexOf('items/item-lists') > -1}">Weapons, Armor, and Items</a></li>
+        <li><a routerLink="/guides/items/weapon-charts" [ngClass]="{'current': url.indexOf('items/weapon-charts') > -1}">Weapon Types</a></li>
+        <li><a routerLink="/guides/items/item-lists" [ngClass]="{'current': url.indexOf('items/item-lists') > -1}">Weapons, Armor, and Items</a></li>
       </ul>
     </li>
     <li><a routerLink="/guides/playing-the-game" (click)="open('chapter4')" [ngClass]="{'current': currentChapter === 'chapter4'}">Chapter 4: Playing The Game</a></li>
     <li>
       <a routerLink="/guides/combat/entering-combat" (click)="open('chapter5')" [ngClass]="{'current': currentChapter === 'chapter5'}">Chapter 5: Combat</a>
       <ul *ngIf="currentChapter === 'chapter5'">
-        <li><a routerLink="/guides/combat/entering-combat" [ngClass]="{'current': router.url.indexOf('combat/entering-combat') > -1}">Entering Combat</a></li>
-        <li><a routerLink="/guides/combat/taking-action" [ngClass]="{'current': router.url.indexOf('combat/taking-action') > -1}">Taking Action</a></li>
-        <li><a routerLink="/guides/combat/making-attacks" [ngClass]="{'current': router.url.indexOf('combat/making-attacks') > -1}">Making Attacks</a></li>
-        <li><a routerLink="/guides/combat/combat-actions" [ngClass]="{'current': router.url.indexOf('combat/combat-actions') > -1}">Combat Actions</a></li>
+        <li><a routerLink="/guides/combat/entering-combat" [ngClass]="{'current': url.indexOf('combat/entering-combat') > -1}">Entering Combat</a></li>
+        <li><a routerLink="/guides/combat/taking-action" [ngClass]="{'current': url.indexOf('combat/taking-action') > -1}">Taking Action</a></li>
+        <li><a routerLink="/guides/combat/making-attacks" [ngClass]="{'current': url.indexOf('combat/making-attacks') > -1}">Making Attacks</a></li>
+        <li><a routerLink="/guides/combat/combat-actions" [ngClass]="{'current': url.indexOf('combat/combat-actions') > -1}">Combat Actions</a></li>
       </ul>
     </li>
     <li><a routerLink="/guides/magic" (click)="open('chapter6')" [ngClass]="{'current': currentChapter === 'chapter6'}">Chapter 6: Magic</a></li>

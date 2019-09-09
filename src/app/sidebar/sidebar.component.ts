@@ -7,7 +7,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./sidebar.component.scss']
 })
 export class SidebarComponent {
-
+  url;
   currentChapter: string = '';
   constructor(private route:ActivatedRoute, private router: Router) {
     if (router.url.indexOf('character-creation') > -1) {
@@ -31,6 +31,8 @@ export class SidebarComponent {
     if (router.url.indexOf('non-combat-actions') > -1) {
       this.currentChapter = 'chapter7';
     }
+
+    this.url = router.url;
   }
 
   open(chapter) {

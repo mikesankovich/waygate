@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./skill.component.scss']
 })
 export class SkillComponent implements OnInit {
-  @Input() skill = {};
+  @Input() skill;
   hidden: boolean = true;
   constructor() { }
 

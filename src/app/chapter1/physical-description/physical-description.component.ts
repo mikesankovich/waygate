@@ -7,7 +7,7 @@ import chapterContent from '../contents/physical-description.json';
   styleUrls: ['./physical-description.component.scss']
 })
 export class PhysicalDescriptionComponent implements OnInit {
-  contents = {};
+  contents;
   constructor() {
     this.contents = chapterContent;
   }

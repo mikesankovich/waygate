@@ -7,7 +7,7 @@ import chapterContent from '../contents/next-steps.json';
   styleUrls: ['./next-steps.component.scss']
 })
 export class NextStepsComponent implements OnInit {
-  contents = {};
+  contents;
   constructor() {
     this.contents = chapterContent;
   }
