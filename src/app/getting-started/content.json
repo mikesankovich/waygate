@@ -1,0 +1,43 @@
+{
+  "title": "Preface",
+  "quote": {
+    "quote": "When the Waygates came everything changed. Everything we understood about the world was thrown to the wayside. Whole worlds were opened up to us; worlds beyond our wildest imagination lay before us, ripe for study, exploration, and the taking.",
+    "author": "General Parker Stone, First Leader of the Waygate Division, USA"
+  },
+  "intro": [
+    "Welcome to Enter the Waygate. While this book and the rules therein are meant to help and guide you, always remember that the GM has the final word and that a fun story should always come before any rule or guideline you find in these texts. Have fun with it. Justify why a character with no strength should be allowed to wear full plate armor. Explain away any apparent inconsistencies with your skillset. Create a few spells and skills that are more wacky than pragmatic. It’s all in the name of immersing yourself in a story unique to your group.",
+    "In Enter the Waygate, the success and failure of actions are based on the results of two things: Dice and Roleplaying. How well you roll and how well you play your character through the story will determine whether or not things play out as you'd like, or if things go awry."
+  ],
+  "dice": {
+    "header": "Dice",
+    "intro": "The following dice are listed as dX, with X being the number of faces on the dice to roll. The higher the roll, the higher the chance of your action succeeding.",
+    "content": [
+      { "dice": "d20", "info": "A twenty-sided dice, with values ranging from 1-20. Primarily used for attribute tests and hit tests" },
+      { "dice": "d12", "info": "A twelve-sided dice, with values ranging from 1-12. Primarily used for damage rolls" },
+      { "dice": "d10", "info": "A ten-sided dice, with values ranging from 1-10. Primarily used for damage rolls" },
+      { "dice": "d10p", "info": "A ten-sided percentage dice, with values ranging from 1-10." },
+      { "dice": "d8", "info": "An eight-sided dice, with values ranging from 1-8. Primarily used for damage rolls" },
+      { "dice": "d6", "info": "a six-sided dice, with values ranging from 1-6. Primarily used for damage rolls" },
+      { "dice": "d4", "info": "a four-sided dice, with values ranging from 1 – 4. Primarily used for status damage and determining length of effect" },
+      { "dice": "d100", "info": "Two ten-sided die, with results combined, values from 1 – 100. Primarily used for Fate of the Waygate and Magical Mayhem rolls", "sub": [
+          "1d10p as the ten’s digit, 1d10 as the one’s digit. 00 and 0 equals 100",
+          "2d10, with a declaration of which die will indicate the ten’s digit, and which will indicate the one’s digit. A double 0 equals 100."
+      ]}
+    ],
+    "post": {
+      "main": "The above dice will be prefixed with a number. This number indicates how many of those results you must roll to get your total result.",
+      "example": [
+        "1d20, means roll 1 twenty-sided die.",
+        "3d6, means roll 3 six-sided dice."
+      ]
+    }
+  },
+  "roleplaying": {
+    "header": "Roleplaying",
+    "content": [
+      "Enter the Waygate is first and foremost a roleplaying game. Your characters are more than just pieces on a board. They should have personalities, strenghts and weaknesses, histories, desires, etc. And these details should influence how you play your character: how you think through problems, how you handle complications, how to form your alliances and frienships.",
+      "It's not all dicerolls. If you roleplay well, you may find tasks easier or harder to complete. And in the end you will be more immersed in the world around you.",
+      "Roleplaying serves another function. While characters can get stronger and gain new skills by leveling up, such advancements can also be the reward for exceptional roleplaying, deep immersion, and smart problem-solving."
+    ]
+  }
+}

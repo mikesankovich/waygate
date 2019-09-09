@@ -17,7 +17,6 @@ import { CharacterBackgroundComponent } from './chapter1/character-background/ch
 import { BackgroundChartComponent } from './chapter1/character-background/chart/chart.component';
 import { SpendSkillPointsComponent } from './chapter1/spend-skill-points/spend-skill-points.component';
 
-import { PrefaceComponent } from './preface/preface.component';
 import { QuoteComponent } from './quote/quote.component';
 import { SkillListComponent } from './chapter2/skill-list/skill-list.component';
 
@@ -61,7 +60,6 @@ import { NonCombatActionsComponent } from './chapter7/non-combat-actions/non-com
     CharacterBackgroundComponent,
     BackgroundChartComponent,
     SpendSkillPointsComponent,
-    PrefaceComponent,
     QuoteComponent,
     SkillListComponent,
     SafeHtmlPipe,
