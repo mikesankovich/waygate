@@ -37,6 +37,9 @@ import { TakingActionComponent } from './chapter5/taking-action/taking-action.co
 import { MakingAttacksComponent } from './chapter5/making-attacks/making-attacks.component';
 import { CombatActionsComponent } from './chapter5/combat-actions/combat-actions.component';
 
+// Chapter 6
+import { MagicComponent } from './chapter6/magic/magic.component';
+
 const routes: Routes = [
   {
     path: '', component: TitleComponent
@@ -68,6 +71,7 @@ const routes: Routes = [
       { path: 'combat/taking-action', component: TakingActionComponent, data: { chapter: 'chapter5' } },
       { path: 'combat/making-attacks', component: MakingAttacksComponent, data: { chapter: 'chapter5' } },
       { path: 'combat/combat-actions', component: CombatActionsComponent, data: { chapter: 'chapter5' } },
+      { path: 'magic', component: MagicComponent, data: { chapter: 'chapter6' } },
     ]
   },
   // { path: 'crisis-center', component: CrisisListComponent },

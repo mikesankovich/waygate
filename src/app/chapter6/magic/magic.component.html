@@ -1,0 +1,51 @@
+<div class="chapter-container">
+  <div id="step-one">
+    <div class="subheader">
+      <h1>{{contents.title}}</h1>
+      <app-quote [quote]="contents.quote"></app-quote>
+      <div class="section">
+        <p>{{contents.intro}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <h3>{{contents.background.name}}</h3>
+    <p *ngFor="let content of contents.background.content" [innerHTML]="content"></p>
+  </div>
+  <div class="section">
+    <h3>{{contents.learning.name}}</h3>
+    <p *ngFor="let content of contents.learning.content" [innerHTML]="content"></p>
+  </div>
+  <div class="section">
+    <h3>{{contents.magicalMayhem.name}}</h3>
+    <p *ngFor="let content of contents.magicalMayhem.content" [innerHTML]="content"></p>
+    <h5>{{contents.magicalMayhem.causing.name}}</h5>
+    <div class="example">
+      <div *ngFor="let content of contents.magicalMayhem.causing.content">
+        <div>
+          <span class="bold">{{content.name}}</span>
+          <ul>
+            <li *ngFor="let sub of content.sub" [innerHTML]="sub"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p>{{contents.magicalMayhem.causing.post}}</p>
+  </div>
+  <div class="section">
+    <span class="bold">{{contents.magicalMayhem.causing.chart.name}}: </span><span>{{contents.magicalMayhem.causing.chart.note}}</span>
+    <table class="table table-striped table-bordered">
+      <thead>
+        <th *ngFor="let header of contents.magicalMayhem.causing.chart.headers">{{header}}</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of contents.magicalMayhem.causing.chart.body">
+          <td class="no-wrap">{{row.roll}}</td>
+          <td class="no-wrap">{{row.name}}</td>
+          <td [innerHTML]="row.description"></td>
+          <td [innerHTML]="row.effect"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

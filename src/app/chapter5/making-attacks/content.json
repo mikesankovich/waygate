@@ -134,7 +134,7 @@
         { "name": "Rending", "intro": "Ripping Damage", "sub": [
           "On critical hit, roll 1d20. If the result is 14 or higher, the target is <b>Bleeding(your Str)</b> for 1d4 turns"
         ]},
-        { "name": "Void", "intro": "Damage caused by void spells", "sub": [
+        { "name": "Aether", "intro": "Damage caused by aether spells", "sub": [
           "On critical hit, target makes a Willpower Test. If they roll below a 16, they are <b>Stunned</b>"
         ]},
         { "name": "Piercing", "intro": "Stabbing and piercing damage", "sub": [

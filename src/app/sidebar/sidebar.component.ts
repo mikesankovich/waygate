@@ -25,6 +25,9 @@ export class SidebarComponent {
     if (router.url.indexOf('combat') > -1) {
       this.currentChapter = 'chapter5';
     }
+    if (router.url.indexOf('magic') > -1) {
+      this.currentChapter = 'chapter6';
+    }
   }
 
   open(chapter) {

@@ -39,10 +39,7 @@
         <li><a routerLink="/guides/combat/combat-actions" [ngClass]="{'current': router.url.indexOf('combat/combat-actions') > -1}">Combat Actions</a></li>
       </ul>
     </li>
-    <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
-    <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
-    <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
-    <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
+    <li><a routerLink="/guides/magic" (click)="open('chapter6')" [ngClass]="{'current': currentChapter === 'chapter6'}">Chapter 6: Magic</a></li>
     <li><a routerLink="/guides/chapter1">Chapter 1: Character Creation</a></li>
   </ul>
 </div>
