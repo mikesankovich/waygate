@@ -1,0 +1,12 @@
+{
+  "headers": [ "Difficulty", "Necessary Value To Succeed" ],
+  "body": [
+    { "difficulty": "Very Easy", "value": "3 + Modifiers" },
+    { "difficulty": "Easy", "value": "7 + modifiers" },
+    { "difficulty": "Medium", "value": "11 + modifiers" },
+    { "difficulty": "Hard", "value": "15 + modifiers" },
+    { "difficulty": "Very Hard", "value": "18 + modifiers" },
+    { "difficulty": "Extreme", "value": "22 + modifiers" },
+    { "difficulty": "Impossible", "value": "30 + modifiers" }
+  ]
+}

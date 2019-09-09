@@ -13,18 +13,6 @@
     ],
     "difficultyChart": {
       "intro": "Here is an example chart for the values needed to succeed at tasks of various difficulties.",
-      "chart": {
-        "headers": [ "Difficulty", "Necessary Value To Succeed" ],
-        "body": [
-          { "difficulty": "Very Easy", "value": "3 + Modifiers" },
-          { "difficulty": "Easy", "value": "7 + modifiers" },
-          { "difficulty": "Medium", "value": "11 + modifiers" },
-          { "difficulty": "Hard", "value": "15 + modifiers" },
-          { "difficulty": "Very Hard", "value": "18 + modifiers" },
-          { "difficulty": "Extreme", "value": "22 + modifiers" },
-          { "difficulty": "Impossible", "value": "30 + modifiers" }
-        ]
-      },
       "example": "So if you were trying to read a Medium difficulty book, and you have a basic literacy and an Intelligence of 3, you would need to roll a 8 on a d20 (d20 + 0 + Int >= 11)."
     }
   },

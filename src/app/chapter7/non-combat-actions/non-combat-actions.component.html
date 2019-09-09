@@ -9,17 +9,7 @@
     </div>
   </div>
   <div class="section">
-    <table class="table table-striped table-bordered">
-      <thead>
-        <th *ngFor="let header of contents.chart.headers">{{header}}</th>
-      </thead>
-      <tbody>
-        <tr *ngFor="let row of contents.chart.body">
-          <td>{{row.difficulty}}</td>
-          <td>{{row.value}}</td>
-        </tr>
-      </tbody>
-    </table>
+    <app-difficulty-chart></app-difficulty-chart>
   </div>
   <div class="section">
     <div class="steps" *ngFor="let content of contents.content">

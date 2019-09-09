@@ -1,22 +1,10 @@
 {
-  "title": "Chapter 6: Magic",
+  "title": "Chapter 7: Non-Combat Actions",
   "quote": {
     "quote": "Sometimes a battle has to be one before the fighting begins.....sometimes you just want to know what's behind door number 2.",
     "author": "Mykaela Morrow, Expert Thief"
   },
   "intro": "The following chart depicts the typical Difficulty: threshold for passing a Test. These are not hard and fast rules, but provide a guideline for how to determine successes and failures.",
-  "chart": {
-    "headers": [ "Difficulty", "Necessary Value to Succeed" ],
-    "body": [
-      { "difficulty": "Very Easy", "value": "3 + Modifiers" },
-      { "difficulty": "Easy", "value": "7 + modifiers" },
-      { "difficulty": "Medium", "value": "11 + modifiers" },
-      { "difficulty": "Hard", "value": "15 + modifiers" },
-      { "difficulty": "Very Hard", "value": "18 + modifiers" },
-      { "difficulty": "Extreme", "value": "22 + modifiers" },
-      { "difficulty": "Impossible", "value": "30 + modifiers" }
-    ]
-  },
   "content": [
     {
       "name": "Lockpicking",
