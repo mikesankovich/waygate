@@ -1,0 +1,56 @@
+<div class="chapter-container">
+  <div id="step-one">
+    <div class="subheader">
+      <h2>{{contents.title}}</h2>
+      <app-quote [quote]="contents.quote"></app-quote>
+      <div class="section">
+        <div *ngFor="let con of contents.intro" [innerHTML]="con" class="steps"></div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <h4>{{contents.attackTypesChart.name}}</h4>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <th *ngFor="let header of contents.attackTypesChart.headers">{{header}}</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of contents.attackTypesChart.body">
+          <td class="no-wrap">{{row.action}}</td>
+          <td class="no-wrap">{{row.duration}}</td>
+          <td>{{row.effect}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="section">
+    <h4>{{contents.movementActionChart.name}}</h4>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <th *ngFor="let header of contents.movementActionChart.headers">{{header}}</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of contents.movementActionChart.body">
+          <td class="no-wrap">{{row.action}}</td>
+          <td class="no-wrap">{{row.duration}}</td>
+          <td>{{row.effect}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="section">
+    <h4>{{contents.miscActionChart.name}}</h4>
+    <table class="table table-bordered table-striped">
+      <thead>
+        <th *ngFor="let header of contents.miscActionChart.headers">{{header}}</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of contents.miscActionChart.body">
+          <td class="no-wrap">{{row.action}}</td>
+          <td class="no-wrap">{{row.duration}}</td>
+          <td>{{row.effect}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

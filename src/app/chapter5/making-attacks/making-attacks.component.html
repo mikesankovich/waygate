@@ -38,4 +38,47 @@
       </ul>
     </div>
   </div>
+  <div class="section">
+    <h3>{{contents.dealingDamage.header}}</h3>
+    <p>{{contents.dealingDamage.intro}}</p>
+    <div class="steps" *ngFor="let info of contents.dealingDamage.content">
+      <span class="bold">{{info.name}}</span><span>{{info.formula}}</span>
+    </div>
+  </div>
+  <div class="section">
+    <h3>{{contents.dealingDamage.criticalHit.header}}</h3>
+    <div class="steps" *ngFor="let info of contents.dealingDamage.criticalHit.content" [innerHTML]="info"></div>
+    <div class="example">
+      <span class="bold">{{contents.dealingDamage.criticalHit.example.name}}</span><span>{{contents.dealingDamage.criticalHit.example.content}}</span>
+    </div>
+  </div>
+  <div class="section">
+    <h3>{{contents.dealingDamage.statuses.header}}</h3>
+    <p>{{contents.dealingDamage.statuses.intro}}</p>
+    <div class="steps">
+      <p *ngFor="let pre of contents.dealingDamage.statuses.pre">{{pre}}</p>
+    </div>
+    <ul>
+      <li *ngFor="let info of contents.dealingDamage.statuses.content"><span class="bold">{{info.name}}</span> - {{info.effect}}</li>
+    </ul>
+  </div>
+  <div class="section">
+    <h3>{{contents.dealingDamage.damageTypes.header}}</h3>
+    <p>{{contents.dealingDamage.damageTypes.intro}}</p>
+    <ul>
+      <li *ngFor="let info of contents.dealingDamage.damageTypes.content">
+        <span class="bold">{{info.name}}</span> - {{info.intro}}
+        <ul>
+          <li *ngFor="let sub of info.sub" [innerHTML]="sub"></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="section">
+    <h3>{{contents.dealingDamage.unarmedCombat.header}}</h3>
+    <p>{{contents.dealingDamage.unarmedCombat.intro}}</p>
+    <ul class="steps">
+      <li *ngFor="let info of contents.dealingDamage.unarmedCombat.content">{{info}}</li>
+    </ul>
+  </div>
 </div>

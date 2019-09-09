@@ -540,7 +540,7 @@
     {
       "name": "Seal Wounds (MS) – Double Action",
       "description": "Heal minor wounds and stop bleeding.",
-      "effect": "Heal your target for 1d6 and remove all damage effects (eg. Bleeding, burn) and ailments (eg. Shocked, frozen) from them. Healing is effective on dying targets, and if brought above 0, they are no longer dying, but are rendered unconscious. Can only be used on a target once per day.",
+      "effect": "Heal your target for 1d6 and remove all status (eg. Bleeding, burned, Shocked, frozen, etc.) from them. Healing is effective on dying targets, and if brought above 0, they are no longer dying, but are rendered unconscious. Can only be used on a target once per day.",
       "range": "25 feet",
       "mysticTest": "7",
       "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 3</li><li>Mend</li></ul>"

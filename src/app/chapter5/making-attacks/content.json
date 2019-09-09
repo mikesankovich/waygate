@@ -85,5 +85,76 @@
         "If you are successful, deal 1d6 magic damage of the same type as the spell being used against you (if no type, just roll as 1d6 damage)."
       ]}
     ]
+  },
+  "dealingDamage": {
+    "header": "Dealing Damage",
+    "intro": "After a successful hit, you must roll to determine the amount of damage you deal. Skills may have their own way to determining damage, but in general, the way to determine damage is with the following formula.",
+    "content": [
+      { "name": "Melee Damage: ", "formula": "Weapon Damage + Str + modifiers" },
+      { "name": "Finesse Damage: ", "formula": "Weapon Damage + Dex + modifiers" },
+      { "name": "Ranged Damage: ", "formula": "Weapon Damage + modifiers" },
+      { "name": "Magic Damage: ", "formula": "Spell Damage + Magic + modifiers" }
+    ],
+    "criticalHit": {
+      "header": "Critical Hits",
+      "content": [
+        "A critical hit means that, except under rare circumstances, the attack goes through regardless of the target's armor rating",
+        "All weapons and spells have a critical range (usually 20, or 19-20) listed on the Weapons Chart in <b>Chapter 3</b> or in their Skill Description in <b>Chapter 2</b>. If your unaltered dice roll from your Hit Test fell with this range, you deal critical damage.",
+        "All weapons have an associated damage type. On critical hits, they may have a special effect, based on this type.",
+        "Critical Damage means you double your weapon damage roll, then add modifiers."
+      ],
+      "example": {
+        "name": "Example", "content": "You roll a natural 20 on your hit test, and your weapon’s damage is 1d8 + str. Your weapon’s damage on critical is 2x. You roll a 6. This would mean you deal 2x(6) + Str. Meaning you deal (12 + Str) damage."
+      }
+    },
+    "statuses": {
+      "header": "Statuses",
+      "intro": "These are effects, such as burned, bleeding, etc., that can affect a character by causing turn-by-turn damage or affecting their ability to take actions. They can happen due to critical hits, skills, or random occurrences",
+      "pre": [
+        "Many status deal damage based on Xd4, with X being the number of dice to roll. This could be a flat number, or a number based off an attribute. For example, some attacks and skills may be listed as burning(2). This means that every turn they are burned they are dealt 2d4 damage. Or they may be listed as burned(attribute), in which case they are dealth damage with a number of d4 equal to that attribute (so if attacker Str was 4, it would be 4d4).",
+        "Statuses last for a time based on the effect that caused them (usually 1d4 turns"
+      ],
+      "content": [
+        { "name": "Bleeding", "effect": "Xd4 damage at the start of their turn" },
+        { "name": "Burned", "effect": "Xd4 fire damage at the start of their turn" },
+        { "name": "Shocked", "effect": "Target loses a single action at their next turn and lose any focus or concentration they may have." },
+        { "name": "Frozen", "effect": "Target loses a half action during their next turn. Movement speed is halved (rounded down) for Xd4 turns." }
+      ]
+    },
+    "damageTypes": {
+      "header": "Damage Types",
+      "intro": "damage seen as a result of a successful hit. Some armors have more or fewer resistance to certain types of damage. (note. If you successfully aimed an attack at a body part, you may skip rolling for damage location on critical hits).",
+      "content": [
+        { "name": "Slashing", "intro": "Damage made with some form of edged weapon", "sub": [
+            "On a critical hit, after damage, roll 1d20. If the result is 16 or higher, the target is <b>Bleeding(your Str)</b> for 1d4 turns"
+        ]},
+        { "name": "Concussive", "intro": "damage made with blunt force", "sub": [
+          "On critical hit, roll 1d20. If the result is 16 or higher, the target's Armor Rating is reduced by 1 until the end of the encounter."
+        ]},
+        { "name": "Rending", "intro": "Ripping Damage", "sub": [
+          "On critical hit, roll 1d20. If the result is 14 or higher, the target is <b>Bleeding(your Str)</b> for 1d4 turns"
+        ]},
+        { "name": "Void", "intro": "Damage caused by void spells", "sub": [
+          "On critical hit, target makes a Willpower Test. If they roll below a 16, they are <b>Stunned</b>"
+        ]},
+        { "name": "Piercing", "intro": "Stabbing and piercing damage", "sub": [
+          "On a critical hit, after damage, roll 1d20. If the result is 16 or higher, the target is <b>Bleeding(1)</b> for 1d4 turns"
+        ]}
+      ]
+    },
+    "unarmedCombat": {
+      "header": "Unarmed Combat",
+      "intro": "if you are attacking with bare fists, the weapon damage is determined by size via the following list.",
+      "content": [
+        "Giant: 1d6 + Str + Str",
+        "Huge: 1d6 + Str + 2",
+        "Large: 1d4 + Str + 2",
+        "Medium 1d4 + Str",
+        "Small: 1d4",
+        "Tiny: 1d4",
+        "Flee: 1d4 / 2 (rounded down)"
+      ]
+    },
+    "post": "To deal damage, subtract your final damage calculation from your opponent’s health."
   }
 }

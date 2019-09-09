@@ -1,0 +1,49 @@
+{
+  "title": "Combat Actions",
+  "quote": {
+    "quote": "Endless possibilities...well, several dozen, but you get the point.",
+    "author": "Steven Seral, Mathematician"
+  },
+  "attackTypesChart": {
+    "name": "Attack Types",
+    "headers": [ "Action", "Durations", "Effect" ],
+    "body": [
+      { "action": "All Out Attack", "duration": "Double Action", "effect": "A focused melee or ranged attack. +4 to hit" },
+      { "action": "Basic Attack", "duration": "Single Action", "effect": "A basic attack" },
+      { "action": "Berserk Attack", "duration": "Double Action", "effect": "-4 to hit. If hits, double weapon damage. Attacks against you get +2 until your next turn" },
+      { "action": "Burst", "duration": "Double Action", "effect": "Weapon must have burst capabilities. Fire a burst of bullets (see weapon chart). +2 to hit. Potential for multiple hits. See <b>Chapter 4: Firing Modes</b> for more details." },
+      { "action": "Defensive Stance", "duration": "Double Action", "effect": "You cannot make an attack this turn, but all enemies that attack you this round get a -4 on hit checks made against you." },
+      { "action": "Defensive Strike", "duration": "Double Action", "effect": "You make a cautious attack. You make a melee attack with a -2 penalty to your Hit Test. Gain a +2 to all dodge, parry, block, and riposte tests you make this round." },
+      { "action": "Feint", "duration": "Double Action", "effect": "Target’s <b>Perception</b> is subtracted from your hit test. If your attack succeeds, it cannot be dodged, parried, blocked, or riposted." },
+      { "action": "Full Auto", "duration": "Double Action", "effect": "Weapon must have auto capabilities. Fire an entire clip (see weapon chart) at full auto. +4 to hit. Potential for multiple hits. See <b>Chapter 4: Firing Modes</b> for more details." },
+      { "action": "Use Skill", "duration": "Varies", "effect": "Use one of your characters skills." }
+    ]
+  },
+  "movementActionChart": {
+    "name": "Movement Actions",
+    "headers": [ "Action", "Durations", "Effect" ],
+    "body": [
+      { "action": "Disengage", "duration": "Single Action", "effect": "Remove yourself from melee combat from a single target your engaged with. You can move away from them without them getting an attack of opportunity" },
+      { "action": "Jump", "duration": "Single Action", "effect": "Attempt to jump or leap" },
+      { "action": "Recover Item", "duration": "Single Action", "effect": "Pick up an item on the floor" },
+      { "action": "Stand", "duration": "Varies (default Single Action)", "effect": "The duration depends on what knocked you down, but by default is a Single Action." },
+      { "action": "Stealth", "duration": "Single Action", "effect": "Slip into the shadows to move unseen. Cannot be done of an enemy's focus is on you" },
+      { "action": "Total Disengage", "duration": "Full Action", "effect": "Remove yourself from melee combat from all combatants engaged with you and move up to 5 feet away." },
+      { "action": "Move", "duration": "Single Action", "effect": "Move up to your character's speed" },
+      { "action": "Use Skill", "duration": "Varies", "effect": "Use one of your characters skills." }
+    ]
+  },
+  "miscActionChart": {
+    "name": "Miscellaneous Actions",
+    "headers": [ "Action", "Durations", "Effect" ],
+    "body": [
+      { "action": "Reaction", "duration": "Reaction", "effect": "See Dodge, Parry, Riposte, Counterspell, and Rebound Spell" },
+      { "action": "Draw/Sheath weapon", "duration": "Single Action", "effect": "Draw or sheath a weapon. If dual wielding, drawing both at the same time is a single action. Sheathing is a single action per weapon." },
+      { "action": "Reload", "duration": "Single Action (unless specified)", "effect": "Reload your gun (duration can vary, but be default is a half action)." },
+      { "action": "Unjam Weapon", "duration": "Double Action", "effect": "Unjam a jammed weapon" },
+      { "action": "Use Item", "duration": "Varies", "effect": "Use an item that is not forbidden within combat." },
+      { "action": "Attribute Test", "duration": "Single Action", "effect": "make an attribute test" },
+      { "action": "Use Skill", "duration": "Varies", "effect": "Use one of your characters skills." }
+    ]
+  }
+}

@@ -85,7 +85,7 @@
   "dying": {
     "header": "Unconsciousness and Dying",
     "content": [
-      "A Character is rendered unconscious if their hitpoints go to 0. They fall to the ground and are unable to make any actions. Their turn still takes place, however, so that statuses, ailments, and, dying damage take effect.",
+      "A Character is rendered unconscious if their hitpoints go to 0. They fall to the ground and are unable to make any actions. Their turn still takes place, however, so that statuses, dying damage, and the like take effect.",
       "While unconscious, if their health is below 0, a character takes 1d4 dying damage at each of their turns.",
       "A character dies when their health is dropped below 0 by half of their total health. or if they are below 0 health for 3 rounds or for more than 1 hour"
     ],
