@@ -8,11 +8,13 @@
   "chart": {
     "headers": [ "Difficulty", "Necessary Value to Succeed" ],
     "body": [
-      { "difficulty": "Very Easy", "value": "6 + Modifiers" },
-      { "difficulty": "Easy", "value": "9 + modifiers" },
-      { "difficulty": "Medium", "value": "12 + modifiers" },
+      { "difficulty": "Very Easy", "value": "3 + Modifiers" },
+      { "difficulty": "Easy", "value": "7 + modifiers" },
+      { "difficulty": "Medium", "value": "11 + modifiers" },
       { "difficulty": "Hard", "value": "15 + modifiers" },
-      { "difficulty": "Very Hard", "value": "18 + modifiers" }
+      { "difficulty": "Very Hard", "value": "18 + modifiers" },
+      { "difficulty": "Extreme", "value": "22 + modifiers" },
+      { "difficulty": "Impossible", "value": "30 + modifiers" }
     ]
   },
   "content": [
