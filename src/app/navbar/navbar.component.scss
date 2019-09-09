@@ -3,5 +3,8 @@
   border-top: 3px solid #4589CC;
   .nav-link {
     color: silver;
+    &.current {
+      color: red;
+    }
   }
 }
