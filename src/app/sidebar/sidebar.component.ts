@@ -10,6 +10,9 @@ export class SidebarComponent {
   url;
   currentChapter: string = '';
   constructor(private route:ActivatedRoute, private router: Router) {
+    if (router.url.indexOf('getting-started') > -1) {
+      this.currentChapter = 'getting-started';
+    }
     if (router.url.indexOf('character-creation') > -1) {
       this.currentChapter = 'chapter1';
     }

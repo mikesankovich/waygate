@@ -1,6 +1,6 @@
 <div class="sidebar">
   <ul class="content">
-    <li><a routerLink="/guides/getting-started">Getting Started</a></li>
+    <li><a routerLink="/guides/getting-started" (click)="open('getting-started')" [ngClass]="{'current': currentChapter === 'getting-started'}">Getting Started</a></li>
     <li>
       <a routerLink="/guides/character-creation" (click)="open('chapter1')" [ngClass]="{'current': currentChapter === 'chapter1'}">Chapter 1: Character Creation</a>
       <ul *ngIf="currentChapter === 'chapter1'">
