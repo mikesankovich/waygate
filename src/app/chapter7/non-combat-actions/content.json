@@ -1,0 +1,57 @@
+{
+  "title": "Chapter 6: Magic",
+  "quote": {
+    "quote": "Sometimes a battle has to be one before the fighting begins.....sometimes you just want to know what's behind door number 2.",
+    "author": "Mykaela Morrow, Expert Thief"
+  },
+  "intro": "The following chart depicts the typical Difficulty: threshold for passing a Test. These are not hard and fast rules, but provide a guideline for how to determine successes and failures.",
+  "chart": {
+    "headers": [ "Difficulty", "Necessary Value to Succeed" ],
+    "body": [
+      { "difficulty": "Very Easy", "value": "6 + Modifiers" },
+      { "difficulty": "Easy", "value": "9 + modifiers" },
+      { "difficulty": "Medium", "value": "12 + modifiers" },
+      { "difficulty": "Hard", "value": "15 + modifiers" },
+      { "difficulty": "Very Hard", "value": "18 + modifiers" }
+    ]
+  },
+  "content": [
+    {
+      "name": "Lockpicking",
+      "content": [
+        "The ability to open locks without the proper key.",
+        "Requires a lockpick. A basic lockpick can be any sort of thin metal object that can fit into the keyhole. Specialized lockpicks may provide a bonus.",
+        "1d20 + Dexterity + training modifier to open."
+      ]
+    },
+    {
+      "name": "Stealth",
+      "content": [
+        "All players can slip into stealth, with a test, so long as no enemies are directly engaged with them or gazing at them.",
+        "While in stealth, stealth tests are done if someone is looking for your character or if you are doing an action that could catch a character’s attention (pickpocketing, trying to sneak up on them, slipping by them, etc).",
+        "1d20 + stealth modifiers – target PER against difficulty."
+      ]
+    },
+    {
+      "name": "Pickpocketing",
+      "content": [
+        "You can attempt to pick your target’s pocket from stealth/unnoticed. (1d20 - target PER against difficulty)"
+      ]
+    },
+    {
+      "name": "Crafting",
+      "content": [
+        "Used for crafting and fixing things.",
+        "Requires materials",
+        "see skill: <b>Crafting</b>"
+      ]
+    },
+    {
+      "name": "Attribute Tests",
+      "content": [
+        "Most often, the action you need to take will be based purely on your attributes. Maybe you just wish to scout out a room with an awareness check, maybe you're just trying to talk someone into giving you information with a charm check, or maybe you're trying to move some heavy boxes with a strength test.",
+        "If there is something you wish to do, just ask the DM. They'll tell you to roll a test, if needed, against a specific attribute."
+      ]
+    }
+  ]
+}

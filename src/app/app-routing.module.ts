@@ -40,6 +40,9 @@ import { CombatActionsComponent } from './chapter5/combat-actions/combat-actions
 // Chapter 6
 import { MagicComponent } from './chapter6/magic/magic.component';
 
+// Chapter 7
+import { NonCombatActionsComponent } from './chapter7/non-combat-actions/non-combat-actions.component';
+
 const routes: Routes = [
   {
     path: '', component: TitleComponent
@@ -72,20 +75,9 @@ const routes: Routes = [
       { path: 'combat/making-attacks', component: MakingAttacksComponent, data: { chapter: 'chapter5' } },
       { path: 'combat/combat-actions', component: CombatActionsComponent, data: { chapter: 'chapter5' } },
       { path: 'magic', component: MagicComponent, data: { chapter: 'chapter6' } },
+      { path: 'non-combat-actions', component: NonCombatActionsComponent, data: { chapter: 'chapter7' } },
     ]
   },
-  // { path: 'crisis-center', component: CrisisListComponent },
-  // { path: 'hero/:id',      component: HeroDetailComponent },
-  // {
-  //   path: 'heroes',
-  //   component: HeroListComponent,
-  //   data: { title: 'Heroes List' }
-  // },
-  // { path: '',
-  //   redirectTo: '/heroes',
-  //   pathMatch: 'full'
-  // },
-  // { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({

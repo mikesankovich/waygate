@@ -44,6 +44,7 @@ import { TakingActionComponent } from './chapter5/taking-action/taking-action.co
 import { MakingAttacksComponent } from './chapter5/making-attacks/making-attacks.component';
 import { CombatActionsComponent } from './chapter5/combat-actions/combat-actions.component';
 import { MagicComponent } from './chapter6/magic/magic.component';
+import { NonCombatActionsComponent } from './chapter7/non-combat-actions/non-combat-actions.component';
 
 
 @NgModule({
@@ -84,6 +85,7 @@ import { MagicComponent } from './chapter6/magic/magic.component';
     MakingAttacksComponent,
     CombatActionsComponent,
     MagicComponent,
+    NonCombatActionsComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,32 @@
+<div class="chapter-container">
+  <div id="step-one">
+    <div class="subheader">
+      <h1>{{contents.title}}</h1>
+      <app-quote [quote]="contents.quote"></app-quote>
+      <div class="section">
+        <p>{{contents.intro}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <table class="table table-striped table-bordered">
+      <thead>
+        <th *ngFor="let header of contents.chart.headers">{{header}}</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of contents.chart.body">
+          <td>{{row.difficulty}}</td>
+          <td>{{row.value}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="section">
+    <div class="steps" *ngFor="let content of contents.content">
+      <div class="bold">{{content.name}}</div>
+      <ul>
+        <li *ngFor="let sub of content.content" [innerHTML]="sub"></li>
+      </ul>
+    </div>
+  </div>
+</div>
