@@ -4,4 +4,7 @@
 
 .sidebar-container {
   padding-left: 0;
+  position: sticky;
+  top: 112px;
+  z-index: 9999;
 }

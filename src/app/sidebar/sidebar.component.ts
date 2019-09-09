@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
@@ -8,6 +8,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class SidebarComponent {
   currentChapter: string = '';
+  isShown = true;
+  @Output() toggle = new EventEmitter();
   constructor(private route:ActivatedRoute, private router: Router) {
     if (router.url.indexOf('getting-started') > -1) {
       this.currentChapter = 'getting-started';
@@ -41,6 +43,11 @@ export class SidebarComponent {
 
   open(chapter) {
     this.currentChapter = chapter;
+  }
+
+  toggleSidebar() {
+    this.isShown = !this.isShown;
+    this.toggle.emit(this.isShown)
   }
 
 }

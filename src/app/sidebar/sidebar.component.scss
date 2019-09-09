@@ -1,11 +1,33 @@
 .sidebar {
   background-color: #eee;
+  opacity: 100%;
   height: calc(100vh - 116px);
-  width: 328px;
+  width: 308px;
   margin-left: 0;
   padding-left: 0;
   position: sticky;
-  top: 116px;
+  top: 112px;
+  z-index: 9999;
+  &.hide {
+    width: 50px;
+    background-color: white;
+  }
+  .toggle-container {
+    width: 100%;
+    opacity: 100%;
+    .toggle {
+      width: 50px;
+      height: 50px;
+      border: 1px solid black;
+      border-radius: 2px;
+      cursor: pointer;
+      .hamburger {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+      }
+    }
+  }
   .content {
     list-style: none;
     position: relative;

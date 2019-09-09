@@ -12,8 +12,8 @@ export class GuideDashboardComponent implements OnInit {
   ngOnInit() {
   }
 
-  toggle() {
-    this.showSidebar = !this.showSidebar;
+  onToggle(e) {
+    this.showSidebar = e;
   }
 
 }

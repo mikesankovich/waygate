@@ -1,5 +1,9 @@
-<div class="sidebar">
-  <ul class="content">
+<div class="sidebar" [ngClass]="{'hide': !isShown}">
+  <div class="toggle-container">
+    <div class="toggle" (click)="toggleSidebar()"><img src="assets/icon.png" alt="open" class="hamburger"></div>
+  </div>
+
+  <ul class="content" *ngIf="isShown">
     <li><a routerLink="/guides/getting-started" (click)="open('getting-started')" [ngClass]="{'current': currentChapter === 'getting-started'}">Getting Started</a></li>
     <li>
       <a routerLink="/guides/character-creation" (click)="open('chapter1')" [ngClass]="{'current': currentChapter === 'chapter1'}">Chapter 1: Character Creation</a>

@@ -1,9 +1,9 @@
 <div class="container-fluid">
   <div class="row">
-    <div [ngClass]="{'col-sm-3': showSidebar, 'col-sm-1': !showSidebar}" class="sidebar-container">
-      <app-sidebar *ngIf="showSidebar"></app-sidebar>
+    <div [ngClass]="{'col-sm-3 col-6': showSidebar, 'col-sm-1 col-1': !showSidebar}" class="sidebar-container">
+      <app-sidebar (toggle)="onToggle($event)"></app-sidebar>
     </div>
-    <div class="col-sm-9">
+    <div [ngClass]="{'col-sm-8 col-6': showSidebar, 'col-sm-10 col-11': !showSidebar}">
       <router-outlet></router-outlet>
       </div>
     </div>
