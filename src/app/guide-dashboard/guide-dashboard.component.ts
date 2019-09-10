@@ -17,7 +17,7 @@ export class GuideDashboardComponent implements OnInit {
   onToggle(e) {
     this.showSidebar = e;
   }
-  updateValue(value) {
+  updateValue() {
     if (this.showSidebar) {
       this.showSidebar = false;
       this.sideBar.toggleSidebarSubject.next()
