@@ -15,7 +15,7 @@
         <tr *ngFor="let row of contents.attackTypesChart.body">
           <td class="no-wrap">{{row.action}}</td>
           <td class="no-wrap">{{row.duration}}</td>
-          <td>{{row.effect}}</td>
+          <td [innerHTML]="row.effect"></td>
         </tr>
       </tbody>
     </table>
@@ -30,7 +30,7 @@
         <tr *ngFor="let row of contents.movementActionChart.body">
           <td class="no-wrap">{{row.action}}</td>
           <td class="no-wrap">{{row.duration}}</td>
-          <td>{{row.effect}}</td>
+          <td [innerHTML]="row.effect"></td>
         </tr>
       </tbody>
     </table>
@@ -45,7 +45,7 @@
         <tr *ngFor="let row of contents.miscActionChart.body">
           <td class="no-wrap">{{row.action}}</td>
           <td class="no-wrap">{{row.duration}}</td>
-          <td>{{row.effect}}</td>
+          <td [innerHTML]="row.effect"></td>
         </tr>
       </tbody>
     </table>

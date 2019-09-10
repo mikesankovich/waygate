@@ -5,9 +5,9 @@
     "author": "Zoey Crystal, Entomologist"
   },
   "intro": [
-    "All characters are giving one <b>Double Action</b> during their turn with which to make decisions and makes actions. Most actions (which encompass skills, attacks, and movement) either take up a single action, or a double action, meaning you typically get to make one or two actions in a single turn. After a double action has been made, the turn is immediately ended. The same single action can be performed twice within the same turn, unless otherwise stated.",
+    "All characters are giving <b>Two Actions</b> during their turn with which to make decisions and makes actions. After Two Actions have been made, the turn is immediately ended. The same One Action can be performed twice within the same turn, unless otherwise stated.",
     "For a list of actions you can take during combat, see the section at the end of this chapter.",
-    "Below, you will find a sample list of Free, Single, and Double Actions."
+    "Below, you will find a sample list of Free, One, and Two Actions."
   ],
   "actionTypes": {
     "freeActions": {
@@ -20,7 +20,7 @@
       ]
     },
     "singleActions": {
-      "name": "Single Actions",
+      "name": "One Actions",
       "intro": "actions that take up half of a turn.",
       "content": [
         "Standing up/raising your position from a lower one.",
@@ -30,7 +30,7 @@
       ]
     },
     "doubleActions": {
-      "name": "Double Actions",
+      "name": "Two Actions",
       "intro": "actions that take up a full turn.",
       "content": [
         "Reloading a gun",
@@ -45,14 +45,14 @@
       "A character who has successfully made an attack, or who has been successfully attacked, is considered engaged in combat, and cannot freely move away without first disengaging. If all characters with which you are directly engaged with die, you are no longer considered engaged in combat.",
       "If you try to move away from a character with whom you are engaged, they get an attack of opportunity against you.",
       "A character does not have to be actively under attack to be engaged. If a character shifts focus to another character, but otherwise does not move, you are still engaged.",
-      "Disengaging from one combatant is a Single Action. Disengaging from all enemy combatants is a Double Action"
+      "Disengaging from one combatant is One Action. Disengaging from all enemy combatants is Two Actions"
     ]
   },
   "moving": {
     "name": "Moving",
     "content": [
       "Movement speed is 5 + (Dex/2) rounded down.",
-      "You can move up to your movement speed as a Single action",
+      "You can move up to your movement speed as One Action",
       "1 sqare on a grid is 5x5 feet.",
       "Characters cannot enter or pass through an occupied square.",
       "Terrain can have levels of difficulty that lower your movement speed while traversing it.",

@@ -29,7 +29,7 @@
           "<b>Prone: </b> If an enemy is prone on the floor, gain a +2 bonus to your hit with melee weapons, and -2 to hit with ranged weapons.",
           "<b>Out of Sight: </b> You must have line of sight to make an attack."
       ]},
-      { "name": "Resistances", "intro": "Maybe their armor has some special properties. Maybe they have naturally thick skin, or an innate magical resistance. Maybe they’ve taken a potion or applied a spell that makes them harder to hit. For whatever reason, getting through and dealing damage is going to be that much harder." },
+      { "name": "Resistances", "intro": "Properties that reduce damage done based on damage type. Having resistance reduces damage of the resisted type by half (rounded down)" },
       { "name": "Size", "intro": "How large a target is can make it much easier or harder to land a hit. While a giant size may grant bonuses to strength and vitality, it also leads to an easier target to hit. The following chart shows how size modifies hit tests made against them", "sub": [
           "Giant: +6",
           "Huge: +4",
@@ -67,7 +67,7 @@
       { "name": "Riposte", "sub": [
         "Must have the <b>Riposte</b> skill",
         "Only works against Melee attacks",
-        "Cannot <b>Riposte</b> in the same round as you <b>Dodge</b>",
+        "Cannot <b>Riposte</b> in the same round as you <b>Parry</b>",
         "You may roll a dexterity roll (1d20 + dexterity). If the value is above your opponent’s hit test, you parry that attack.",
         "If you successfully stopped the attack and did not drop your weapon, deal weapon damage without modifiers."
       ]},
@@ -117,7 +117,7 @@
       "content": [
         { "name": "Bleeding", "effect": "Xd4 damage at the start of their turn" },
         { "name": "Burned", "effect": "Xd4 fire damage at the start of their turn" },
-        { "name": "Shocked", "effect": "Target loses a single action at their next turn and lose any focus or concentration they may have." },
+        { "name": "Shocked", "effect": "Target loses One Action at their next turn and lose any focus or concentration they may have." },
         { "name": "Frozen", "effect": "Target loses a half action during their next turn. Movement speed is halved (rounded down) for Xd4 turns." }
       ]
     },

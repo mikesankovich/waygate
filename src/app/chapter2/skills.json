@@ -8,7 +8,7 @@
       "use": "1d20 + Perception + training modifier"
     },
     {
-      "name": "Attribute Shift (MS) – Double Action",
+      "name": "Attribute Shift (MS) – Two Actions",
       "description": "Manipulate magical energies to temporarily alter your body's physiology.",
       "range": "Self",
       "effect": "Temporarily adjust your attributes for the remainder of the encounter. Can only be used once (successfully) per day. Transfer up to 3 attribute points from any attributes onto other attributes, until end of encounter. No attribute may go above 7 or below 0 as a result of this.",
@@ -17,14 +17,14 @@
       "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 2</li></ul>"
     },
     {
-      "name": "Backstab (FS) – Single Action",
+      "name": "Backstab (FS) – One Action",
       "description": "A brutal attack made against an unaware opponent.",
       "range": "Weapon",
       "effect": "If target is unaware of you, make an attack with a finesse weapon with a +2 to hit. If it succeeds, add an additional 1d6 to damage.",
       "requirements": "<ul><li>Must use a finesse weapon</li></ul>"
     },
     {
-      "name": "Barrier (MS) – Double Action",
+      "name": "Barrier (MS) – Two Actions",
       "description": "The mage creates a wall of blue mystical energy in front of them to protect themselves and allies from harm. The wall is about 10 feet tall and 5 feet wide.",
       "range": "Self",
       "effect": "Form an unmovable barrier in front of the caster that protects all of those behind it from all attacks. Barrier blocks line of sight for ranged attacks and abilities if it is between two characters. Attacks cannot penetrate the barrier. Barrier absorbs 1d20 + magic damage before disappearing.",
@@ -39,7 +39,7 @@
       "prerequisites": "<ul><li>Willpower 5</li><li>Magic 5</li><li>Magical Affinity</li><li>Magical Aptitude</li></ul>"
     },
     {
-      "name": "Blizzard (MS) – Double Action",
+      "name": "Blizzard (MS) – Two Actions",
       "description": "Shards of ice rain down, hitting all characters in the affected radius with ice damage.",
       "range": "60 feet",
       "effect": "deals 3d8 ice damage (magic) to all characters in a 3x3 space. All characters dealt damage roll an opposed vitality test against the hit test. If the target fails, target is frozen (3)",
@@ -53,7 +53,7 @@
       "requirements": "<ul><li>Useable once per turn</li><li>Useable out of combat</li></ul>"
     },
     {
-      "name": "Brainwash (MS) – Double Action",
+      "name": "Brainwash (MS) – Two Actions",
       "description": "A magical telepathic ability used to trick an enemy into turning on their allies.",
       "use": "Opposed <b>Magic</b> Test vs. Target's <b>WP</b> <ul><li>If target is hostile towards you,they get +2 to their WP test</li></ul>",
       "effect": "<ul><li>Allies gain +2 to all intimidate, charm, and persuasion attempts against brainwashed target. Target is highly suggestible.</li><li><b>In Combat Only: </b> If successful, character will shift its hostility from the caster their allies and onto their own allies. At the end of their turn, the target rolls a willpower test against the caster's initial original magic test value.</li><li>When they come out of brainwash, the affected character rolls an awareness check. If they roll above a 10, they are aware that they were brainwashed.</li></ul>",
@@ -61,7 +61,7 @@
       "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 3</li></ul>"
     },
     {
-      "name": "Channel Aether (FS) – Double Action",
+      "name": "Channel Aether (FS) – Two Actions",
       "description": "Proximity to the Aether has opened your mind to the possibilities therein, without the need of magic.",
       "effect": "You get a +2 to hit tests against all Aether Beings and reduce all damage dealt to you by magical attacks and effects by 2 (can’t go below zero).",
       "prerequisites": "<ul><li>Level 2</li></ul>",
@@ -73,20 +73,12 @@
       "use": "1d20 + Charisma + Training Modifier against target’s 1d20 + Perception or Willpower (whichever is higher)."
     },
     {
-      "name": "Charming Melody (FS) - Double Action",
-      "description": "Your music intrigues a foe, making them more susceptible to charm and intimidation.",
-      "effect": "Charm and intimidation rolls against target get +2. Target must be able to hear the tune for effect to take place.",
-      "requirements": "Must sing or use an instrument. Must be proficient in what you use.",
-      "range": "Audible distance",
-      "prerequisites": "<ul><li>Cha 2</li></ul>"
-    },
-    {
       "name": "Clear Thinker (KS)",
       "description": "Caster is able to maintain focus, even in distracting settings.",
       "effect": "Caster suffers no penalty to tests due to distracting settings. They suffer no penalty to tests due to being addled or confused."
     },
     {
-      "name": "Cleave (FS) – Single Action",
+      "name": "Cleave (FS) – One Action",
       "description": "Attack two adjacent enemies in one stroke.",
       "range": "Weapon",
       "effect": "Pick one enemy as your main target. Roll a Hit Test against them. If it succeeds, roll for damage, and then roll a Hit Test on the second target, with a -2 penalty. If that succeeds as well, roll for damage for the second target.",
@@ -111,7 +103,7 @@
       "effect": "If you are adjacent to an enemy that is prone, you get +4 to hit test on attacks made against them and deal an extra 1d6 damage on those attacks."
     },
     {
-      "name": "Covering Fire (FS) – Double Action",
+      "name": "Covering Fire (FS) – Two Actions",
       "description": "Spray a volley of ammunition towards a target/group to break their formation and make it harder for them to aim/concentrate.",
       "range": "Weapon range maximum",
       "effect": "<ul><li>Roll a hit test for all targets in the area (friendly included). Hits at -4 penalty</li><li>All targets in the area get a -4 to hit tests made during their next turn and any current concentration/aiming is broken.</li><li>Covering fire takes place in a 5 square wide cone in front of you and goes as far as your weapon’s range.</li></ul>",
@@ -124,7 +116,7 @@
       "use": "1d20 + training modifier (see Chapter 7: Non-Combat Actions for more details)"
     },
     {
-      "name": "Create Space (FS) – Single Action",
+      "name": "Create Space (FS) – One Action",
       "description": "Use blunt force to push your opponent away.",
       "range": "5 feet",
       "use": "unarmed attack",
@@ -132,7 +124,7 @@
       "prerequisites": "<ul><li>STR 2</li></ul>"
     },
     {
-      "name": "Crush Armor (FS) – Single Action",
+      "name": "Crush Armor (FS) – One Action",
       "description": "Use a heavy strike to ruin armor.",
       "range": "weapon",
       "effect": "Aim for a specific armor piece, then make a hit test. On success, that armor piece’s armor rating loses 1d4 value (can’t go below 0), until repaired. On critial hit, armor piece loses all value until repaired and apply weapon damage to its wearer.",
@@ -161,7 +153,7 @@
       "effect": "See <b>Chapter 5: Combat:</b> Dodging"
     },
     {
-      "name": "Double Shot (FS) – Single Action",
+      "name": "Double Shot (FS) – One Action",
       "description": "Fire two arrows from your bow at once.",
       "effect": "Make a ranged attack with two arrows nocked at -2 to hit. On success, roll damage for both arrows.",
       "requirements": "<ul><li>Must be wielding a bow and be proficient with bows.</li><li>This attack expends two arrows</li></ul>",
@@ -182,28 +174,28 @@
       "prerequisites": "<ul><li>Ranged Combat</li><li>DEX 2</li><li>STR 1</li><li>Level 2</li></ul>"
     },
     {
-      "name": "Fire Blast (MS) – Single Action",
+      "name": "Fire Blast (MS) – One Action",
       "description": "attack an enemy with a large fireball.",
       "range": "60 feet",
       "effect": "Deal 2d8 fire damage. Target rolls an opposed Vitality Attribute Test against the hit test. If they fail, they are burned (Magic) for 1d4 turns.",
       "prerequisites": "<ul><li>Magical affinity</li><li>Firebolt</li><li>Magic 3</li></ul>"
     },
     {
-      "name": "Firebolt (MS) – Single Action",
+      "name": "Firebolt (MS) – One Action",
       "description": "attack an enemy with a small fireball.",
       "range": "60 feet",
       "effect": "Deal 1d8 fire damage. Target rolls an opposed Vitality Attribute Test against the hit test. If they fail, they are burned (Magic) for 1d4 turns.",
       "prerequisites": "<ul><li>Magical affinity</li></ul>"
     },
     {
-      "name": "Fire Hazard (MS) – Double Action",
+      "name": "Fire Hazard (MS) – Two Actions",
       "description": "Flames rain down, hitting all characters in the affected radius with fire damage.",
       "range": "60 feet",
       "effect": "Deal 3d8 fire damage (magic) to all characters in a 3x3 space. All characters (ally and foe) within this space roll an opposed vitality Attribute Test against the hit test. If they fail, they are burned (Magic) for 1d4 turns.",
       "prerequisites": "<ul><li>Magical affinity</li><li>Fire Blast</li><li>Magic 5</li></ul>"
     },
     {
-      "name": "Flurry (FS) – Double Action",
+      "name": "Flurry (FS) – Two Actions",
       "description": "Sacrifice power as you make multiple strikes with your weapon.",
       "range": "weapon",
       "effect": "Make three attacks without STR or DEX bonus. On each success, your opponent takes normal weapon damage, without Strength bonus. (If you have <b>Dual Wield Melee</b> and are dual wielding or have a free hand, follow those rules for each successful strike)",
@@ -211,20 +203,20 @@
       "requirements": "<ul><li>must use melee weapons</li></ul>"
     },
     {
-      "name": "Focus (FS) – Single Action",
+      "name": "Focus (FS) – One Action",
       "description": "steady your mind",
       "effect": "+2 to hit check for your next attack or ability. Taking damage while focused will break this effect.",
       "requirements": "<ul><li>Combat only</li></ul>"
     },
     {
-      "name": "Frostbolt (MS) – Single Action",
+      "name": "Frostbolt (MS) – One Action",
       "description": "attack an enemy with a small icebolt.",
       "range": "60 feet",
       "effect": "Deal 1d8 ice damage. Target rolls an opposed Vitality Attribute Test against the hit test. If they fail, they are frozen (1).",
       "prerequisites": "<ul><li>Magical affinity</li></ul>"
     },
     {
-      "name": "Frost Cannon (MS) – Single Action",
+      "name": "Frost Cannon (MS) – One Action",
       "description": "attack an enemy with a large icebolt.",
       "range": "60 feet",
       "effect": "Deal 2d8 ice damage (magic). Target rolls an opposed Vitality Attribute Test against the hit test. If they fail, they are Frozen (2)",
@@ -243,31 +235,31 @@
       "prerequisites": "<ul><li>Dex 5</li><li>level 4</li></ul>"
     },
     {
-      "name": "Grapple (FS) – Double Action",
+      "name": "Grapple (FS) – Two Actions",
       "description": "Learn to effectively grapple your opponents.",
-      "effect": "attempt to pin target to the ground, with opposing strength tests. If they are successfully pinned they are pinned until they break free or are let go. So long as you are pinning your opponent, you may only spend one Single Action per turn, and are limited to barehanded attacks against the pinned target. You can release your opponent as a Single Action and utilize the rest of your turn normally. On their turn, if still pinned, they can attempt to break free as Double Actions with an opposing strength test.",
+      "effect": "attempt to pin target to the ground, with opposing strength tests. If they are successfully pinned they are pinned until they break free or are let go. So long as you are pinning your opponent, you may only spend one One Action per turn, and are limited to barehanded attacks against the pinned target. You can release your opponent as a One Action and utilize the rest of your turn normally. On their turn, if still pinned, they can attempt to break free as Two Actions with an opposing strength test.",
       "prerequisites": "<ul><li>Melee Combat</li><li>STR 2</li></ul>",
       "range": "5 feet (reach)"
     },
     {
-      "name": "Gravity Well (MS) – Double Action",
+      "name": "Gravity Well (MS) – Two Actions",
       "description": "Creates a gravity well that slows all enemies in the targetted area.",
-      "effect": "<ul><li>Targets a 9 x 9 area centered around the caster.</li><li>While in the area: halves all movement speeds (rounded down) for all enemies. Standing up is a Double Action. All enemies in the area must make an opposed Vitality Test against your Mystic Test role. If they fail, they fall to the ground.</li><li>Ranged weapons fired into or from the targeted area take a -4 to hit tests.</li></ul>",
+      "effect": "<ul><li>Targets a 9 x 9 area centered around the caster.</li><li>While in the area: halves all movement speeds (rounded down) for all enemies. Standing up is Two Actions. All enemies in the area must make an opposed Vitality Test against your Mystic Test role. If they fail, they fall to the ground.</li><li>Ranged weapons fired into or from the targeted area take a -4 to hit tests.</li></ul>",
       "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 5</li></ul>",
       "range": "Self",
       "mysticTest": "18 (magic)",
-      "duration": "Must reroll Mystic Test as a Single Action every turn to sustain the spell’s effects. Cannot move while sustaining the spell. Falling unconscious ends the spell"
+      "duration": "Must reroll Mystic Test as a One Action every turn to sustain the spell’s effects. Cannot move while sustaining the spell. Falling unconscious ends the spell"
     },
     {
-      "name": "Greater Heal (MS) – Double Action",
+      "name": "Greater Heal (MS) – Two Actions",
       "description": "Heal wounds with high effectiveness.",
-      "effect": "<ul><li>Heal your target for 1d8 + magic. Healing is effective on dying targets, and if brought above 0, they are no longer dying, but are rendered unconscious, unless your d10 roll was greater than 7. Can only be used (successfully or not) on a target once per day.</li><li>Using it on a target twice within an hour will cause the spell to fail and will still take up a Double Action.</li></ul>",
+      "effect": "<ul><li>Heal your target for 1d8 + magic. Healing is effective on dying targets, and if brought above 0, they are no longer dying, but are rendered unconscious, unless your d10 roll was greater than 7. Can only be used (successfully or not) on a target once per day.</li><li>Using it on a target twice within an hour will cause the spell to fail and will still take up Two Actions.</li></ul>",
       "range": "30 feet.",
       "mysticTest": "11",
       "prerequisites": "<ul><li>Magical Affinity</li><li>Minor Heal</li><li>Magic 3</li></ul>"
     },
     {
-      "name": "Guns Akimbo (FS) – Double Action",
+      "name": "Guns Akimbo (FS) – Two Actions",
       "description": "wildly empty your clips in a conical shape before you.",
       "effect": "Roll hit against all targets (enemy and ally) within the cone (1 square at 1 space. 3 squares at 5 spaces. 5 squares at 7 spaces. -2 penalty to all hit checks. Requires full clips and empties the clip",
       "range": "40 feet.",
@@ -275,21 +267,13 @@
       "requirements": "A firearm in each hand, both with full clips"
     },
     {
-      "name": "Haunting Melody (FS) - Double Action",
-      "description": "your music chills your foes to the bone.",
-      "effect": "For one round, enemies get -2 to all hit and ability tests they make. Targets must be able to hear your music for effect to take place.",
-      "requirements": "Must sing or use an instrument. Must be proficient in what you use.",
-      "range": "Audible distance",
-      "prerequisites": "<ul><li>Cha 2</li></ul>"
-    },
-    {
-      "name": "Herculean Might (FS) – Single Action",
+      "name": "Herculean Might (FS) – One Action",
       "description": "A surge of strength courses through your body.",
       "effect": "You get a +4 to all strength tests and increase strength based damage by 1d6 for 1 minute. After this minute, you get a -4 to all strength tests, -1d6 to all strength based damage dealt, and opponents get +2 to hit against you for 1 minute.",
       "prerequisites": "<ul><li>STR 3</li></ul>"
     },
     {
-      "name": "Imbue With Magic (MS) – Double Action",
+      "name": "Imbue With Magic (MS) – Two Actions",
       "description": "Imbue a set of armor with magic, granting extra protections against magical attacks.",
       "range": "touch",
       "effect": "<ul><li>Lace a set of clothing or armor with magic. The wearer gets +2 armor against magical hit tests. Armor is treated as magical for the duration of this effect.</li><li>Only one character’s armor can be imbued at a time by the caster. Spell lasts for 1 hour (in game), or until caster is knocked out, killed, or removes the spell.</li></ul>",
@@ -303,7 +287,7 @@
       "use": "1d20 + DEX + training modifier"
     },
     {
-      "name": "Inflict Pain (MS) – Double Action",
+      "name": "Inflict Pain (MS) – Two Actions",
       "description": "Wrack your target with severe pain",
       "effect": "Roll an opposing test. If your magic test is greater than your target’s willpower test, deal 1d8 Aether damage and inflict severe, indescribable pain to your target. This causes them to fall to the floor, if standing.",
       "prerequisites": "<ul><li>Magical affinity</li></ul>",
@@ -315,15 +299,7 @@
       "use": "1d20 + STR + training modifier"
     },
     {
-      "name": "Inspirational Melody (FS) - Double Action",
-      "description": "Your music inspires all allies to act to the best of their abilities.",
-      "effect": "allies receive +2 on their next hit or ability test. Target must be able to hear your music for effect to take place.",
-      "range": "Audible distance",
-      "requirements": "Must sing or use an instrument. Must be proficient in what you use.",
-      "prerequisites": "<ul><li>Cha 2</li></ul>"
-    },
-    {
-      "name": "Iron Sights (MS) – Double Action",
+      "name": "Iron Sights (MS) – Two Actions",
       "description": "Use magic to steady your aim and fire with greater accuracy",
       "effect": "for 3 rounds +2 to hit for attacks made with ranged weapons.",
       "range": "self",
@@ -331,32 +307,27 @@
       "prerequisites": "<ul><li>Magical Affinity</li><li>Ranged Combat</li></ul>"
     },
     {
-      "name": "Learn Instrument (FS)",
-      "effect": "become proficient in an instrument of your choice. (singing voice is considered an instrument)",
-      "prerequisites": "<ul><li>DEX 2</li></ul>"
-    },
-    {
       "name": "Learn Language (KS)",
       "effect": "Learn another language. Cannot learn Aether Speak in this way.",
       "prerequisites": "<ul><li>Int 2</li></ul>"
     },
     {
-      "name": "Leech (MS) – Single Action",
+      "name": "Leech (MS) – One Action",
       "description": "Use magic to draw the life force out of a target, healing you in the process.",
       "range": "25 feet",
       "effect": "Roll an opposed <b>Magic</b> test against target <b>Willpower</b>. On Success deal 1d6 Aether damage and heal yourself for half damage dealt (rounded down) after all calculations.",
       "prerequisites": "<ul><li>Magical affinity</li></ul>"
     },
     {
-      "name": "Light of the Land (MS) – Double Action",
+      "name": "Light of the Land (MS) – Two Actions",
       "description": "Heal even the deadliest of wounds.",
       "range": "30 feet.",
-      "effect": "Heal your target for 3d6 + magic. Healing is effective on dying targets, and if brought above 0, they are no longer dying, but are rendered unconscious, unless the amount healed exceeded 14. Can only be used successfully on a target once per day. Using it on a target twice within a day will cause the spell to fail, and will still take up a Double Action. Can be used on a dead character if they died within one round of combat from your current turn. They survive if their health is brought above 0, but are rendered unconscious, no matter the amount healed. Characters can only be resurrected this way once, regardless of the caster.",
+      "effect": "Heal your target for 3d6 + magic. Healing is effective on dying targets, and if brought above 0, they are no longer dying, but are rendered unconscious, unless the amount healed exceeded 14. Can only be used successfully on a target once per day. Using it on a target twice within a day will cause the spell to fail, and will still take up Two Actions. Can be used on a dead character if they died within one round of combat from your current turn. They survive if their health is brought above 0, but are rendered unconscious, no matter the amount healed. Characters can only be resurrected this way once, regardless of the caster.",
       "mysticTest": "18 (magic)",
       "prerequisites": "<ul><li>Magical Aptitude</li><li>Greater Heal</li><li>Magic 5</li>"
     },
     {
-      "name": "Lightning Storm (MS) – Double Action",
+      "name": "Lightning Storm (MS) – Two Actions",
       "description": "Bolts of lightning rain down, hitting all characters in the affected radius with electrical damage.",
       "range": "60 ft",
       "effect": "Deal 3d8 electrical damage to all characters in a 3x3 space centered around target area. All characters (ally and foe) within this space role an opposed Vitality Attribute Test against the hit test. If they fail, they are shocked.",
@@ -376,7 +347,7 @@
       "use": "1d20 + DEX + Training"
     },
     {
-      "name": "Lucky (KS) – Single Action",
+      "name": "Lucky (KS) – One Action",
       "description": "Improves your luck in moments of chance.",
       "effect": "Grants a +2 bonus to your next luck-based action. May only be used once a day."
     },
@@ -404,7 +375,7 @@
       "effect": "Gain proficiency with a Basic melee weapon class and unarmed combat. Melee weapons you have proficiency with can now be used without penalty"
     },
     {
-      "name": "Mend (MS) -- Single Action",
+      "name": "Mend (MS) -- One Action",
       "description": "Mends broken bones and heals target",
       "range": "touch",
       "effect": "Heals target for 1d4 + magic damage. Sets any broken bones target has. Can only be used on a target once a session. Does not work on dying targets",
@@ -417,27 +388,19 @@
       "effect": "Increase your characters Constitution by 1d4"
     },
     {
-      "name": "minor Heal (MS) – Double Action",
+      "name": "minor Heal (MS) – Two Actions",
       "description": "Heal minor wounds.",
       "range": "25 feet",
-      "effect": "Heal your target for 1d6 + Magic. Healing is effective on dying targets, and if brought above 0, they are no longer dying, but are rendered unconscious. Can only be used on a target once per day. If a player is targeted twice, the spell will fail, without healing, and the Double Action is still used.",
+      "effect": "Heal your target for 1d6 + Magic. Healing is effective on dying targets, and if brought above 0, they are no longer dying, but are rendered unconscious. Can only be used on a target once per day. If a player is targeted twice, the spell will fail, without healing, and Two Actions are still used.",
       "mysticTest": "8",
       "prerequisites": "<ul><li>Magical Affinity</li></ul>"
     },
     {
-      "name": "Murder Blow (FS) – Double Action",
+      "name": "Murder Blow (FS) – Two Actions",
       "description": "A vicious blow made with a melee weapon, designed to hit armored foes.",
       "requirements": "Use a non-finesse melee weapon that character is proficient with",
       "effect": "Attack gets +2 to hit test. Damage is calculated normally. Cannot use a reaction until after your next turn.",
       "prerequisites:": "<ul><li>Melee Combat</li><li>STR 4</li></ul>"
-    },
-    {
-      "name": "Musical Revelry (FS)",
-      "description": "your beautiful music inspires your allies",
-      "effect": "All players can add 1d8 to any roll, besides damage, once until your next turn. Only useable once per day. Targets must be able to hear your music.",
-      "range": "audible distance",
-      "requirements": "must have instrument equipped that you are proficient in.",
-      "prerequisites": "<ul><li>Inspirational Melody</li><li>DEX 3</li><li>CHA 3</li></ul>"
     },
     {
       "name": "Nature (KS) – trainable",
@@ -451,23 +414,14 @@
       "prerequisites": "<ul><li>Melee Combat</li></ul>"
     },
     {
-      "name": "Piercing Melody (FS)",
-      "description": "your music strikes at your foe's very being",
-      "effect": "Deal 1d10 + CHA concussive damage. Target must be able to hear your music.",
-      "use": "1d20 to hit against target's Armor Rating",
-      "range": "60 feet",
-      "requirements": "must have instrument equipped that you are proficient in.",
-      "prerequisites": "<ul><li>DEX 2</li><li>CHA 1</li></ul>"
-    },
-    {
-      "name": "Pin in Place (FS) – Double Action",
+      "name": "Pin in Place (FS) – Two Actions",
       "description": "Take aim and target an opponent’s foot, slowing their movement.",
       "effect": "-2 to hit test. On success, target cannot move unaided 3 rounds or until they are healed.",
       "requirements": "Must use a ranged weapon and be proficient with that weapon.",
       "prerequisites": "<ul><li>Ranged Combat.</li></ul>"
     },
     {
-      "name": "Power Strike (FS) – Double Action",
+      "name": "Power Strike (FS) – Two Actions",
       "description": "An all-out attack that deals high damage.",
       "effect": "On success, roll twice for weapon damage. Target gets +2 to dodge attempts against this attack",
       "requirements": "dual wielding melee weapons or two handed melee weapon equipped. Must be proficient in all equipped weapons used. If dual wielding, must have Dual Wield Melee",
@@ -476,7 +430,7 @@
     {
       "name": "Quick Draw (FS)",
       "description": "Quickly draw or sheath a weapon.",
-      "effect": "Once a turn, you can draw or sheath a weapon or instrument as a free action."
+      "effect": "Once a turn, you can draw or sheath a weapon as a free action."
     },
     {
       "name": "Rage (FS) – Reaction",
@@ -492,7 +446,7 @@
     },
     {
       "name": "Rapid Reload (FS)",
-      "effect": "Reloading a gun is now Single Action",
+      "effect": "Reloading a gun is now One Action",
       "Requirements": "must be proficient with the weapon you are reloading",
       "prerequisites": "<ul><li>DEX 2</li><li>Ranged combat</li></ul>"
     },
@@ -510,7 +464,7 @@
       "prerequisites": "<ul><li>Magical aptitude</li><li>Counterspell</li></ul>"
     },
     {
-      "name": "Rend (FS) – Double Action",
+      "name": "Rend (FS) – Two Actions",
       "description": "Deal a rending blow to your opponent with a bladed weapon, leaving them bleeding heavily.",
       "effect": "deals normal combat damage and leaves your opponent bleeding (str) for 1d4 turns. See <b>Chapter 5: Combat:</b> Bleeding.",
       "range": "weapon",
@@ -518,7 +472,7 @@
       "prerequisites": "<ul><li>Melee Combat</li></ul>"
     },
     {
-      "name": "Resist Magic (FS) – Double Action",
+      "name": "Resist Magic (FS) – Two Actions",
       "description": "Your knowledge of the magical arts has taught you to better resist magic used against you.",
       "effect": "You gain an additional resistance to magic, allowing you to reduce or shrug off magical effects until end of combat. Adds a -2 penalty to Hit Tests (magical) done against you by enemies, and magical damage done to you is reduced by 2",
       "mysticTest": "15 (Willpower)",
@@ -538,7 +492,7 @@
       "prerequisites": "<ul><li>Melee Combat</li><li>Parry</li><li>Dex 4</li></ul>"
     },
     {
-      "name": "Seal Wounds (MS) – Double Action",
+      "name": "Seal Wounds (MS) – Two Actions",
       "description": "Heal minor wounds and stop bleeding.",
       "effect": "Heal your target for 1d6 and remove all status (eg. Bleeding, burned, Shocked, frozen, etc.) from them. Healing is effective on dying targets, and if brought above 0, they are no longer dying, but are rendered unconscious. Can only be used on a target once per day.",
       "range": "25 feet",
@@ -546,14 +500,14 @@
       "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 3</li><li>Mend</li></ul>"
     },
     {
-      "name": "Sever the Ties that Bind (MS) – Double Action",
+      "name": "Sever the Ties that Bind (MS) – Two Actions",
       "description": "rip a hole in the fabric of the world, allowing the Aether to seep through.",
       "effect": "Roll 1d100 and cause Magical Mayhem with that value.",
       "mysticTest": "21",
       "prerequisites": "<ul><li>Magical Aptitude</li><li>Level 6</li></ul>"
     },
     {
-      "name": "Shield Slam (FS) – Single Action",
+      "name": "Shield Slam (FS) – One Action",
       "description": "Bash your opponent with the front of your shield",
       "effect": "Deals 1d4 + strength damage. Target must make a strength test against your hit test. If they fail, they are knocked to the ground.",
       "prerequisites": "<ul><li>Shield equipped.</li><li>STR 2</li></ul>"
@@ -561,19 +515,19 @@
     {
       "name": "Slice in Twain (FS)",
       "description": "Your rending capabilities are second to none",
-      "effect": "Your Rend skill is now a Single Action skill.",
+      "effect": "Your Rend skill is now a One Action skill.",
       "prerequisites": "<ul><li>Rend</li><li>STR 4</li><li>DEX 2</lli></ul>"
     },
     {
-      "name": "Slip Into Shadows (FS) – Double Action",
+      "name": "Slip Into Shadows (FS) – Two Actions",
       "description": "You have learned to use the subtleties of the Aether to slip out of notice of an aware enemy.",
       "effect": "Roll an opposed dexterity test at -2 against all aware characters' (NPCs and Player characters) awareness test. Those you succeed against no longer sense your presence. If you slip out of presence of all enemies currently engaged with you in combat, you disengage. Effect breaks after your next turn",
       "prerequisites": "<ul><li>Stealth at skilled or master level</li><li>DEX 4</li></ul>"
     },
     {
-      "name": "Snipe (FS) – Double Action (Extended)",
+      "name": "Snipe (FS) – Two Actions (Extended)",
       "description": "Take careful aim to hit a target with pinpoint accuracy.",
-      "effect": "Take a Double Action to steady your aim on a chosen target. Attack takes place as your first Single Action on your following turn. Taking any damage, moving, or taking any action during this time will end this effect immediately. If your target dies before your attack, you can spend your first Double Action on your turn taking aim at a new target, and are free to use your other Double Action to make your attack. +6 to hit test. Range is increased by 30 feet for this attack. An additional 1d10 damage if hit is successful.",
+      "effect": "Take Two Actions to steady your aim on a chosen target. Attack takes place as your first One Action on your following turn. Taking any damage, moving, or taking any action during this time will end this effect immediately. If your target dies before your attack, you can spend your first Action on your turn taking aim at a new target, and are free to use your second Action to make your attack. +6 to hit test. Range is increased by 30 feet for this attack. An additional 1d10 damage if hit is successful.",
       "requirements": "long ranged weapon equipped, and player must be proficient with that weapon. (Long ranged weapons are generally non-shotgun two handed firearms, longbows, crossbows)",
       "prerequisites": "<ul><li>Dex 4</li><li>Ranged Combat</li></ul>"
     },
@@ -584,7 +538,7 @@
       "use": "1d20 + DEX + training modifier."
     },
     {
-      "name": "Stun (magic) – Double Action",
+      "name": "Stun (magic) – Two Actions",
       "description": "A jolt of magic (Aether) stuns your target.",
       "range": "touch",
       "mysticTest": "14 (magic)",
@@ -592,7 +546,7 @@
       "prerequisites": "<ul><li>Magical Affinity</li></ul>"
     },
     {
-      "name": "Stun (melee) – Double Action",
+      "name": "Stun (melee) – Two Actions",
       "description": "A concussive blow that stuns your target.",
       "effect": "target takes 1d6 + strength damage and is stunned. They are immobilized and unable to make any actions for 2 rounds, or until the effect is removed, or until they take damage. Attacks made against the target while immobilized get a +2 to hit. At the end of the targeted character's turn, the target may make a vitality test. If the result is higher than 13, the effect is lifted.",
       "requirements": "must be proficient with weapon equipped or in unarmed combat",
@@ -608,7 +562,7 @@
       "prerequisites": "<ul><li>Magical Affinity</li></ul>"
     },
     {
-      "name": "Split Shot (FS) – Single Action",
+      "name": "Split Shot (FS) – One Action",
       "description": "Fire two arrows from your bow at once at two different targets",
       "effect": "Make a ranged attack with two arrows nocked at a primary and secondary target. Roll to hit against each with a -2 to hit. Targets must be adjacent to each other and you must have line of sight on both.",
       "requirements": "must be wielding a bow and be proficient with bows. This attack expends two arrows.",
@@ -621,11 +575,11 @@
       "prerequisites": "<ul><li>DEX 2</li></ul>"
     },
     {
-      "name": "Sweep (FS) – Single Action",
+      "name": "Sweep (FS) – One Action",
       "description": "Use your weapon to hook your target’s leg in an attempt to knock them to the ground",
       "requirements": "must have a whip, staff, spear, or other pole weapon equipped. Must be proficient with that weapon.",
       "range": "weapon",
-      "effect": "1d6 damage, no modifiers. Use your weapon to sweep a target’s legs, knocking them off their feet. Target is now prone and must use a Single Action to stand up.",
+      "effect": "1d6 damage, no modifiers. Use your weapon to sweep a target’s legs, knocking them off their feet. Target is now prone and must use a One Action to stand up.",
       "prerequisites": "<ul><li>Melee Combat</li></ul>",
       "use": "Normal hit test, but replace any STR modifiers with DEX."
     },
@@ -641,14 +595,14 @@
       "use": "1d20 + INT + training modifier"
     },
     {
-      "name": "Thunderball (MS) – Single Action",
+      "name": "Thunderball (MS) – One Action",
       "description": "Hit an enemy with a large ball of electricity.",
       "range": "25 feet",
       "effect": "Deal 2d8 electrical damage (magic). Target rolls an opposed Vitality Attribute Test against the hit test. If they fail, they are shocked.",
       "prerequisites": "<ul><li>Magical affinity</li><li>thunderbolt</li><li>Magic 3</li></ul>"
     },
     {
-      "name": "ThunderBolt (MS) – Single Action",
+      "name": "ThunderBolt (MS) – One Action",
       "description": "Hit an enemy with a small ball of electricity.",
       "range": "25 feet",
       "effect": "Deal 1d8 electrical damage (magic). Target rolls an opposed Vitality Attribute Test against the hit test. If they fail, they are shocked.",
@@ -661,29 +615,29 @@
       "prerequisites": "<ul><li>Level 3</li></ul>"
     },
     {
-      "name": "Aether Blast (MS) – Single Action",
+      "name": "Aether Blast (MS) – One Action",
       "description": "Hit an enemy with a blast of Aether energy.",
       "range": "25 feet.",
       "effect": "deals 1d8 Aether damage. Unless target’s armor has anti-magic properties, each armor piece only grants half of its armor (rounded up) to the target’s armor rating for this attack.",
       "prerequisites": "<ul><li>Magical affinity</li></ul>"
     },
     {
-      "name": "Aether Blade (MS) – Double Action",
+      "name": "Aether Blade (MS) – Two Actions",
       "description": "Create a weightless one-handed sword of telekinetic energy.",
       "effect": "<ul><li>The Aether Blade persists until it is dismissed (free action). Can be dual wielded with other weapons, but only one Aether blade can be active for a caster at a time. Letting go of the blade for any reason will cause it to disappear. Doing so intentionally is a free action. Attacks made with the blade use Hit Test (melee).</li><li><b>Weapon details: </b><ul><li>Damage: 1d10 + magic damage (damage is Aether damage)</li><li>Critical range: 19-20</li><li>Weight: 1 lbs.</li><li><b>Special Ability: </b>Unless target’s armor has anti-magic properties, each armor piece only grants half of its armor (rounded up) to the target’s armor rating. Cannot be parried, riposted, or blocked with non-magic weapons. Cannot be used to parry or riposte non-magic weapons.</li>",
       "mysticTest": "14 (magic)",
       "prerequisites": "<ul><li>Magical affinity</li><li>Melee Combat</li><li>Magic 2</li></ul>"
     },
     {
-      "name": "Aether Bomb (MS) – (Double Action – Extended)",
+      "name": "Aether Bomb (MS) – (Two Actions – Extended)",
       "description": "Character charges up for a magic bomb that decimates the area surrounding the caster.",
-      "effect": "<ul><li>If Mystic Test passes, take a Double Action to charge up the attack. While charging, Hit Tests made against you get a +2 modifier. On the following turn, spending both of your actions, you unleash the magical bomb, decimating absolutely everything in the 15x15 area surrounding the caster, completely ignoring cover (magical and physical) and line of sight issues. All characters (including caster) in area of effect roll a Willpower Attribute Test. If they get below 18, they take 3d12 +  Mag damage (Aether). This damage cannot be prevented or rebounded (but it can be reduced). This spell cannot be countered or rebounded.</li></ul>",
+      "effect": "<ul><li>If Mystic Test passes, take Two Actions to charge up the attack. While charging, Hit Tests made against you get a +2 modifier. On the following turn, spending both of your actions, you unleash the magical bomb, decimating absolutely everything in the 15x15 area surrounding the caster, completely ignoring cover (magical and physical) and line of sight issues. All characters (including caster) in area of effect roll a Willpower Attribute Test. If they get below 18, they take 3d12 +  Mag damage (Aether). This damage cannot be prevented or rebounded (but it can be reduced). This spell cannot be countered or rebounded.</li></ul>",
       "mysticTest": "23 (magic)",
       "range": "self",
       "prerequisites": "<ul><li>Magical Aptitude</li></ul>"
     },
     {
-      "name": "Aether Shield (MS) – Double Action",
+      "name": "Aether Shield (MS) – Two Actions",
       "description": "Create a weightless shield of telekinetic energy. This shield can only block magical weapons, weapons imbued with magical power, or spells.",
       "effect": "<ul><li>Telekinetic Shield persists until it is dismissed (free action) or let go for any reason. Non-magic weapons and fists simply pass through the shield unharmed. Grants a -2 penalty to magical attacks made against you, or attacks against you made with a magical weapon</li></ul>",
       "mysticTest": "14 (magic)",
@@ -714,11 +668,11 @@
     {
       "name": "Weapon Maintenance (KS)",
       "description": "Learn basic weapon maintenance, allowing you to keep your melee and ranged weapons clean and ready for use, staving off penalties due to neglect.",
-      "effect": "Unjamming your weapon is now only a Single Action.",
+      "effect": "Unjamming your weapon is now only a One Action.",
       "prerequisites": "<ul><li>Int 1</li><li>Ranged Combat</li></ul>"
     },
     {
-      "name": "Whirlwind (FS) – Double Action",
+      "name": "Whirlwind (FS) – Two Actions",
       "description": "A powerful spinning attack hits all targets adjacent to you.",
       "range": "weapon",
       "effect": "<ul><li>Roll a Hit Test (Melee) for all characters (friend or foe) in range. Deal normal weapon damage to each.</li></ul>",

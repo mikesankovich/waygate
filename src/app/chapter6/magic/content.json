@@ -40,8 +40,8 @@
             "Sustaining a spell does not count towards this"
           ]
         },
-        { "name": "Using three of the four actions you have over two turns on spells (ex. A single action one turn, a double action next turn)" },
-        { "name": "In one round, if 10 actions are spent using magic by any number of characters (DM should keep track with a d10). Double action ability = 2 actions." }
+        { "name": "Using three of the four actions you have over two turns on spells (ex. One Action one turn, Two Actions next turn)" },
+        { "name": "In one round, if 10 actions are spent using magic by any number of characters (DM should keep track with a d10)." }
       ],
       "post": "Typically, Magical Mayhem cannot be stopped. Legends speak of powerful magicians halting the process, but officially there are no reports of this ever happening.",
       "chart": {
@@ -50,7 +50,7 @@
         "headers": ["Roll", "Name", "Description", "Effect"],
         "body": [
           { "roll": "0-9", "name": "Nothing", "description": "Nothing Happens", "effect": "Nothing Happens" },
-          { "roll": "10-19", "name": "Time Dilation", "description": "Time seems to ebb and flow, as you momentarily fall out of its influence", "effect": "You lose your next Single Action" },
+          { "roll": "10-19", "name": "Time Dilation", "description": "Time seems to ebb and flow, as you momentarily fall out of its influence", "effect": "You lose your next One Action" },
           { "roll": "20-29", "name": "Nothing", "description": "Nothing Happens", "effect": "Nothing Happens" },
           { "roll": "30-39", "name": "Aether Sickness", "description": "All sentient beings near the caster feel their magic being drained.", "effect": "All characters within 30 feet the Caster (them included) have their Magic reduced to 0 and are unable to cast spells until after the Caster’s next turn. They also lose all sustained magic and their Armor loses its permanent magical properties for this time." },
           { "roll": "40-49", "name": "Farsight", "description": "The tearing open of the Aether has given the Caster a glimpse of what lies beyond the known universe. They immediately forget the experience, but it does not leave them unchanged.", "effect": "Caster gets +2 WP for 3 rounds." },

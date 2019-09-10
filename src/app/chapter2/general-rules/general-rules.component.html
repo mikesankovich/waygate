@@ -19,7 +19,7 @@
       <h3>{{contents.terminology.header}}</h3>
       <div *ngFor="let term of contents.terminology.terms">
         <div class="term">
-          <span class="term-name">{{term.name}}:</span><span> {{term.details}}</span>
+          <span class="term-name">{{term.name}}: </span><span [innerHTML]="term.details"></span>
           <ul *ngIf="term.sub && term.sub.length">
             <li *ngFor="let sub of term.sub">{{sub}}</li>
           </ul>
