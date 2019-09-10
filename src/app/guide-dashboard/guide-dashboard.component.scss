@@ -16,3 +16,18 @@
   overflow-y: scroll;
   height: calc(100% - 112px);
 }
+
+.cover {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 308px;
+  z-index: 100000;
+  background-color: grey;
+  opacity: .7;
+  overflow: hidden;
+}
+
+.stopflow {
+  overflow: hidden;
+}

@@ -1,5 +1,6 @@
 import { Component, Output, EventEmitter } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import {Subject} from 'rxjs';
 
 @Component({
   selector: 'app-sidebar',
@@ -9,6 +10,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class SidebarComponent {
   currentChapter: string = '';
   isShown = true;
+  toggleSidebarSubject: Subject<String> = new Subject<string>();
   @Output() toggle = new EventEmitter();
   constructor(private route:ActivatedRoute, private router: Router) {
     if (router.url.indexOf('getting-started') > -1) {
@@ -35,6 +37,9 @@ export class SidebarComponent {
     if (router.url.indexOf('non-combat-actions') > -1) {
       this.currentChapter = 'chapter7';
     }
+    this.toggleSidebarSubject.subscribe(res => {
+      this.isShown = false;
+    });
   }
 
   get url() {

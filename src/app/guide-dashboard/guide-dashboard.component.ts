@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-guide-dashboard',
@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GuideDashboardComponent implements OnInit {
   showSidebar: boolean = true;
+  @ViewChild('sideBar', {static: false}) sideBar;
+
   constructor() { }
 
   ngOnInit() {
@@ -15,5 +17,10 @@ export class GuideDashboardComponent implements OnInit {
   onToggle(e) {
     this.showSidebar = e;
   }
-
+  updateValue(value) {
+    if (this.showSidebar) {
+      this.showSidebar = false;
+      this.sideBar.toggleSidebarSubject.next()
+    }
+  }
 }
