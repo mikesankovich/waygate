@@ -46,12 +46,18 @@ import { NonCombatActionsComponent } from './chapter7/non-combat-actions/non-com
 // The Story
 import { TheStoryComponent } from './the-story/the-story.component';
 
+// character Sheet
+import { CharacterSheetComponent } from './character-sheet/character-sheet.component';
+
 const routes: Routes = [
   {
     path: '', component: TitleComponent
   },
   {
     path: 'the-story', component: TheStoryComponent
+  },
+  {
+    path: 'character-sheet', component: CharacterSheetComponent
   },
   {
     path: 'guides',

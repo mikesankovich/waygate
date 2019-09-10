@@ -19,7 +19,7 @@ export class SkillListComponent implements OnInit {
 
     this.content = content;
     this.skills = _.cloneDeep(content.skills).sort((a, b) => {
-        return a.name > b.name ? 1 : -1;
+        return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1;
     });
     this.filteredSkills = _.cloneDeep(this.skills);
   }
