@@ -2,7 +2,7 @@
   <h2>{{content.title}}</h2>
   <p *ngIf="content.intro">{{content.intro}}</p>
   <div class="filter row">
-    <div class="col-sm-6 offset-sm-3 input-group filter-group">
+    <div class="col-sm-8 offset-sm-2 input-group filter-group">
       <input type="text" id="keyword" class="keyword form-control" (change)="onChange($event)" placeholder="Search Skills..." />
       <span class="input-group-btn">
         <button (click)="onFilter()" class="btn btn-primary">search</button>

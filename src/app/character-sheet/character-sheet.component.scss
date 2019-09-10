@@ -160,3 +160,36 @@ h3 {
     height: 160px;
   }
 }
+
+.bubbles {
+  margin-left: 4px;
+}
+
+.bubbles span {
+  font-size: 10px;
+  margin-left: 4px;
+  width: 14px;
+}
+
+.bubbles-box {
+  margin: 0 7px;
+  width: 24px;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.skill:not(.labeler) div:nth-child(2) {
+  background-color: black;
+}
+
+.skill.labeler {
+  border-bottom: 2px solid black;
+  // width: 56%;
+}
+
+.skill {
+  font-size: 12px;
+}
+.labeler {
+  margin-bottom: 1px solid black;
+}
