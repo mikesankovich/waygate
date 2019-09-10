@@ -3,7 +3,7 @@
     <div [ngClass]="{'col-sm-3 col-6': showSidebar, 'col-sm-1 col-1': !showSidebar}" class="sidebar-container">
       <app-sidebar (toggle)="onToggle($event)"></app-sidebar>
     </div>
-    <div [ngClass]="{'col-sm-8 col-6': showSidebar, 'col-sm-10 col-11': !showSidebar}">
+    <div [ngClass]="{'col-sm-10 col-12': showSidebar, 'col-sm-10 col-11 offset-1': !showSidebar}" class="abs">
       <router-outlet></router-outlet>
       </div>
     </div>

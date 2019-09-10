@@ -5,6 +5,14 @@
 .sidebar-container {
   padding-left: 0;
   position: sticky;
-  top: 112px;
+  top: 100px;
   z-index: 9999;
+  height: calc(100% - 112px);
+
+}
+
+.abs {
+  position: absolute;
+  overflow-y: scroll;
+  height: calc(100% - 112px);
 }

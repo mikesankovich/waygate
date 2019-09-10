@@ -38,7 +38,7 @@
       <tbody>
         <tr *ngFor="let row of contents.magicalMayhem.causing.chart.body">
           <td class="no-wrap">{{row.roll}}</td>
-          <td class="no-wrap">{{row.name}}</td>
+          <td>{{row.name}}</td>
           <td [innerHTML]="row.description"></td>
           <td [innerHTML]="row.effect"></td>
         </tr>
