@@ -1,3 +1,12 @@
+.download-holder {
+  margin-top: 24px;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+}
+#character-sheet {
+  overflow-x: auto;
+}
 #printPage {
   margin: 20px 40px;
   padding: 20px;
@@ -184,7 +193,6 @@ h3 {
 
 .skill.labeler {
   border-bottom: 2px solid black;
-  // width: 56%;
 }
 
 .skill {
@@ -192,4 +200,13 @@ h3 {
 }
 .labeler {
   margin-bottom: 1px solid black;
+}
+
+.skill-list {
+  margin-top: 22px;
+  width: 100%;
+  .skill {
+    border-bottom: 1px solid black;
+    margin: 18px 20px;
+  }
 }
