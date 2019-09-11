@@ -46,10 +46,17 @@
       "prerequisites": "<ul><li>Magical Affinity</li><li>Frost Cannon</li><li>Magic 5</li></ul>"
     },
     {
+      "name": "Blood Fuel (KS) – free action",
+      "description": "Your blood has been flooded with the aether. Offering it as a tribute improves you abilities temporarily.",
+      "range": "Self",
+      "effect": "By dealing yourself 1d6 damage (cannot be reduced or prevented), add a +2 to your next non-magic test (does not stack with other uses of Blood Fuel). This damage cannot be healed until after a short rest.",
+      "requirements": "<ul><li>Not useable in combat</li></ul>"
+    },
+    {
       "name": "Blood Tribute (MS) – free action",
       "description": "A magic user makes a blood offering to the Waygate to temporarily augment their powers.",
       "range": "Self",
-      "effect": "By dealing yourself 1d6 damage (cannot be reduced or prevented), add a +2 to your next magic test (does not stack). This damage cannot be healed until after a short rest.",
+      "effect": "By dealing yourself 1d6 damage (cannot be reduced or prevented), add a +2 to your next magic test (does not stack with other uses of Blood Tribute). This damage cannot be healed until after a short rest.",
       "requirements": "<ul><li>Useable once per turn</li><li>Useable out of combat</li></ul>"
     },
     {
@@ -59,6 +66,12 @@
       "effect": "<ul><li>Allies gain +2 to all intimidate, charm, and persuasion attempts against brainwashed target. Target is highly suggestible.</li><li><b>In Combat Only: </b> If successful, character will shift its hostility from the caster their allies and onto their own allies. At the end of their turn, the target rolls a willpower test against the caster's initial original magic test value.</li><li>When they come out of brainwash, the affected character rolls an awareness check. If they roll above a 10, they are aware that they were brainwashed.</li></ul>",
       "duration": "1 minute or until target takes damage",
       "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 3</li></ul>"
+    },
+    {
+      "name": "Cat's Grace (FS) – Reaction",
+      "description": "Steady yourself after a fall.",
+      "effect": "You get +2 to any attack that aims to trip or shove you to the ground. You take half damage from falling (rounded up).",
+      "prerequisites": "<ul><li>Dex 3</li></ul>"
     },
     {
       "name": "Channel Aether (FS) – Two Actions",
@@ -87,8 +100,14 @@
     },
     {
       "name": "Climb (FS) – Trainable",
-      "use": "1d20 + training modifier + Str or Dex (whichever is higher)",
-      "description": "Climb difficult structures and obstacles."
+      "description": "Climb difficult structures and obstacles.",
+      "use": "1d20 + training modifier + Str or Dex (whichever is higher)"
+    },
+    {
+      "name": "Copycat (KS) - Trainable",
+      "description": "Your ability to copy someone's voice and mannerisms and very appearance is uncanny.",
+      "requirements": "Must have met and conversed with the person to copy their voice and seen them move about to copy their mannerisms. Seen at least a picture of them to copy their appearance. Requires makeup and a costume for mimicking their appearance.",
+      "use": "1d20 + CHA + training modifier"
     },
     {
       "name": "Counterspell (MS) – Reaction",
@@ -307,6 +326,12 @@
       "prerequisites": "<ul><li>Magical Affinity</li><li>Ranged Combat</li></ul>"
     },
     {
+      "name": "Inspiring Charm (KS) - Double Action",
+      "description": "Your very presence inspires your allies.",
+      "effect": "For six rounds, your allies get +2 to all attacks. You can only make One Action per turn until this effect ends.",
+      "prerequisites": "<ul><li>Cha 4</li></ul>"
+    },
+    {
       "name": "Learn Language (KS)",
       "effect": "Learn another language. Cannot learn Aether Speak in this way.",
       "prerequisites": "<ul><li>Int 2</li></ul>"
@@ -408,6 +433,11 @@
       "use": "1d20 + INT + training modifier"
     },
     {
+      "name": "Lore (KS) – trainable",
+      "description": "Improve your ability to understand and recollect details of the new world's history.",
+      "use": "1d20 + INT + training modifier"
+    },
+    {
       "name": "Parry (FS) - Reaction",
       "description": "Parry an opponent’s attack.",
       "effect": "See <b>Chapter5: Combat</b>: parrying.",
@@ -426,6 +456,12 @@
       "effect": "On success, roll twice for weapon damage. Target gets +2 to dodge attempts against this attack",
       "requirements": "dual wielding melee weapons or two handed melee weapon equipped. Must be proficient in all equipped weapons used. If dual wielding, must have Dual Wield Melee",
       "prerequisites": "<ul><li>Str 4</li><li>Dex 2</li></ul>"
+    },
+    {
+      "name": "Presence of Mind (KS)",
+      "description": "You become much harder to catch by surprise.",
+      "effect": "You get two rolls on any Awareness test in which you try to detect stealthed beings or beings attempting to ambush you.",
+      "use": "You roll two dice for the test and take the higher roll."
     },
     {
       "name": "Quick Draw (FS)",
@@ -486,10 +522,16 @@
       "prerequisites": "<ul><li>Vitality 2</li></ul>"
     },
     {
-      "name": "Riposte (FS) -- reaction",
+      "name": "Riposte (FS) - reaction",
       "description": "Parry an opponent’s attack and counter attack.",
       "effect": "See <b>Chapter 5: Combat:</b> Riposte",
       "prerequisites": "<ul><li>Melee Combat</li><li>Parry</li><li>Dex 4</li></ul>"
+    },
+    {
+      "name": "Screech of Terror (KS) - Two Actions",
+      "description": "Your terrible screams are imbued with the powers of the Aether, filling those in its path with dread.",
+      "effect": "The scream shoots out in front of you, 3 squares wide. All characters in the targeted zone must roll must roll an opposed WP test with you. Any who roll lower than you are unable to take action for 3 turns and are disengaged from their enemies. Any attack made against them gets a +2 to hit, and a successful hit breaks this effect.",
+      "prerequisites": "<ul><li>WP 3</li></ul>"
     },
     {
       "name": "Seal Wounds (MS) – Two Actions",
@@ -538,6 +580,12 @@
       "use": "1d20 + DEX + training modifier."
     },
     {
+      "name": "Strong of Mind (FS)",
+      "description": "You become unshakable in the face of fear.",
+      "effect": "Whenever you roll a test involving Willpower, you roll two dice and take the higher value.",
+      "prerequisites": "<ul><li>WP 5</li></ul>"
+    },
+    {
       "name": "Stun (magic) – Two Actions",
       "description": "A jolt of magic (Aether) stuns your target.",
       "range": "touch",
@@ -573,6 +621,11 @@
       "description": "Player has greater balance and becomes much harder to knock of their feet.",
       "effect": "Player gains a +2 bonus to dexterity checks involving balance, including ambushes, grapples, trips, sweeps, and heavy blows.",
       "prerequisites": "<ul><li>DEX 2</li></ul>"
+    },
+    {
+      "name": "Survival (KS) –  trainable",
+      "description": "Learn to better survive in the wild.",
+      "use": "1d20 + VIT + training modifier"
     },
     {
       "name": "Sweep (FS) – One Action",
@@ -655,13 +708,13 @@
     },
     {
       "name": "Weapon Skills – Melee (FS)",
-      "description": "Become learned with a weapon of your choice.",
+      "description": "Become proficient with a weapon of your choice.",
       "effect": "<ul><li>Can be purchased multiple times. Gain proficiency in a melee weapon class, allowing you to make attacks with that class of weapon without penalty. Attacks with a proficient weapon grant a +0 to hit. Attacks with a non-proficient basic weapon grant a -2 to hit. Attacks with a non-proficient advanced weapon grant a -4 to hit.</li><li>Basic Melee Weapons include<ul><li>Hand to hand combat (unarmed and fist weapons)</li><li>One handed swords</li><li>One handed axes</li><li>One handed maces</li><li>Two handed swords</li><li>Two handed axes</li><li>Two handed maces</li><li>Staves/Spears</li><li>Knives</li><li>Basic Whips</li></ul></li><li>For Advanced Melee Weapon Types, see Chart: Melee Chart in Chapter 3: Part I. (tend to include specialty weapons, augmented weapons {such as chain whips and segmented staves}, or complex weapons unheard of in your world, grenades).</li></ul>",
       "prerequisites": "<ul><li>Melee Combat</li></ul>"
     },
     {
       "name": "Weapon Skills – Ranged (FS)",
-      "description": "Become learned with a weapon of your choice.",
+      "description": "Become proficient with a weapon of your choice.",
       "effect": "<ul><li>Can be purchased multiple times. Gain proficiency in a ranged weapon class, allowing you to make attacks with that class of weapon without penalty. Attacks with a proficient weapon grant a +0 to hit. Attacks with a non-proficient weapon grant a -2 to hit. Attacks with non-proficient advanced weapon grant a -4 to hit.</li><li>Basic Ranged Weapons Include<ul><li>One handed firearms</li><li>Two handed firearms</li><li>Bows</li><li>crossbows</li><li>Thrown weapons</li></ul></li></li><li>For Advanced Ranged Weapon Types, see Chart: Ranged Chart in Chapter 3: Part I.</li></ul>",
       "prerequisites": "<ul><li>Ranged Combat</li></ul>"
     },
@@ -678,6 +731,11 @@
       "effect": "<ul><li>Roll a Hit Test (Melee) for all characters (friend or foe) in range. Deal normal weapon damage to each.</li></ul>",
       "requirements": "2-handed melee weapon equipped. Requires being proficient with that weapon.",
       "prerequisites": "<ul><li>Melee Combat</li><li>STR 5</li><li>DEX 4</li><li>Cleave</li></ul>"
+    },
+    {
+      "name": "Wrangling (KS) –  trainable",
+      "description": "Learn to better handle and soothe wild beasts",
+      "use": "1d20 + WP + training modifier"
     }
   ]
 }
