@@ -43,7 +43,8 @@
     "name": "Engaged",
     "content": [
       "A character who has successfully made an attack, or who has been successfully attacked, is considered engaged in combat, and cannot freely move away without first disengaging. If all characters with which you are directly engaged with die, you are no longer considered engaged in combat.",
-      "If you try to move away from a character with whom you are engaged, they get an attack of opportunity against you.",
+      "If you try to move away from a character with whom you are engaged and within their melee attack range, they get an attack of opportunity against you.",
+      "To make an <b>Attack of Opportunity</b>, the attacker makes a basic attack with their weapon and applies modifiers and damage normally",
       "A character does not have to be actively under attack to be engaged. If a character shifts focus to another character, but otherwise does not move, you are still engaged.",
       "Disengaging from one combatant is One Action. Disengaging from all enemy combatants is Two Actions"
     ]
@@ -56,7 +57,7 @@
       "1 sqare on a grid is 5x5 feet.",
       "Characters cannot enter or pass through an occupied square.",
       "Terrain can have levels of difficulty that lower your movement speed while traversing it.",
-      "Diagonal movement is not allowed."
+      "Diagonal movement is allowed."
     ]
   }
 }

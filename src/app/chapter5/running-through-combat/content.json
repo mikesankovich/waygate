@@ -1,0 +1,51 @@
+{
+  "title": "Running Through Combat",
+  "quote": {
+    "quote": "Everything in its time. Everything happens in its time.",
+    "author": "Rachel Rowland, Marine Biologist"
+  },
+  "intro": "Here we will run through each of the steps of combat in detail.",
+  "header": {
+    "name": "The Order of Combat",
+    "details": "Combat is a clash between two opposing forces. It is organized into <b>rounds</b> and <b>turns</b>. A round represents about 6 seconds in the game world. During a round all players take a turn, during which they have Two Actions with which to act. A round ends when every player has taken a turn, and a new round begins."
+  },
+  "info": [
+    {
+      "header": "Ambushes", "details": [
+        "Not all combat is planned by the characters. Sometimes a character or group sneaks up and gets the drop on their targets, giving them an advantage in combat.",
+        "To deterine whether someone successfully ambushes, the ambushers roll a <b>Stealth</b>(DEX) test against the target they are attackings <b>Awareness</b>(PER). If they win, they remain stealthed, and are able to take a turn before initiative is rolled.",
+        "Individual members of a group can be ambushed, even if others are aware of the ambusher's presence, so long as they don't successfully alert the character."
+      ]
+    },
+    {
+      "header": "Initiative", "details": [
+        "Initiative determines the order that characters take their turns during a round of combat. To determine initiative, every character (player and non-player) involved in combat makes an Initiative Test by rolling 1d20 and adding their Dexterity to the value.",
+        "Characters takes turns in the order of their initiative, with the higher values going first. If a tie occurs, the tied characters compare Dexterity. Whoever has the highest is placed higher in the order. If there is still a tie, they roll a d6 until one of them has a higher value."
+      ]
+    },
+    {
+      "header": "Your Turn", "details": [
+        "On your turn you get Two Actions. With these actions you can move, attack, make attribute tests, etc. For a non-exhaustive list of actions that can be made in combat, see the <a href=\"guides/combat/combat-actions\" target=\"_\" style='color:#007bff; cursor:pointer'>Combat Actions</a> subchapter.",
+        "Moving is One Action and allows you to move any number of squares up to your movement speed. Your speed should be noted on your character sheet as 5 + Dex/2 (rounded down). Each square on a grid is equal to five feet. You cannot walk through or occupy a space that is currently occupied. You can use both of your actions to move, if desired. You cannot break up your movement, however. If you move half of your speed, then make an attack, you cannot move the rest of your speed this turn.",
+        "There are several types of attacks. Some of which are One Action, others of which are Two Actions.",
+        "There are numerous skills that are useable in combat. Skills are either One or Two Actions.",
+        "You can use items, which can be either One Action or Two Actions to use",
+        "There are a few actions considered \"Free Actions.\" These are actions that can be made that take a short enough amount of time that they don't prevent you from otherwise acting during your turn. Actions such as speaking short, non-complex messages or shifting to the ground are free actions.",
+        "You don't have to use all of your actions during your turn. If you hold One Action, you get a +1 modifier to any <b>Reactions</b> you make until your next turn. If you hold Two Actions, you get +2."
+      ]
+    },
+    {
+      "header": "Reactions", "details": [
+        "There are certain Skills and situations that allow a character to react during another character's turn.",
+        "Most frequently, this occurs when an attacked character has the <b>Dodge</b>, <b>Parry</b>, <b>Riposte</b>, <b>Counterspell</b>, or <b>Rebound Spell</b> skill.",
+        "Another reaction is the <b>Attack of Opportunity</b>. If you are within melee range of an enemy with whom you are <b>Engaged</b> and try to move away, they are allowed to make a basic attack against you.",
+        "You are only allowed one reaction a turn, unless you have the <b>Grace and Finesse</b> skill, in which case you are allowed two."
+      ]
+    },
+    {
+      "header": "Round Ends", "details": [
+        "The round ends when the last character in the initiative order finishes their turn. Combat resumes at the top of the initiative order."
+      ]
+    }
+  ]
+}

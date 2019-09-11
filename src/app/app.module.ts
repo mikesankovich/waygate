@@ -51,6 +51,7 @@ import { FiringModesComponent } from './chapter4/playing-the-game/firing-modes/f
 
 import * as $ from 'jquery';
 import * as bootstrap from 'bootstrap';
+import { RunningThroughCombatComponent } from './chapter5/running-through-combat/running-through-combat.component';
 
 @NgModule({
   declarations: [
@@ -94,6 +95,7 @@ import * as bootstrap from 'bootstrap';
     TheStoryComponent,
     CharacterSheetComponent,
     FiringModesComponent,
+    RunningThroughCombatComponent,
   ],
   imports: [
     BrowserModule,
