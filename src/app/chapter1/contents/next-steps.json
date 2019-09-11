@@ -45,28 +45,28 @@
       "Exp: 0 – 399", "Starting skill points and attributes"
     ]},
     { "name": "Level 2", "sub": [
-      "Exp: 400-1149", "3 Skill Points", "1 Attribute Point", "Gain 1d6 health"
+      "Exp: 400-1149", "3 Skill Points", "1 Attribute Point", "Gain 1d6 health or 4 health"
     ]},
     { "name": "Level 3", "sub": [
-      "Exp: 1150-2099", "4 Skill Points", "2 Attribute Points", "Gain 1d8 health"
+      "Exp: 1150-2099", "4 Skill Points", "2 Attribute Points", "Gain 1d6 health or 4 health"
     ]},
     { "name": "Level 4", "sub": [
-      "Exp: 2100-3299", "4 Skill Points", "2 Attribute Points", "Gain 1d10 health"
+      "Exp: 2100-3299", "4 Skill Points", "2 Attribute Points", "Gain 1d8 health or 5 health"
     ]},
     { "name": "Level 5", "sub": [
-      "Exp: 3300-4699", "4 Skill Points", "2 Attribute Points", "Gain 2d8 health"
+      "Exp: 3300-4699", "4 Skill Points", "2 Attribute Points", "Gain 1d8 health or 5 health"
     ]},
     { "name": "Level 6", "sub": [
-      "Exp: 4700-6099", "4 Skill Points", "2 Attribute Points", "Gain 2d10 health"
+      "Exp: 4700-6099", "4 Skill Points", "2 Attribute Points", "Gain 1d8 health or 5 health"
     ]},
     { "name": "Level 7", "sub": [
-      "Exp: 6100-7499", "5 Skill Points", "3 Attribute Points", "Gain 2d12 health"
+      "Exp: 6100-7499", "5 Skill Points", "3 Attribute Points", "Gain 1d8 health or 5 health"
     ]},
     { "name": "Level 8", "sub": [
-      "Exp: 7500-8999", "5 Skill Points", "3 Attribute Points", "Gain 2d12 health"
+      "Exp: 7500-8999", "5 Skill Points", "3 Attribute Points", "Gain 1d8 health or 5 health"
     ]},
     { "name": "Level 9+", "sub": [
-      "After level 8, you gain 5 skill points, 3 Attribute Points, and 2d12 health for every 2000 experience points."
+      "After level 8, you gain 5 skill points, 3 Attribute Points, and 1d8 health or 5 health for every 2000 experience points."
     ]}
   ],
   "experienceIntro": "Experience Points",
