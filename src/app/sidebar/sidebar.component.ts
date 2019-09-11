@@ -28,14 +28,17 @@ export class SidebarComponent {
     if (router.url.indexOf('playing-the-game') > -1) {
       this.currentChapter = 'chapter4';
     }
-    if (router.url.indexOf('combat') > -1) {
+    if (router.url.indexOf('adventuring') > -1) {
       this.currentChapter = 'chapter5';
     }
-    if (router.url.indexOf('magic') > -1) {
+    if (router.url.indexOf('combat') > -1) {
       this.currentChapter = 'chapter6';
     }
-    if (router.url.indexOf('non-combat-actions') > -1) {
+    if (router.url.indexOf('magic') > -1) {
       this.currentChapter = 'chapter7';
+    }
+    if (router.url.indexOf('non-combat-actions') > -1) {
+      this.currentChapter = 'chapter8';
     }
     this.toggleSidebarSubject.subscribe(res => {
       this.isShown = false;

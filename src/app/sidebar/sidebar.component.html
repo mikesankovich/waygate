@@ -34,9 +34,10 @@
       </ul>
     </li>
     <li><a routerLink="/guides/playing-the-game" (click)="open('chapter4')" [ngClass]="{'current': currentChapter === 'chapter4'}">Chapter 4: Playing The Game</a></li>
+    <li><a routerLink="/guides/adventuring" (click)="open('chapter5')" [ngClass]="{'current': currentChapter === 'chapter5'}">Chapter 5: Adventuring</a></li>
     <li>
-      <a routerLink="/guides/combat/entering-combat" (click)="open('chapter5')" [ngClass]="{'current': currentChapter === 'chapter5'}">Chapter 5: Combat</a>
-      <ul *ngIf="currentChapter === 'chapter5'">
+      <a routerLink="/guides/combat/running-through-combat" (click)="open('chapter6')" [ngClass]="{'current': currentChapter === 'chapter6'}">Chapter 6: Combat</a>
+      <ul *ngIf="currentChapter === 'chapter6'">
         <li><a routerLink="/guides/combat/running-through-combat" [ngClass]="{'current': url.indexOf('combat/running-through-combat') > -1}">Running Through Combat</a></li>
         <li><a routerLink="/guides/combat/entering-combat" [ngClass]="{'current': url.indexOf('combat/entering-combat') > -1}">Entering Combat</a></li>
         <li><a routerLink="/guides/combat/taking-action" [ngClass]="{'current': url.indexOf('combat/taking-action') > -1}">Taking Action</a></li>
@@ -44,7 +45,7 @@
         <li><a routerLink="/guides/combat/combat-actions" [ngClass]="{'current': url.indexOf('combat/combat-actions') > -1}">Combat Actions</a></li>
       </ul>
     </li>
-    <li><a routerLink="/guides/magic" (click)="open('chapter6')" [ngClass]="{'current': currentChapter === 'chapter6'}">Chapter 6: Magic</a></li>
-    <li><a routerLink="/guides/non-combat-actions" (click)="open('chapter7')" [ngClass]="{'current': currentChapter === 'chapter7'}">Chapter 7: Non-Combat Actions</a></li>
+    <li><a routerLink="/guides/magic" (click)="open('chapter7')" [ngClass]="{'current': currentChapter === 'chapter7'}">Chapter 7: Magic</a></li>
+    <li><a routerLink="/guides/non-combat-actions" (click)="open('chapter8')" [ngClass]="{'current': currentChapter === 'chapter8'}">Chapter 8: Non-Combat Actions</a></li>
   </ul>
 </div>

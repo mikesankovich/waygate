@@ -32,16 +32,19 @@ import { ItemListsComponent } from "./chapter3/item-lists/item-lists.component";
 import { PlayingTheGameComponent } from './chapter4/playing-the-game/playing-the-game.component';
 
 // Chapter 5
+import { AdventuringComponent } from './adventuring/adventuring.component';
+
+// Chapter 6
 import { EnteringCombatComponent } from './chapter5/entering-combat/entering-combat.component';
 import { TakingActionComponent } from './chapter5/taking-action/taking-action.component';
 import { MakingAttacksComponent } from './chapter5/making-attacks/making-attacks.component';
 import { CombatActionsComponent } from './chapter5/combat-actions/combat-actions.component';
 import { RunningThroughCombatComponent } from './chapter5/running-through-combat/running-through-combat.component';
 
-// Chapter 6
+// Chapter 7
 import { MagicComponent } from './chapter6/magic/magic.component';
 
-// Chapter 7
+// Chapter 8
 import { NonCombatActionsComponent } from './chapter7/non-combat-actions/non-combat-actions.component';
 
 // The Story
@@ -83,13 +86,14 @@ const routes: Routes = [
       { path: 'items/weapon-charts', component: WeaponChartsComponent, data: { chapter: 'chapter3' } },
       { path: 'items/item-lists', component: ItemListsComponent, data: { chapter: 'chapter3' } },
       { path: 'playing-the-game', component: PlayingTheGameComponent, data: { chapter: 'chapter4' } },
-      { path: 'combat/entering-combat', component: EnteringCombatComponent, data: { chapter: 'chapter5' } },
-      { path: 'combat/taking-action', component: TakingActionComponent, data: { chapter: 'chapter5' } },
-      { path: 'combat/making-attacks', component: MakingAttacksComponent, data: { chapter: 'chapter5' } },
-      { path: 'combat/combat-actions', component: CombatActionsComponent, data: { chapter: 'chapter5' } },
-      { path: 'combat/running-through-combat', component: RunningThroughCombatComponent, data: { chapter: 'chapter5' } },
-      { path: 'magic', component: MagicComponent, data: { chapter: 'chapter6' } },
-      { path: 'non-combat-actions', component: NonCombatActionsComponent, data: { chapter: 'chapter7' } },
+      { path: 'adventuring', component: AdventuringComponent, data: { chapter: 'chapter5' } },
+      { path: 'combat/entering-combat', component: EnteringCombatComponent, data: { chapter: 'chapter6' } },
+      { path: 'combat/taking-action', component: TakingActionComponent, data: { chapter: 'chapter6' } },
+      { path: 'combat/making-attacks', component: MakingAttacksComponent, data: { chapter: 'chapter6' } },
+      { path: 'combat/combat-actions', component: CombatActionsComponent, data: { chapter: 'chapter6' } },
+      { path: 'combat/running-through-combat', component: RunningThroughCombatComponent, data: { chapter: 'chapter6' } },
+      { path: 'magic', component: MagicComponent, data: { chapter: 'chapter7' } },
+      { path: 'non-combat-actions', component: NonCombatActionsComponent, data: { chapter: 'chapter8' } },
     ]
   },
 ];
