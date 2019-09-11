@@ -34,7 +34,7 @@
       </ul>
     </li>
     <li><a routerLink="/guides/playing-the-game" (click)="open('chapter4')" [ngClass]="{'current': currentChapter === 'chapter4'}">Chapter 4: Playing The Game</a></li>
-    <li><a routerLink="/guides/adventuring" (click)="open('chapter5')" [ngClass]="{'current': currentChapter === 'chapter5'}">Chapter 5: Adventuring</a></li>
+    <li><a routerLink="/guides/roleplaying" (click)="open('chapter5')" [ngClass]="{'current': currentChapter === 'chapter5'}">Chapter 5: Roleplaying</a></li>
     <li>
       <a routerLink="/guides/combat/running-through-combat" (click)="open('chapter6')" [ngClass]="{'current': currentChapter === 'chapter6'}">Chapter 6: Combat</a>
       <ul *ngIf="currentChapter === 'chapter6'">

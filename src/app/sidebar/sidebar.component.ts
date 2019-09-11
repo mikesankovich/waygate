@@ -28,7 +28,7 @@ export class SidebarComponent {
     if (router.url.indexOf('playing-the-game') > -1) {
       this.currentChapter = 'chapter4';
     }
-    if (router.url.indexOf('adventuring') > -1) {
+    if (router.url.indexOf('roleplaying') > -1) {
       this.currentChapter = 'chapter5';
     }
     if (router.url.indexOf('combat') > -1) {

@@ -32,7 +32,7 @@ import { ItemListsComponent } from "./chapter3/item-lists/item-lists.component";
 import { PlayingTheGameComponent } from './chapter4/playing-the-game/playing-the-game.component';
 
 // Chapter 5
-import { AdventuringComponent } from './adventuring/adventuring.component';
+import { RoleplayingComponent } from './roleplaying/roleplaying.component';
 
 // Chapter 6
 import { EnteringCombatComponent } from './chapter5/entering-combat/entering-combat.component';
@@ -86,7 +86,7 @@ const routes: Routes = [
       { path: 'items/weapon-charts', component: WeaponChartsComponent, data: { chapter: 'chapter3' } },
       { path: 'items/item-lists', component: ItemListsComponent, data: { chapter: 'chapter3' } },
       { path: 'playing-the-game', component: PlayingTheGameComponent, data: { chapter: 'chapter4' } },
-      { path: 'adventuring', component: AdventuringComponent, data: { chapter: 'chapter5' } },
+      { path: 'roleplaying', component: RoleplayingComponent, data: { chapter: 'chapter5' } },
       { path: 'combat/entering-combat', component: EnteringCombatComponent, data: { chapter: 'chapter6' } },
       { path: 'combat/taking-action', component: TakingActionComponent, data: { chapter: 'chapter6' } },
       { path: 'combat/making-attacks', component: MakingAttacksComponent, data: { chapter: 'chapter6' } },

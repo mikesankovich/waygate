@@ -1,9 +1,11 @@
 {
-  "title": "Chapter 5: Going on an Adventure",
+  "title": "Going on an Adventure",
   "quote": {
     "quote": "Sure, fighting Aether Beings and taking down warlords is fun and all. But there's nothing quite like taking a rest on the long road with your companions by a campfire...... well, unless feral boars attack, but well, then you just have a nice meal.",
     "author": "Rickard West, Outdoor Enthusiast"
   },
+  "subheader": "Playing Through The World",
+
   "intro": [
     "Beyond the Waygates are worlds filled with wonder, excitement, and horrors beyond your wildest imagination. It's not all taverns and listening to the bard play by the fire. When there is a job to be done, your journey will take you all across this new world, where it will be your job to explore, investigate, discover, and fight. Danger lurks just around every corner where dangerous beings abound and hazardous puzzles await.",
     "It is the DM's job to explain the scenario the characters find themselves in and to help guide them through their journey. It is the players' job to react to the situation and to describe what they do and how they do it. The DM will then narrate the results of their actions and react accordingly.",
@@ -69,7 +71,7 @@
     }
   ],
   "roleplaying": {
-    "title": "Roleplaying",
+    "title": "Chapter 5: Roleplaying",
     "quote": {
       "quote": "Intimidation didn't work. Torture didn't work. We could have saved ourselves a lot of trouble if we just read the damned newspaper. It led us straight to the bandits.",
       "author": "Rebecca Youngblood, Employment Unknown"
