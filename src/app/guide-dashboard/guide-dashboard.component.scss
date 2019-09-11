@@ -6,7 +6,7 @@
   padding-left: 0;
   position: sticky;
   top: 100px;
-  z-index: 9999;
+  z-index: 5;
   height: calc(100% - 112px);
 
 }
@@ -18,11 +18,11 @@
 }
 
 .cover {
-  height: 100%;
+  height: calc(100% + 72px);
   width: 100%;
   position: absolute;
   left: 308px;
-  z-index: 100000;
+  z-index: 10;
   background-color: grey;
   opacity: .7;
   overflow: hidden;

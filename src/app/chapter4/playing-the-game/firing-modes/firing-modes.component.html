@@ -1,0 +1,9 @@
+<h3>{{firingModes.header}}</h3>
+<p>{{firingModes.intro}}</p>
+<div class="step">
+  <div *ngFor="let mode of firingModes.types">
+    <div><span class="bold">{{mode.type}}:</span> {{mode.description}}
+      <ul><li>{{mode.rules}}</li></ul>
+    </div>
+  </div>
+</div>

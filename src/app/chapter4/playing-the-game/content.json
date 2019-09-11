@@ -94,11 +94,11 @@
   },
   "firingModes": {
     "header": "Firing Modes",
-    "intro": "There are 3 firing modes that a firearm can have, which determine the types of attacks that can be made.",
+    "intro": "There are 3 firing modes that a firearm can have, which determine the types of attacks that can be made. Each firearm is listed as having any of the following: Single, Burst, Auto",
     "types": [
       { "type": "Single", "description": "Unloads One Shot", "rules": "Handle as a normal ranged attack" },
-      { "type": "Burst", "description": "Unloads a number of shots equal to the number specified (example. Burst (5) means fire 5 bullets)", "rules": "enough rounds must be loaded to perform a burst. Gives +2 to hit. For every 3 points on your hit test above the target's Armor Rating, another bullet hits (up to the burst number)" },
-      { "type": "Auto", "description": "Unload an entire clip into an enemy", "rules": "Requires a full clip. Gives +4 to hit. For every 3 points on your hit test above the target's Armor Rating, another bullet hits (up to the burst number" }
+      { "type": "Burst", "description": "Unloads a number of shots equal to the number specified (example. Burst (5) means fire 5 bullets). Requires weapon with burst capabilities.", "rules": "enough rounds must be loaded to perform a burst. Gives +2 to hit. For every 3 points on your hit test above the target's Armor Rating, another bullet hits (up to the burst number)" },
+      { "type": "Auto", "description": "Unload an entire clip into an enemy. Requires weapon with auto capabilities.", "rules": "Requires a full clip. Gives +4 to hit. For every 3 points on your hit test above the target's Armor Rating, another bullet hits (up to the burst number" }
     ]
   },
   "critical": {

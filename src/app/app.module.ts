@@ -47,7 +47,10 @@ import { NonCombatActionsComponent } from './chapter7/non-combat-actions/non-com
 import { DifficultyChartComponent } from './difficulty-chart/difficulty-chart.component';
 import { TheStoryComponent } from './the-story/the-story.component';
 import { CharacterSheetComponent } from './character-sheet/character-sheet.component';
+import { FiringModesComponent } from './chapter4/playing-the-game/firing-modes/firing-modes.component';
 
+import * as $ from 'jquery';
+import * as bootstrap from 'bootstrap';
 
 @NgModule({
   declarations: [
@@ -90,6 +93,7 @@ import { CharacterSheetComponent } from './character-sheet/character-sheet.compo
     DifficultyChartComponent,
     TheStoryComponent,
     CharacterSheetComponent,
+    FiringModesComponent,
   ],
   imports: [
     BrowserModule,

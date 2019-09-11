@@ -11,11 +11,11 @@
       { "action": "All Out Attack", "duration": "Two Actions", "effect": "A focused melee or ranged attack. +4 to hit" },
       { "action": "Basic Attack", "duration": "One Action", "effect": "A basic attack" },
       { "action": "Berserk Attack", "duration": "Two Actions", "effect": "-4 to hit. If hits, double weapon damage. Attacks against you get +2 until your next turn" },
-      { "action": "Burst", "duration": "Two Actions", "effect": "Weapon must have burst capabilities. Fire a burst of bullets (see weapon chart). +2 to hit. Potential for multiple hits. See <b>Chapter 4</b> for more details." },
+      { "action": "Burst", "duration": "Two Actions", "effect": "Weapon must have burst capabilities. Fire a burst of bullets (see weapon chart). +2 to hit. Potential for multiple hits. <a class='firingmode-modal-open'><b>Click Here For Details</b></a>" },
       { "action": "Defensive Stance", "duration": "Two Actions", "effect": "You cannot make an attack this turn, but all enemies that attack you this round get a -4 on hit checks made against you." },
       { "action": "Defensive Strike", "duration": "Two Actions", "effect": "You make a cautious attack. You make a melee attack with a -2 penalty to your Hit Test. Gain a +2 to all dodge, parry, block, and riposte tests you make this round." },
       { "action": "Feint", "duration": "Two Actions", "effect": "Target’s <b>Perception</b> is subtracted from your hit test. If your attack succeeds, it cannot be dodged, parried, blocked, or riposted." },
-      { "action": "Full Auto", "duration": "Two Actions", "effect": "Weapon must have auto capabilities. Fire an entire clip (see weapon chart) at full auto. +4 to hit. Potential for multiple hits. See <b>Chapter 4: Firing Modes</b> for more details." },
+      { "action": "Full Auto", "duration": "Two Actions", "effect": "Weapon must have auto capabilities. Fire an entire clip (see weapon chart) at full auto. +4 to hit. Potential for multiple hits. <a class='firingmode-modal-open'><b>Click Here For Details</b></a>" },
       { "action": "Use Skill", "duration": "Varies", "effect": "Use one of your characters skills." }
     ]
   },

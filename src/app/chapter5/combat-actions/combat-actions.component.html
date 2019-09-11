@@ -29,7 +29,7 @@
       <tbody>
         <tr *ngFor="let row of contents.movementActionChart.body">
           <td class="no-wrap">{{row.action}}</td>
-          <td class="no-wrap">{{row.duration}}</td>
+          <td>{{row.duration}}</td>
           <td [innerHTML]="row.effect"></td>
         </tr>
       </tbody>
@@ -44,10 +44,26 @@
       <tbody>
         <tr *ngFor="let row of contents.miscActionChart.body">
           <td class="no-wrap">{{row.action}}</td>
-          <td class="no-wrap">{{row.duration}}</td>
+          <td>{{row.duration}}</td>
           <td [innerHTML]="row.effect"></td>
         </tr>
       </tbody>
     </table>
+  </div>
+</div>
+
+<div class="modal fixer-outer" id="myModal">
+  <div class="modal-dialog fixer">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <app-firing-modes></app-firing-modes>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+    </div>
   </div>
 </div>

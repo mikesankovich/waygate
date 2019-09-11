@@ -51,15 +51,7 @@
     <p [innerHTML]="contents.hitTests.postContent"></p>
   </div>
   <div class="section">
-    <h3>{{contents.firingModes.header}}</h3>
-    <p>{{contents.firingModes.intro}}</p>
-    <div class="step">
-      <div *ngFor="let mode of contents.firingModes.types">
-        <div><span class="bold">{{mode.type}}:</span> {{mode.description}}
-          <ul><li>{{mode.rules}}</li></ul>
-        </div>
-      </div>
-    </div>
+    <app-firing-modes></app-firing-modes>
   </div>
   <div class="section">
     <h3>{{contents.damage.header}}</h3>

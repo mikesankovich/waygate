@@ -1,13 +1,13 @@
 .sidebar {
   background-color: #eee;
   opacity: 100%;
-  height: calc(100vh - 116px);
+  height: calc(100vh - 112px);
   width: 308px;
   margin-left: 0;
   padding-left: 0;
   position: sticky;
   top: 112px;
-  z-index: 9999;
+  z-index: 5;
   &.hide {
     width: 50px;
     background-color: white;
@@ -22,7 +22,7 @@
       border-radius: 2px;
       cursor: pointer;
       position: relative;
-      z-index: 9999;
+      z-index: 5;
       float: right;
       .hamburger {
         width: 50px;
