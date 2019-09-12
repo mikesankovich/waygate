@@ -35,13 +35,11 @@ export class SkillListComponent implements OnInit {
   onFilter() {
     const term = this.searchTerm;
     const type = this.skillType;
-    console.log(type)
     if (!term && !type) {
       this.filteredSkills = this.skills;
     } else if (type) {
       this.filteredSkills = this.skills.filter(skill => {
         if (skill.name.toLowerCase().includes(type.toLowerCase())) {
-          console.log('ahhhh')
           if (term) {
             const str = JSON.stringify(skill).toLowerCase();
             return str.indexOf(term.toLowerCase()) > -1;
@@ -55,10 +53,6 @@ export class SkillListComponent implements OnInit {
         return str.indexOf(term.toLowerCase()) > -1;
       });
     }
-  }
-
-  filterType() {
-    console.log(this.type);
   }
 
   clearFilter() {
