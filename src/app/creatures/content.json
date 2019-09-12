@@ -31,6 +31,7 @@
           "mag": "0",
           "armor": "8",
           "speed": "6",
+          "health": "10",
           "actions": [
             { "name": "Bite", "detail": "1d6 + str piercing damage. Range 5ft." },
             { "name": "Gore", "detail": "1d6 + str piercing damage. Range 5ft." }
@@ -40,27 +41,60 @@
     },
     {
       "name": "Aether Beast",
-      "description": "",
+      "description": "A beast formed from the Aether. They come in the shape of any animal. A being given form by energy. Though mindless, it carries immense magical potential.",
       "details": {
-        "habitats": "Plains, Woodlands",
+        "habitats": "Areas of high Aether contamination",
         "nature": "Hostile",
-        "type": "Animal",
-        "size": "Medium",
-        "resistances": "",
-        "languages": "Beast",
+        "type": "Aether Creature",
+        "size": "Medium+",
+        "resistances": "Aether",
+        "languages": "Beast, Aether Speak",
         "stats": {
           "str": "4",
-          "dex": "0",
-          "wp": "0",
-          "vit": "3",
+          "dex": "2",
+          "wp": "6",
+          "vit": "0",
           "int": "1",
           "cha": "0",
-          "mag": "0",
+          "mag": "5",
           "armor": "8",
           "speed": "6",
+          "health": "45",
+          "actions": [
+            { "name": "Bite", "detail": "1d10 + str piercing damage. Range 5ft." },
+            { "name": "Claw", "detail": "1d6 + str rending damage. Range 5ft." },
+            { "name": "Aether Strike", "detail": "One Action attack. 1d10 + str + 1d6 Aether damage." },
+            { "name": "Force of Will", "detail": "Two Actions. All enemies in a 25 foot radius centered around caster make an opposed WP test. Any who fail cannot make actions for two rounds." }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Aetherling",
+      "description": "A minor creation of the Aether. They come in the form of small beasts and amorphous beings.",
+      "details": {
+        "habitats": "Areas of high Aether contamination",
+        "nature": "Hostile",
+        "type": "Aether Creature",
+        "size": "Small",
+        "resistances": "Aether",
+        "languages": "Beast, Aether Speak",
+        "stats": {
+          "str": "2",
+          "dex": "3",
+          "wp": "5",
+          "vit": "0",
+          "int": "1",
+          "cha": "0",
+          "mag": "4",
+          "armor": "8",
+          "speed": "6",
+          "health": "30",
           "actions": [
             { "name": "Bite", "detail": "1d6 + str piercing damage. Range 5ft." },
-            { "name": "Gore", "detail": "1d6 + str piercing damage. Range 5ft." }
+            { "name": "Claw", "detail": "1d4 + str rending damage. Range 5ft." },
+            { "name": "Aether Strike", "detail": "One Action attack. 1d6 + str + 1d6 Aether damage." },
+            { "name": "Force of Will", "detail": "Two Actions. All enemies in a 15 foot radius centered around caster make an opposed WP test. Any who fail cannot make actions for one round." }
           ]
         }
       }

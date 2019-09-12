@@ -10,7 +10,7 @@
         <h2>{{contents.subheader}}</h2>
       </div>
       <div class="section row">
-        <div *ngFor="let creature of contents.creatures" class="col-md-6 col-12 creature"><app-creature [creature]="creature"></app-creature></div>
+        <div *ngFor="let creature of contents.creatures" class="col-md-8 offset-md-2 col-12 creature"><app-creature [creature]="creature"></app-creature></div>
       </div>
     </div>
   </div>

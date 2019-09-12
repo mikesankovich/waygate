@@ -1,6 +1,6 @@
-<div class="creature">
+<div class="creature" [ngClass]="{isShown: shown}">
   <div class="hidden-creature" *ngIf="!shown">
-    <span>{{creature.name}}</span> (<span class="showmore" (click)="toggle()">Show More</span>)
+    <div>{{creature.name}}</div> <div class="showmore-holder"><span class="showmore" (click)="toggle()">Show More</span></div>
   </div>
   <div *ngIf="shown">
     <div class="showless" (click)="toggle()">Show Less</div>
@@ -49,6 +49,7 @@
       <div><span class="bold">Languages:</span> {{creature.details.languages}}</div>
       <div><span class="bold">Speed:</span> {{creature.details.stats.speed}}</div>
       <div><span class="bold">Armor Rating:</span> {{creature.details.stats.armor}}</div>
+      <div><span class="bold">Health:</span> {{creature.details.stats.health}}</div>
     </div>
     <div class="actions">
       <h6 class="bold">Actions: </h6>
