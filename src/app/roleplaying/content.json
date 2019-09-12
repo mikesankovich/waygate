@@ -66,7 +66,7 @@
     {
       "header": "Resting", "details": [
         "Characters must rest at least six hours a day to remain in good shape. If they do not, they begin suffering from penalties.",
-        "Characters who have not met this sleep requirement get -2 to Perception and their health is lowered by 1d10 - Vit damage per day until they get 8 hours of sleep."
+        "Characters who have not met this sleep requirement get -2 to Awareness tests and their health is lowered by 1d10 - Vit damage per day until they get 8 hours of sleep."
       ]
     }
   ],
@@ -107,7 +107,9 @@
           "Weapons and armor will help keep a character alive in conflict. Even the most non-combative characters may find themselves in situations they'd prefer to avoid. In such instances, it's best they remain well-equipped to improve their odds of comign out alive.",
           "If you have some money saved up, or are willing to work some odd jobs, seek out an armorer or weaponsmith and keep your character geared up. It may just be the thing that keeps you alive.",
           "There are also some items that are of great help. Ask around to find some necessary items to keep in your inventory. Medpacs, bandages, survival gear. Anything that may be useful in a pinch."
-        ],
+        ]
+      },
+      {
         "header": "Finding What You Need", "details": [
           "Villages, towns, and cities all have places where you can shop, but finding what you need is another matter entirely. Keep your eyes open and ask around for what you need, and if you're lucky, you may just find what you seek.",
           "Roll an Awareness test to determine how effectively you are able to seek out the items you want."

@@ -5,7 +5,7 @@
       "name": "Awareness (KS) –  trainable",
       "description": "Deduce information from your surroundings.",
       "range": "limits based on senses used.",
-      "use": "1d20 + Perception + training modifier"
+      "use": "1d20 + training modifier"
     },
     {
       "name": "Attribute Shift (MS) – Two Actions",
@@ -83,7 +83,7 @@
     {
       "name": "Charm (KS) – Trainable",
       "description": "Persuade your target into listening to you or following you through seduction or charm.",
-      "use": "1d20 + Charisma + Training Modifier against target’s 1d20 + Perception or Willpower (whichever is higher)."
+      "use": "1d20 + Charisma + Training Modifier against target’s 1d20 + Awareness or Willpower (whichever is higher)."
     },
     {
       "name": "Clear Thinker (KS)",
@@ -164,7 +164,7 @@
     {
       "name": "Deception (KS) – Trainable",
       "description": "learn to better deceive others.",
-      "use": "1d20 + Charisma + Training Modifier against target’s 1d20 + Charisma or Perception (whichever is higher)."
+      "use": "1d20 + Charisma + Training Modifier against target’s 1d20 + Charisma or Awareness (whichever is higher)."
     },
     {
       "name": "Dodge (FS) - Reaction",

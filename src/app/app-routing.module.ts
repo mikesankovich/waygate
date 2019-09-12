@@ -50,6 +50,9 @@ import { NonCombatActionsComponent } from './chapter7/non-combat-actions/non-com
 // The Story
 import { TheStoryComponent } from './the-story/the-story.component';
 
+// Creatures
+import { CreaturesComponent } from './creatures/creatures.component';
+
 // character Sheet
 import { CharacterSheetComponent } from './character-sheet/character-sheet.component';
 
@@ -94,6 +97,7 @@ const routes: Routes = [
       { path: 'combat/running-through-combat', component: RunningThroughCombatComponent, data: { chapter: 'chapter6' } },
       { path: 'magic', component: MagicComponent, data: { chapter: 'chapter7' } },
       { path: 'non-combat-actions', component: NonCombatActionsComponent, data: { chapter: 'chapter8' } },
+      { path: 'creatures', component: CreaturesComponent, data: { chapter: 'chapter9' } },
     ]
   },
 ];

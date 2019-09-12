@@ -1,0 +1,60 @@
+<div class="creature">
+  <div class="hidden-creature" *ngIf="!shown">
+    <span>{{creature.name}}</span> (<span class="showmore" (click)="toggle()">Show More</span>)
+  </div>
+  <div *ngIf="shown">
+    <div class="showless" (click)="toggle()">Show Less</div>
+    <div class="header">
+      <div class="name">{{creature.name}}</div>
+      <div class="subheader"><span class="bold">Nature:</span> {{creature.details.nature}}</div>
+      <div class="subheader"><span class="bold">Size:</span> {{creature.details.size}}</div>
+      <div class="subheader"><span class="bold">Type:</span> {{creature.details.type}}</div>
+    </div>
+    <div class="description" *ngIf="creature.description">
+      {{creature.description}}
+    </div>
+    <div class="stats">
+      <div class="stat">
+        <div class="name bold">STR</div>
+        <div class="value">{{creature.details.stats.str}}</div>
+      </div>
+      <div class="stat">
+        <div class="name bold">DEX</div>
+        <div class="value">{{creature.details.stats.dex}}</div>
+      </div>
+      <div class="stat">
+        <div class="name bold">WP</div>
+        <div class="value">{{creature.details.stats.wp}}</div>
+      </div>
+      <div class="stat">
+        <div class="name bold">VIT</div>
+        <div class="value">{{creature.details.stats.vit}}</div>
+      </div>
+      <div class="stat">
+        <div class="name bold">INT</div>
+        <div class="value">{{creature.details.stats.int}}</div>
+      </div>
+      <div class="stat">
+        <div class="name bold">CHA</div>
+        <div class="value">{{creature.details.stats.cha}}</div>
+      </div>
+      <div class="stat">
+        <div class="name bold">MAG</div>
+        <div class="value">{{creature.details.stats.mag}}</div>
+      </div>
+    </div>
+    <div class="details">
+      <div><span class="bold">Habitats:</span> {{creature.details.habitats}}</div>
+      <div><span class="bold">Resistances:</span> {{creature.details.resistances}}</div>
+      <div><span class="bold">Languages:</span> {{creature.details.languages}}</div>
+      <div><span class="bold">Speed:</span> {{creature.details.stats.speed}}</div>
+      <div><span class="bold">Armor Rating:</span> {{creature.details.stats.armor}}</div>
+    </div>
+    <div class="actions">
+      <h6 class="bold">Actions: </h6>
+      <div class="action" *ngFor="let action of creature.details.stats.actions">
+        <span class="bold">{{action.name}}:</span><span>{{action.detail}}</span>
+      </div>
+    </div>
+  </div>
+</div>

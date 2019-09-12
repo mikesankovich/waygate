@@ -53,6 +53,8 @@ import * as $ from 'jquery';
 import * as bootstrap from 'bootstrap';
 import { RunningThroughCombatComponent } from './chapter5/running-through-combat/running-through-combat.component';
 import { RoleplayingComponent } from './roleplaying/roleplaying.component';
+import { CreaturesComponent } from './creatures/creatures.component';
+import { CreatureComponent } from './creatures/creature/creature.component';
 
 @NgModule({
   declarations: [
@@ -98,6 +100,8 @@ import { RoleplayingComponent } from './roleplaying/roleplaying.component';
     FiringModesComponent,
     RunningThroughCombatComponent,
     RoleplayingComponent,
+    CreaturesComponent,
+    CreatureComponent,
   ],
   imports: [
     BrowserModule,

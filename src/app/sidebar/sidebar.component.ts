@@ -40,6 +40,9 @@ export class SidebarComponent {
     if (router.url.indexOf('non-combat-actions') > -1) {
       this.currentChapter = 'chapter8';
     }
+    if (router.url.indexOf('creatures') > -1) {
+      this.currentChapter = 'chapter9';
+    }
     this.toggleSidebarSubject.subscribe(res => {
       this.isShown = false;
     });

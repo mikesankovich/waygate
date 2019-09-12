@@ -1,0 +1,69 @@
+{
+  "title": "Chapter 9: Creatures",
+  "quote": {
+    "quote": "I thought things were bad when we fought a Hydra, but nothing compares to that THING that crawled out of a Waygate. It killed the rest of my team. I see it's face every night. It haunts me. One day I swear I'll get my revenge.",
+    "author": "Korin East, History Expunged"
+  },
+  "intro": [
+    "All worlds are filled with a diverse assortment of creatures. In the worlds beyond the Waygate, where the Aether twists the very essence of being, this holds especially true. A creature is defined as anything, sentient or otherwise, that can take action. Everything from humans to Gods to trees that strike you as you pass beneath them are creatures.",
+    "Creatures all have their inclinations towards hostility and peace. Some may, by their very nature, aim to help you in your quest while others will attempt to kill you on sight. They will react differently to your presence and your actions, so it is important that you remain vigilant and do your best to be prepared for any situation.",
+    "The section below will have details on some of the creatures you could encounter in your journey. This will include properties, sizes, personality/nature, stats, skills, background, and habitat. Use these as a guide to creating any other creatures you think belong in your world."
+  ],
+  "subheader": "Creature List",
+  "creatures": [
+    {
+      "name": "Boar",
+      "description": "",
+      "details": {
+        "habitats": "Plains, Woodlands",
+        "nature": "Hostile",
+        "type": "Animal",
+        "size": "Medium",
+        "resistances": "",
+        "languages": "Beast",
+        "stats": {
+          "str": "2",
+          "dex": "0",
+          "wp": "0",
+          "vit": "3",
+          "int": "1",
+          "cha": "0",
+          "mag": "0",
+          "armor": "8",
+          "speed": "6",
+          "actions": [
+            { "name": "Bite", "detail": "1d6 + str piercing damage. Range 5ft." },
+            { "name": "Gore", "detail": "1d6 + str piercing damage. Range 5ft." }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Aether Beast",
+      "description": "",
+      "details": {
+        "habitats": "Plains, Woodlands",
+        "nature": "Hostile",
+        "type": "Animal",
+        "size": "Medium",
+        "resistances": "",
+        "languages": "Beast",
+        "stats": {
+          "str": "4",
+          "dex": "0",
+          "wp": "0",
+          "vit": "3",
+          "int": "1",
+          "cha": "0",
+          "mag": "0",
+          "armor": "8",
+          "speed": "6",
+          "actions": [
+            { "name": "Bite", "detail": "1d6 + str piercing damage. Range 5ft." },
+            { "name": "Gore", "detail": "1d6 + str piercing damage. Range 5ft." }
+          ]
+        }
+      }
+    }
+  ]
+}

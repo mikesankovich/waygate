@@ -1,0 +1,17 @@
+<div class="chapter-container">
+  <div id="step-one" class="topper">
+    <div class="subheader">
+      <h1>{{contents.title}}</h1>
+      <app-quote [quote]="contents.quote"></app-quote>
+      <div class="section">
+        <div *ngFor="let intro of contents.intro" class="steps">{{intro}}</div>
+      </div>
+      <div class="topper">
+        <h2>{{contents.subheader}}</h2>
+      </div>
+      <div class="section row">
+        <div *ngFor="let creature of contents.creatures" class="col-md-6 col-12 creature"><app-creature [creature]="creature"></app-creature></div>
+      </div>
+    </div>
+  </div>
+</div>
