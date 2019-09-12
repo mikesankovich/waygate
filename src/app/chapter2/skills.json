@@ -483,7 +483,7 @@
     {
       "name": "Rapid Reload (FS)",
       "effect": "Reloading a gun is now One Action",
-      "Requirements": "must be proficient with the weapon you are reloading",
+      "requirements": "must be proficient with the weapon you are reloading",
       "prerequisites": "<ul><li>DEX 2</li><li>Ranged combat</li></ul>"
     },
     {
@@ -617,6 +617,11 @@
       "prerequisites": "<ul><li>ranged Combat</li><li>Double Shot</li><li>DEX 4</li></ul>"
     },
     {
+      "name": "Aeth (KS) - Trainable",
+      "description": "Learn the deep study of the Aether to better comprehend, recognize, and decipher the mystical energies and its presence",
+      "use": "1d20 + Int + training modifier"
+    },
+    {
       "name": "Sure Footed (FS)",
       "description": "Player has greater balance and becomes much harder to knock of their feet.",
       "effect": "Player gains a +2 bonus to dexterity checks involving balance, including ambushes, grapples, trips, sweeps, and heavy blows.",
@@ -700,6 +705,20 @@
       "name": "Aether Speak (KS)",
       "description": "Gain the ability to commune with the beings of the Aether. This includes both spoken and written language.",
       "prerequisites": "<ul><li>Int 3</li></ul>"
+    },
+    {
+      "name": "Aether Strike (FS) - One Action",
+      "description": "Knowledge of and exposure to the Aether has allowed you to imbue your melee strikes with mystical energies.",
+      "effect": "On a successful hit, you deal an extra 1d6 Aether damage.",
+      "requirements": "Melee weapon attacks or unarmed strikes only.",
+      "prerequisites": "<ul><li>WP 3</li><li>Int 3</li></ul>"
+    },
+    {
+      "name": "Aether Shot (FS) - One Action",
+      "description": "Knowledge of and exposure to the Aether has allowed you to imbue your ranged attacks with mystical energies.",
+      "effect": "On a successful hit, you deal an extra 1d6 Aether damage.",
+      "requirements": "Ranged weapon attacks only.",
+      "prerequisites": "<ul><li>WP 3</li><li>Int 3</li></ul>"
     },
     {
       "name": "Aether Wallet (MS)",

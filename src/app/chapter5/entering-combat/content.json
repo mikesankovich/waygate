@@ -6,23 +6,10 @@
   },
   "intro": [
     "Those who venture into the dangerous, and often unexplored, worlds beyond the Waygates, are likely to find themselves engaged in combat from time to time. From bandits, to vast armies, to wild beasts, to the warped creatures from the spaces between dimensions, adventurers must be able to defend themselves against all threats if they hope to live long enough to see their mission to completion.",
-    "Combat happens in the following steps: <ul><li>Step One: Ambushes</li><li>Step Two: Roll Initiative to determine order</li><li>Step Three: Characters take turns</li><li>Step Four: Round Ends</li><li>Step Five: Repeat steps four and five as needed</li></ul>",
     "Combat is initiated when an attack is launched, be it an ambush, two armies meeting on the battlefield, or simply opposing forces running into each other at an inopportune moment. Depending on how combat is initiated, characters may receive unique penalties or bonuses. In combat a turn is 2 actions (roughly 6 seconds). A round is a full rotation through the list of active characters."
   ],
-  "info": {
-    "enteringCombat": {
-      "header": "Entering Combat",
-      "content": [
-        "<b>General Engagement</b>: Any combat in which characters are not caught by surprise by the attack. Role initiative to determine combat order.",
-        "<b>Ambush</b>: Any combat in which characters are caught by surprise, or are caught unprepared to begin combat. (ex. sneaking up on unaware enemies and attacking). <ul><li>If an ambush is successfully begun, first initiative is rolled. Then all characters in the ambushing party who are aware of the attack take a turn. Finally combat is continued following the results of the initiative test.</li><li>Attacking a surprised opponent grants a +2 to your Hit Test.</li></ul>"
-      ]
-    },
-    "initiative": {
-      "header": "Rolling Initiative",
-      "content": [
-        "At the beginning of combat, all characters involved roll an initial initiative check to determine the order in which characters take action in combat. An initiative roll is determined by 1d20. Characters make moves in order from highest initiative to lower. If two characters are tied, whoever has the higher dexterity goes first. If their dexterity is tied, the two each role 1d20, and whoever has the higher value has the higher initiative.",
-        "Initiative for a character is not rolled until that character is aware that an attack has begun. If they are unaware, they are unable to take action, but are open for attack."
-      ]
-    }
-  }
+  "info": [
+    "Oftentimes you will have no choice but to engage in combat. If you're ambushed or if a hostile force wishes to attack you and you are unable to talk your way out of the situation, weapons will have to be drawn.",
+    "Other times, you may be the one to initiate combat. To do this, simply make your preparations and declare your intentions to fight to the DM. Make sure to tell them how you wish to approach the situation (ex. are you stealthed? Who are you approaching? Is your weapon drawn?)"
+  ]
 }

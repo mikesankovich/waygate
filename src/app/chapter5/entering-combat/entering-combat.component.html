@@ -9,15 +9,8 @@
     </div>
   </div>
   <div class="section">
-    <h3>{{contents.info.enteringCombat.header}}</h3>
     <div>
-      <div *ngFor="let info of contents.info.enteringCombat.content" [innerHTML]="info" class="steps"></div>
-    </div>
-  </div>
-  <div class="section">
-    <h3>{{contents.info.initiative.header}}</h3>
-    <div>
-      <div *ngFor="let info of contents.info.initiative.content" [innerHTML]="info" class="steps"></div>
+      <div *ngFor="let info of contents.info" [innerHTML]="info" class="steps"></div>
     </div>
   </div>
 </div>
