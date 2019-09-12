@@ -487,12 +487,6 @@
       "prerequisites": "<ul><li>DEX 2</li><li>Ranged combat</li></ul>"
     },
     {
-      "name": "Read Energy (MS)",
-      "description": "All magic leaves behind a trace. You are able to discern information from remnants of magical energy in an area, granting you further insights during your awareness tests in areas where magic has been used.",
-      "effect": "Your awareness tests can now be used to perceive magical energies",
-      "prerequisites": "<ul><li>Magical Affinity or PER 3</li></ul>"
-    },
-    {
       "name": "Rebound Spell (MS) - reaction",
       "description": "Counter an opponent’s magic attack and deal damage in turn.",
       "effect": "prevent a magic action that targets you and deal damage to the caster. See <b>Chapter 5: Combat</b>: Rebound Spell",
