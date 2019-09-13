@@ -47,5 +47,18 @@
         "The round ends when the last character in the initiative order finishes their turn. Combat resumes at the top of the initiative order."
       ]
     }
-  ]
+  ],
+  "example": {
+    "name": "Example Combat",
+    "content": [
+      "Arik and Devin come across a Wicked Thrasher, which moves towards them threateningly, ready to attack.",
+      "Ready for combat, all three characters roll initiative (1d20 + Dex). Arik rolls a 7, Devin rolls a 19, the Wicked Thrasher rolls a 15. The order is Devin -> Wicked Thrasher -> Arik.",
+      "Devin uses One Action to draw his sword, and another One Action to approach the Wicked Thrasher. With his two actions done and no free actions to make, his turn ends.",
+      "On the Thrasher's turn, it approaches Devin with One Action. It then makes a Basic Attack with its other One Action. It hits and deals its damage",
+      "Arik uses One Action to draw his firearm, then fires a basic ranged attack, but his hit test is lower than the Thrasher's Armor Rating, so he misses.",
+      "With the last character in the order's turn having ended, combat resumes at the top of the order.",
+      "Devin uses Two Actions to make an All Out Attack, giving him a +4 bonus to hit. He hits the thrasher and deals damage to it",
+      "Combat continues until all characters on one side are dead, unconscious, surrender, flee, or are otherwise removed."
+    ]
+  }
 }
