@@ -21,9 +21,27 @@
       ]
     },
     {
+      "header": "Combat", "details": [
+        "On your journey you will face many hostile foes who seek to impede you, rob you, prove their strength, etc.",
+        "While fighting poorly can lead to death, fighting well can lead to great reward. Impressive feats can lead to improved attributes and skills, and in some cases can improve your standing with others.",
+        "Combat has consequences, both good and bad. It is your job as adventurers to decide when it is best to fight and when it is best to run."
+      ]
+    },
+    {
       "header": "Ambushes", "details": [
         "While traveling, characters are prime targets for wild beasts and bandits looking for easy prey.",
         "If no characters are scouting ahead, any random encounter starts with a competing Awareness test against the attacker's stealth test to determine if the party is ambushed or not."
+      ]
+    },
+    {
+      "header": "Loot", "details": [
+        "Dead enemies have no use for their old inventory. You never know what sort of items and money you'll find on those who once wished you dead."
+      ]
+    },
+    {
+      "header": "Exploration and Investigation", "details": [
+        "It's not all fighting and resting in taverns. Sometimes your journey will take you to new places. Far off towns, deserted villages, dicrepit tombs, deep caves, the list of places to explore is endless.",
+        "Exploring such places and investigating the area can lead to new discoveries that open up the world and who knows. Maybe a grand treaure sits at the end of the journey."
       ]
     },
     {
