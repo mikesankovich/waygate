@@ -194,6 +194,162 @@
           ]
         }
       }
+    },
+    {
+      "name": "Hydra",
+      "description": "A monstrous dragon with two heads.",
+      "details": {
+        "habitats": "Mountains",
+        "nature": "Hostile",
+        "type": "Dragon",
+        "size": "Giant",
+        "resistances": "Fire, Slashing",
+        "weaknesses": "Ice",
+        "languages": "Beast, Draconic",
+        "stats": {
+          "str": "5",
+          "dex": "3",
+          "wp": "2",
+          "vit": "6",
+          "int": "4",
+          "cha": "0",
+          "mag": "3",
+          "armor": "20",
+          "speed": "6",
+          "health": "180",
+          "actions": [
+            { "name": "Strike", "detail": "One Action. Strike with its claws. 1d10 + str slashing damage. Range 5ft." },
+            { "name": "Bite", "detail": "One Action. Bite with its two sets of jaws. 2d8 + str piercing damage. Range 5ft." },
+            { "name": "Fire Blast", "detail": "One Action. Attacks with a large breath of fire. 2d8 + mag fire damage. Target rolls an opposed Vitality Attribute Test against the hit test. If they fail, they are burned (Magic) for 1d4 turns." },
+            { "name": "Flurry", "detail": "Two Actions. Makes three attacks without adding STR or DEX to the hit tests. Damage is dealt without STR bonus." }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Lesser Fury",
+      "description": "Winged female humanoids, said to aid in carrying the souls of the dead to the underworld. Their appearance can range from human to beastly. They are especially common in fields where large battles once took place.",
+      "details": {
+        "habitats": "Mountains, Cities, Graveyards, Tombs",
+        "nature": "Neutral",
+        "type": "Humanoid",
+        "size": "Medium",
+        "resistances": "",
+        "weaknesses": "",
+        "languages": "Dead Speak, Common",
+        "stats": {
+          "str": "1",
+          "dex": "3",
+          "wp": "0",
+          "vit": "1",
+          "int": "2",
+          "cha": "2",
+          "mag": "1",
+          "armor": "11",
+          "speed": "6 (walking), 10 (flying)",
+          "health": "20",
+          "actions": [
+            { "name": "Strike", "detail": "One Action. Strike with its claws or weapon. 1d6 + str slashing damage. Range 5ft." },
+            { "name": "Screech", "detail": "One Action. Target gets -2 to hit tests on their next turn." },
+            { "name": "Flight", "detail": "Two Actions. Target can fly through the air, out of reach of grounded creatures of Medium size or lower." }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Fury",
+      "description": "Winged female humanoids, said to aid in carrying the souls of the dead to the underworld. Their appearance can range from human to beastly. They are especially common in fields where large battles once took place. Larger and more magically inclined than their lesser counterparts.",
+      "details": {
+        "habitats": "Mountains, Cities, Graveyards, Tombs",
+        "nature": "Neutral",
+        "type": "Humanoid",
+        "size": "Medium",
+        "resistances": "",
+        "weaknesses": "",
+        "languages": "Dead Speak, Common",
+        "stats": {
+          "str": "2",
+          "dex": "5",
+          "wp": "0",
+          "vit": "1",
+          "int": "2",
+          "cha": "0",
+          "mag": "3",
+          "armor": "13",
+          "speed": "7 (walking), 10 (flying)",
+          "health": "30",
+          "actions": [
+            { "name": "Strike", "detail": "One Action. Strike with its claws or weapon. 1d6 + str slashing damage. Range 5ft." },
+            { "name": "Screech", "detail": "One Action. Target gets -2 to hit tests on their next turn." },
+            { "name": "Minor Heal", "detail": "Two Actions. Mystic Test 8 (magic). Heal target for 1d6 + Magic damage. Not useable on dying targets. Can only heal each target once." },
+            { "name": "Flight", "detail": "Two Actions. This turn, creature can fly through the air, moving up to their flight speed, out of reach of grounded creatures of Medium size or lower." }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Greater Fury",
+      "description": "Winged female humanoids, said to aid in carrying the souls of the dead to the underworld. Their appearance can range from human to beastly. They are especially common in fields where large battles once took place. Larger, stronger, and more magically inclined than their lesser counterparts.",
+      "details": {
+        "habitats": "Mountains, Cities, Graveyards, Tombs",
+        "nature": "Neutral",
+        "type": "Humanoid",
+        "size": "Medium",
+        "resistances": "",
+        "weaknesses": "",
+        "languages": "Dead Speak, Common",
+        "stats": {
+          "str": "4",
+          "dex": "5",
+          "wp": "1",
+          "vit": "3",
+          "int": "2",
+          "cha": "0",
+          "mag": "4",
+          "armor": "14",
+          "speed": "6 (walking), 10 (flying)",
+          "health": "45",
+          "actions": [
+            { "name": "Strike", "detail": "One Action. Strike with its claws or weapon. 1d6 + str slashing damage. Range 5ft." },
+            { "name": "Screech", "detail": "One Action. Target gets -2 to hit tests on their next turn." },
+            { "name": "Minor Heal", "detail": "Two Actions. Mystic Test 8 (magic). Heal target for 1d6 + Magic damage. Not useable on dying targets. Can only heal each target once." },
+            { "name": "Leech", "detail": "One Action. Roll an opposed Magic test against target Willpower. On Success deal 1d6 + mag Aether damage and heal for half damage dealt (rounded down)." },
+            { "name": "Flight", "detail": "Two Actions. This turn, creature can fly through the air, moving up to their flight speed, out of reach of grounded creatures of Medium size or lower." }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Wicked Thrasher",
+      "description": "A large mobile plant that lashes out with thorned tendrils. They tend to attack in groups.",
+      "details": {
+        "habitats": "Mountains, Cities, Graveyards, Tombs",
+        "nature": "Hostile",
+        "type": "Humanoid",
+        "size": "Small+",
+        "resistances": "Lightning",
+        "weaknesses": "Fire",
+        "languages": "",
+        "stats": {
+          "str": "2",
+          "dex": "2",
+          "wp": "0",
+          "vit": "1",
+          "int": "0",
+          "cha": "0",
+          "mag": "0",
+          "armor": "10",
+          "speed": "6",
+          "health": "10",
+          "actions": [
+            { "name": "Strike", "detail": "One Action. A strike with its tendrils. 1d4 + str slashing damage. Range 5ft." },
+            { "name": "Vine Whip", "detail": "Two Actions. a strong, accurate attack with its vines. 1d6 + str slashing damage. Gets +2 to hit. Range 10ft." }
+          ],
+          "others": [
+            { "name": "Mindless", "detail": "This creatures has little thought except of taking out whatever it has deemed its enemy. As a result, it cannot be feared or mentally or socially influenced in any way" }
+          ]
+        }
+      }
     }
   ]
 }

@@ -749,6 +749,12 @@
       "name": "Wrangling (KS) –  trainable",
       "description": "Learn to better handle and soothe wild beasts",
       "use": "1d20 + WP + training modifier"
+    },
+    {
+      "name": "Combat Prowess (FS)",
+      "description": "Skill and training has tought you to make multiple attacks a turn.",
+      "effect": "You are no longer restricted to only one attack or magical ability a turn.",
+      "prerequisites": "<ul><li>DEX 4</li><li>Level 3</li></ul>"
     }
   ]
 }

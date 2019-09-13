@@ -45,7 +45,8 @@
     </div>
     <div class="details">
       <div><span class="bold">Habitats:</span> {{creature.details.habitats}}</div>
-      <div><span class="bold">Resistances:</span> {{creature.details.resistances}}</div>
+      <div><span class="bold" *ngIf="creature.details.resistances">Resistances:</span> {{creature.details.resistances}}</div>
+      <div><span class="bold" *ngIf="creature.details.weaknesses">Weaknesses:</span> {{creature.details.weaknesses}}</div>
       <div><span class="bold">Languages:</span> {{creature.details.languages}}</div>
       <div><span class="bold">Speed:</span> {{creature.details.stats.speed}}</div>
       <div><span class="bold">Armor Rating:</span> {{creature.details.stats.armor}}</div>
@@ -55,6 +56,12 @@
       <h6 class="bold">Actions: </h6>
       <div class="action" *ngFor="let action of creature.details.stats.actions">
         <span class="bold">{{action.name}}:</span><span>{{action.detail}}</span>
+      </div>
+    </div>
+    <div class="actions others">
+      <h6 class="bold">Other Trais</h6>
+      <div class="action" *ngFor="let other of creature.details.stats.others">
+        <span class="bold">{{other.name}}:</span><span>{{other.detail}}</span>
       </div>
     </div>
   </div>

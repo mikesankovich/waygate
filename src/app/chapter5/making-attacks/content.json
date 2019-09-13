@@ -25,12 +25,13 @@
       ]},
       { "name": "Position", "intro": "The position of your target can influence the effectiveness of an attack.", "sub": [
           "<b>Covered Target: </b> If your target is behind cover, but still within line of sight (ie. Made an attack this turn, or not fully covered), they take a -2 to hit.",
-          "<b>Flanking: </b> If a target is currently engaged in combat with an ally and you come at them from a different angle than the person they are engaged in combat with, you get a +2 bonus to your hit.",
+          "<b>Flanking: </b> If a target is currently engaged in melee combat with an ally and you attack them from melee range from a different angle than the person they are engaged in combat with, you get a +2 bonus to your hit.",
           "<b>Prone: </b> If an enemy is prone on the floor, gain a +2 bonus to your hit with melee weapons, and -2 to hit with ranged weapons.",
           "<b>Out of Sight: </b> You must have line of sight to make an attack."
       ]},
-      { "name": "Resistances", "intro": "Properties that reduce damage done based on damage type. Having resistance reduces damage of the resisted type by half (rounded down)" },
-      { "name": "Size", "intro": "How large a target is can make it much easier or harder to land a hit. While a giant size may grant bonuses to strength and vitality, it also leads to an easier target to hit. The following chart shows how size modifies hit tests made against them", "sub": [
+      { "name": "Resistances", "intro": "Properties that reduce damage taken based on damage type. Having resistance in a type reduces damage of that type by half (rounded down)" },
+      { "name": "Weaknesses", "intro": "Properties that increase damage taken based on damage type. Having weakness in a type doubles the damage of that type" },
+      { "name": "Size", "intro": "How large a target is can make it much easier or harder to land a hit. The following chart shows how size modifies hit tests made against them", "sub": [
           "Giant: +6",
           "Huge: +4",
           "Large: +2",
