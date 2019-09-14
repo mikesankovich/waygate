@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import chapterContent from './content.json';
+import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-items',
@@ -7,8 +7,14 @@ import chapterContent from './content.json';
   styleUrls: ['./items.component.scss']
 })
 export class ItemsComponent implements OnInit {
-  contents = chapterContent;
-  constructor() { }
+  contents;
+  constructor(private api: ApiService) {
+    api.get('content', 'chapter3', 'items').subscribe(e => {
+      this.contents = e;
+    }, (error) => {
+      console.log(error);
+    });
+  }
 
   ngOnInit() {
   }

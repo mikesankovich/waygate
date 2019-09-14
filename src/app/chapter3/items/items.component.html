@@ -1,5 +1,5 @@
 
-<div class="chapter-container">
+<div class="chapter-container" *ngIf="contents">
   <div id="title">
     <h1 id="chapter-title">{{contents.title}}</h1>
     <app-quote [quote]="contents.quote"></app-quote>

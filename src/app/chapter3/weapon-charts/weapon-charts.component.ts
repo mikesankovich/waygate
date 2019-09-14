@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import chapterContent from './content.json';
+import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-weapon-charts',
@@ -7,8 +7,14 @@ import chapterContent from './content.json';
   styleUrls: ['./weapon-charts.component.scss']
 })
 export class WeaponChartsComponent implements OnInit {
-  contents = chapterContent;
-  constructor() { }
+  contents;
+  constructor(private api: ApiService) {
+    api.get('content', 'chapter3', 'weapon-charts').subscribe(e => {
+      this.contents = e;
+    }, (error) => {
+      console.log(error);
+    });
+  }
 
   ngOnInit() {
   }
