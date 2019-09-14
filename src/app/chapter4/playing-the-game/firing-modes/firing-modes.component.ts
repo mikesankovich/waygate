@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { firingModes } from '../content.json';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-firing-modes',
@@ -7,6 +6,6 @@ import { firingModes } from '../content.json';
   styleUrls: ['./firing-modes.component.scss']
 })
 export class FiringModesComponent {
-  firingModes = firingModes;
+  @Input() firingModes;
   constructor() { }
 }
