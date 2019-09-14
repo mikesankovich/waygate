@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { TitleComponent } from './title/title.component';
+import { TitleComponent } from './shared/title/title.component';
 import { GuideDashboardComponent } from './guide-dashboard/guide-dashboard.component';
-import { GettingStartedComponent } from './getting-started/getting-started.component';
+import { GettingStartedComponent } from './chapter0/getting-started/getting-started.component';
 
 // Chapter 1
 import { CharacterCreationComponent } from './chapter1/character-creation/character-creation.component';
@@ -32,26 +32,26 @@ import { ItemListsComponent } from "./chapter3/item-lists/item-lists.component";
 import { PlayingTheGameComponent } from './chapter4/playing-the-game/playing-the-game.component';
 
 // Chapter 5
-import { RoleplayingComponent } from './roleplaying/roleplaying.component';
+import { RoleplayingComponent } from './chapter5/roleplaying/roleplaying.component';
 
 // Chapter 6
-import { EnteringCombatComponent } from './chapter5/entering-combat/entering-combat.component';
-import { TakingActionComponent } from './chapter5/taking-action/taking-action.component';
-import { MakingAttacksComponent } from './chapter5/making-attacks/making-attacks.component';
-import { CombatActionsComponent } from './chapter5/combat-actions/combat-actions.component';
-import { RunningThroughCombatComponent } from './chapter5/running-through-combat/running-through-combat.component';
+import { EnteringCombatComponent } from './chapter6/entering-combat/entering-combat.component';
+import { TakingActionComponent } from './chapter6/taking-action/taking-action.component';
+import { MakingAttacksComponent } from './chapter6/making-attacks/making-attacks.component';
+import { CombatActionsComponent } from './chapter6/combat-actions/combat-actions.component';
+import { RunningThroughCombatComponent } from './chapter6/running-through-combat/running-through-combat.component';
 
 // Chapter 7
-import { MagicComponent } from './chapter6/magic/magic.component';
+import { MagicComponent } from './chapter7/magic/magic.component';
 
 // Chapter 8
-import { NonCombatActionsComponent } from './chapter7/non-combat-actions/non-combat-actions.component';
+import { NonCombatActionsComponent } from './chapter8/non-combat-actions/non-combat-actions.component';
 
 // The Story
 import { TheStoryComponent } from './the-story/the-story.component';
 
 // Creatures
-import { CreaturesComponent } from './creatures/creatures.component';
+import { CreaturesComponent } from './chapter9/creatures/creatures.component';
 
 // character Sheet
 import { CharacterSheetComponent } from './character-sheet/character-sheet.component';

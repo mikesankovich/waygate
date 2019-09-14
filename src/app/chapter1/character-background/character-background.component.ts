@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import chapterContent from '../contents/background.json';
+import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-character-background',
@@ -9,9 +9,13 @@ import chapterContent from '../contents/background.json';
 })
 export class CharacterBackgroundComponent implements OnInit {
   chapter: string = '';
-  contents = chapterContent;
-  constructor(private route:ActivatedRoute) {
-    this.chapter = route.snapshot.data.chapter;
+  contents;
+  constructor(private api: ApiService) {
+    api.get('content', 'chapter1', 'character-background').subscribe(e => {
+      this.contents = e;
+    }, (error) => {
+      console.log(error);
+    });
   }
 
   ngOnInit() {

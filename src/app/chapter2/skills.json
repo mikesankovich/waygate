@@ -385,7 +385,7 @@
     {
       "name": "Magical Aptitude (MS)",
       "description": "Deep study and practice has opened your mind up further to the world of magic, granting you greater power.",
-      "effect": "<ul><li>Character can use two spells in one turn without suffering from Magical Mayhem (see <b>Chapter Seven: Magic</b>).</li><li>Using three spells in two turns will now cause Magical Mayhem.</li></ul>",
+      "effect": "<ul><li>Character can use two spells in one turn without suffering from Magical Mayhem (see <b>Chapter 7: Magic</b>).</li><li>Using three spells in two turns will now cause Magical Mayhem.</li></ul>",
       "prerequisites": "<ul><li>Magical Affinity</li><li>Level 3</li><li>INT 2</li><li>Magic 3</li></ul>"
     },
     {

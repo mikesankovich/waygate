@@ -58,8 +58,8 @@
         <span class="bold">{{action.name}}:</span><span>{{action.detail}}</span>
       </div>
     </div>
-    <div class="actions others">
-      <h6 class="bold">Other Trais</h6>
+    <div class="actions others" *ngIf="creature.details.stats.others && creature.details.stats.others.length">
+      <h6 class="bold">Other Traits</h6>
       <div class="action" *ngFor="let other of creature.details.stats.others">
         <span class="bold">{{other.name}}:</span><span>{{other.detail}}</span>
       </div>

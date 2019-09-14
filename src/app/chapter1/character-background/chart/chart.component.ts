@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import chapterContent from '../../contents/background.json';
+import { ApiService } from '../../../services/api.service';
 
 @Component({
   selector: 'app-background-chart',
@@ -11,15 +11,18 @@ export class BackgroundChartComponent implements OnInit {
   chartData;
   secondaryChartName = "";
   secondaryChartData;
-  constructor() {
-  }
+  constructor(private api: ApiService) {}
 
   ngOnInit() {
-    this.chartData = chapterContent.charts[this.chartName];
-    if (this.chartName === 'genetics') {
-      this.secondaryChartName = 'eyesight';
-      this.secondaryChartData = chapterContent.charts[this.secondaryChartName];
-    }
+    this.api.get('content', 'chapter1', 'character-background').subscribe(e => {
+      this.chartData = e.charts[this.chartName];
+      if (this.chartName === 'genetics') {
+        this.secondaryChartName = 'eyesight';
+        this.secondaryChartData = e.charts[this.secondaryChartName];
+      }
+    }, (error) => {
+      console.log(error);
+    });
   }
 
 }
