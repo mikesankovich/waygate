@@ -1,5 +1,5 @@
 import { Component, AfterViewInit, ElementRef } from '@angular/core';
-import chapterContent from './content.json';
+import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-combat-actions',
@@ -7,10 +7,14 @@ import chapterContent from './content.json';
   styleUrls: ['./combat-actions.component.scss']
 })
 export class CombatActionsComponent implements AfterViewInit {
-  contents = chapterContent;
+  contents;
 
-  constructor(private elRef: ElementRef) {
-
+  constructor(private elRef: ElementRef, private api: ApiService) {
+    api.get('content', 'chapter6', 'combat-actions').subscribe(e => {
+      this.contents = e;
+    }, (error) => {
+      console.log(error);
+    });
   }
 
   ngAfterViewInit() {
