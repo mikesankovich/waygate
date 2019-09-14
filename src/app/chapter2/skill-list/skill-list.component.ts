@@ -15,14 +15,27 @@ export class SkillListComponent implements OnInit {
   skillType = '';
   filteredSkills = [];
   constructor(private route:ActivatedRoute) {
-    const content = route.snapshot.data.content;
+    // const content = route.snapshot.data.content;
 
-    this.content = content;
-    this.skills = _.cloneDeep(content.skills).sort((a, b) => {
-        return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1;
-    });
-    this.filteredSkills = _.cloneDeep(this.skills);
+    // this.content = content;
+    // this.skills = _.cloneDeep(content.skills).sort((a, b) => {
+    //     return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1;
+    // });
+    // this.filteredSkills = _.cloneDeep(this.skills);
   }
+
+  ngOnInit() {
+   this.route.data.subscribe(data => {
+     console.log('Data :', data);
+     const content = data.content;
+     this.content = content;
+     this.skills = _.cloneDeep(content.skills).sort((a, b) => {
+         return a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1;
+     });
+     this.filteredSkills = _.cloneDeep(this.skills);
+   })
+
+ }
 
   onChange(e) {
     this.searchTerm = e.target.value;
@@ -57,10 +70,6 @@ export class SkillListComponent implements OnInit {
 
   clearFilter() {
     this.filteredSkills = this.skills;
-  }
-
-  ngOnInit() {
-
   }
 
 }

@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { Routes, RouterModule, Resolve, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
 import { TitleComponent } from './shared/title/title.component';
 import { GuideDashboardComponent } from './guide-dashboard/guide-dashboard.component';
 import { GettingStartedComponent } from './chapter0/getting-started/getting-started.component';
@@ -20,8 +20,6 @@ import { SpecialSkillsComponent } from './chapter2/special-skills/special-skills
 import { AcquiringSkillsComponent } from './chapter2/acquiring-skills/acquiring-skills.component';
 import { GeneralRulesComponent } from './chapter2/general-rules/general-rules.component';
 import { CustomSkillsComponent } from './chapter2/custom-skills/custom-skills.component';
-import skills from './chapter2/skills.json';
-import specialSkills from './chapter2/special-skills.json';
 
 // Chapter 3
 import { ItemsComponent } from './chapter3/items/items.component';
@@ -56,6 +54,11 @@ import { CreaturesComponent } from './chapter9/creatures/creatures.component';
 // character Sheet
 import { CharacterSheetComponent } from './character-sheet/character-sheet.component';
 
+import { SkillsResolverService } from './resolvers/skills.resolver';
+import { SpecialSkillsResolverService } from './resolvers/special-skills.resolver';
+
+
+
 const routes: Routes = [
   {
     path: '', component: TitleComponent
@@ -81,8 +84,22 @@ const routes: Routes = [
       { path: 'character-creation/fate-of-the-waygate', component: FateOfTheWaygateComponent, data: { chapter: 'chapter1' } },
       { path: 'skills', component: SkillsComponent, data: { chapter: 'chapter2' } },
       { path: 'skills/general-rules', component: GeneralRulesComponent, data: { chapter: 'chapter2' } },
-      { path: 'skills/skill-list', component: SkillListComponent, data: { chapter: 'chapter2', content: skills  } },
-      { path: 'skills/special-skills', component: SkillListComponent, data: { chapter: 'chapter2', content: specialSkills } },
+      {
+        path: 'skills/skill-list',
+        component: SkillListComponent,
+        data: { chapter: 'chapter2' },
+        resolve: {
+          content: SkillsResolverService
+        }
+      },
+      {
+        path: 'skills/special-skills',
+        component: SkillListComponent,
+        data: { chapter: 'chapter2' },
+        resolve: {
+          content: SpecialSkillsResolverService
+        }
+      },
       { path: 'skills/acquiring-skills', component: AcquiringSkillsComponent, data: { chapter: 'chapter2' } },
       { path: 'skills/custom-skills', component: CustomSkillsComponent, data: { chapter: 'chapter2' } },
       { path: 'items', component: ItemsComponent, data: { chapter: 'chapter3' } },

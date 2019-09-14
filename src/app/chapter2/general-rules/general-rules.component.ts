@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import chapterContent from './content.json';
+import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-general-rules',
@@ -7,9 +7,13 @@ import chapterContent from './content.json';
   styleUrls: ['./general-rules.component.scss']
 })
 export class GeneralRulesComponent implements OnInit {
-  contents = chapterContent;
-  constructor() {
-
+  contents;
+  constructor(private api: ApiService) {
+    api.get('content', 'chapter2', 'general-rules').subscribe(e => {
+      this.contents = e;
+    }, (error) => {
+      console.log(error);
+    });
   }
 
   ngOnInit() {

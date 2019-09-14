@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import chapterContent from '../contents/physical-description.json';
+import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-physical-description',
@@ -8,8 +8,12 @@ import chapterContent from '../contents/physical-description.json';
 })
 export class PhysicalDescriptionComponent implements OnInit {
   contents;
-  constructor() {
-    this.contents = chapterContent;
+  constructor(private api: ApiService) {
+    api.get('content', 'chapter1', 'physical-description').subscribe(e => {
+      this.contents = e;
+    }, (error) => {
+      console.log(error);
+    });
   }
 
   ngOnInit() {

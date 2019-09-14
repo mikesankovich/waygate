@@ -1,4 +1,4 @@
-<div class="skills-container chapter-container">
+<div class="skills-container chapter-container" *ngIf="content">
   <h2>{{content.title}}</h2>
   <p *ngIf="content.intro">{{content.intro}}</p>
   <div class="filter row">
