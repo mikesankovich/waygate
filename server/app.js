@@ -4,7 +4,10 @@ const fs = require('fs');
 
 const app = express();
 var bodyParser = require('body-parser');
-var urlencodedParser = bodyParser.urlencoded({ extended: false })
+var urlencodedParser = bodyParser.urlencoded({ extended: false });
+var helmet = require('helmet')
+app.use(helmet());
+app.disable('x-powered-by');
 
 // Serve only the static files form the dist directory
 app.use(express.static(path.join(__dirname, '..', '/dist/waygate')));
