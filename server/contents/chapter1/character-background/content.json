@@ -5,7 +5,11 @@
       "quote": "Before going through the gate I was a timid accountant in Brooklyn. Yesterday I quelled a rebel uprising. Life’s never been better.",
       "author": "Danica Bloom, Emperor’s Hand"
     },
-    "content": ["Every country handles the Waygates differently, with most opting put some sort of volunteer system in place. As such, it is rare to find two people of similar backgrounds in any group. Where you were born, where you live, and what you did before enlisting will help determine not only your character’s personality, but will also have some effect on their starting skills and attributes. The following guide will walk you through the system for determining your character’s history and personality. Keep in mind, just because you know this information, it does not mean you have to divulge this information to anyone, but the GM. If it is within your character’s personality, feel free to keep this information secret.",
+    "content": [
+      "Every country handles the Waygates differently. Some have decided that they should be closed off, and have done everything in their power to keep anyone from going in and everything from coming out of them. Others have decided to use them to their advantage: to research new technologies and the mystic arts, to learn more about the universe, to stumble upon great riches and resources.",
+      "Of those countries that send people beyond the Waygate, most put some sort of volunteer system in place. As such, it is rare to find two people of similar backgrounds in any group. Where you were born, where you live, and what you did before enlisting will help determine not only your character’s personality, but will also have some effect on their starting skills and attributes.",
+      "Your character can have any sort of background. Maybe they were in the military. Maybe they were a school teacher. A criminal seeking to commute their sentence. Maybe they were just bored and seeking adventure and riches. Anyone who goes beyond is promised two things in return for their work: an adventure like no other and whatever money and valuables they can find.",
+      "The following guide will walk you through the system for determining your character’s history and personality. Keep in mind, just because you know this information, it does not mean you have to divulge this information to anyone, but the GM. If it is within your character’s personality, feel free to keep this information secret.",
       "Write down the results and answers to the following steps/questions on your character sheet."
     ]
   },
@@ -14,7 +18,7 @@
       { "content": "What is your character’s name?" },
       { "content": "Mark down Level 1 in your Level section of your character sheet." },
       { "content": "Where were you born, and where do you currently live?", "sub": ["You may include culture and religious background, if you so choose"] },
-      { "content": "Determine Genetics (optional, at GM’s discretion)", "sub": ["Roll a d100 and write down the result on your character sheet."], "chart": "genetics" },
+      { "content": "Determine Genetics (optional, at GM’s discretion)", "sub": ["Roll a d100 against the Genetics Chart below and write down the result on your character sheet."] },
       { "content": "Describe your character’s personality", "sub": ["What traits define your character"] },
       {
         "content": "Why are you going into the Waygate?",

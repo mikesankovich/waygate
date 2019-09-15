@@ -22,6 +22,18 @@
     </div>
   </div>
   <div class="section">
+    <h3>{{contents.roleplaying.header}}</h3>
+    <p *ngFor="let info of contents.roleplaying.content">
+      {{info}}
+    </p>
+  </div>
+  <div class="section">
+    <h3>{{contents.classless.header}}</h3>
+    <p *ngFor="let info of contents.classless.content">
+      {{info}}
+    </p>
+  </div>
+  <div class="section">
     <h3>{{contents.aether.header}}</h3>
     <p *ngFor="let info of contents.aether.content">
       {{info}}

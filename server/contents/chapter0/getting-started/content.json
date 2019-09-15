@@ -5,9 +5,20 @@
     "author": "General Parker Stone, First Leader of the Waygate Division, USA"
   },
   "intro": [
-    "Welcome to Enter the Waygate. While this book and the rules therein are meant to help and guide you, always remember that the GM has the final word and that a fun story should always come before any rule or guideline you find in these texts. Have fun with it. Justify why a character with no strength should be allowed to wear full plate armor. Explain away any apparent inconsistencies with your skillset. Create a few spells and skills that are more wacky than pragmatic. It’s all in the name of immersing yourself in a story unique to your group.",
+    "Welcome to Enter the Waygate: a tabletop roleplaying game where the players play through an epic story, exploring intriguing locations, investigating grand discoveries, and encountering dangerous foes at almost every turn. Players will forge alliances and earn the ire of terrible enemies based on their actions as they try to complete their quest.",
+    "A game consists of a Game Master (GM) and any number of players, who each control a player character (PC). It is the GM's job to guide the players through a campaign (story), during which they will provide encounters, present challenges, and ensure that the players know how and when to properly roll for any given action that is needed.",
+    "While this book and the rules therein are meant to help and guide you, always remember that the GM has the final word and that a fun story should always come before any rule or guideline you find in these texts. Have fun with it. Justify why a character with no strength should be allowed to wear full plate armor. Explain away any apparent inconsistencies with your skillset. Create a few spells and skills that are more wacky than pragmatic. It’s all in the name of immersing yourself in a story unique to your group.",
+    "For players new to Enter the Waygate, skim through each chapter briefly and refer to the relevant sections as needed. A campaign can be as long or as short as desired. One-Shots are campaigns meant to be completed in one sitting session over a few minutes or hours. Most campaigns, however, span several sessions broken up at intervals.",
     "In Enter the Waygate, the success and failure of actions are based on the results of two things: Dice and Roleplaying. How well you roll and how well you play your character through the story will determine whether or not things play out as you'd like, or if things go awry."
   ],
+  "classless": {
+    "header": "Classless",
+    "content": [
+      "Enter the Waygate is a classless system. This means that there are no pre-defined limitations to what abilities your character could possess. While some skills have prerequisites to their acquiring, so long as you meet those specifications, your character can learn any skill that appears on the skill list.",
+      "While classes can provide structure and a path, the system of Enter the Waygate was designed to provide freedom and the ability for players to evolve their characters as the campaign and the world required.",
+      "As such you start as a typical human aiming to travel beyond the Waygates for their own personal reasons with their own goals in mind. Playing your character according to their personal traits will lead to growth, which can open up many exciting opportunities. This will be covered in Chapter 5."
+    ]
+  },
   "dice": {
     "header": "Dice",
     "intro": "The following dice are listed as dX, with X being the number of faces on the dice to roll. The higher the roll, the higher the chance of your action succeeding.",

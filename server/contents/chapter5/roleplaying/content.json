@@ -86,6 +86,13 @@
         "Characters must rest at least six hours a day to remain in good shape. If they do not, they begin suffering from penalties.",
         "Characters who have not met this sleep requirement get -2 to Awareness tests and their health is lowered by 1d10 - Vit damage per day until they get 8 hours of sleep."
       ]
+    },
+    {
+      "header": "Growth and Learning", "details": [
+        "Through your adventure, as you overcome difficult tasks, your character will gain experience and level up, which grants them skill points and attribute points which will make them stronger.",
+        "However, through practice, hard work, and extraordinary daring, you can gain skills and attributes as well. If the GM sees fit after impressive gameplay, storytelling, or a devotion to in-character practice, they can reward a player with attribute points, skill points, or Aether Marks (so long as they don't have any Aether Marks currently).",
+        "Skill and attribute advances should not be limited only to leveling up."
+      ]
     }
   ],
   "roleplaying": {

@@ -17,11 +17,9 @@
         <ul class="step-sub" *ngIf="step.sub && step.sub.length">
           <li *ngFor="let sub of step.sub">{{sub}}</li>
         </ul>
-        <div class="chart" *ngIf="step.chart">
-          <app-background-chart [chartName]="step.chart"></app-background-chart>
-        </div>
       </li>
     </ol>
+    <app-background-chart chartName="genetics"></app-background-chart>
   </div>
 
 </div>

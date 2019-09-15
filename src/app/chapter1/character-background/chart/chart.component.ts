@@ -11,10 +11,13 @@ export class BackgroundChartComponent implements OnInit {
   chartData;
   secondaryChartName = "";
   secondaryChartData;
-  constructor(private api: ApiService) {}
+  constructor(private api: ApiService) {
+    console.log('aaa')
+  }
 
   ngOnInit() {
     this.api.get('content', 'chapter1', 'character-background').subscribe(e => {
+      console.log('aaa', e, this.chartName)
       this.chartData = e.charts[this.chartName];
       if (this.chartName === 'genetics') {
         this.secondaryChartName = 'eyesight';
