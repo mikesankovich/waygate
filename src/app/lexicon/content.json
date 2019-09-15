@@ -1,0 +1,101 @@
+[
+  {
+    "term": "Attributes",
+    "def": "A characters stats, split into 7 categories. Strength (str), Dexterity (dex), Intelligence (int), Willpower (WP), Vitality (vit), Charisma (cha), and Magic (mag). Attributes have a maximum value of seven.",
+    "notes": ""
+  },
+  {
+    "term": "Strength (str)",
+    "def": "The attribute that determines how physically strong a character is. Affects things like likeliness of succeeding in a physically demanding task, improves melee damage, and improves melee hit chance.",
+    "notes": ""
+  },
+  {
+    "term": "Dexterity (dex)",
+    "def": "The attribute that determines how dextrous/agile a character is. Affects things like the likelihood of succeeding on a task that requires fine motor control, improves finesse damage, and finesse and ranged hit chance.",
+    "notes": ""
+  },
+  {
+    "term": "Intelligence (int)",
+    "def": "The attribute that determines how smart a character is. Affects things like the likelihood of succeeding on tests requiring intelligence or knowledge, as well as tests involving deciphering complex or obscure information.",
+    "notes": ""
+  },
+  {
+    "term": "Willpower (wp)",
+    "def": "The attribute that determines how mentally resilient a character is. Affects things like ability to resist mental attacks and certain magical abilities. Also affects success on inflicting certain mental ailments.",
+    "notes": ""
+  },
+  {
+    "term": "Vitality (vit)",
+    "def": "The attribute that determines how physically resilient a character is. Affects things like ability to resist physical attacks and ailments. Also affects success on maintaining difficults tasks and situations.",
+    "notes": ""
+  },
+  {
+    "term": "Charisma (cha)",
+    "def": "The attribute that determines how socially adept a character is. Affects things like the likelihood of succeeding on tasks of persuasion and deceptions, as well as of detecting untruths.",
+    "notes": ""
+  },
+  {
+    "term": "Magic (mag)",
+    "def": "The attribute that determines how magically potent a character is. Affects things like the likelihood of succeeding on magical attacks and increases magical damage dealt.",
+    "notes": ""
+  },
+  {
+    "term": "Skills",
+    "def": "Special abilities that characters purchase with Skill Points or earn through gameplay. They come in three flavors:",
+    "notes": [
+      "<b>Knowledge Skills (KS):</b> Skills that rely more on mental prowess.",
+      "<b>Feats (FS):</b> Skills that rely more on physical ability.",
+      "<b>Magic Skills (MS):</b> Skills that rely more on magical aptitude."
+    ]
+  },
+  {
+    "term": "Constitution",
+    "def": "A modifier that effects total amount of a characters health. Earned through gameplay per GM discretion, or by purchasing the \"Mighty Constitution\" skill.",
+    "notes": ""
+  },
+  {
+    "term": "Armor Rating",
+    "def": "A character's ability to not get hit by an attack. An attack only hits if its hit test reaches or exceeds the target's armor rating. Affected by armor, dexterity, and natural physiology.",
+    "notes": ""
+  },
+  {
+    "term": "Currency",
+    "def": "Generally called 'gold,' but can be renamed to cater to your world.",
+    "notes": ""
+  },
+  {
+    "term": "Aether Marks",
+    "def": "Special one-time-use marks that characters can earn to prevent them from dying or to reroll tests.",
+    "notes": ""
+  },
+  {
+    "term": "Fate of the Waygate",
+    "def": "A strange phenomenon that occurs every time someone walks through a waygate, often leaving them changed physically or mentally.",
+    "notes": ""
+  },
+  {
+    "term": "Aether Contamination",
+    "def": "The most severe Fate of the Waygate. Leads to the most extreme changes caused by the Waygates' incluence.",
+    "notes": ""
+  },
+  {
+    "term": "Mystic Test",
+    "def": "A test that must be passed for some magical abilities to take effect. Test must be reached or exceeded to succeed. If the test is less than or equal to half the needed value (rounded down), Magical Mayhem occurs.",
+    "notes": ""
+  },
+  {
+    "term": "Magical Mayhem",
+    "def": "Strange phenomena that occur when mystic tests and magical hit tests fail to a high enough degree.",
+    "notes": ""
+  },
+  {
+    "term": "Special Skills",
+    "def": "Skills that cannot be purchased and are only given through rare, specific means.",
+    "notes": ""
+  },
+  {
+    "term": "Proficiency",
+    "def": "Gaining skill in a weapon or ability which removes the negative modifiers to using them.",
+    "notes": ""
+  }
+]

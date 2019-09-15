@@ -1,0 +1,13 @@
+<div class="lexicon">
+  <input
+    type="text"
+    placeholder="Keyword"
+    class="form-control"
+    [ngModel]='searchTerm'
+    (ngModelChange)="onChange($event)" />
+  <div class="scroll">
+    <div class="terms" *ngFor="let term of filteredContents">
+      <app-term [term]="term"></app-term>
+    </div>
+  </div>
+</div>

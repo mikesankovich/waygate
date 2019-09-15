@@ -1,0 +1,6 @@
+<div class="term">
+  <span class="bold">{{term.term}}: </span><span>{{term.def}}</span>
+  <ul *ngIf="term.notes && term.notes.length">
+    <li *ngFor="let note of term.notes" [innerHTML]="note"></li>
+  </ul>
+</div>

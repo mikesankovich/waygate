@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -55,6 +56,8 @@ import * as $ from 'jquery';
 import * as bootstrap from 'bootstrap';
 import { CreaturesComponent } from './chapter9/creatures/creatures.component';
 import { CreatureComponent } from './chapter9/creatures/creature/creature.component';
+import { LexiconComponent } from './lexicon/lexicon.component';
+import { TermComponent } from './lexicon/term/term.component';
 
 @NgModule({
   declarations: [
@@ -102,12 +105,15 @@ import { CreatureComponent } from './chapter9/creatures/creature/creature.compon
     RoleplayingComponent,
     CreaturesComponent,
     CreatureComponent,
+    LexiconComponent,
+    TermComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
