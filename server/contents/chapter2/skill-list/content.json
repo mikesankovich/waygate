@@ -683,7 +683,7 @@
     {
       "name": "Aether Bomb (MS) – (Two Actions – Extended)",
       "description": "Character charges up for a magic bomb that decimates the area surrounding the caster.",
-      "effect": "<ul><li>If Mystic Test passes, take Two Actions to charge up the attack. While charging, Hit Tests made against you get a +2 modifier. On the following turn, spending both of your actions, you unleash the magical bomb, decimating absolutely everything in the 15x15 area surrounding the caster, completely ignoring cover (magical and physical) and line of sight issues. All characters (including caster) in area of effect roll a Willpower Attribute Test. If they get below 18, they take 3d12 +  Mag damage (Aether). This damage cannot be prevented or rebounded (but it can be reduced). This spell cannot be countered or rebounded.</li></ul>",
+      "effect": "<ul><li>If Mystic Test passes, take Two Actions to charge up the attack. While charging, Hit Tests made against you get a +2 modifier. On your next turn, spending both of your actions, you unleash the magical bomb, decimating absolutely everything in the 15x15 area surrounding the caster, completely ignoring cover (magical and physical) and line of sight issues. All characters (including caster) in area of effect roll a Willpower Attribute Test. If they get below 18, they take 3d12 +  Mag damage (Aether). This damage cannot be prevented or rebounded (but it can be reduced). This spell cannot be countered or rebounded.</li></ul>",
       "mysticTest": "23 (magic)",
       "range": "self",
       "prerequisites": "<ul><li>Magical Aptitude</li></ul>"
@@ -691,7 +691,7 @@
     {
       "name": "Aether Shield (MS) – Two Actions",
       "description": "Create a weightless shield of telekinetic energy. This shield can only block magical weapons, weapons imbued with magical power, or spells.",
-      "effect": "<ul><li>Telekinetic Shield persists until it is dismissed (free action) or let go for any reason. Non-magic weapons and fists simply pass through the shield unharmed. Grants a -2 penalty to magical attacks made against you, or attacks against you made with a magical weapon</li></ul>",
+      "effect": "<ul><li>Telekinetic Shield persists until it is dismissed (free action) or let go for any reason. Non-magic weapons and fists simply pass through the shield unharmed. Grants a -2 penalty to magical attacks made against you and attacks against you made with a magical weapon</li></ul>",
       "mysticTest": "14 (magic)",
       "prerequisites": "<ul><li>Magical affinity</li><li>Magic 2</li><li>Dual Wield Melee</li></ul>"
     },

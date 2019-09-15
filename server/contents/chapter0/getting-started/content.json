@@ -35,9 +35,43 @@
   "roleplaying": {
     "header": "Roleplaying",
     "content": [
-      "Enter the Waygate is first and foremost a roleplaying game. Your characters are more than just pieces on a board. They should have personalities, strenghts and weaknesses, histories, desires, etc. And these details should influence how you play your character: how you think through problems, how you handle complications, how to form your alliances and frienships.",
+      "Enter the Waygate is first and foremost a roleplaying game. Your characters are more than just pieces on a board. They should have personalities, strengths and weaknesses, histories, desires, etc. And these details should influence how you play your character: how you think through problems, how you handle complications, how to form your alliances and frienships.",
       "It's not all dicerolls. If you roleplay well, you may find tasks easier or harder to complete. And in the end you will be more immersed in the world around you.",
       "Roleplaying serves another function. While characters can get stronger and gain new skills by leveling up, such advancements can also be the reward for exceptional roleplaying, deep immersion, and smart problem-solving."
+    ]
+  },
+  "aether": {
+    "header": "Aether",
+    "content": [
+      "Aether is the natural force that flows out of the Waygates. It is a strange energy that, despite millenia of study across countless worlds and dimensions, remains a mystery in its workings. So far the only things agreed upon are that the Aether originates from the void between dimensions, the Aether reshapes the worlds and beings it touches for too long into places of danger, and within the Aether-filled void exist powerful creatures attracted to those who harness these energies.",
+      "The areas with high Aether contamination are places where magic is especially potent, and the people who bend it to their will may find themselves opening doorways to dangerous phenomenon if they do not tread carefully. Magical Mayhem opens up the world to the influence of the Aether, shaping the immediate area to its will.",
+      "The Fate of the Waygate itself is an especially phenomenon that befalls those who travel through the Waygates or tamper too hastily with its powers. The traveler of practitioner is flooded with Aether and is reshaped to its will, for better or worse."
+    ]
+  },
+  "waygates": {
+    "header": "Waygates",
+    "content": [
+      "The Waygates are powerful portals to distant worlds and dimensions. Some such destinations are filled with excitement and wonder, where technological and mystic marvels abound. Others are filled with terror and pain, where only the strong or especially crafty survive.",
+      "They are large blue orbs of crackling, lightning-like energy, about six feet in all directions, that hover just off the ground. They swirl with great energy, and those who stand close can often hear echoes from the world beyond emenating from them.",
+      "Waygates do not come alone. When they first appear, they open up all over the world, spreading their influence and opening up opportunity to any who wish to explore what lies beyond.",
+      "In most cases, the governing bodies of the area of their appearance have taken control of the Waygates, however in more remote places or places where chaos reigns other forces have taken over their control, exploiting them for the opportunities they provide."
+    ]
+  },
+  "emissaries": {
+    "header": "The Emissaries",
+    "content": [
+      "Beings of uncountable species that arrived with the opening of the Waygates to extend a welcome to the humans of earth.",
+      "No one has seen them since, in this world or the worlds beyond, and their motives for opening the Waygates to the worlds they visit have remained a mystery.",
+      "Some have speculated that they are simply beings of knowledge who wish to expand their understanding of the multiverse by researching travelers from the shadows. Others believe they are altruistic and simply want humans to be a part of the grander works of the universe. The rest believe that they have some nefarious plot in motion and that the Waygates were only the beginning."
+    ]
+  },
+  "worlds": {
+    "header": "The Worlds Beyond",
+    "content": [
+      "There is no formula to the worlds beyond. Some are primal, savage places. Others are places where peace and tranquility are the rule.",
+      "The worlds you travel can be anywhere on the spectrum. Most worlds you face will be those far more brutal than ours, though with a civilation of their own.",
+      "They will be filled with creatures; those you are familiar with and those unlike anything you have ever seen before. Some will be hostile, some indifferent, others peaceful. How you interact with them and how they interact with you will depend largely on how you carry yourself through the world and how you choose to interact with those beings you come across on the way.",
+      "The Aether has shaped these worlds for far longer than Earth, and their influence is drastically apparent. Magic is prevalent where the Waygates' influence has taken hold, and even those races and species familiar to you will have been reshaped to their will."
     ]
   }
 }

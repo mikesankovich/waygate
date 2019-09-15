@@ -48,6 +48,8 @@ import { RunningThroughCombatComponent } from './chapter6/running-through-combat
 import { MagicComponent } from './chapter7/magic/magic.component';
 import { NonCombatActionsComponent } from './chapter8/non-combat-actions/non-combat-actions.component';
 import { DifficultyChartComponent } from './shared/difficulty-chart/difficulty-chart.component';
+import { LexiconComponent } from './shared/lexicon/lexicon.component';
+import { TermComponent } from './shared/lexicon/term/term.component';
 import { TheStoryComponent } from './the-story/the-story.component';
 import { CharacterSheetComponent } from './character-sheet/character-sheet.component';
 import { FiringModesComponent } from './chapter4/playing-the-game/firing-modes/firing-modes.component';
@@ -56,8 +58,6 @@ import * as $ from 'jquery';
 import * as bootstrap from 'bootstrap';
 import { CreaturesComponent } from './chapter9/creatures/creatures.component';
 import { CreatureComponent } from './chapter9/creatures/creature/creature.component';
-import { LexiconComponent } from './lexicon/lexicon.component';
-import { TermComponent } from './lexicon/term/term.component';
 
 @NgModule({
   declarations: [

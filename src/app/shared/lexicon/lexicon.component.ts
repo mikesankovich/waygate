@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { cloneDeep } from 'lodash';
-import chapterContent from './content.json';
+import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-lexicon',
@@ -11,12 +11,16 @@ export class LexiconComponent implements OnInit {
   searchTerm = '';
   filteredContents = [];
   contents = [];
-  constructor() {
-    this.contents = cloneDeep(chapterContent);
-    this.filteredContents = cloneDeep(this.contents);
-  }
+  constructor(private api: ApiService) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.api.get('content', 'shared', 'lexicon').subscribe(e => {
+      this.contents = cloneDeep(e);
+      this.filteredContents = cloneDeep(this.contents);
+    }, (error) => {
+      console.log(error);
+    });
+  }
 
   onChange(e) {
     this.searchTerm = e;

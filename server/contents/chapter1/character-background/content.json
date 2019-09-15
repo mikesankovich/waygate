@@ -48,10 +48,16 @@
           "effect": "+2 to any attempts to maintain footing (including tackles)"
         },
         {
-          "range": "21-35",
-          "name": "Eyesight",
-          "description": "Your eyesight has been affected by your genetics",
-          "effect": "Roll a d10 on the <b>Eyesight</b> chart below and take the effect."
+          "range": "21-28",
+          "name": "Keen Vision",
+          "description": "Your eyes have adjusted, and are now able to see in dark light.",
+          "effect": "Start with the \"Dark Vision\" <b>skill</b>. -2 to dexterity in very bright areas."
+        },
+        {
+          "range": "29-25",
+          "name": "Poor Vision",
+          "description": "Your eyes have deteriorated slightly; luckily glasses are always an option.",
+          "effect": "-1 Dex while not wearing corrective lenses."
         },
         {
           "range": "36-40",
@@ -130,7 +136,7 @@
         },
         {
           "range": "9-10",
-          "name": "Poor Vision.",
+          "name": "Poor Vision",
           "effect": "-1 Dex while not wearing corrective lenses."
         }
       ]

@@ -3,14 +3,13 @@
     <div [ngClass]="{'col-sm-3 col-6': showSidebar, 'col-sm-1 col-1': !showSidebar}" class="sidebar-container">
       <app-sidebar (toggle)="onToggle($event)" #sideBar></app-sidebar>
     </div>
+    <div [ngClass]="{'hidden': showSidebar}" class="lexicon-open">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Terms</button>
+    </div>
     <div [ngClass]="{'col-sm-11 offset-sm-1 col-12': showSidebar, 'col-sm-11 col-11 offset-1': !showSidebar, 'stopflow': showSidebar}" class="abs" (click)="updateValue()">
       <div class="cover" *ngIf="showSidebar"></div>
       <router-outlet></router-outlet>
     </div>
-
-  </div>
-  <div class="lexicon-open">
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Terms</button>
   </div>
 </div>
 

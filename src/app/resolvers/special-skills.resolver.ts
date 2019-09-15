@@ -10,13 +10,10 @@ import { Routes, RouterModule, Resolve, ActivatedRouteSnapshot, RouterStateSnaps
 export class SpecialSkillsResolverService implements Resolve<any> {
    constructor(private api: ApiService) { }
    resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<any> | Observable<never> {
-   const url = '';
-   console.log(route);
    return this.api.get('content', 'chapter2', 'special-skills').pipe(catchError(error   => {
       return EMPTY
    }), mergeMap(res => {
          if (res) {
-            console.log(res);
             return of(res)
          } else {
             return EMPTY;

@@ -32,8 +32,17 @@
   overflow: hidden;
 }
 
+.hidden {
+  display: none;
+}
+
 .lexicon-open {
-  position: fixed;
-  bottom: 14px;
-  right: 14px;
+  position: absolute;
+  top: 168px;
+  z-index: 9;
+  button {
+    padding: 4px;
+    border-radius: 0;
+    font-size: 14px;
+  }
 }
