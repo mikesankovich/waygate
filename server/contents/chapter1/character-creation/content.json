@@ -35,7 +35,7 @@
       },
       {
         "title": "Step Three: Spend Initial Skill Points",
-        "content": "Everyone has skills. Skills are the abilities that your characters can attempt to utilize throughout the game and come in three categories: Feats (physical skills), Knowledge Skills, and Magic Skills. To purchase these skills you must earn skill points."
+        "content": "Everyone has skills. Skills are the abilities that your characters can attempt to utilize throughout the game and come in three categories: Phyiscal Skills, Knowledge Skills, and Magic Skills. To purchase these skills you must earn skill points."
       },
       {
         "title": "Step Four: Physical Description",
@@ -68,13 +68,13 @@
       "attributeGains": [
         "<b>Leveling up:</b> when you level up, you gain a certain amount of attribute points to use, based on the level.",
         "<b>Accomplishments:</b> Throughout the game, the GM is encouraged to grant increases to skills based on very impressive accomplishments.",
-        "<b>Random and Notable Events:</b> Genetics can affect your attributes, but they are not the only such things that can happen. Throughout the game, you may run into situations that lead to a permanent increase or decrease in stats."
+        "<b>Random and Notable Events:</b> Throughout the game, you may run into situations that lead to a permanent increase or decrease in stats The GM should use such events sparingly."
       ]
     },
     "attributeExplanations": {
       "title": "Attributes",
       "content": [
-        { "attribute": "Strength (Str):", "description": "How physically strong your character is. Affects your ability to perform physical feats and how hard you are able to hit." },
+        { "attribute": "Strength (Str):", "description": "How physically strong your character is. Affects your ability to perform physical abilities and how hard you are able to hit." },
         { "attribute": "Dexterity (Dex):", "description": "How coordinated your character is. Affects your movement speed, ability to perform feats of precision, ability to act swiftly, and ability to avoid being hit." },
         { "attribute": "Vitality (Vit):", "description": "How tough your character is. Affects your ability to maintain difficult tasks and stay strong under duress. Also affects overall health." },
         { "attribute": "Willpower (WP):", "description": "How mentally resilient your character is. Affects your ability to shrug off mental and some magic attacks, and to keep going under emotional duress." },
@@ -88,7 +88,6 @@
       "instructions": [
         { "content": "All attributes start at 0." },
         { "content": "You begin the game with <b>10 Attribute Points</b>. You may allocate these points however you wish amongst your attributes.<ul><li>You cannot improve the <b>Magic</b> attribute until you have the <b>Magical Affinity</b> skill.</li><li>No stat can be above 3 at this point.</li><li>You may only have two stats (magic excluded) at 0 initially.</li></ul>" },
-        { "content": "Add or subtract effects of <b>Genetics</b> to the proper attributes after point allocation." },
         { "content": "Determine your <b>Health</b> and mark this on your character sheet. Changes from damage should be made with pencil. Do not erase your total health value. <ul><li>Health = 7 + 3x(Vitality) + (level x Constitution) (initial <b>Constitution</b> is 0)</li></ul>" },
         { "content": "Determine your <b>armor rating</b>: this is equal to 8 + <b>dexterity</b> + <b>armor</b>.<ul><li>A hit test made against you succeeds if it reaches or surpasses this value.</li></ul>" }
       ]

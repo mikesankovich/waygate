@@ -17,8 +17,8 @@
     "headers": [ "Roll", "Effect", "Description", "Notes"],
     "rows": [
       { "roll": "1 - 40", "effect": "Minor Physical Alteration", "description": "The twisting nether forces you to undergo a minor physical alteration", "notes": "(See chart: Minor Alterations)" },
-      { "roll": "41 - 50", "effect": "Font of Gray", "description": "Your character is aged physically by 1d20 years" },
-      { "roll": "51 - 60", "effect": "Font of Youth", "description": "Your character is de-aged physically by 1d10 years" },
+      { "roll": "41 - 50", "effect": "Font of Gray", "description": "Your character is aged physically by 1d10 years" },
+      { "roll": "51 - 60", "effect": "Shedding", "description": "Once a month, your character sheds their skin like a snakes. It's painless and leaves your skin clear and smooth, but may freak out those seeing it (shedding takes place over 48 hours)" },
       { "roll": "61", "effect": "Shattered Lives", "description": "The energies of the Waygate have wiped your mind of all memories from your personal past. Your name, birthplace, careers, and past relations are wiped clean. All you know are how to function as a human being, nothing more.", "notes": "You can be reminded of these traits if your compatriots know them. Otherwise, come up with a new name for yourself." },
       { "roll": "62 - 64", "effect": "Parasitic bonding", "description": "Something has latched onto you and won’t let go. Gain the \"Symbiotic Essence\" special skill" },
       { "roll": "65 - 87", "effect": "Unchanged", "description": "Congratulations. You haven’t changed at all, save for a deeper appreciation of the dangers of the Waygate." },
@@ -37,7 +37,7 @@
       { "roll": "3", "effect": "Hair Growth", "notes": "Hair grows two feet in length. Attempting to cut it will result in it growing back immediately" },
       { "roll": "4", "effect": "Hair Loss", "notes": "Hair shrinks down to buzz cut length. Growth permanently takes 10x as long as before." },
       { "roll": "5", "effect": "Fangs", "notes": "Your incisors grow into small fangs (1d6 damage if used for attack)" },
-      { "roll": "6", "effect": "Height. Roll a d6 for effect", "notes": "1=lose 9 inches, 2=lose 6 inches, 3=lose 3 inches, 4=grow 3 inches, 5=grow 6 inches, 6=grow 9 inches" }
+      { "roll": "6", "effect": "Bifurcation", "notes": "You now have a bifurcated tongue" }
     ]
   },
   "aetherContaminationTable": {
@@ -47,7 +47,7 @@
       { "roll": "1 - 50", "effect": "Gain a minor physical alteration", "notes": "See chart: Minor Alterations)" },
       { "roll": "51 - 60", "effect": "You briefly turn into a horrid monster of indescribable terror before turning back to your usual form. Everyone who witnesses this rolls a Willpower test. If they get below a 14 they are terrified and cannot make actions until after their next turn." },
       { "roll": "61 - 80", "effect": "Temporary Transmogrification. You are transmogrified into a monstrous form for an hour.", "notes": "You look like a human, but your skin is a sickly green and looks like it is almost melting off. Your limbs grow/shrink to strange proportions. You can only speak in gargled gibberish." },
-      { "roll": "81 - 86", "effect": "Sex Shift", "notes": "You are instantly transformed into the opposite sex. Your height, weight, and attractiveness level remain the same." },
+      { "roll": "81 - 86", "effect": "Touched by Night", "notes": "Your eyes turn pitch black all over and your blood is now black" },
       { "roll": "87 - 95", "effect": "Wracked with pain: You drop to your knees as the most terrible pain you’ve ever experienced fills your entire being. You cannot move for 30 seconds (5 rounds), and all attacks against you get +2 to hit. " },
       { "roll": "96 - 99", "effect": "Spared by the Fates", "notes": "You feel a quick rush of energy as the Aether flows through you, but nothing else happens." },
       { "roll": "100", "effect": "Unspeakable Horror: You transform into an indescribable mess of body parts and flesh. You feel only pain and can’t communicate or move in any way. Strange appendages have started growing from your body.", "notes": "Your character is effectively dead. All players in the party can sacrifice an Aether Mark to reverse this effect." }

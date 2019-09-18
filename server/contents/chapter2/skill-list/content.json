@@ -17,7 +17,7 @@
       "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 2</li></ul>"
     },
     {
-      "name": "Backstab (FS) – One Action",
+      "name": "Backstab (PS) – One Action",
       "description": "A brutal attack made against an unaware opponent.",
       "range": "Weapon",
       "effect": "If target is unaware of you, make an attack with a finesse weapon with a +2 to hit. If it succeeds, add an additional 1d6 to damage.",
@@ -68,13 +68,13 @@
       "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 3</li></ul>"
     },
     {
-      "name": "Cat's Grace (FS) – Reaction",
+      "name": "Cat's Grace (PS) – Reaction",
       "description": "Steady yourself after a fall.",
       "effect": "You get +2 to any attack that aims to trip or shove you to the ground. You take half damage from falling (rounded up).",
       "prerequisites": "<ul><li>Dex 3</li></ul>"
     },
     {
-      "name": "Channel Aether (FS) – Two Actions",
+      "name": "Channel Aether (PS) – Two Actions",
       "description": "Proximity to the Aether has opened your mind to the possibilities therein, without the need of magic.",
       "effect": "You get a +2 to hit tests against all Aether Beings and reduce all damage dealt to you by magical attacks and effects by 2 (can’t go below zero).",
       "prerequisites": "<ul><li>Level 2</li></ul>",
@@ -91,7 +91,7 @@
       "effect": "Caster suffers no penalty to tests due to distracting settings. They suffer no penalty to tests due to being addled or confused."
     },
     {
-      "name": "Cleave (FS) – One Action",
+      "name": "Cleave (PS) – One Action",
       "description": "Attack two adjacent enemies in one stroke.",
       "range": "Weapon",
       "effect": "Pick one enemy as your main target. Roll a Hit Test against them. If it succeeds, roll for damage, and then roll a Hit Test on the second target, with a -2 penalty. If that succeeds as well, roll for damage for the second target.",
@@ -99,7 +99,7 @@
       "prerequisites": "<ul><li>Melee Combat</li><li>Str 3</li><li>Dex 2</li></ul>"
     },
     {
-      "name": "Climb (FS) – Trainable",
+      "name": "Climb (PS) – Trainable",
       "description": "Climb difficult structures and obstacles.",
       "use": "1d20 + training modifier + Str or Dex (whichever is higher)"
     },
@@ -117,12 +117,12 @@
       "prerequisites": "<ul><li>Magical Affinity</li></ul>"
     },
     {
-      "name": "Coup De Grace (FS)",
+      "name": "Coup De Grace (PS)",
       "description": "Attack a prone enemy with great power and precision.",
       "effect": "If you are adjacent to an enemy that is prone, you get +4 to hit test on attacks made against them and deal an extra 1d6 damage on those attacks."
     },
     {
-      "name": "Covering Fire (FS) – Two Actions",
+      "name": "Covering Fire (PS) – Two Actions",
       "description": "Spray a volley of ammunition towards a target/group to break their formation and make it harder for them to aim/concentrate.",
       "range": "Weapon range maximum",
       "effect": "<ul><li>Roll a hit test for all targets in the area (friendly included). Hits at -4 penalty</li><li>All targets in the area get a -4 to hit tests made during their next turn and any current concentration/aiming is broken.</li><li>Covering fire takes place in a 5 square wide cone in front of you and goes as far as your weapon’s range.</li></ul>",
@@ -135,7 +135,7 @@
       "use": "1d20 + training modifier (see Chapter 8: Non-Combat Actions for more details)"
     },
     {
-      "name": "Create Space (FS) – One Action",
+      "name": "Create Space (PS) – One Action",
       "description": "Use blunt force to push your opponent away.",
       "range": "5 feet",
       "use": "unarmed attack",
@@ -143,7 +143,7 @@
       "prerequisites": "<ul><li>STR 2</li></ul>"
     },
     {
-      "name": "Crush Armor (FS) – One Action",
+      "name": "Crush Armor (PS) – One Action",
       "description": "Use a heavy strike to ruin armor.",
       "range": "weapon",
       "effect": "Aim for a specific armor piece, then make a hit test. On success, that armor piece’s armor rating loses 1d4 value (can’t go below 0), until repaired. On critial hit, armor piece loses all value until repaired and apply weapon damage to its wearer.",
@@ -167,26 +167,26 @@
       "use": "1d20 + Charisma + Training Modifier against target’s 1d20 + Charisma or Awareness (whichever is higher)."
     },
     {
-      "name": "Dodge (FS) - Reaction",
+      "name": "Dodge (PS) - Reaction",
       "description": "Dodge an opponent’s attack.",
       "effect": "See <b>Chapter 5: Combat:</b> Dodging"
     },
     {
-      "name": "Double Shot (FS) – One Action",
+      "name": "Double Shot (PS) – One Action",
       "description": "Fire two arrows from your bow at once.",
       "effect": "Make a ranged attack with two arrows nocked at -2 to hit. On success, roll damage for both arrows.",
       "requirements": "<ul><li>Must be wielding a bow and be proficient with bows.</li><li>This attack expends two arrows</li></ul>",
       "prerequisites": "<ul><li>Ranged Combat</li><li>DEX 3</li></ul>"
     },
     {
-      "name": "Dual Wield Melee (FS)",
+      "name": "Dual Wield Melee (PS)",
       "description": "Wield a one-handed melee weapon in both hands with great effect.",
       "effect": "<ul><li>Grants +1 to parry and riposte checks (if you have the Parry skill).</li><li>Allows use of shields and weapons in the off hand with no penalty.</li><li>When making attacks, you attack with your main hand weapon first. If it hits, you may make a strike with your off-hand weapon (or bare hand if empty) as a free action. An attack made with an off-hand weapon in this manner does not apply STR or DEX bonuses to damage.</li>",
       "requirements": "<ul><li>one-handed weapons in each hand.</li></ul>",
       "prerequisites": "<ul><li>Melee Combat</li><li>DEX 2</li><li>STR 2</li><li>Level 2</li></ul>"
     },
     {
-      "name": "Dual Wield Ranged (FS)",
+      "name": "Dual Wield Ranged (PS)",
       "description": "Wield a one-handed ranged weapon in both hands with great effect",
       "effect": "<ul><li>Allows use of one-handed ranged weapons in each hand with no dual wield penalties.</li><li>you attack with your main hand weapon first. If it hits, you may make an attack with your off-hand weapon as a free action. Both weapons deal damage normally.</li></ul>",
       "requirements": "one-handed ranged weapons in each hand.",
@@ -214,7 +214,7 @@
       "prerequisites": "<ul><li>Magical affinity</li><li>Fire Blast</li><li>Magic 5</li></ul>"
     },
     {
-      "name": "Flurry (FS) – Two Actions",
+      "name": "Flurry (PS) – Two Actions",
       "description": "Sacrifice power as you make multiple strikes with your weapon.",
       "range": "weapon",
       "effect": "Make three attacks without STR or DEX bonus. On each success, your opponent takes normal weapon damage, without Strength bonus. (If you have <b>Dual Wield Melee</b> and are dual wielding or have a free hand, follow those rules for each successful strike)",
@@ -222,7 +222,7 @@
       "requirements": "<ul><li>must use melee weapons</li></ul>"
     },
     {
-      "name": "Focus (FS) – One Action",
+      "name": "Focus (PS) – One Action",
       "description": "steady your mind",
       "effect": "+2 to hit check for your next attack or ability. Taking damage while focused will break this effect.",
       "requirements": "<ul><li>Combat only</li></ul>"
@@ -248,13 +248,13 @@
       "prerequisites": "<ul><li>VIT 2</li></ul>"
     },
     {
-      "name": "Grace and Finesse (FS) ",
+      "name": "Grace and Finesse (PS) ",
       "description": "your graceful movements allow you to react to attacks made against you to a higher degree.",
       "effect": "You can now use two reactions per round to actions made against you (see <b>Chapter 5: Combat</b>: Responding to Attacks). Cannot use the same reaction twice in the same round.",
       "prerequisites": "<ul><li>Dex 5</li><li>level 4</li></ul>"
     },
     {
-      "name": "Grapple (FS) – Two Actions",
+      "name": "Grapple (PS) – Two Actions",
       "description": "Learn to effectively grapple your opponents.",
       "effect": "attempt to pin target to the ground, with opposing strength tests. If they are successfully pinned they are pinned until they break free or are let go. So long as you are pinning your opponent, you may only spend one One Action per turn, and are limited to barehanded attacks against the pinned target. You can release your opponent as a One Action and utilize the rest of your turn normally. On their turn, if still pinned, they can attempt to break free as Two Actions with an opposing strength test.",
       "prerequisites": "<ul><li>Melee Combat</li><li>STR 2</li></ul>",
@@ -278,7 +278,7 @@
       "prerequisites": "<ul><li>Magical Affinity</li><li>Minor Heal</li><li>Magic 3</li></ul>"
     },
     {
-      "name": "Guns Akimbo (FS) – Two Actions",
+      "name": "Guns Akimbo (PS) – Two Actions",
       "description": "wildly empty your clips in a conical shape before you.",
       "effect": "Roll hit against all targets (enemy and ally) within the cone (1 square at 1 space. 3 squares at 5 spaces. 5 squares at 7 spaces. -2 penalty to all hit checks. Requires full clips and empties the clip",
       "range": "40 feet.",
@@ -286,7 +286,7 @@
       "requirements": "A firearm in each hand, both with full clips"
     },
     {
-      "name": "Herculean Might (FS) – One Action",
+      "name": "Herculean Might (PS) – One Action",
       "description": "A surge of strength courses through your body.",
       "effect": "You get a +4 to all strength tests and increase strength based damage by 1d6 for 1 minute. After this minute, you get a -4 to all strength tests, -1d6 to all strength based damage dealt, and opponents get +2 to hit against you for 1 minute.",
       "prerequisites": "<ul><li>STR 3</li></ul>"
@@ -300,7 +300,7 @@
       "prerequisites": "<ul><li>Magical Affinity</li><li>Magic 2</li></ul>"
     },
     {
-      "name": "Pickpocket (FS) – Trainable",
+      "name": "Pickpocket (PS) – Trainable",
       "description": "Steal from a target without alerting suspicion.",
       "requirements": "Player must not be drawing the focus of the target.",
       "use": "1d20 + DEX + training modifier"
@@ -313,7 +313,7 @@
       "range": "touch"
     },
     {
-      "name": "Intimidate (FS) – trainable",
+      "name": "Intimidate (PS) – trainable",
       "description": "Use your strength and threat of violence to scare a target into submission or into fleeing. (Useable in and out of combat).",
       "use": "1d20 + STR + training modifier"
     },
@@ -395,7 +395,7 @@
       "prerequisites": "<ul><li>INT 2</li></ul>"
     },
     {
-      "name": "Melee Combat (FS)",
+      "name": "Melee Combat (PS)",
       "description": "Learn the basics of melee combat. Basic Melee weapons Include <ul><li>Whips</li><li>Knives</li><li>Staves/Spears</li><li>Two handed maces</li><li>Two handed axes</li><li>Two handed swords</li><li>One handed maces</li><li>One handed axes</li><li>One handed swords</li></ul>",
       "effect": "Gain proficiency with a Basic melee weapon class and unarmed combat. Melee weapons you have proficiency with can now be used without penalty"
     },
@@ -408,7 +408,7 @@
       "prerequisites": "<ul><li>Magical Affinity</li></ul>"
     },
     {
-      "name": "Mighty Constitution (FS)",
+      "name": "Mighty Constitution (PS)",
       "requirements": "Can be purchased twice per level.",
       "effect": "Increase your characters Constitution by 1d4"
     },
@@ -421,7 +421,7 @@
       "prerequisites": "<ul><li>Magical Affinity</li></ul>"
     },
     {
-      "name": "Murder Blow (FS) – Two Actions",
+      "name": "Murder Blow (PS) – Two Actions",
       "description": "A vicious blow made with a melee weapon, designed to hit armored foes.",
       "requirements": "Use a non-finesse melee weapon that character is proficient with",
       "effect": "Attack gets +2 to hit test. Damage is calculated normally. Cannot use a reaction until after your next turn.",
@@ -438,20 +438,20 @@
       "use": "1d20 + INT + training modifier"
     },
     {
-      "name": "Parry (FS) - Reaction",
+      "name": "Parry (PS) - Reaction",
       "description": "Parry an opponent’s attack.",
       "effect": "See <b>Chapter5: Combat</b>: parrying.",
       "prerequisites": "<ul><li>Melee Combat</li></ul>"
     },
     {
-      "name": "Pin in Place (FS) – Two Actions",
+      "name": "Pin in Place (PS) – Two Actions",
       "description": "Take aim and target an opponent’s foot, slowing their movement.",
       "effect": "-2 to hit test. On success, target cannot move unaided 3 rounds or until they are healed.",
       "requirements": "Must use a ranged weapon and be proficient with that weapon.",
       "prerequisites": "<ul><li>Ranged Combat.</li></ul>"
     },
     {
-      "name": "Power Strike (FS) – Two Actions",
+      "name": "Power Strike (PS) – Two Actions",
       "description": "An all-out attack that deals high damage.",
       "effect": "On success, roll twice for weapon damage. Target gets +2 to dodge attempts against this attack",
       "requirements": "dual wielding melee weapons or two handed melee weapon equipped. Must be proficient in all equipped weapons used. If dual wielding, must have Dual Wield Melee",
@@ -464,24 +464,24 @@
       "use": "You roll two dice for the test and take the higher roll."
     },
     {
-      "name": "Quick Draw (FS)",
+      "name": "Quick Draw (PS)",
       "description": "Quickly draw or sheath a weapon.",
       "effect": "Once a turn, you can draw or sheath a weapon as a free action."
     },
     {
-      "name": "Rage (FS) – Reaction",
+      "name": "Rage (PS) – Reaction",
       "description": "Wounded, your body and mind are flung into a blind rage of terrible destructive power.",
       "effect": "<ul><li>If an opponent’s attack takes you below half health, you may enter a raged state.</li><li>While in this state, your melee attacks get a +2 to hit and deal an extra 1d6 damage. You lose all dex bonuses to actions and armor rating while enraged.</li><li>You cannot discern between friend and foe. You must roll an awareness check for each ally at the start of your next turn. At 12 or higher, you succeed, and realize they are friendly. At the start of each following turn, while enraged, you roll an awareness check for each unrecognized ally again.</li><li>You must always attack the nearest character you believe to be hostile.</li><li>You cannot stop your attack, even if the hostiles surrender.</li></ul>",
       "duration": "2 minutes, or until soothed.",
       "prerequisites": "<ul><li>Level 2</li><li>VIT: 2</li><li>WP: 2</li><li>STR 3</li></ul>"
     },
     {
-      "name": "Ranged Combat (FS)",
+      "name": "Ranged Combat (PS)",
       "description": "Learn the basics of ranged combat.",
       "effect": "Gain proficiency with a Basic ranged weapon class. Any ranged weapons you have proficiency with can now be used without penalty. Basic Ranged Weapons Include<ul><li>One handed firearms</li><li>Two handed firearms</li><li>Bows</li><li>crossbows</li><li>Thrown weapons</li></ul>"
     },
     {
-      "name": "Rapid Reload (FS)",
+      "name": "Rapid Reload (PS)",
       "effect": "Reloading a gun is now One Action",
       "requirements": "must be proficient with the weapon you are reloading",
       "prerequisites": "<ul><li>DEX 2</li><li>Ranged combat</li></ul>"
@@ -494,7 +494,7 @@
       "prerequisites": "<ul><li>Magical aptitude</li><li>Counterspell</li></ul>"
     },
     {
-      "name": "Rend (FS) – Two Actions",
+      "name": "Rend (PS) – Two Actions",
       "description": "Deal a rending blow to your opponent with a bladed weapon, leaving them bleeding heavily.",
       "effect": "deals normal combat damage and leaves your opponent bleeding (str) for 1d4 turns. See <b>Chapter 5: Combat:</b> Bleeding.",
       "range": "weapon",
@@ -502,7 +502,7 @@
       "prerequisites": "<ul><li>Melee Combat</li></ul>"
     },
     {
-      "name": "Resist Magic (FS) – Two Actions",
+      "name": "Resist Magic (PS) – Two Actions",
       "description": "Your knowledge of the magical arts has taught you to better resist magic used against you.",
       "effect": "You gain an additional resistance to magic, allowing you to reduce or shrug off magical effects until end of combat. Adds a -2 penalty to Hit Tests (magical) done against you by enemies, and magical damage done to you is reduced by 2",
       "mysticTest": "15 (Willpower)",
@@ -510,13 +510,13 @@
       "duration": "10 minutes"
     },
     {
-      "name": "Resist Poison (FS)",
+      "name": "Resist Poison (PS)",
       "description": "Player gains an immunity to poisons and venoms, lessening their effects.",
       "effect": "poison damage dealt to you is halved",
       "prerequisites": "<ul><li>Vitality 2</li></ul>"
     },
     {
-      "name": "Riposte (FS) - reaction",
+      "name": "Riposte (PS) - reaction",
       "description": "Parry an opponent’s attack and counter attack.",
       "effect": "See <b>Chapter 5: Combat:</b> Riposte",
       "prerequisites": "<ul><li>Melee Combat</li><li>Parry</li><li>Dex 4</li></ul>"
@@ -543,38 +543,38 @@
       "prerequisites": "<ul><li>Magical Aptitude</li><li>Level 6</li></ul>"
     },
     {
-      "name": "Shield Slam (FS) – One Action",
+      "name": "Shield Slam (PS) – One Action",
       "description": "Bash your opponent with the front of your shield",
       "effect": "Deals 1d4 + strength damage. Target must make a strength test against your hit test. If they fail, they are knocked to the ground.",
       "prerequisites": "<ul><li>Shield equipped.</li><li>STR 2</li></ul>"
     },
     {
-      "name": "Slice in Twain (FS)",
+      "name": "Slice in Twain (PS)",
       "description": "Your rending capabilities are second to none",
       "effect": "Your Rend skill is now a One Action skill.",
       "prerequisites": "<ul><li>Rend</li><li>STR 4</li><li>DEX 2</lli></ul>"
     },
     {
-      "name": "Slip Into Shadows (FS) – Two Actions",
+      "name": "Slip Into Shadows (PS) – Two Actions",
       "description": "You have learned to use the subtleties of the Aether to slip out of notice of an aware enemy.",
       "effect": "Roll an opposed dexterity test at -2 against all aware characters' (NPCs and Player characters) awareness test. Those you succeed against no longer sense your presence. If you slip out of presence of all enemies currently engaged with you in combat, you disengage. Effect breaks after your next turn",
       "prerequisites": "<ul><li>Stealth at skilled or master level</li><li>DEX 4</li></ul>"
     },
     {
-      "name": "Snipe (FS) – Two Actions (Extended)",
+      "name": "Snipe (PS) – Two Actions (Extended)",
       "description": "Take careful aim to hit a target with pinpoint accuracy.",
       "effect": "Take Two Actions to steady your aim on a chosen target. Attack takes place as your first One Action on your following turn. Taking any damage, moving, or taking any action during this time will end this effect immediately. If your target dies before your attack, you can spend your first Action on your turn taking aim at a new target, and are free to use your second Action to make your attack. +6 to hit test. Range is increased by 30 feet for this attack. An additional 1d10 damage if hit is successful.",
       "requirements": "long ranged weapon equipped, and player must be proficient with that weapon. (Long ranged weapons are generally non-shotgun two handed firearms, longbows, crossbows)",
       "prerequisites": "<ul><li>Dex 4</li><li>Ranged Combat</li></ul>"
     },
     {
-      "name": "Stealth (FS) -- Trainable",
+      "name": "Stealth (PS) -- Trainable",
       "description": "slip in and out of the shadows to move unnoticed",
       "effect": "Move unnoticed by those around you. Only works on those who could not see you. Any action besides movement will require another stealth roll. Aware characters can alert others to your presence",
       "use": "1d20 + DEX + training modifier."
     },
     {
-      "name": "Strong of Mind (FS)",
+      "name": "Strong of Mind (PS)",
       "description": "You become unshakable in the face of fear.",
       "effect": "Whenever you roll a test involving Willpower, you roll two dice and take the higher value.",
       "prerequisites": "<ul><li>WP 5</li></ul>"
@@ -604,7 +604,7 @@
       "prerequisites": "<ul><li>Magical Affinity</li></ul>"
     },
     {
-      "name": "Split Shot (FS) – One Action",
+      "name": "Split Shot (PS) – One Action",
       "description": "Fire two arrows from your bow at once at two different targets",
       "effect": "Make a ranged attack with two arrows nocked at a primary and secondary target. Roll to hit against each with a -2 to hit. Targets must be adjacent to each other and you must have line of sight on both.",
       "requirements": "must be wielding a bow and be proficient with bows. This attack expends two arrows.",
@@ -616,7 +616,7 @@
       "use": "1d20 + Int + training modifier"
     },
     {
-      "name": "Sure Footed (FS)",
+      "name": "Sure Footed (PS)",
       "description": "Player has greater balance and becomes much harder to knock of their feet.",
       "effect": "Player gains a +2 bonus to dexterity checks involving balance, including ambushes, grapples, trips, sweeps, and heavy blows.",
       "prerequisites": "<ul><li>DEX 2</li></ul>"
@@ -627,7 +627,7 @@
       "use": "1d20 + VIT + training modifier"
     },
     {
-      "name": "Sweep (FS) – One Action",
+      "name": "Sweep (PS) – One Action",
       "description": "Use your weapon to hook your target’s leg in an attempt to knock them to the ground",
       "requirements": "must have a whip, staff, spear, or other pole weapon equipped. Must be proficient with that weapon.",
       "range": "weapon",
@@ -636,7 +636,7 @@
       "use": "Normal hit test, but replace any STR modifiers with DEX."
     },
     {
-      "name": "Swim (FS) – trainable",
+      "name": "Swim (PS) – trainable",
       "description": "Improves a character’s ability to swim",
       "use": "1d20 + training modifier + STR or DEX (whichever is higher)"
     },
@@ -661,7 +661,7 @@
       "prerequisites": "<ul><li>Magical affinity</li></ul>"
     },
     {
-      "name": "Vital Resolve (FS)",
+      "name": "Vital Resolve (PS)",
       "description": "Your astounding vitality helps you shrug off damage.",
       "effect": "Reduce all non-magical weapon damage dealt to you by your vitality.",
       "prerequisites": "<ul><li>Level 3</li></ul>"
@@ -701,14 +701,14 @@
       "prerequisites": "<ul><li>Int 3</li></ul>"
     },
     {
-      "name": "Aether Strike (FS) - One Action",
+      "name": "Aether Strike (PS) - One Action",
       "description": "Knowledge of and exposure to the Aether has allowed you to imbue your melee strikes with mystical energies.",
       "effect": "On a successful hit, you deal an extra 1d6 Aether damage.",
       "requirements": "Melee weapon attacks or unarmed strikes only.",
       "prerequisites": "<ul><li>WP 3</li><li>Int 3</li></ul>"
     },
     {
-      "name": "Aether Shot (FS) - One Action",
+      "name": "Aether Shot (PS) - One Action",
       "description": "Knowledge of and exposure to the Aether has allowed you to imbue your ranged attacks with mystical energies.",
       "effect": "On a successful hit, you deal an extra 1d6 Aether damage.",
       "requirements": "Ranged weapon attacks only.",
@@ -720,13 +720,13 @@
       "effect": "You are able to hide and retrieve items that, combined, weigh up to 25 x Magic pounds. Cannot be accessed in combat. Cannot hide living things."
     },
     {
-      "name": "Weapon Skills – Melee (FS)",
+      "name": "Weapon Skills – Melee (PS)",
       "description": "Become proficient with a weapon of your choice.",
       "effect": "<ul><li>Can be purchased multiple times. Gain proficiency in a melee weapon class, allowing you to make attacks with that class of weapon without penalty. Attacks with a proficient weapon grant a +0 to hit. Attacks with a non-proficient basic weapon grant a -2 to hit. Attacks with a non-proficient advanced weapon grant a -4 to hit.</li><li>Basic Melee Weapons include<ul><li>Hand to hand combat (unarmed and fist weapons)</li><li>One handed swords</li><li>One handed axes</li><li>One handed maces</li><li>Two handed swords</li><li>Two handed axes</li><li>Two handed maces</li><li>Staves/Spears</li><li>Knives</li><li>Basic Whips</li></ul></li><li>For Advanced Melee Weapon Types, see Chart: Melee Chart in Chapter 3: Part I. (tend to include specialty weapons, augmented weapons {such as chain whips and segmented staves}, or complex weapons unheard of in your world, grenades).</li></ul>",
       "prerequisites": "<ul><li>Melee Combat</li></ul>"
     },
     {
-      "name": "Weapon Skills – Ranged (FS)",
+      "name": "Weapon Skills – Ranged (PS)",
       "description": "Become proficient with a weapon of your choice.",
       "effect": "<ul><li>Can be purchased multiple times. Gain proficiency in a ranged weapon class, allowing you to make attacks with that class of weapon without penalty. Attacks with a proficient weapon grant a +0 to hit. Attacks with a non-proficient weapon grant a -2 to hit. Attacks with non-proficient advanced weapon grant a -4 to hit.</li><li>Basic Ranged Weapons Include<ul><li>One handed firearms</li><li>Two handed firearms</li><li>Bows</li><li>crossbows</li><li>Thrown weapons</li></ul></li></li><li>For Advanced Ranged Weapon Types, see Chart: Ranged Chart in Chapter 3: Part I.</li></ul>",
       "prerequisites": "<ul><li>Ranged Combat</li></ul>"
@@ -738,7 +738,7 @@
       "prerequisites": "<ul><li>Int 1</li><li>Ranged Combat</li></ul>"
     },
     {
-      "name": "Whirlwind (FS) – Two Actions",
+      "name": "Whirlwind (PS) – Two Actions",
       "description": "A powerful spinning attack hits all targets adjacent to you.",
       "range": "weapon",
       "effect": "<ul><li>Roll a Hit Test (Melee) for all characters (friend or foe) in range. Deal normal weapon damage to each.</li></ul>",
@@ -751,7 +751,7 @@
       "use": "1d20 + WP + training modifier"
     },
     {
-      "name": "Combat Prowess (FS)",
+      "name": "Combat Prowess (PS)",
       "description": "Skill and training has tought you to make multiple attacks a turn.",
       "effect": "You are no longer restricted to only one attack or magical ability a turn.",
       "prerequisites": "<ul><li>DEX 4</li><li>Level 3</li></ul>"

@@ -16,7 +16,6 @@ import { GettingStartedComponent } from './chapter0/getting-started/getting-star
 import { CharacterCreationComponent } from './chapter1/character-creation/character-creation.component';
 import { GenerateAttributesComponent } from './chapter1/generate-attributes/generate-attributes.component';
 import { CharacterBackgroundComponent } from './chapter1/character-background/character-background.component';
-import { BackgroundChartComponent } from './chapter1/character-background/chart/chart.component';
 import { SpendSkillPointsComponent } from './chapter1/spend-skill-points/spend-skill-points.component';
 
 import { SkillListComponent } from './chapter2/skill-list/skill-list.component';
@@ -71,7 +70,6 @@ import { CreatureComponent } from './chapter9/creatures/creature/creature.compon
     CharacterCreationComponent,
     GenerateAttributesComponent,
     CharacterBackgroundComponent,
-    BackgroundChartComponent,
     SpendSkillPointsComponent,
     QuoteComponent,
     SkillListComponent,

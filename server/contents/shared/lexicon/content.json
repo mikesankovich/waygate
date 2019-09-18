@@ -44,7 +44,7 @@
     "def": "Special abilities that characters purchase with Skill Points or earn through gameplay. They come in three flavors:",
     "notes": [
       "<b>Knowledge Skills (KS):</b> Skills that rely more on mental prowess.",
-      "<b>Feats (FS):</b> Skills that rely more on physical ability.",
+      "<b>Physical Skills (PS):</b> Skills that rely more on physical ability.",
       "<b>Magic Skills (MS):</b> Skills that rely more on magical aptitude."
     ]
   },
@@ -96,6 +96,21 @@
   {
     "term": "Proficiency",
     "def": "Gaining skill in a weapon or ability which removes the negative modifiers to using them.",
+    "notes": ""
+  },
+  {
+    "term": "NPC",
+    "def": "Non-Player Character. A character in the game not controlled by any of the players.",
+    "notes": ""
+  },
+  {
+    "term": "PC",
+    "def": "Player Character. A character in the game controlled by one of the players.",
+    "notes": ""
+  },
+  {
+    "term": "GM",
+    "def": "Game Master. The person in charge of guiding you through the game.",
     "notes": ""
   }
 ]

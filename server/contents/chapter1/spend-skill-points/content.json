@@ -8,7 +8,7 @@
     "content": [
       "In Enter the Waygate, there are no classes or careers that determine the abilities and powers you are able to learn. How you allocate your attribute points is the only determining factor in whether or not you can learn a specific skill. These skills in turn will help determine what role you best fulfill on a team.",
       "<b>Knowledge Skills (KS):</b> Skills that allow you to perform actions related to intelligence, insight, deduction, and information.",
-      "<b>Feats (FS):</b> Skills that allow you to perform intense or difficult physical acts, precise actions, or physical attacks.",
+      "<b>Physical Skills (PS):</b> Skills that allow you to perform intense or difficult physical acts, precise actions, or physical attacks.",
       "<b>Magic Skills (MS):</b> Skills that channel magic through the Aether to accomplish a task. <ul><li>All Magic Skills require the Magical Affinity skill, which usually has to be learned from someone within the world of Waygate, and usually can only rarely be learned through self-study or leveling up.</li></ul>",
       "Some skills have a leveling system, which influences how much of a bonus they grant when attempting to use them – Unlearned, Basic, Learned, Skilled, Masterful.<ul><li>Skills can be levelled through purchases or through numerous successful/difficult uses.</li><li>Such skills can be used even when unlearned, though at penalty.</li></ul>"
     ]
@@ -19,14 +19,14 @@
     "steps": [
       {
         "content": "All players start with the following skills.",
-        "sub": ["<b>Literacy</b> (basic)"]
+        "sub": ["<b>Literacy</b> (basic)", "<b>Awareness</b> (basic)"]
       },
       {
         "content": "Players choose one from each of the following sets of skills",
         "sub": [
           "<b>Melee Combat</b> or <b>Ranged Combat</b><ul><li>Remember to pick a weapon to be trained in.</li></ul>",
-          "<b>Swimming</b> (basic) or <b>Climbing</b> (basic)",
-          "<b>Awareness</b> (basic), <b>Cryptography</b> (basic), <b>Medical</b> (basic – but only if you have at least 2 Intelligence), or <b>Tech Savvy</b> (basic – but only if you have at least 1 intelligence)"
+          "<b>Swim</b> (basic) or <b>Climb</b> (basic)",
+          "<b>Nature</b> (basic) or <b>Tech Savvy</b> (basic)"
         ]
       },
       {
