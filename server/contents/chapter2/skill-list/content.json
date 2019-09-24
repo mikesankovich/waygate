@@ -77,7 +77,7 @@
       "name": "Channel Aether (PS) – Two Actions",
       "description": "Proximity to the Aether has opened your mind to the possibilities therein, without the need of magic.",
       "effect": "You get a +2 to hit tests against all Aether Beings and reduce all damage dealt to you by magical attacks and effects by 2 (can’t go below zero).",
-      "prerequisites": "<ul><li>Level 2</li></ul>",
+      "prerequisites": "<ul><li>Level 4</li></ul>",
       "duration": "1 minute"
     },
     {
@@ -663,7 +663,13 @@
     {
       "name": "Vital Resolve (PS)",
       "description": "Your astounding vitality helps you shrug off damage.",
-      "effect": "Reduce all non-magical weapon damage dealt to you by your vitality.",
+      "effect": "Reduce all non-magical damage dealt to you by your vitality.",
+      "prerequisites": "<ul><li>Level 3</li></ul>"
+    },
+    {
+      "name": "Willful Resolve (PS)",
+      "description": "Your astounding willpower helps you shrug off damage.",
+      "effect": "Reduce all magical damage dealt to you by your willpower.",
       "prerequisites": "<ul><li>Level 3</li></ul>"
     },
     {
