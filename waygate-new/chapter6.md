@@ -232,7 +232,7 @@ The following damage types causes specific effects on critical hits.
 
 **Slashing** - Damage made with some form of edged weapon. On a critical hit, after damage, roll 1d20. If the result is 16 or higher, the target is **Bleeding** for 1d4 turns
 
-**Concussive** - damage made with blunt force. On critical hit, roll 1d20. If the result is 16 or higher and the target is wearing armor, the target's Armor Rating is reduced by 1 until the armor is repaired. If the armor's rating is reduced to 0, it is destroyed.
+**Concussive** - damage made with blunt force. On critical hit, roll 1d20. If the result is 16 or higher and the target is wearing armor, the target's Armor Value is reduced by 1 until the armor is repaired. If the armor's value is reduced below 0, it is destroyed and must be repaired.
 
 **Rending** - Ripping Damage. On critical hit, roll 1d20. If the result is 14 or higher, the target is **Bleeding** for 1d4 turns.
 

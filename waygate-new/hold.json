@@ -1,28 +1,106 @@
 [
   {
-    "name": "Absolute Recall",
-    "description": "You are touched with a blessing of memory, granting you moments of insight into things otherwise forgotten or missed.",
-    "effect": "<ul><li>Once per session, you may ask the GM for a piece of information that was overlooked during the previous session. This can be an important sign that no one in the party inspected, an action that the party did not notice, barely audible whispers gone unheeded. Anything that could help you along the quest, be it guidance or the location of vast, powerful treasures.</li><li>All information received during Absolute Recall is obtainable through normal play.</li><li>If, somehow, the players did not miss anything in the previous session, the GM will provide knowledge from the session before that or can provide a bonus in a way they see fit.</li></ul>"
+    "identifier": "meleeWeapons",
+    "name": "Melee Weapons",
+    "headers": [ "Weapon", "Type", "Price", "Rarity", "Range", "Damage", "Critical", "Effect", "Proficiency", "Prerequisites" ],
+    "body": [
+      { "weapon": "Short Sword", "type": "Melee", "price": "10 gold", "rarity": "Common", "range": "5 ft", "damage": "1d8 (slashing)", "critical": "20", "effect": "", "proficiency": "One-handed Swords", "prerequisites": "" },
+      { "weapon": "Bastard Sword", "type": "Melee", "price": "20 gold", "rarity": "Uncommon", "range": "5 ft", "damage": "One-Handed 1d8; Two-Handed 1d10 (slashing)", "critical": "One-Handed (20); Two-Handed (19-20)", "effect": "Can be used one or two handed", "proficiency": "One or Two-handed swords, depending on how it is wielded",  "prerequisites": "" },
+      { "weapon": "Long Sword", "type": "Melee", "price": "25 gold", "rarity": "Uncommon", "range": "5 ft", "damage": "2d6 (slashing)", "critical": "19-20", "effect": "", "proficiency": "two-handed swords",  "prerequisites": "" },
+      { "weapon": "Great Sword", "type": "Melee", "price": "40 gold", "rarity": "Rare", "range": "10 ft", "damage": "3d6 (slashing)", "critical": "19-20", "effect": "", "proficiency": "Two-handed swords",  "prerequisites": "Str 4; Dex 3" },
+      { "weapon": "Rapier", "type": "Melee (finesse)", "price": "15 gold", "rarity": "Uncommon", "range": "5 ft", "damage": "1d8 (piercing)", "critical": "20", "effect": "", "proficiency": "One-handed swords",  "prerequisites": "" },
+      { "weapon": "Machete", "type": "Melee", "price": "15 gold", "rarity": "Common", "range": "5 ft", "damage": "1d6 (slashing)", "critical": "20", "effect": "Can be used to cut through difficult foliage", "proficiency": "One-handed swords",  "prerequisites": "" },
+      { "weapon": "Knife", "type": "Melee (finesse)", "price": "5 gold", "rarity": "Common", "range": "5 ft", "damage": "1d6 (piercing)", "critical": "20", "effect": "", "proficiency": "Knives",  "prerequisites": "" },
+      { "weapon": "Hatchet", "type": "Melee", "price": "10 gold", "rarity": "Common", "range": "5 ft", "damage": "1d8 (slashing)", "critical": "20", "effect": "Can be used to cut through difficult foliage", "proficiency": "One-handed axes",  "prerequisites": "" },
+      { "weapon": "Axe", "type": "Melee", "price": "10 gold", "rarity": "Common", "range": "5 ft", "damage": "1d8 (slashing)", "critical": "20", "effect": "", "proficiency": "One-handed Axes",  "prerequisites": "" },
+      { "weapon": "Battle Axe", "type": "Melee", "price": "20 gold", "rarity": "Uncommon", "range": "5 ft", "damage": "2d4 (slashing)", "critical": "20", "effect": "", "proficiency": "One-handed Axes",  "prerequisites": "" },
+      { "weapon": "War Scythe", "type": "Melee", "price": "40 gold", "rarity": "Rare", "range": "5 ft", "damage": "2d8 + 1d4 (slashing)", "critical": "19-20", "effect": "", "proficiency": "Two-Handed Axes",  "prerequisites": "Str 3; Dex 5" },
+      { "weapon": "Broad Axe", "type": "Melee", "price": "30 gold", "rarity": "Uncommon", "range": "5 ft", "damage": "2d8 (slashing)", "critical": "20", "effect": "", "proficiency": "Two-handed axes",  "prerequisites": "" },
+      { "weapon": "Bayonet", "type": "Melee (finesse)", "price": "10 gold", "rarity": "Common (in areas with firearms), Rare otherwise", "range": "5 ft; 10 ft if affixed to a rifle", "damage": "1d6 (piercing)", "critical": "20", "effect": "Can be affixed to a rifle", "proficiency": "Knives; spears if affixed to a rifle",  "prerequisites": "" },
+      { "weapon": "Spear", "type": "Melee (finesse)", "price": "10 gold", "rarity": "Common", "range": "10 ft", "damage": "1d8 (piercing)", "critical": "20", "effect": "Can be wielded with a shield, if proficient in spears", "proficiency": "Spears",  "prerequisites": "" },
+      { "weapon": "Trident", "type": "Melee (finesse)", "price": "80 gold", "rarity": "Rare", "range": "10 ft", "damage": "2d8 (piercing)", "critical": "19-20", "effect": "", "proficiency": "Spears",  "prerequisites": "Dex 3" },
+      { "weapon": "Spontoon", "type": "Melee (finesse)", "price": "20 gold", "rarity": "Uncommon", "range": "10 ft", "damage": "1d10 (piercing)", "critical": "20", "effect": "", "proficiency": "Spears (must be used two-handed)", "prerequisites": "" },
+      { "weapon": "Quarterstaff", "type": "Melee (finesse)", "price": "10 gold", "rarity": "Common", "range": "5 ft", "damage": "1d6 (concussive)", "critical": "20", "effect": "", "proficiency": "Staves",  "prerequisites": "" },
+      { "weapon": "Weighted Staff", "type": "Melee (finesse)", "price": "10 gold", "rarity": "Uncommon", "range": "5 ft", "damage": "1d10 (concussive)", "critical": "20", "effect": "", "proficiency": "Staves",  "prerequisites": "" },
+      { "weapon": "Walking Stick", "type": "Melee (finesse)", "price": "10 gold", "rarity": "Uncommon", "range": "5 ft", "damage": "1d4 (concussive)", "critical": "20", "effect": "When in use while walking, increases all balance tests by +2", "proficiency": "staves (combat)",  "prerequisites": "" },
+      { "weapon": "Simple Mace", "type": "Melee", "price": "20 gold", "rarity": "Common", "range": "5 ft", "damage": "1d8 (concussive)", "critical": "20", "effect": "", "proficiency": "One-handed maces",  "prerequisites": "" },
+      { "weapon": "Flanged Mace", "type": "Melee", "price": "25 gold", "rarity": "Uncommon", "range": "5 ft", "damage": "1d10 (concussive)", "critical": "20", "effect": "", "proficiency": "One-handed maces",  "prerequisites": "" },
+      { "weapon": "Large Mace", "type": "Melee", "price": "30 gold", "rarity": "Uncommon", "range": "5 ft", "damage": "2d6 + 1d4 (concussive)", "critical": "19-20", "effect": "", "proficiency": "Two-handed maces",  "prerequisites": "Str 3" },
+      { "weapon": "Warhammer", "type": "Melee", "price": "40 gold", "rarity": "Rare", "range": "5 ft", "damage": "2d8 + 1d4 (concussive)", "critical": "19-20", "effect": "", "proficiency": "Two-handed maces",  "prerequisites": "Str 4" },
+      { "weapon": "Morningstar", "type": "Melee", "price": "80 gold", "rarity": "Rare", "range": "5 ft", "damage": "2d8 + 1d6 (concussive and piercing)", "critical": "19-20", "effect": "Ignores 1 point of armor against plated foes", "proficiency": "Two-handed maces",  "prerequisites": "Str 5" }
+    ]
   },
   {
-    "name": "Glow",
-    "description": "You glow with a permanent radiance.The color and brightness is based on the circumstances of how it was given to the player. The effects it has socially will vary based on culture.",
-    "effect": "<ul><li>You have a permanent, faint, golden or silver glow that extends beyond clothes and makeup. It is not concealable by any means.</li><li>-4 to all stealth checks</li><li>Charisma bonuses and penalties may apply per DMs discretion</li></ul>"
+    "identifier": "rangedWeapons",
+    "name": "Ranged Weapons",
+    "headers": [ "Weapon", "Price", "Rarity", "Range", "Damage", "Clip Size", "Firing Modes", "Critical", "Effect", "Proficiency", "Prerequisites" ],
+    "body": [
+      { "weapon": "Revolver", "price": "40 gold", "rarity": "Common", "range": "40 ft", "damage": "1d8 (piercing)", "clipSize": "6 (bullets)", "firingModes": "Single", "critical": "20", "effect": "", "proficiency": "One Handed Firearms", "prerequisites": "" },
+      { "weapon": "Semi-Auto Handgun", "price": "50 gold", "rarity": "Common", "range": "40 ft", "damage": "1d8 (piercing)", "clipSize": "8 (bullets)", "firingModes": "Single", "critical": "20", "effect": "", "proficiency": "One Handed Firearms", "prerequisites": "" },
+      { "weapon": "Pump Action Shotgun", "price": "60 gold", "rarity": "Uncommon", "range": "25 ft", "damage": "2d6 (concussive)", "clipSize": "5 (shells)", "firingModes": "Single", "critical": "19-20", "effect": "No penalty to hit due to minimum range when target is more than 5 ft away", "proficiency": "Two Handed Firearms", "prerequisites": "" },
+      { "weapon": "Balanced Shotgun", "price": "80 gold", "rarity": "Uncommon", "range": "25 ft", "damage": "1d12 (concussive)", "clipSize": "5 (shells)", "firingModes": "Single", "critical": "20", "effect": "No penalty to hit due to minimum range when target is more than 5 ft away", "proficiency": "Two Handed Firearms", "prerequisites": "" },
+      { "weapon": "Submachine Gun", "price": "100 gold", "rarity": "Uncommon", "range": "40 ft", "damage": "2d6 (piercing)", "clipSize": "30 (bullets)", "firingModes": "Single, burst (5), Auto", "critical": "20", "effect": "", "proficiency": "Two Handed Firearms", "prerequisites": "" },
+      { "weapon": "Tactical Rifle", "price": "100 gold", "rarity": "Rare", "range": "200 ft", "damage": "2d6 (piercing)", "clipSize": "30 (bullets)", "firingModes": "Single, Burst (5), Auto", "critical": "20", "effect": "", "proficiency": "Two Handed Firearms", "prerequisites": "" },
+      { "weapon": "Rifle", "price": "60 gold", "rarity": "Common", "range": "120 ft", "damage": "1d10 (piercing)", "clipSize": "2 (bullets)", "firingModes": "Single", "critical": "20", "effect": "+1 to hit when target further than 15+ ft away", "proficiency": "Two Handed Firearms", "prerequisites": "" },
+      { "weapon": "Gas-Powered Handgun", "price": "100 gold", "rarity": "Rare", "range": "40 ft", "damage": "2d6 (piercing)", "clipSize": "6 (bullets)", "firingModes": "Single", "critical": "20", "effect": "+2 to hit", "proficiency": "Two-handed firearms", "prerequisites": "Str 3" },
+      { "weapon": "Throwing Knives", "price": "1 gold (per knife)", "rarity": "Common", "range": "40 ft", "damage": "1d6 (piercing)", "clipSize": "", "firingModes": "", "critical": "20", "effect": "", "proficiency": "Thrown Weapons", "prerequisites": "" },
+      { "weapon": "Balanced Throwing Knives", "price": "2 gold (per knife)", "rarity": "Uncommon", "range": "50 ft", "damage": "1d8 (piercing)", "clipSize": "", "firingModes": "", "critical": "20", "effect": "", "proficiency": "Thrown Weapons", "prerequisites": "" },
+      { "weapon": "Throwing Star", "price": "3 gold (per star)", "rarity": "Rare", "range": "50 ft", "damage": "1d6 (piercing)", "clipSize": "", "firingModes": "", "critical": "20", "effect": "+2 to hit when target is outside of minimum distance for thrown weapons", "proficiency": "Thrown Weapons", "prerequisites": "" },
+      { "weapon": "Short Bow", "price": "20 gold", "rarity": "Common", "range": "80 ft", "damage": "1d8 (piercing)", "clipSize": "", "firingModes": "", "critical": "20", "effect": "", "proficiency": "Bows", "prerequisites": "" },
+      { "weapon": "Recurve Bow", "price": "30 gold", "rarity": "Uncommon", "range": "100 ft", "damage": "1d10 (piercing)", "clipSize": "", "firingModes": "", "critical": "20", "effect": "", "proficiency": "Bows", "prerequisites": "" },
+      { "weapon": "Long Bow", "price": "50 gold", "rarity": "Uncommon", "range": "120 ft", "damage": "1d10 (piercing)", "clipSize": "", "firingModes": "", "critical": "20", "effect": "", "proficiency": "Bows", "prerequisites": "" },
+      { "weapon": "Compound Bow", "price": "100 gold", "rarity": "Rare", "range": "160 ft", "damage": "1d12 (piercing)", "clipSize": "", "firingModes": "", "critical": "20", "effect": "", "proficiency": "Bows", "prerequisites": "" },
+      { "weapon": "Crossbow", "price": "40 gold", "rarity": "Uncommon", "range": "100 ft", "damage": "1d10 (piercing)", "clipSize": "", "firingModes": "", "critical": "20", "effect": "", "proficiency": "Crossbows", "prerequisites": "" },
+      { "weapon": "Repeating Crossbow", "price": "100 gold", "rarity": "Rare", "range": "100 ft", "damage": "1d10 (piercing)", "clipSize": "4", "firingModes": "Single, Auto (4)", "critical": "20", "effect": "One bolt a turn can be reloaded as a free action. After that, reload at 2 bolts per One Action", "proficiency": "Crossbows", "prerequisites": "" }
+    ]
   },
   {
-    "name": "Cassandra's Reputation",
-    "description": "\"Have I missed the mark, or, like true archer, do I strike my quarry? Or am I prophet of lies, a babbler from door to door?\" (Cassandra. Aeschylus, Agamemnon 1194).",
-    "effect": "<ul><li>You get +2 to all checks in which you attempt to discover deception or falsehoods. +2 to all tests to decipher information and clues. +2 to awareness tests.</li><li>You get -2 to all attempts to deceive, persuade, or otherwise convince someone to your line of thinking</li></ul>"
+    "identifier": "armor",
+    "name": "Armor",
+    "headers": [ "Type", "Price", "Rarity", "Armor Value", "Requirements" ],
+    "body": [
+      { "type": "Cloth", "price": "10 gold", "rarity": "Common", "armorValue": "0", "requirements": "" },
+      { "type": "Padded", "price": "30 gold", "rarity": "Common", "armorValue": "1", "requirements": "" },
+      { "type": "Leather", "price": "40 gold", "rarity": "Common", "armorValue": "2", "requirements": "" },
+      { "type": "Mail", "price": "100 gold", "rarity": "Uncommon", "armorValue": "3", "requirements": "Str 2" },
+      { "type": "Scale", "price": "200 gold", "rarity": "Rare", "armorValue": "4", "requirements": "Str 3" },
+      { "type": "Plate", "price": "500 gold", "rarity": "Rare", "armorValue": "5", "requirements": "Str 4" }
+    ]
   },
   {
-    "name": "Symbiotic Essence",
-    "description": "Something latched onto you, something from within the Aether. You can’t see it, but it’s there, everpresent.",
-    "effect": "+1 to willpower. You take 1d4 extra damage whenever you are hit by fire damage. Concussive damage dealt to you is reduced by 1d4 (damage dealt can't go below 0). You age at half the rate of a normal human."
-  },
-  {
-    "name": "Bloodlust",
-    "description": "The thrill of battle sends you into an unstoppable rage marked by the Aether.",
-    "effect": "<ul><li>While in combat, at the start of your turn if you are not in bloodlust, roll a d20. If you roll a 19 or higher, you are in bloodlust.</li><li>While in bloodlust, you deal double damage, always use basic, One Action attacks, and must attack whatever character (friendly or foe) is closest to you. If no one is in range, your turn is spent closing distance. You cannot use reactions while bloodlusted</li><li>While bloodlusted you ignore all attempts at charm and brainwashing (magical or otherwise), and cannot be persuaded or intimidated.</li></ul>",
-    "duration": "3 rounds"
+    "identifier": "items",
+    "name": "Items",
+    "headers": [ "Item", "Price", "Rarity", "Use", "Description", "Notes" ],
+    "body": [
+      { "item": "Glow Globe", "price": "20 gold", "rarity": "Common", "use": "Illuminate the Area with a white light", "description": "A baseball sized ball that illuminates an area of a 25 ft radius around the user" , "notes": "Battery lasts for 4 hours of use. Recharges after about 8 hours or with battery replacement" },
+      { "item": "Torch", "price": "1 gold", "rarity": "Common", "use": "Illuminate the area. Does not need an ignition source", "description": "" , "notes": "Illuminates an area of a 15 ft radius around the user. Lasts about 1 hour" },
+      { "item": "Eternal Torch", "price": "500 gold", "rarity": "Very Rare", "use": "Illuminate the area. Does not need an ignition source", "description": "A flaming torch that never runs out of fuel" , "notes": "Illuminates an area of a 15 ft radius around the user. Can be ignited and snuffed at will without maximum burn length. Item is magic" },
+      { "item": "Battery", "price": "3 gold", "rarity": "Common", "use": "Powers electrical items", "description": "small, useable in a variety of items" , "notes": "One time use" },
+      { "item": "Comm Link", "price": "50 gold", "rarity": "Uncommon", "use": "Communicate with people on your channel", "description": "An unobtrusive earpiece" , "notes": "Maximum range of 3 miles" },
+      { "item": "Bullets", "price": "2 gold per 10 bullets", "rarity": "Depends on the world", "use": "", "description": "ammo for many firearms" , "notes": "" },
+      { "item": "Shells", "price": "3 gold per 4 shells", "rarity": "Depends on the world", "use": "", "description": "ammo for many shotguns" , "notes": "" },
+      { "item": "Explosive Shells", "price": "10 gold per 4 shells", "rarity": "Depends on the world", "use": "Deals an extra 1d6 explosive damage on hit", "description": "ammo for many shotguns" , "notes": "" },
+      { "item": "Armor Piercing Bullets", "price": "4 gold per 10 bullets", "rarity": "Depends on the world", "use": "+1 to hit", "description": "" , "notes": "" },
+      { "item": "Arrow", "price": "1 gold per 10 arrows", "rarity": "Common", "use": "", "description": "" , "notes": "" },
+      { "item": "Steel Tipped Arrow", "price": "3 gold per 10 arrows", "rarity": "Uncommon", "use": "+1 to hit", "description": "" , "notes": "" },
+      { "item": "Bolt", "price": "1 gold per 5 bolts", "rarity": "Common", "use": "", "description": "Ammo for most crossbows" , "notes": "" },
+      { "item": "Steel tipped Bolt", "price": "3 gold per 5 bolts", "rarity": "Uncommon", "use": "", "description": "ammo for most crossbows" , "notes": "" },
+      { "item": "Whet Stone", "price": "5 gold", "rarity": "Common", "use": "adds +1 damage to a bladed weapon for your next encounter", "description": "" , "notes": "does not stack with other whetstone uses" },
+      { "item": "Bandages", "price": "1 gold for 3", "rarity": "Common", "use": "Heals 1d4 damage", "description": "" , "notes": "" },
+      { "item": "Medpac (low)", "price": "5 gold", "rarity": "Common", "use": "Heal 1d6 damage", "description": "" , "notes": "One Action" },
+      { "item": "Medpac (medium)", "price": "10 gold", "rarity": "Uncommon", "use": "Heal 2d6 damage", "description": "" , "notes": "One Action" },
+      { "item": "Medpac (high)", "price": "15 gold", "rarity": "Rare", "use": "Heal 2d8 damage", "description": "" , "notes": "One Action" },
+      { "item": "Medpac (greater)", "price": "20 gold", "rarity": "Rare", "use": "Heal 2d12 damage", "description": "" , "notes": "One Action" },
+      { "item": "Ration Pack", "price": "1 gold", "rarity": "Common", "use": "", "description": "Basics of food for adventurers" , "notes": "Lasts 2 meals" },
+      { "item": "Lockpick Set", "price": "5 gold", "rarity": "Common", "use": "", "description": "Lockpicking tools" , "notes": "" },
+      { "item": "Multi-Tool", "price": "40 gold", "rarity": "Uncommon", "use": "Can be used for a variety of tasks, including lockpicking", "description": "" , "notes": "" },
+      { "item": "Lighter", "price": "5 gold", "rarity": "Common", "use": "", "description": "" , "notes": "" },
+      { "item": "Data Slate", "price": "200 gold", "rarity": "Rare", "use": "Receive and send updates, pictures, and documents", "description": "" , "notes": "Typically given for free at start of campaigns" },
+      { "item": "Gas Mask", "price": "15 gold", "rarity": "Uncommon", "use": "Prevents poisoning from inhalation when worn", "description": "" , "notes": "" },
+      { "item": "Night Vision Goggles", "price": "100", "rarity": "Rare", "use": "Provides normal vision while in dark lighting", "description": "" , "notes": "A flash of bright light will blind player for 1 round" },
+      { "item": "Scope", "price": "10 gold", "rarity": "Uncommon", "use": "Affix to a rifle to get +2 on hit tests on distances greater than 50 ft", "description": "" , "notes": "Can only be used on rifles. User must have proficiency with the weapon" },
+      { "item": "Sight", "price": "10 gold", "rarity": "Uncommon", "use": "Affix to a gun or bow to get +1 on hit tests on distances greater than 20 ft", "description": "" , "notes": "User must have proficiency with the weapon" },
+      { "item": "Laser Sight", "price": "50 gold", "rarity": "Rare", "use": "Affix to a gun to get +2 on hit tests on distances greater than 20 ft", "description": "" , "notes": "User must have proficiency with the weapon" }
+    ]
   }
 ]
