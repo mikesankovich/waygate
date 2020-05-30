@@ -7,6 +7,12 @@
   "intro": "The following chart depicts the typical Difficulty: threshold for passing a Test. These are not hard and fast rules, but provide a guideline for how to determine successes and failures.",
   "content": [
     {
+      "name": "Trainable Skills",
+      "content": [
+        "You can use your trainable skills in or out of combat to try and gather information, complete a physical challenge, etc. To do so, make a roll based on the information provided in the skill. Most of them are rolled against a difficulty value, but a few, as listed below, require opposed tests."
+      ]
+    },
+    {
       "name": "Lockpicking",
       "content": [
         "The ability to open locks without the proper key.",
@@ -27,14 +33,6 @@
       "content": [
         "You can attempt to pick your target’s pocket from stealth/unnoticed.",
         "Opposed 1d20 + **Pickpocket** vs target **Awareness**"
-      ]
-    },
-    {
-      "name": "Crafting",
-      "content": [
-        "Used for crafting and fixing things.",
-        "Requires materials",
-        "see skill: <b>Crafting</b>"
       ]
     },
     {
