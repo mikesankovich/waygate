@@ -1,3 +1,27 @@
+<style>
+table {
+  font-family: arial, sans-serif
+  border: 1px solid black;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr td:first-child {
+  white-space: nowrap;
+}
+</style>
+
 <div style="text-align: center;"><ins><h1>Chapter 1: Character Creation</h1></ins></div>
 
 "What is your goal here? To explore? To study? To conquer? That choice is yours to make. The worlds beyond the Waygates are filled with nothing, but potential. So tell me, what do you seek?" -- General Trask, Division of Waygate Research and Containment

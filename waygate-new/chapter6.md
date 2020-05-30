@@ -1,3 +1,21 @@
+<style>
+table {
+  font-family: arial, sans-serif
+  border: 1px solid black;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
 <div style="text-align: center;"><ins><h1>Chapter 6: Combat</h1></ins></div>
 
 "Everything in its time. Everything happens in its time." -- Rachel Rowland, Marine Biologist

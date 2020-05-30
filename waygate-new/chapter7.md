@@ -1,3 +1,25 @@
+<style>
+table {
+  font-family: arial, sans-serif
+  border: 1px solid black;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr td:first-child {
+  white-space: nowrap;
+}
+</style>
+
 <div style="text-align: center;"><ins><h1>Chapter 7: Magic</h1></ins></div>
 
 "Magic is a fickle thing. Use it poorly, things go wrong. Use it without conviction, things go wrong. Use it just right, somehow things might still go wrong." -- Tanya Tokevic, Anthropologist

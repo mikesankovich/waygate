@@ -1,3 +1,21 @@
+<style>
+table {
+  font-family: arial, sans-serif
+  border: 1px solid black;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+
 <div style="text-align: center;"><ins><h1>Chapter 3: Items</h1></ins></div>
 
 "Bastard sword, check. Black powder, check. Six knives, a bow, a couple of whet stones, medpacs, and a data slate. Traveling light as usual." -- Sven, Form Occupation Unknown
