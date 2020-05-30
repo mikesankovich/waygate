@@ -251,6 +251,19 @@ If you are attacking with bare fists, the weapon damage is determined by size vi
   * Tiny: 1d4
   * Flee: 1d4 / 2 (rounded down)
 
+<div style="text-align: center;"><ins><h2>Combat Actions</h2></ins></div>
+
+"Endless possibilities...well, several dozen, but you get the point." -- Steven Seral, Mathematician
+
+##### Attack Types
+<table><thead><th>Action</th><th>Duration</th><th>Effect</th></thead><tbody><tr><td>All Out Attack</td><td>Two Actions</td><td>A focused melee or ranged attack. +4 to hit</td></tr><tr><td>Basic Attack</td><td>One Action</td><td>A basic attack</td></tr><tr><td>Berserk Attack</td><td>Two Actions</td><td>-4 to hit. If hits, double weapon damage. Attacks against you get +2 until your next turn</td></tr><tr><td>Burst</td><td>Two Actions</td><td>Weapon must have burst capabilities. Fire a burst of bullets (see weapon chart). +2 to hit. Potential for multiple hits.</td></tr><tr><td>Defensive Stance</td><td>Two Actions</td><td>You cannot make an attack this turn, but all enemies that attack you this round get a -4 on hit checks made against you.</td></tr><tr><td>Defensive Strike</td><td>Two Actions</td><td>You make a cautious attack. You make a melee attack with a -2 penalty to your Hit Test. Gain a +2 to all dodge, parry, block, and riposte tests you make this round.</td></tr><tr><td>Feint</td><td>Two Actions</td><td>Target’s <b>Awareness</b> is subtracted from your hit test. If your attack succeeds, it cannot be dodged, parried, blocked, or riposted.</td></tr><tr><td>Full Auto</td><td>Two Actions</td><td>Weapon must have auto capabilities. Fire an entire clip (see weapon chart) at full auto. +4 to hit. Potential for multiple hits.</td></tr><tr><td>Use Skill</td><td>Varies</td><td>Use one of your characters skills.</td></tr></tbody></table>
+
+##### Movement Actions
+<table><thead><th>Action</th><th>Duration</th><th>Effect</th></thead><tbody><tr><td>Disengage</td><td>One Action</td><td>Remove yourself from melee combat from a single target your engaged with. You can move away from them without them getting an attack of opportunity</td></tr><tr><td>Jump</td><td>One Action</td><td>Attempt to jump or leap</td></tr><tr><td>Recover Item</td><td>One Action</td><td>Pick up an item on the floor</td></tr><tr><td>Stand</td><td>Varies (default One Action)</td><td>The duration depends on what knocked you down, but by default is One Action.</td></tr><tr><td>Stealth</td><td>One Action</td><td>Slip into the shadows to move unseen. Cannot be done of an enemy's focus is on you</td></tr><tr><td>Total Disengage</td><td>Full Action</td><td>Remove yourself from melee combat from all combatants engaged with you and move up to 5 feet away.</td></tr><tr><td>Move</td><td>One Action</td><td>Move up to your character's speed</td></tr><tr><td>Use Skill</td><td>Varies</td><td>Use one of your characters skills.</td></tr></tbody></table>
+
+##### Miscellaneous Actions
+<table><thead><th>Action</th><th>Duration</th><th>Effect</th></thead><tbody><tr><td>Reaction</td><td>Reaction</td><td>See Dodge, Parry, Riposte, Counterspell, and Rebound Spell</td></tr><tr><td>Draw/Sheath weapon</td><td>One Action</td><td>Draw or sheath a weapon. If dual wielding, drawing both at the same time is a One Action. Sheathing is One Action per weapon.</td></tr><tr><td>Reload</td><td>One Action (unless specified)</td><td>Reload your gun (duration can vary, but be default is a half action).</td></tr><tr><td>Unjam Weapon</td><td>Two Actions</td><td>Unjam a jammed weapon</td></tr><tr><td>Use Item</td><td>Varies</td><td>Use an item that is not forbidden within combat.</td></tr><tr><td>Attribute Test</td><td>One Action</td><td>make an attribute test</td></tr><tr><td>Use Skill</td><td>Varies</td><td>Use one of your characters skills.</td></tr></tbody></table>
+
 
 <div style="text-align: center;"><ins><h2>Example Combat</h2></ins></div>
 

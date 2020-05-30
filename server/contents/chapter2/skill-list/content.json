@@ -181,7 +181,7 @@
     {
       "name": "Dual Wield Melee (PS)",
       "description": "Wield a one-handed melee weapon in both hands with great effect.",
-      "effect": "<ul><li>Grants +1 to parry and riposte checks (if you have the Parry skill).</li><li>Allows use of shields and weapons in the off hand with no penalty.</li><li>When making attacks, you attack with your main hand weapon first. If it hits, you may make a strike with your off-hand weapon (or bare hand if empty) as a free action. An attack made with an off-hand weapon in this manner does not apply STR or DEX bonuses to damage.</li>",
+      "effect": "<ul><li>If you have a weapon in each hand, grants +1 to parry and riposte checks (if you have the Parry skill).</li><li>Allows use of shields and weapons in the off hand with no penalty.</li><li>When making attacks, you attack with your main hand weapon first. If it hits, you may make a strike with your off-hand weapon (or bare hand if empty) as a free action. An attack made with an off-hand weapon in this manner does not apply STR or DEX bonuses to damage.</li>",
       "requirements": "<ul><li>one-handed weapons in each hand.</li></ul>",
       "prerequisites": "<ul><li>Melee Combat</li><li>DEX 2</li><li>STR 2</li><li>Level 2</li></ul>"
     },

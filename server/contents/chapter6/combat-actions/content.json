@@ -6,7 +6,7 @@
   },
   "attackTypesChart": {
     "name": "Attack Types",
-    "headers": [ "Action", "Durations", "Effect" ],
+    "headers": [ "Action", "Duration", "Effect" ],
     "body": [
       { "action": "All Out Attack", "duration": "Two Actions", "effect": "A focused melee or ranged attack. +4 to hit" },
       { "action": "Basic Attack", "duration": "One Action", "effect": "A basic attack" },
