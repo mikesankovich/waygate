@@ -1,17 +1,4 @@
 {
-  "stepOne":{
-    "title": "Step Six: Fate of the Waygate",
-    "quote": {
-      "quote": "She was a grotesque thing, writhing about in endless pain. Her very existence a curse. She thanked me when I told her I'd put her out of her misery",
-      "author": "Dana Row, Part-time Waitress/aspiring actress"
-    },
-    "intro": {
-      "contents": [
-        "When the characters finally step through the Waygate, they must undergo the Fate of the Waygate, during which the twisting nether of energies within the Waygate surge through the bodies of any who dares expose themselves. With energies of countless dimensions taking their toll, some are blessed with new skills or perspectives while some are left with defects and abnormalities. But whether or not the Waygate gives you heightened wisdom or cursed abilities, none who pass through the dimensions leave entirely unchanged.",
-        "All characters must roll a d100 against the Fate of the Waygate chart. These effects cannot be prevented or reversed through any known means (Including with Aether Marks)."
-      ]
-    }
-  },
   "fateOfTheWaygateTable": {
     "name": "Fate of the Waygate (1d100)",
     "headers": [ "Roll", "Effect", "Description", "Notes"],
@@ -23,7 +10,7 @@
       { "roll": "62 - 64", "effect": "Parasitic bonding", "description": "Something has latched onto you and won’t let go. Gain the \"Symbiotic Essence\" special skill" },
       { "roll": "65 - 87", "effect": "Unchanged", "description": "Congratulations. You haven’t changed at all, save for a deeper appreciation of the dangers of the Waygate." },
       { "roll": "88 - 92", "effect": "Ethereal Glow", "description": "Your body acquires a permanent glow through the Glow special skill", "notes": "Acquire the \"Glow\" special skill" },
-      { "roll": "93 - 96", "effect": "Bloody Tears", "description": "Your eyes occasionally leak blood. It doesn’t hurt, but it is a terrible sight to behold. The whites of your eyes turn black permanently.", "effect": "Some may find this off-putting" },
+      { "roll": "93 - 96", "effect": "Bloody Tears", "description": "Your eyes occasionally leak blood. It doesn’t hurt, but it is a terrible sight to behold. The whites of your eyes turn black permanently.", "notes": "Some may find this off-putting" },
       { "roll": "97 - 99", "effect": "Marked By The Fates", "description": "Your body is covered with black tattoo-like Lichtenberg scars and your eyes turn red." },
       { "roll": "100", "effect": "Aether Contamination", "description": "You undergo Aether Contamination. You also learn Aether Speak", "notes": "(See chart: Aether Contamination)" }
     ]
@@ -53,6 +40,4 @@
       { "roll": "100", "effect": "Unspeakable Horror: You transform into an indescribable mess of body parts and flesh. You feel only pain and can’t communicate or move in any way. Strange appendages have started growing from your body.", "notes": "Your character is effectively dead. All players in the party can sacrifice an Aether Mark to reverse this effect." }
     ]
   }
-
-
 }
