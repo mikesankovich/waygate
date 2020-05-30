@@ -13,14 +13,6 @@
       ]
     },
     {
-      "name": "Lockpicking",
-      "content": [
-        "The ability to open locks without the proper key.",
-        "Requires a lockpick. A basic lockpick can be any sort of thin metal object that can fit into the keyhole. Specialized lockpicks may provide a bonus.",
-        "1d20 + Dexterity + training modifier to open."
-      ]
-    },
-    {
       "name": "Stealth",
       "content": [
         "All players can slip into stealth, with a test, so long as no enemies are directly engaged with them or gazing at them.",

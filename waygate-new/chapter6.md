@@ -1,3 +1,104 @@
+<div style="text-align: center;"><ins><h1>Chapter 6: Combat</h1></ins></div>
+
+"Everything in its time. Everything happens in its time." -- Rachel Rowland, Marine Biologist
+
+Here we will run through each of the steps of combat in detail.
+
+<div style="text-align: center;"><ins><h2>Ambushes</h2></ins></div>
+
+Not all combat is planned by the characters. Sometimes a character or group sneaks up and gets the drop on their targets, giving them an advantage in combat.
+
+To deterine whether someone successfully ambushes, the ambushers roll a Stealth(DEX) test against the target they are attacking's Awareness(PER). If they win, they remain hidden, and are able to take a turn before initiative is rolled.
+
+Individual members of a group can be ambushed, even if others are aware of the ambusher's presence, so long as they don't successfully alert the character.
+
+<div style="text-align: center;"><ins><h2>Initiative</h2></ins></div>
+
+Initiative determines the order that characters take their turns during a round of combat. To determine initiative, every character (player and non-player) involved in combat makes an Initiative Test by rolling 1d20 and adding their Dexterity to the value.
+
+Characters takes turns in the order of their initiative, with the higher values going first. If a tie occurs, the tied characters compare Dexterity. Whoever has the highest is placed higher in the order. If there is still a tie, they roll a d6 until one of them has a higher value.
+
+<div style="text-align: center;"><ins><h2>Your Turn</h2></ins></div>
+
+On your turn you get Two Actions. With these actions you can move, attack, make attribute tests, etc. For a non-exhaustive list of actions that can be made in combat, see the Combat Actions subchapter.
+
+Moving is One Action and allows you to move any number of squares up to your movement speed. Your speed should be noted on your character sheet as 5 + Dex/2 (rounded down). Each square on a grid is equal to five feet. You cannot walk through or occupy a space that is currently occupied. You can use both of your actions to move, if desired. You cannot break up your movement, however. If you move half of your speed, then make an attack, you cannot move the rest of your speed this turn.
+
+There are several types of attacks. Some of which are One Action, others of which are Two Actions.
+
+There are numerous skills that are useable in combat. Skills are either One or Two Actions.
+
+You can use items, which can be either One Action or Two Actions to use
+There are a few actions considered "Free Actions." These are actions that can be made that take a short enough amount of time that they don't prevent you from otherwise acting during your turn. Actions such as speaking short, non-complex messages or shifting to the ground are free actions.
+
+You don't have to use all of your actions during your turn. If you hold One Action, you get a +1 modifier to any **Reactions** you make until your next turn. If you hold Two Actions, you get +2.
+
+<div style="text-align: center;"><ins><h2>Taking Action</h2></ins></div>
+
+"DON'T. LOSE SIGHT. OF THE SNIPER." -- Zoey Crystal, Entomologist
+
+All characters are giving **Two Actions** during their turn with which to make decisions and makes actions. After Two Actions have been made, the turn is immediately ended. Without the **Combat Prowess** skill, only one attack or magical ability can be used per turn, regardless of whether it is a One or Two Action ability.
+
+For a list of actions you can take during combat, see the section at the end of this chapter.
+
+Below, you will find a sample list of Free, One, and Two Actions.
+
+**Free Actions**: These are actions that take up negligible time during your turn. Typically, you are only allowed one free action per turn, but whether additional free actions can be made is at the GM’s discretion. Such actions include.
+  * Saying a few words (this is up to the GM’s discretion, but usually is limited to something your character could reasonably say/shout in the span of a sentence or two.
+  * Dropping an item
+  * Lowering position: lowering yourself to a lower position (such as from standing to kneeling, or kneeling to prone), is considered a free action.
+
+**One Actions**: actions that take up half of a turn.
+  * Standing up/raising your position from a lower one.
+  * Drawing/sheathing a weapon (if you are dual wielding and draw/sheath both weapons at once, it only counts as one half action).
+  * Walking
+  * Disengaging (pulling away from a foe that is targeting you in combat, allowing you to use your next action to move without allowing an attack of opportunity)
+
+**Two Actions**: actions that take up a full turn.
+  * Reloading a gun
+  * All out attack
+  * Disengaging from all enemy combatants with which you are engaged.
+
+##### Engaged:
+  * A character who has made an attack or who has been attacked is considered engaged in combat, and cannot freely move away without first disengaging. If all characters with which you are directly engaged with die, you are no longer considered engaged in combat.
+  * If you try to move away from a character with whom you are engaged and within their melee attack range, they get an attack of opportunity against you.
+  * To make an <b>Attack of Opportunity</b>, the attacker makes a basic attack with their weapon and applies modifiers and damage normally
+  * A character does not have to be actively under attack to be engaged. If a character shifts focus to another character, but otherwise does not move, you are still engaged.
+  * Disengaging from one combatant is One Action. Disengaging from all enemy combatants is Two Actions
+
+##### Moving:
+  * Movement speed is 5 + (Dex/2) rounded down.
+  * You can move up to your movement speed as One Action
+  * 1 sqare on a grid is 5x5 feet.
+  * Characters cannot end their turn on an occupied square.
+  * Terrain can have levels of difficulty that lower your movement speed while traversing it.
+  * Diagonal movement is allowed.
+
+<div style="text-align: center;"><ins><h2>Reactions</h2></ins></div>
+
+There are certain Skills and situations that allow a character to react during another character's turn.
+
+Most frequently, this occurs when an attacked character has the **Dodge**, **Parry**, **Riposte**, **Counterspell**, or **Rebound Spell** skill.
+
+Another reaction is the **Attack of Opportunity**. If you are within melee range of an enemy with whom you are Engaged and try to move away, they are allowed to make a basic attack against you.
+
+You are only allowed one reaction a round, unless you have the **Grace and Finesse** skill, in which case you are allowed two.
+
+<div style="text-align: center;"><ins><h2>Round Ends</h2></ins></div>
+
+A round of combat ends on a character by character basis. A round ends for a character at the start of their turn. At the start of a new round, any players who used their reactions on the previous round are able to use their reaction again.
+
+<div style="text-align: center;"><ins><h2>Entering Combat</h2></ins></div>
+
+"I'd never even been in a fight before. I was a conscientious objector during the war. But then I felt the sweet release after cutting off the head a thrashing gnawer. I regret not going to that war." -- Adam 'Singa' Singer, Former Activist
+
+Those who venture into the dangerous, and often unexplored, worlds beyond the Waygates, are likely to find themselves engaged in combat from time to time. From bandits, to vast armies, to wild beasts, to the warped creatures from the spaces between dimensions, adventurers must be able to defend themselves against all threats if they hope to live long enough to see their mission to completion.
+
+Combat is initiated when an attack is launched, be it an ambush, two armies meeting on the battlefield, or simply opposing forces running into each other at an inopportune moment. Depending on how combat is initiated, characters may receive unique penalties or bonuses. In combat a turn is 2 actions (roughly 6 seconds). A round is a full rotation through the list of active characters.
+
+Oftentimes you will have no choice but to engage in combat. If you're ambushed or if a hostile force wishes to attack you and you are unable to talk your way out of the situation, weapons will have to be drawn.
+Other times, you may be the one to initiate combat. To do this, simply make your preparations and declare your intentions to fight to the DM. Make sure to tell them how you wish to approach the situation (ex. are you stealthed? Who are you approaching? Is your weapon drawn?)
+
 <div style="text-align: center;"><ins><h2>Making Attacks</h2></ins></div>
 
 \*Smack \*smack \*smack, ".....Why won't you just die?" -- Devin Devos, Venture Capitalist
@@ -149,3 +250,14 @@ If you are attacking with bare fists, the weapon damage is determined by size vi
   * Small: 1d4
   * Tiny: 1d4
   * Flee: 1d4 / 2 (rounded down)
+
+
+<div style="text-align: center;"><ins><h2>Example Combat</h2></ins></div>
+
+  1. Arik and Devin come across a Wicked Thrasher, which moves towards them threateningly, ready to attack.
+  2. Ready for combat, all three characters roll initiative (1d20 + Dex). Arik rolls a 7, Devin rolls a 19, the Wicked Thrasher rolls a 15. The order is Devin -> Wicked Thrasher -> Arik.
+  3. Devin uses One Action to draw his sword, and another One Action to approach the Wicked Thrasher. With his two actions done and no free actions to make, his turn ends.
+  4. On the Thrasher's turn, it approaches Devin with One Action. It then makes a Basic Attack with its other One Action. It hits and deals its damage
+  5. Arik uses One Action to draw his firearm, then fires a basic ranged attack, but his hit test is lower than the Thrasher's Armor Rating, so he misses.
+  6. Devin uses Two Actions to make an All Out Attack, giving him a +4 bonus to hit. He hits the thrasher and deals damage to it
+  7. Combat continues until all characters on one side are dead, unconscious, surrender, flee, or are otherwise removed.
