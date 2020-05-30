@@ -19,13 +19,14 @@
       "content": [
         "All players can slip into stealth, with a test, so long as no enemies are directly engaged with them or gazing at them.",
         "While in stealth, stealth tests are done if someone is looking for your character or if you are doing an action that could catch a character’s attention (pickpocketing, trying to sneak up on them, slipping by them, etc).",
-        "1d20 + stealth modifiers – target PER against difficulty."
+        "Opposed 1d20 + stealth modifiers vs. target **Awareness**."
       ]
     },
     {
       "name": "Pickpocketing",
       "content": [
-        "You can attempt to pick your target’s pocket from stealth/unnoticed. (1d20 - target PER against difficulty)"
+        "You can attempt to pick your target’s pocket from stealth/unnoticed.",
+        "Opposed 1d20 + **Pickpocket** vs target **Awareness**"
       ]
     },
     {
